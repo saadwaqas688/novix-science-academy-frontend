@@ -2,8 +2,8 @@ export const site = {
   name: 'Novix Science Academy',
   short: 'Novix',
   tagline: 'Where curiosity becomes competence.',
-  phone: '+92 300 1234567',
-  email: 'hello@novixscience.edu',
+  phone: '03155202809',
+  email: 'engineerwaqasahmed688@gmail.com',
   address: '24-B Knowledge Avenue, Gulberg III, Lahore',
   hours: 'Mon – Sat · 8:00 AM – 8:00 PM',
 }
