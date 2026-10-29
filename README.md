@@ -1,35 +1,42 @@
-# Novix Science Academy — React website
+# Novix Science Academy — Frontend
 
-A small marketing site for a fictional science academy, built with **Vite + React 18 + React Router 6 + Tailwind CSS 3**.
+Student app and admin panel for Novix Science Academy (FBISE Physics, Chemistry, Mathematics and Computer Science).
 
-## Run it
+**Stack:** Next.js 16 (App Router) · React 19 · Tailwind CSS v4 · shadcn/ui (Radix) · TanStack Query · Recharts
+
+The API lives in a separate repo: [novix-science-academy-backend](https://github.com/saadwaqas688/novix-science-academy-backend).
+
+## Run locally
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173
-npm run build    # production build into dist/
-npm run preview  # preview the production build
+cp .env.example .env.local      # NEXT_PUBLIC_API_URL=http://localhost:4000
+npm run dev                     # http://localhost:3000
 ```
 
-## Pages
+Start the backend first (see its README). Admin panel: http://localhost:3000/admin
 
-| Route      | File                     | What's on it |
-|------------|--------------------------|--------------|
-| `/`        | `src/pages/Home.jsx`     | Hero, stats, "why us" features, popular courses, testimonials, CTA |
-| `/about`   | `src/pages/About.jsx`    | Story, milestone timeline, values, faculty cards |
-| `/courses` | `src/pages/Courses.jsx`  | Filterable + searchable course grid, admissions steps |
-| `/contact` | `src/pages/Contact.jsx`  | Validated enquiry form, contact details, map placeholder |
-| `*`        | `src/pages/NotFound.jsx` | 404 |
+## Docker
 
-## Where to edit things
+```bash
+docker build -t novix-frontend --build-arg NEXT_PUBLIC_API_URL=http://localhost:4000 .
+docker run -p 3000:3000 novix-frontend
+```
 
-- **All site content** — courses, stats, testimonials, contact details, timeline — lives in `src/data/site.js`. Change it there and every page updates.
-- **Brand colours** are in `tailwind.config.js` under `theme.extend.colors` (`brand`, `accent`, `ink`).
-- **Reusable classes** (`.btn-primary`, `.card`, `.field`, `.container-x`) are defined in `src/index.css`.
+`NEXT_PUBLIC_API_URL` is baked in at build time — rebuild after changing it.
 
-## Notes
+## What's inside
 
-- The contact form validates client-side and logs to the console. To make it real, POST `form` in `src/pages/Contact.jsx` to your API or a service like Formspree.
-- The map on the Contact page is a styled placeholder — swap in a Google Maps `<iframe>`.
-- `public/_redirects` makes client-side routing work on Netlify/Render static hosting. On other hosts, add an equivalent SPA rewrite to `/index.html`.
-- All content is illustrative placeholder copy.
+- **Student app** — home page with the teacher profile, course books per class, chapters with Notes / Videos / Assessments tabs ("Coming soon" when empty), 10-MCQ tests with back/forward navigation, results with answer review, progress page with bar-chart history, profile.
+- **Sign-up approval** — new accounts are pending until the admin approves them.
+- **Admin panel (`/admin`)** — dashboard, user approvals and management, courses & chapters (book PDF, notes PDF, YouTube links), assessment editor (exactly 10 questions), results, teacher profile.
+
+## Structure
+
+```
+src/app/(site)/      student pages (home, courses, chapters, results, progress, profile, login, signup)
+src/app/test/[id]    full-screen test page
+src/app/admin/       admin panel
+src/components/ui/   shadcn/ui components
+src/lib/             API client, auth, types
+```
