@@ -9,6 +9,7 @@ import { api } from '@/lib/api';
 import { useClassLevel } from '@/lib/class-level';
 import type { SubjectPage } from '@/lib/types';
 import { SubjectIcon, subjectCover } from '@/lib/subjects';
+import { staticNotes } from '@/lib/static-notes';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/misc';
@@ -66,7 +67,7 @@ function Course() {
             <div className="min-w-0 flex-1">
               <h3 className="mt-0.5 mb-2 text-[15.5px] leading-snug font-bold">{c.title}</h3>
               <div className="flex flex-wrap gap-1.5">
-                <Chip on={c.hasNotes} icon={FileText} text={c.hasNotes ? 'Notes' : 'Soon'} />
+                {(() => { const has = c.hasNotes || !!staticNotes(slug, cls, c.number); return <Chip on={has} icon={FileText} text={has ? 'Notes' : 'Soon'} />; })()}
                 <Chip on={c.videoCount > 0} icon={Video} text={c.videoCount ? String(c.videoCount) : 'Soon'} />
                 <Chip on={c.assessmentCount > 0} info icon={Target} text={c.assessmentCount ? `${c.completedCount}/${c.assessmentCount} tests` : 'Soon'} />
               </div>

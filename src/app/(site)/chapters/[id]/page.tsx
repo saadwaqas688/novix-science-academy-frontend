@@ -7,6 +7,7 @@ import { ChevronLeft, ChevronRight, Clock, Download, ExternalLink, Eye, FileText
 import { api } from '@/lib/api';
 import type { ChapterPage } from '@/lib/types';
 import { subjectCover } from '@/lib/subjects';
+import { staticNotes } from '@/lib/static-notes';
 import { fmtSize } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -23,7 +24,8 @@ function Chapter() {
   const q = useQuery({ queryKey: ['chapter', id], queryFn: () => api<ChapterPage>(`/chapters/${id}`) });
   if (q.error) return <ErrorState message={(q.error as Error).message} onRetry={() => q.refetch()} />;
   if (!q.data) return <div className="space-y-4"><Skeleton className="h-16 w-2/3" /><Skeleton className="h-12" /><Skeleton className="h-48" /></div>;
-  const { chapter, subject, notes, videos, assessments } = q.data;
+  const { chapter, subject, videos, assessments } = q.data;
+  const notes = q.data.notes ?? staticNotes(subject.slug, chapter.classLevel, chapter.number);
   const cover = subjectCover(subject.slug, subject.color);
   const defaultTab = typeof window !== 'undefined' && window.location.hash === '#assessments' ? 'assessments' : 'notes';
 
