@@ -54,5 +54,56 @@
         "count": 13
       }
     ]
+  },
+  "9/physics/2": {
+    "url": "/quizzes/class-9/physics/ch-2.json",
+    "chapterTitle": "Kinematics",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Rest, Motion and Types of Motion",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Distance and Displacement",
+        "count": 11
+      },
+      {
+        "id": "q3",
+        "topic": "Speed: Average, Instantaneous, Uniform and Variable",
+        "count": 12
+      },
+      {
+        "id": "q4",
+        "topic": "Velocity: Average, Instantaneous, Uniform and Variable",
+        "count": 11
+      },
+      {
+        "id": "q5",
+        "topic": "Acceleration",
+        "count": 12
+      },
+      {
+        "id": "q6",
+        "topic": "Motion due to Gravity",
+        "count": 12
+      },
+      {
+        "id": "q7",
+        "topic": "Distance-Time Graphs",
+        "count": 11
+      },
+      {
+        "id": "q8",
+        "topic": "Speed-Time Graphs",
+        "count": 12
+      },
+      {
+        "id": "q9",
+        "topic": "Exercise MCQs (Book)",
+        "count": 14
+      }
+    ]
   }
 }

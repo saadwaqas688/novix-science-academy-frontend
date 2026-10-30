@@ -1,0 +1,178 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 2,
+  "chapterTitle": "Kinematics",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Rest, Motion and Types of Motion",
+      "slos": ["P-09-B-01"],
+      "questions": [
+        { "q": "Kinematics is the study of motion:", "options": ["along with its causes", "without considering its causes", "of only stationary objects", "caused by forces only"], "answer": 1, "explanation": "Kinematics describes motion without concerning the forces that cause or change it." },
+        { "q": "An object is said to be at rest if it:", "options": ["moves with constant speed", "does not change its position with respect to an observer with the passage of time", "changes its position with time", "moves in a circle"], "answer": 1, "explanation": "Rest means no change in position with respect to the observer as time passes." },
+        { "q": "A passenger sitting in a moving bus is:", "options": ["at rest with respect to the road", "in motion with respect to the bus", "at rest with respect to the bus but in motion with respect to the road", "always at rest"], "answer": 2, "explanation": "Rest and motion are relative; they depend on the observer (reference point)." },
+        { "q": "If all points of a moving object move uniformly in the same direction with no change in orientation, the motion is:", "options": ["rotatory", "vibratory", "translatory", "random"], "answer": 2, "explanation": "This is the book's definition of translatory (translational) motion." },
+        { "q": "The motion of the blades of a ceiling fan is:", "options": ["translatory", "rotatory", "vibratory", "random"], "answer": 1, "explanation": "The blades rotate about a fixed axis, so the motion is rotatory." },
+        { "q": "The to-and-fro motion of a swing or a plucked sitar string about its mean position is:", "options": ["vibratory motion", "circular motion", "rectilinear motion", "random motion"], "answer": 0, "explanation": "Back-and-forth motion about a mean position is vibratory motion." },
+        { "q": "The motion of a train on a straight track is:", "options": ["curvilinear motion", "rectilinear motion", "rotatory motion", "random motion"], "answer": 1, "explanation": "Translatory motion along a straight-line path is rectilinear motion." },
+        { "q": "The motion of a car taking a turn is an example of:", "options": ["rectilinear motion", "curvilinear motion", "vibratory motion", "rotatory motion"], "answer": 1, "explanation": "Translatory motion along a curved path is curvilinear motion." },
+        { "q": "The motion of a butterfly or of clouds is:", "options": ["random motion", "rectilinear motion", "circular motion", "vibratory motion"], "answer": 0, "explanation": "Translatory motion with no specific path is random motion." },
+        { "q": "Circular motion is a special case of curvilinear motion in which:", "options": ["the object moves in a straight line", "the radius of the path remains constant", "the object vibrates", "the speed is always zero"], "answer": 1, "explanation": "In circular motion the object moves along a circle of constant radius." },
+        { "q": "Translatory motion is divided into:", "options": ["rotatory, vibratory and random", "rectilinear, curvilinear and random", "circular, rotatory and vibratory", "uniform and variable"], "answer": 1, "explanation": "The book divides translatory motion into rectilinear, curvilinear (incl. circular) and random motion." },
+        { "q": "The Earth spinning on its axis shows ______ motion.", "options": ["vibratory", "rotatory", "random", "rectilinear"], "answer": 1, "explanation": "Spinning about its own axis is rotatory motion." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Distance and Displacement",
+      "slos": ["P-09-B-02"],
+      "questions": [
+        { "q": "The length of path travelled between two positions is called:", "options": ["displacement", "distance", "velocity", "position"], "answer": 1, "explanation": "Distance is the total path length; it is a scalar." },
+        { "q": "The shortest directed distance from initial position to final position is called:", "options": ["distance", "speed", "displacement", "path length"], "answer": 2, "explanation": "Displacement is the straight directed distance; it is a vector." },
+        { "q": "Distance is a ______ quantity and displacement is a ______ quantity.", "options": ["vector, scalar", "scalar, vector", "scalar, scalar", "vector, vector"], "answer": 1, "explanation": "Distance has no direction; displacement has direction." },
+        { "q": "The SI unit of displacement is:", "options": ["m s⁻¹", "metre", "m s⁻²", "kilogram"], "answer": 1, "explanation": "Displacement is a length, so its SI unit is metre." },
+        { "q": "Mathematically, displacement Δd is:", "options": ["d₁ + d₂", "d₂ − d₁", "d₁ × d₂", "d₂ / d₁"], "answer": 1, "explanation": "Δd = final position − initial position = d₂ − d₁." },
+        { "q": "An athlete completes one round of a 400 m circular track and stops at the starting point. His displacement is:", "options": ["400 m", "200 m", "zero", "800 m"], "answer": 2, "explanation": "Initial and final positions are the same, so displacement is zero (distance = 400 m)." },
+        { "q": "A girl walks 3 km east and then 4 km north. Her displacement is:", "options": ["7 km", "5 km", "1 km", "12 km"], "answer": 1, "explanation": "√(3² + 4²) = 5 km, while the distance is 7 km." },
+        { "q": "Distance and magnitude of displacement are equal when a body moves:", "options": ["in a circle", "in a straight line in one direction", "back and forth", "randomly"], "answer": 1, "explanation": "Only for straight-line motion without turning back are the two equal." },
+        { "q": "Which statement is always true?", "options": ["Displacement > distance", "Distance ≥ magnitude of displacement", "Distance = displacement", "Displacement can never be zero"], "answer": 1, "explanation": "The straight path is the shortest, so displacement can never exceed distance." },
+        { "q": "A boy walks 50 m to a shop and comes back along the same road. His distance and displacement are:", "options": ["50 m, 50 m", "100 m, 0 m", "0 m, 100 m", "100 m, 100 m"], "answer": 1, "explanation": "Path length = 50 + 50 = 100 m; he returns to start, so displacement = 0." },
+        { "q": "The Greek letter Δ (delta) in Δt represents:", "options": ["a constant", "change in a quantity", "average", "direction"], "answer": 1, "explanation": "Δ means 'change in', e.g. Δt = t₂ − t₁." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Speed: Average, Instantaneous, Uniform and Variable",
+      "slos": ["P-09-B-03", "P-09-B-04", "P-09-B-05", "P-09-B-16"],
+      "questions": [
+        { "q": "Speed is defined as:", "options": ["displacement per unit time", "distance covered per unit time", "change in velocity per unit time", "distance × time"], "answer": 1, "explanation": "v = distance ÷ elapsed time; it tells how fast an object moves." },
+        { "q": "The SI unit of speed is:", "options": ["m s⁻²", "m s⁻¹", "km h⁻²", "m"], "answer": 1, "explanation": "Speed = metre ÷ second = m s⁻¹." },
+        { "q": "A car covers 70 km from Tarnol to Swabi interchange in 1 hour. Its speed is:", "options": ["7 km/h", "70 km/h", "700 km/h", "35 km/h"], "answer": 1, "explanation": "v = 70 km ÷ 1 h = 70 km/h." },
+        { "q": "Average speed is:", "options": ["total distance ÷ total time", "total displacement ÷ total time", "(initial + final speed) × time", "speed at an instant"], "answer": 0, "explanation": "v_ave = s ÷ t, averaging the increases and decreases in speed." },
+        { "q": "The speedometer of a car shows:", "options": ["average speed", "instantaneous speed", "average velocity", "acceleration"], "answer": 1, "explanation": "It shows the speed at that particular instant of time." },
+        { "q": "If an object covers equal distances in equal intervals of time, it has:", "options": ["variable speed", "uniform speed", "uniform acceleration", "zero speed"], "answer": 1, "explanation": "Equal distances in equal times = uniform speed." },
+        { "q": "A Maglev train travels 30 km in 7 min 30 s. Its speed is about:", "options": ["66.7 m/s", "4 m/s", "400 km/h", "30 m/s"], "answer": 0, "explanation": "30 000 m ÷ 450 s = 66.7 m/s (= 240 km/h)." },
+        { "q": "A ball bowled at 44.8 m/s travels 17.5 m to the batsman. The time taken is about:", "options": ["0.39 s", "2.56 s", "0.039 s", "3.9 s"], "answer": 0, "explanation": "t = s ÷ v = 17.5 ÷ 44.8 ≈ 0.39 s (book Example 2.1)." },
+        { "q": "36 km/h is equal to:", "options": ["36 m/s", "10 m/s", "3.6 m/s", "100 m/s"], "answer": 1, "explanation": "36 × 1000 ÷ 3600 = 10 m/s." },
+        { "q": "The universal speed limit for any object in the universe is approximately:", "options": ["3 × 10⁵ m s⁻¹", "3 × 10⁸ m s⁻¹", "343 m s⁻¹", "3 × 10⁸ km s⁻¹"], "answer": 1, "explanation": "Nothing with mass can reach the speed of light, about 3 × 10⁸ m/s." },
+        { "q": "The speed of sound in air is roughly:", "options": ["343 m/s", "3 × 10⁸ m/s", "34 m/s", "3430 m/s"], "answer": 0, "explanation": "Sound travels at about 343 m/s in air — far slower than light." },
+        { "q": "Speed is a scalar quantity because it:", "options": ["has direction only", "has magnitude only", "has both magnitude and direction", "has no unit"], "answer": 1, "explanation": "Speed does not specify direction." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Velocity: Average, Instantaneous, Uniform and Variable",
+      "slos": ["P-09-B-02", "P-09-B-06"],
+      "questions": [
+        { "q": "Velocity is defined as:", "options": ["distance per unit time", "displacement per unit time", "change in speed per unit time", "displacement × time"], "answer": 1, "explanation": "v = Δd ÷ Δt; it has the direction of displacement." },
+        { "q": "Velocity is a vector quantity whose direction is the same as that of:", "options": ["distance", "displacement", "time", "mass"], "answer": 1, "explanation": "Velocity has the same direction as the displacement vector." },
+        { "q": "Average velocity is:", "options": ["total distance ÷ total time", "total displacement ÷ total time", "final velocity ÷ time", "speed × time"], "answer": 1, "explanation": "v_ave = total displacement ÷ total time." },
+        { "q": "A body covers equal displacements in equal intervals of time. Its velocity is:", "options": ["variable", "uniform", "zero", "increasing"], "answer": 1, "explanation": "Equal displacements in equal times (same speed and direction) = uniform velocity." },
+        { "q": "A satellite moving with constant speed in a circular orbit has:", "options": ["uniform velocity", "variable velocity", "zero velocity", "zero acceleration"], "answer": 1, "explanation": "Its direction changes continuously, so its velocity is variable." },
+        { "q": "Velocity of a body can change by changing its:", "options": ["speed only", "direction only", "speed or direction or both", "mass"], "answer": 2, "explanation": "Velocity changes if speed, direction or both change." },
+        { "q": "A car runs 800 m on a curved track in 40 s, while the straight-line distance between start and end is 600 m. Its average velocity is:", "options": ["20 m/s", "15 m/s", "35 m/s", "5 m/s"], "answer": 1, "explanation": "v_ave = 600 m ÷ 40 s = 15 m/s (average speed = 800 ÷ 40 = 20 m/s)." },
+        { "q": "A horse moves 60 m right in 3 s, then turns back and moves 30 m in 2 s. Its average speed is:", "options": ["6 m/s", "18 m/s", "15 m/s", "zero"], "answer": 1, "explanation": "Average speed = total distance ÷ time = 90 m ÷ 5 s = 18 m/s." },
+        { "q": "For straight-line motion in one direction, speed and velocity have:", "options": ["different magnitudes", "the same magnitude", "opposite directions", "no relation"], "answer": 1, "explanation": "Distance equals displacement there, so the magnitudes are equal." },
+        { "q": "Velocity measured over a very small time interval is called:", "options": ["average velocity", "instantaneous velocity", "uniform speed", "relative velocity"], "answer": 1, "explanation": "Velocity at a particular moment, with direction, is instantaneous velocity." },
+        { "q": "A runner completes one full lap of a circular track in 50 s. His average velocity for the lap is:", "options": ["zero", "8 m/s", "equal to his average speed", "infinite"], "answer": 0, "explanation": "Displacement for a full lap is zero, so average velocity is zero." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Acceleration",
+      "slos": ["P-09-B-07", "P-09-B-08"],
+      "questions": [
+        { "q": "The time rate of change of velocity is called:", "options": ["speed", "displacement", "acceleration", "momentum"], "answer": 2, "explanation": "a = Δv ÷ Δt = (v₂ − v₁) ÷ (t₂ − t₁)." },
+        { "q": "The SI unit of acceleration is:", "options": ["m s⁻¹", "m s⁻²", "m s²", "m² s⁻¹"], "answer": 1, "explanation": "Metre per second per second = m s⁻²." },
+        { "q": "Acceleration is a vector quantity in the direction of:", "options": ["initial velocity", "change in velocity", "displacement always", "distance"], "answer": 1, "explanation": "Acceleration has the same direction as Δv." },
+        { "q": "Negative acceleration (deceleration) means that the velocity:", "options": ["increases with time", "decreases with time", "remains constant", "becomes negative immediately"], "answer": 1, "explanation": "Deceleration is a decrease in velocity with time." },
+        { "q": "A body has uniform acceleration if:", "options": ["its velocity is constant", "equal changes in velocity occur in equal intervals of time", "it moves in a circle", "its speed is zero"], "answer": 1, "explanation": "Velocity changing at the same rate every second = uniform acceleration." },
+        { "q": "When the rate of change of velocity is not the same throughout the motion, the acceleration is:", "options": ["uniform", "non-uniform", "zero", "negative always"], "answer": 1, "explanation": "Non-uniform acceleration occurs when the velocity change is not steady over time." },
+        { "q": "A cheetah goes from rest to 26.8 m/s in 3 s. Its acceleration is about:", "options": ["8.9 m/s²", "80.4 m/s²", "26.8 m/s²", "3 m/s²"], "answer": 0, "explanation": "a = (26.8 − 0) ÷ 3 ≈ 8.9 m/s² (typical cars: only 3–4 m/s²)." },
+        { "q": "A car moving at 20 m/s stops in 5 s. Its acceleration is:", "options": ["4 m/s²", "−4 m/s²", "100 m/s²", "−100 m/s²"], "answer": 1, "explanation": "a = (0 − 20) ÷ 5 = −4 m/s²; the minus sign shows deceleration." },
+        { "q": "A drone moving at constant speed changes its direction. It is:", "options": ["not accelerating", "accelerating", "at rest", "moving with uniform velocity"], "answer": 1, "explanation": "A change in direction alone changes velocity, so it accelerates." },
+        { "q": "A car moving towards the east is slowing down. The direction of its acceleration is:", "options": ["east", "west", "north", "zero"], "answer": 1, "explanation": "During deceleration, acceleration is opposite to the motion." },
+        { "q": "A bus moves with a constant velocity of 15 m/s on a straight road. Its acceleration is:", "options": ["15 m/s²", "zero", "1.5 m/s²", "−15 m/s²"], "answer": 1, "explanation": "No change in velocity means zero acceleration." },
+        { "q": "A cyclist increases speed from 2 m/s to 8 m/s in 3 s. The acceleration is:", "options": ["2 m/s²", "3 m/s²", "6 m/s²", "10 m/s²"], "answer": 0, "explanation": "a = (8 − 2) ÷ 3 = 2 m/s²." }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Motion due to Gravity",
+      "slos": ["P-09-B-10"],
+      "questions": [
+        { "q": "The acceleration of freely falling bodies is called:", "options": ["deceleration", "gravitational acceleration (acceleration due to gravity)", "uniform velocity", "centripetal force"], "answer": 1, "explanation": "It is denoted by g." },
+        { "q": "Near the Earth's surface, the value of g is approximately:", "options": ["9.8 m/s²", "98 m/s²", "0.98 m/s²", "3 × 10⁸ m/s²"], "answer": 0, "explanation": "g ≈ 9.8 m/s² (32.2 ft/s²)." },
+        { "q": "The acceleration due to gravity is directed:", "options": ["upward", "horizontally", "downward towards the centre of the Earth", "in the direction of motion always"], "answer": 2, "explanation": "g always points towards the Earth's centre." },
+        { "q": "The scientist who dropped objects of different masses from the Leaning Tower of Pisa was:", "options": ["Newton", "Galileo", "Einstein", "Archimedes"], "answer": 1, "explanation": "Galileo found they all reach the ground at the same time." },
+        { "q": "In the absence of air resistance, a heavy stone and a light stone dropped together will:", "options": ["reach the ground together", "heavy stone reaches first", "light stone reaches first", "never reach the ground"], "answer": 0, "explanation": "All freely falling bodies have the same acceleration, independent of mass." },
+        { "q": "In air, a coin falls faster than a sheet of paper because of:", "options": ["greater g on the coin", "air resistance", "the coin's colour", "the Earth's rotation"], "answer": 1, "explanation": "Air resistance slows the paper more; in vacuum both fall together." },
+        { "q": "For a body thrown vertically upward, g is taken as:", "options": ["+9.8 m/s²", "−9.8 m/s²", "zero", "+19.6 m/s²"], "answer": 1, "explanation": "Moving against gravity, g is taken as negative." },
+        { "q": "A ball is dropped from rest. Its speed after 3 s is (g = 9.8 m/s²):", "options": ["9.8 m/s", "29.4 m/s", "3.27 m/s", "19.6 m/s"], "answer": 1, "explanation": "v = g t = 9.8 × 3 = 29.4 m/s." },
+        { "q": "A block dropped from a building strikes the ground at 78.5 m/s. The time of fall is about:", "options": ["8 s", "78.5 s", "0.8 s", "16 s"], "answer": 0, "explanation": "t = v ÷ g = 78.5 ÷ 9.8 ≈ 8 s (book Example 2.5)." },
+        { "q": "A ball thrown upward reaches its highest point in 2 s. Its initial speed was:", "options": ["9.8 m/s", "19.6 m/s", "4.9 m/s", "39.2 m/s"], "answer": 1, "explanation": "Velocity drops by 9.8 m/s each second: v = 9.8 × 2 = 19.6 m/s." },
+        { "q": "At the highest point of its path, a ball thrown upward has:", "options": ["zero velocity and zero acceleration", "zero velocity but acceleration 9.8 m/s² downward", "maximum velocity", "acceleration 9.8 m/s² upward"], "answer": 1, "explanation": "It stops momentarily but gravity still acts on it." },
+        { "q": "A freely falling body's velocity increases every second by about:", "options": ["1 m/s", "9.8 m/s", "98 m/s", "4.9 m/s"], "answer": 1, "explanation": "g = 9.8 m/s² means velocity increases 9.8 m/s per second." }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Distance-Time Graphs",
+      "slos": ["P-09-B-09", "P-09-B-11"],
+      "questions": [
+        { "q": "In a distance-time graph, time is plotted along the:", "options": ["vertical (y) axis", "horizontal (x) axis", "both axes", "diagonal"], "answer": 1, "explanation": "Time on x-axis, distance on y-axis." },
+        { "q": "The gradient (slope) of a distance-time graph gives:", "options": ["acceleration", "speed", "distance", "force"], "answer": 1, "explanation": "Gradient = Δs ÷ Δt = speed." },
+        { "q": "A horizontal straight line on a distance-time graph shows that the body is:", "options": ["moving with uniform speed", "at rest", "accelerating", "decelerating"], "answer": 1, "explanation": "Distance does not change with time, so the body is at rest." },
+        { "q": "A straight line sloping upward on a distance-time graph shows:", "options": ["uniform speed", "increasing speed", "decreasing speed", "rest"], "answer": 0, "explanation": "Constant slope means constant (uniform) speed." },
+        { "q": "A distance-time curve bending upward (slope increasing) shows:", "options": ["rest", "uniform speed", "increasing speed", "decreasing speed"], "answer": 2, "explanation": "Increasing slope means the speed is increasing (accelerating)." },
+        { "q": "A distance-time curve bending downward (slope decreasing) shows:", "options": ["increasing speed", "decreasing speed", "uniform speed", "rest"], "answer": 1, "explanation": "Decreasing slope means the body is slowing down." },
+        { "q": "A distance-time graph always lies in the positive XY plane because:", "options": ["time can be negative", "distance never becomes negative", "speed is a vector", "acceleration is constant"], "answer": 1, "explanation": "Distance never goes negative, irrespective of direction of motion." },
+        { "q": "Two points on a distance-time line are (1 s, 10 m) and (4 s, 40 m). The speed is:", "options": ["10 m/s", "13.3 m/s", "30 m/s", "40 m/s"], "answer": 0, "explanation": "Speed = (40 − 10) ÷ (4 − 1) = 30 ÷ 3 = 10 m/s." },
+        { "q": "A car travels 100 km in the first hour (Peshawar to rest area). The gradient of this part of its graph is:", "options": ["100 km/h", "27.78 km/h", "1 km/h", "50 km/h"], "answer": 0, "explanation": "Gradient = 100 km ÷ 1 h = 100 km/h (= 27.78 m/s)." },
+        { "q": "On a distance-time graph, a steeper straight line means:", "options": ["lower speed", "higher speed", "the body is at rest", "negative speed"], "answer": 1, "explanation": "A steeper slope means more distance per unit time." },
+        { "q": "A car covers 175 km in 2.5 h including a 30 min stop. Its average speed is:", "options": ["70 km/h", "87.5 km/h", "58.3 km/h", "175 km/h"], "answer": 0, "explanation": "Average speed = 175 km ÷ 2.5 h = 70 km/h (stop time is included)." }
+      ]
+    },
+    {
+      "id": "q8",
+      "topic": "Speed-Time Graphs",
+      "slos": ["P-09-B-09", "P-09-B-12", "P-09-B-13", "P-09-B-14", "P-09-B-15"],
+      "questions": [
+        { "q": "The gradient of a speed-time graph gives:", "options": ["distance", "speed", "magnitude of acceleration", "displacement"], "answer": 2, "explanation": "Gradient = Δv ÷ Δt = acceleration." },
+        { "q": "The area under a speed-time graph gives:", "options": ["acceleration", "distance travelled", "speed", "time"], "answer": 1, "explanation": "E.g. rectangle area = v × t = distance." },
+        { "q": "A horizontal line on a speed-time graph (above the time axis) shows:", "options": ["rest", "uniform speed (zero acceleration)", "uniform acceleration", "deceleration"], "answer": 1, "explanation": "Speed does not change, so acceleration is zero." },
+        { "q": "A straight line sloping upward from the origin on a speed-time graph shows:", "options": ["uniform acceleration from rest", "uniform speed", "uniform deceleration", "rest"], "answer": 0, "explanation": "Speed increases at a constant rate." },
+        { "q": "A straight line sloping downward on a speed-time graph shows:", "options": ["uniform acceleration", "uniform deceleration", "rest", "uniform speed"], "answer": 1, "explanation": "Speed decreases at a constant rate." },
+        { "q": "A car accelerates uniformly from rest to 30 m/s in 20 s. Its acceleration is:", "options": ["1.5 m/s²", "600 m/s²", "0.67 m/s²", "15 m/s²"], "answer": 0, "explanation": "Slope = 30 ÷ 20 = 1.5 m/s² (book Example 2.7)." },
+        { "q": "In the same example, the distance covered in those 20 s is:", "options": ["600 m", "300 m", "150 m", "1.5 m"], "answer": 1, "explanation": "Area of triangle = ½ × 30 × 20 = 300 m." },
+        { "q": "A car moves at a constant 30 m/s for 30 s. Distance covered is:", "options": ["60 m", "900 m", "1 m", "450 m"], "answer": 1, "explanation": "Area of rectangle = 30 × 30 = 900 m." },
+        { "q": "A car slows uniformly from 30 m/s to rest in 10 s. Its deceleration is:", "options": ["3 m/s²", "300 m/s²", "0.33 m/s²", "30 m/s²"], "answer": 0, "explanation": "|a| = 30 ÷ 10 = 3 m/s²." },
+        { "q": "For a body starting from rest with uniform acceleration reaching speed v in time t, the distance from the graph is:", "options": ["v t", "½ v t", "2 v t", "v / t"], "answer": 1, "explanation": "The area under the graph is a triangle: ½ × v × t." },
+        { "q": "A car moves at 20 m/s for 20 s and then stops uniformly in 30 s. Total distance is:", "options": ["400 m", "700 m", "1000 m", "300 m"], "answer": 1, "explanation": "Rectangle 20 × 20 = 400 m + triangle ½ × 20 × 30 = 300 m = 700 m." },
+        { "q": "A body covers 1350 m in 60 s. Its average speed is:", "options": ["22.5 m/s", "81 000 m/s", "13.5 m/s", "2.25 m/s"], "answer": 0, "explanation": "1350 ÷ 60 = 22.5 m/s." }
+      ]
+    },
+    {
+      "id": "q9",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "Change in position of a body from initial to final point is called:", "options": ["Distance", "Displacement", "Speed", "Velocity"], "answer": 1, "explanation": "Displacement is the change in position (d₂ − d₁)." },
+        { "q": "Motion of a screw of rotating fan is:", "options": ["Circular motion", "Vibratory motion", "Random motion", "Rotatory motion"], "answer": 3, "explanation": "It spins about its own axis, so the motion is rotatory." },
+        { "q": "A cyclist is travelling in a westward direction and produces a deceleration of 8 m/s² to stop. The direction of its acceleration is towards:", "options": ["North", "East", "South", "West"], "answer": 1, "explanation": "Deceleration acts opposite to motion: west → east." },
+        { "q": "A girl walks 3 km towards west and 4 km towards south. What is the magnitude of her total distance and displacement respectively?", "options": ["7 km, 7 km", "1 km, 7 km", "7 km, 1 km", "7 km, 5 km"], "answer": 3, "explanation": "Distance = 3 + 4 = 7 km; displacement = √(3² + 4²) = 5 km." },
+        { "q": "A rider is training a horse. Horse moves 60 metres towards right in 3 seconds. Then it turns back and travels 30 metres in 2 seconds. Find its average velocity?", "options": ["6 m/s", "18 m/s", "35 m/s", "zero"], "answer": 0, "explanation": "Displacement = 60 − 30 = 30 m; time = 5 s; v = 30 ÷ 5 = 6 m/s." },
+        { "q": "If a cyclist has acceleration of 2 m/s² for 5 seconds, the change in velocity of the cyclist is:", "options": ["2 m/s", "10 m/s", "20 m/s", "15 m/s"], "answer": 1, "explanation": "Δv = a t = 2 × 5 = 10 m/s." },
+        { "q": "A car is moving with velocity of 10 m/s. If it has acceleration of 2 m/s² for 10 seconds, what is final velocity of the car?", "options": ["30 m/s", "20 m/s", "10 m/s", "15 m/s"], "answer": 0, "explanation": "v = 10 + 2 × 10 = 30 m/s." },
+        { "q": "When the slope of a body's displacement-time graph increases, the body is moving with:", "options": ["increasing velocity", "decreasing velocity", "constant velocity", "all of these"], "answer": 0, "explanation": "Slope of displacement-time graph = velocity; increasing slope means increasing velocity." },
+        { "q": "A ball is thrown straight up, what is the magnitude of acceleration at the top of its path?", "options": ["zero", "9.8 m/s²", "4.9 m/s²", "19.6 m/s²"], "answer": 1, "explanation": "Velocity is zero at the top, but g = 9.8 m/s² still acts." },
+        { "q": "Slope of distance-time graph is:", "options": ["velocity", "acceleration", "speed", "displacement"], "answer": 2, "explanation": "Δs ÷ Δt = speed (distance is scalar, so speed, not velocity)." },
+        { "q": "Area under speed-time graph is equal to ______ of moving body:", "options": ["distance", "change in velocity", "uniform velocity", "acceleration"], "answer": 0, "explanation": "Area = speed × time = distance." },
+        { "q": "In 5 s a car accelerates so that its velocity increases by 20 m/s. The acceleration is:", "options": ["0.25 m/s²", "4 m/s²", "25 m/s²", "100 m/s²"], "answer": 1, "explanation": "a = 20 ÷ 5 = 4 m/s²." },
+        { "q": "Ball dropped freely from a tower reaches ground in 4 s, the speed of impact of ball is:", "options": ["0 m/s", "2.45 m/s", "19.6 m/s", "39.2 m/s"], "answer": 3, "explanation": "v = g t = 9.8 × 4 = 39.2 m/s." },
+        { "q": "Which of the following distance-time graphs represents increasing speed of a car?", "options": ["A horizontal straight line", "A straight line sloping upward", "A curve bending upward (slope increasing)", "A curve bending downward (slope decreasing)"], "answer": 2, "explanation": "Increasing slope of distance-time graph means increasing speed." }
+      ]
+    }
+  ]
+}
