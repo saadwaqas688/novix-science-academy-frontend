@@ -34,7 +34,7 @@ function Chapter() {
   if (q.error) return <ErrorState message={(q.error as Error).message} onRetry={() => q.refetch()} />;
   if (!q.data) return <div className="space-y-4"><Skeleton className="h-16 w-2/3" /><Skeleton className="h-12" /><Skeleton className="h-48" /></div>;
   const { chapter, subject, videos, assessments } = q.data;
-  const notes = q.data.notes ?? staticNotes(subject.slug, chapter.classLevel, chapter.number);
+  const notesList = q.data.notes ? [{ ...q.data.notes, title: 'Chapter notes' }] : staticNotes(subject.slug, chapter.classLevel, chapter.number);
   const cover = subjectCover(subject.slug, subject.color);
   const tests = [
     ...assessments.map((a) => ({ key: `t${a.id}`, topic: a.topic, count: a.questionCount, best: a.bestScore, attempts: a.attemptCount, href: `/test/${a.id}` })),
@@ -67,17 +67,21 @@ function Chapter() {
         </TabsList>
 
         <TabsContent value="notes">
-          {notes ? (
-            <div className="glass flex flex-wrap items-center gap-4 rounded-2xl border border-border p-4 shadow-soft sm:p-5">
-              <span className="grid h-16 w-14 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-red-300 to-red-500 text-xs font-extrabold text-white">PDF</span>
-              <div className="min-w-0 flex-1">
-                <h4 className="truncate font-bold">{notes.fileName}</h4>
-                <p className="text-[13px] text-muted-foreground">{fmtSize(notes.sizeBytes)}</p>
-              </div>
-              <div className="flex w-full gap-2 sm:w-auto">
-                <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} target="_blank" rel="noopener"><Eye /> Read</a></Button>
-                <Button asChild variant="outline" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} download={notes.fileName}><Download /> Download</a></Button>
-              </div>
+          {notesList.length ? (
+            <div className="space-y-3">
+              {notesList.map((notes) => (
+                <div key={notes.fileUrl} className="glass flex flex-wrap items-center gap-4 rounded-2xl border border-border p-4 shadow-soft sm:p-5">
+                  <span className="grid h-16 w-14 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-red-300 to-red-500 text-xs font-extrabold text-white">PDF</span>
+                  <div className="min-w-0 flex-1">
+                    <h4 className="truncate font-bold">{notes.title}</h4>
+                    <p className="truncate text-[13px] text-muted-foreground">{notes.fileName} · {fmtSize(notes.sizeBytes)}</p>
+                  </div>
+                  <div className="flex w-full gap-2 sm:w-auto">
+                    <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} target="_blank" rel="noopener"><Eye /> Read</a></Button>
+                    <Button asChild variant="outline" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} download={notes.fileName}><Download /> Download</a></Button>
+                  </div>
+                </div>
+              ))}
             </div>
           ) : <ComingSoon icon={FileText} text="Notes for this chapter are being prepared and will be uploaded soon." />}
         </TabsContent>

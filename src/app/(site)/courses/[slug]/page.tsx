@@ -77,7 +77,7 @@ function Course() {
             <div className="min-w-0 flex-1">
               <h3 className="mt-0.5 mb-2 text-[15.5px] leading-snug font-bold">{c.title}</h3>
               <div className="flex flex-wrap gap-1.5">
-                {(() => { const has = c.hasNotes || !!staticNotes(slug, cls, c.number); return <Chip on={has} icon={FileText} text={has ? 'Notes' : 'Soon'} />; })()}
+                {(() => { const has = c.hasNotes || staticNotes(slug, cls, c.number).length > 0; return <Chip on={has} icon={FileText} text={has ? 'Notes' : 'Soon'} />; })()}
                 <Chip on={c.videoCount > 0} icon={Video} text={c.videoCount ? String(c.videoCount) : 'Soon'} />
                 {(() => { const x = quizStats(c.number); const tot = c.assessmentCount + x.total; const dn = c.completedCount + x.done; return <Chip on={tot > 0} info icon={Target} text={tot ? `${dn}/${tot} tests` : 'Soon'} />; })()}
               </div>

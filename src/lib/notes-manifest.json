@@ -1,38 +1,82 @@
 {
-  "9/physics/1": {
-    "url": "/notes/class-9/physics/ch-1.pdf",
-    "sizeBytes": 85018
-  },
-  "9/physics/2": {
-    "url": "/notes/class-9/physics/ch-2.pdf",
-    "sizeBytes": 64997
-  },
-  "9/physics/3": {
-    "url": "/notes/class-9/physics/ch-3.pdf",
-    "sizeBytes": 67098
-  },
-  "9/physics/4": {
-    "url": "/notes/class-9/physics/ch-4.pdf",
-    "sizeBytes": 68615
-  },
-  "9/physics/5": {
-    "url": "/notes/class-9/physics/ch-5.pdf",
-    "sizeBytes": 69745
-  },
-  "9/physics/6": {
-    "url": "/notes/class-9/physics/ch-6.pdf",
-    "sizeBytes": 76559
-  },
-  "9/physics/7": {
-    "url": "/notes/class-9/physics/ch-7.pdf",
-    "sizeBytes": 70633
-  },
-  "9/physics/8": {
-    "url": "/notes/class-9/physics/ch-8.pdf",
-    "sizeBytes": 150091
-  },
-  "9/physics/9": {
-    "url": "/notes/class-9/physics/ch-9.pdf",
-    "sizeBytes": 52436
-  }
+  "10/math/2": [
+    {
+      "url": "/notes/class-10/math/ch-2-ex-2.2.pdf",
+      "sizeBytes": 430900,
+      "part": "ex-2.2",
+      "title": "Exercise 2.2"
+    }
+  ],
+  "9/physics/1": [
+    {
+      "url": "/notes/class-9/physics/ch-1.pdf",
+      "sizeBytes": 85018,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/physics/2": [
+    {
+      "url": "/notes/class-9/physics/ch-2.pdf",
+      "sizeBytes": 64997,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/physics/3": [
+    {
+      "url": "/notes/class-9/physics/ch-3.pdf",
+      "sizeBytes": 67098,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/physics/4": [
+    {
+      "url": "/notes/class-9/physics/ch-4.pdf",
+      "sizeBytes": 68615,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/physics/5": [
+    {
+      "url": "/notes/class-9/physics/ch-5.pdf",
+      "sizeBytes": 69745,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/physics/6": [
+    {
+      "url": "/notes/class-9/physics/ch-6.pdf",
+      "sizeBytes": 76559,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/physics/7": [
+    {
+      "url": "/notes/class-9/physics/ch-7.pdf",
+      "sizeBytes": 70633,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/physics/8": [
+    {
+      "url": "/notes/class-9/physics/ch-8.pdf",
+      "sizeBytes": 150091,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/physics/9": [
+    {
+      "url": "/notes/class-9/physics/ch-9.pdf",
+      "sizeBytes": 52436,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ]
 }
