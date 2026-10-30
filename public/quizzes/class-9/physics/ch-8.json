@@ -1,0 +1,136 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 8,
+  "chapterTitle": "Magnetism",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Magnetic Poles, Forces and Domain Theory",
+      "slos": ["P-09-E-01", "P-09-E-11"],
+      "questions": [
+        { "q": "The word 'magnet' comes from the region of:", "options": ["Magnesia", "Mesopotamia", "Macedonia", "Malta"], "answer": 0, "explanation": "Lodestone attracting iron was found in Magnesia around 600 BC." },
+        { "q": "Magnetism in atoms arises mainly due to:", "options": ["motion of protons", "orbital (and spin) motion of electrons", "neutrons", "gravity"], "answer": 1, "explanation": "Moving charges produce magnetic fields." },
+        { "q": "Like magnetic poles:", "options": ["attract", "repel", "have no effect", "cancel"], "answer": 1, "explanation": "N–N and S–S repel; N–S attract." },
+        { "q": "A magnetic material (like an iron nail) is:", "options": ["repelled by both poles", "attracted by both poles of a magnet", "attracted only by N-pole", "not affected"], "answer": 1, "explanation": "The nail becomes an induced magnet with opposite pole facing." },
+        { "q": "The only sure test to find whether a bar is a magnet is:", "options": ["attraction", "repulsion", "weight", "colour"], "answer": 1, "explanation": "Repulsion happens only between two magnets." },
+        { "q": "A group of atoms in a material whose magnetic fields (N-poles) point in the same direction is called a:", "options": ["molecule", "magnetic domain", "nucleus", "pole"], "answer": 1, "explanation": "A domain may contain about 10¹⁷ atoms." },
+        { "q": "In an unmagnetised iron bar, the domains are:", "options": ["all aligned", "randomly oriented", "absent", "only at the ends"], "answer": 1, "explanation": "Their effects cancel out." },
+        { "q": "A material becomes magnetised when its domains:", "options": ["disappear", "become aligned in one direction", "become random", "lose electrons"], "answer": 1, "explanation": "An external field aligns the domains." },
+        { "q": "If a bar magnet is cut into two halves, each piece:", "options": ["becomes a monopole", "becomes unmagnetised", "becomes a complete magnet with N and S poles", "has only N-pole"], "answer": 2, "explanation": "Magnetic poles always exist in pairs (no monopoles)." },
+        { "q": "Heating a magnet strongly makes it lose magnetism because heat:", "options": ["aligns domains", "disturbs (misaligns) the domains", "adds electrons", "removes iron"], "answer": 1, "explanation": "Random thermal motion destroys the alignment." },
+        { "q": "Magnetic monopoles:", "options": ["are common", "have not been found; magnets are always dipoles", "exist in iron", "are made by cutting magnets"], "answer": 1, "explanation": "Every magnet has an N-pole and an S-pole." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Magnetic Field and Field Lines",
+      "slos": ["P-09-E-05", "P-09-E-06", "P-09-E-07", "P-09-E-08", "P-09-E-09"],
+      "questions": [
+        { "q": "The region around a magnet where it exerts a force on other magnetic poles is called:", "options": ["electric field", "magnetic field", "gravitational field", "domain"], "answer": 1, "explanation": "Magnetic field (B)." },
+        { "q": "The SI unit of magnetic field strength is:", "options": ["weber", "tesla", "newton", "ampere"], "answer": 1, "explanation": "1 T = 1 N A⁻¹ m⁻¹." },
+        { "q": "The direction of the magnetic field at a point is the direction of the force on a:", "options": ["south pole placed there", "north pole placed there", "electron", "iron filing only"], "answer": 1, "explanation": "By convention, the force on a test N-pole." },
+        { "q": "Outside a bar magnet, magnetic field lines go from:", "options": ["S-pole to N-pole", "N-pole to S-pole", "centre to ends", "nowhere"], "answer": 1, "explanation": "Inside the magnet they go from S to N, forming closed loops." },
+        { "q": "Magnetic field lines are:", "options": ["open lines", "closed loops", "intersecting lines", "straight only"], "answer": 1, "explanation": "They continue inside the magnet from S to N." },
+        { "q": "Two magnetic field lines:", "options": ["can intersect", "never intersect", "intersect at poles", "intersect in the middle"], "answer": 1, "explanation": "A point cannot have two field directions." },
+        { "q": "Where field lines are closer together, the magnetic field is:", "options": ["weaker", "stronger", "zero", "reversed"], "answer": 1, "explanation": "Spacing shows relative strength; strongest near poles." },
+        { "q": "The magnetic field of a bar magnet is strongest:", "options": ["at the middle", "near the poles", "far away", "equal everywhere"], "answer": 1, "explanation": "Field lines are crowded at the poles." },
+        { "q": "The pattern of a magnetic field can be plotted using:", "options": ["a thermometer", "a compass or iron filings", "a voltmeter", "a stopwatch"], "answer": 1, "explanation": "Compass needles/iron filings line up along field lines." },
+        { "q": "The direction of field at a point on a curved field line is along the:", "options": ["normal", "tangent at that point", "radius", "opposite direction"], "answer": 1, "explanation": "Draw a tangent to the field line." },
+        { "q": "When two N-poles are placed facing each other, between them there is a:", "options": ["very strong field", "neutral point (field-free region)", "S-pole", "current"], "answer": 1, "explanation": "Their fields cancel at the neutral zone." },
+        { "q": "The magnetic field around a straight current-carrying wire forms:", "options": ["straight lines", "concentric circles", "a bar pattern", "no field"], "answer": 1, "explanation": "Direction given by the right-hand grip rule." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Induced Magnetism and Methods of Magnetisation",
+      "slos": ["P-09-E-02", "P-09-E-11"],
+      "questions": [
+        { "q": "A material that becomes a magnet when placed in a magnetic field is called:", "options": ["permanent magnet", "induced magnet", "diamagnet", "monopole"], "answer": 1, "explanation": "This is induced magnetism." },
+        { "q": "In the stroking method, a steel bar is magnetised by:", "options": ["heating it", "rubbing one pole of a magnet along it in one direction repeatedly", "hammering in no field", "cooling it"], "answer": 1, "explanation": "Domains line up with the stroking magnet." },
+        { "q": "In the hammering method, the bar is hammered while placed:", "options": ["in a strong magnetic field", "in water", "in a fire", "in vacuum"], "answer": 0, "explanation": "Vibration helps domains align with the field." },
+        { "q": "Heating a magnet is mainly a method of:", "options": ["magnetising", "demagnetising", "making poles stronger", "charging"], "answer": 1, "explanation": "It misaligns the domains." },
+        { "q": "The quickest and most common method to magnetise a material is:", "options": ["striking with hammer", "stroking", "placing it inside a coil carrying direct current (solenoid)", "heating"], "answer": 2, "explanation": "The solenoid's field aligns domains quickly." },
+        { "q": "A solenoid is:", "options": ["a bar magnet", "a long coil of wire", "a type of battery", "a compass"], "answer": 1, "explanation": "Its field resembles that of a bar magnet." },
+        { "q": "A solenoid behaves like a magnet only while:", "options": ["it is cold", "current flows through it", "it is cut", "it is hammered"], "answer": 1, "explanation": "No current, no field." },
+        { "q": "An alternating current (AC) in a solenoid is useful for:", "options": ["permanent magnetisation", "demagnetising a material", "making monopoles", "heating only"], "answer": 1, "explanation": "Its polarity reverses each half cycle." },
+        { "q": "The magnetic field inside a solenoid is B = μ₀nI. Here n is:", "options": ["total number of turns", "number of turns per unit length (N/L)", "current", "length"], "answer": 1, "explanation": "n = N/L." },
+        { "q": "A 0.5 m solenoid has 50 turns and carries 1.2 A. The field inside is about (μ₀ = 4π × 10⁻⁷):", "options": ["1.5 × 10⁻⁴ T", "1.5 × 10⁻² T", "7.5 × 10⁻⁶ T", "1.2 T"], "answer": 0, "explanation": "n = 100 m⁻¹; B = 4π × 10⁻⁷ × 100 × 1.2 ≈ 1.5 × 10⁻⁴ T." },
+        { "q": "The field inside a solenoid can be increased by:", "options": ["decreasing current", "increasing current or number of turns per metre", "removing the core", "using a plastic core"], "answer": 1, "explanation": "B ∝ nI (and a soft iron core helps)." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Temporary and Permanent Magnets and their Uses",
+      "slos": ["P-09-E-04", "P-09-E-10"],
+      "questions": [
+        { "q": "Magnets that lose their magnetism when the external field or current is removed are:", "options": ["permanent magnets", "temporary magnets", "monopoles", "lodestones"], "answer": 1, "explanation": "E.g. an electromagnet." },
+        { "q": "An electromagnet is a magnet whose field is produced by:", "options": ["heating", "an electric current", "friction", "gravity"], "answer": 1, "explanation": "A coil carrying current around a soft iron core." },
+        { "q": "Materials that magnetise and demagnetise easily are called:", "options": ["hard magnetic materials", "soft magnetic materials", "diamagnetic", "non-magnetic"], "answer": 1, "explanation": "E.g. soft iron." },
+        { "q": "Materials that are difficult to magnetise but keep their magnetism are:", "options": ["soft magnetic materials", "hard magnetic materials", "paramagnetic", "plastics"], "answer": 1, "explanation": "E.g. steel." },
+        { "q": "The best material for making a permanent magnet is:", "options": ["soft iron", "copper", "steel", "aluminium"], "answer": 2, "explanation": "Steel is a hard magnetic material that retains magnetism." },
+        { "q": "The best material for the core of an electromagnet is:", "options": ["steel", "soft iron", "copper", "wood"], "answer": 1, "explanation": "It magnetises and demagnetises quickly." },
+        { "q": "An advantage of an electromagnet over a permanent magnet is that its:", "options": ["strength can be varied and switched off", "poles can never change", "needs no current", "is always weak"], "answer": 0, "explanation": "Its strength and poles can be changed." },
+        { "q": "A permanent magnet is preferred where:", "options": ["a continuous electricity supply is not available", "the field must be switched off", "strength must vary", "high current is available"], "answer": 0, "explanation": "It keeps its field without electricity." },
+        { "q": "Which is a permanent magnetic material?", "options": ["iron nail", "Alnico", "soft iron", "kitchen spoon"], "answer": 1, "explanation": "Alnico (Al-Ni-Co alloy) is used for permanent magnets." },
+        { "q": "Which device uses an electromagnet?", "options": ["fridge door seal", "electric bell", "compass needle", "toy magnet"], "answer": 1, "explanation": "Also motors, cranes, MRI and relays." },
+        { "q": "The poles of an electromagnet can be reversed by:", "options": ["reversing the direction of current", "heating it", "cutting it", "painting it"], "answer": 0, "explanation": "Current direction decides polarity." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Magnetic Materials and Magnetic Shielding",
+      "slos": ["P-09-E-03", "P-09-E-12", "P-09-E-15"],
+      "questions": [
+        { "q": "Materials that are strongly attracted by a magnet and retain magnetisation are:", "options": ["diamagnetic", "paramagnetic", "ferromagnetic", "non-magnetic"], "answer": 2, "explanation": "E.g. iron, cobalt and nickel." },
+        { "q": "Which of the following is ferromagnetic?", "options": ["silver", "copper", "aluminium", "nickel"], "answer": 3, "explanation": "Nickel, iron and cobalt are ferromagnetic." },
+        { "q": "Materials that are feebly (weakly) attracted by a magnet are:", "options": ["ferromagnetic", "paramagnetic", "diamagnetic", "hard magnetic"], "answer": 1, "explanation": "E.g. aluminium, tungsten, sodium, lithium." },
+        { "q": "Materials that are slightly repelled by a magnetic field are:", "options": ["diamagnetic", "paramagnetic", "ferromagnetic", "soft iron"], "answer": 0, "explanation": "E.g. copper, bismuth, gold, water, glass, wood." },
+        { "q": "In diamagnetic materials, the magnetic effects of electrons in each atom:", "options": ["add up strongly", "cancel each other (net zero)", "form domains", "align permanently"], "answer": 1, "explanation": "The induced field opposes the applied field." },
+        { "q": "Which is a non-magnetic material?", "options": ["iron", "cobalt", "rubber", "steel"], "answer": 2, "explanation": "Rubber, plastic, wood and copper are non-magnetic." },
+        { "q": "Magnetic materials differ from non-magnetic materials because they:", "options": ["are always heavy", "respond to (are attracted by) a magnetic field", "conduct heat", "are transparent"], "answer": 1, "explanation": "Non-magnetic materials are not attracted." },
+        { "q": "Making a region free from an external magnetic field is called:", "options": ["magnetic induction", "magnetic shielding", "magnetisation", "recording"], "answer": 1, "explanation": "Used to protect sensitive devices." },
+        { "q": "A sensitive instrument is shielded from external magnetic fields by keeping it in a box of:", "options": ["wood", "plastic", "copper", "soft iron"], "answer": 3, "explanation": "Soft iron provides an easy path that diverts field lines around the inside." },
+        { "q": "Soft iron is used for shielding because it:", "options": ["repels field lines", "has high permeability so field lines pass through it instead of the inside region", "is cheap only", "is non-magnetic"], "answer": 1, "explanation": "The field is concentrated in the iron walls." },
+        { "q": "Magnetic shields are usually made with rounded corners because:", "options": ["they look nice", "field lines find it difficult to turn sharp 90° corners", "it saves material", "corners attract dust"], "answer": 1, "explanation": "As noted in the book's Science Tidbits." },
+        { "q": "Copper is classified as:", "options": ["ferromagnetic", "paramagnetic", "diamagnetic", "hard magnetic"], "answer": 2, "explanation": "It is slightly repelled by a magnetic field." }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Applications of Magnets and Earth's Magnetic Field",
+      "slos": ["P-09-E-13", "P-09-E-14", "P-09-E-10"],
+      "questions": [
+        { "q": "Magnetic recording stores sound, pictures and data by:", "options": ["burning the tape", "selective magnetisation (aligning domains) of a magnetic material", "printing ink", "heating"], "answer": 1, "explanation": "The tape head aligns domains according to the signal current." },
+        { "q": "Materials commonly used in magnetic recording tapes include:", "options": ["iron oxide and chromium oxide", "copper and silver", "glass and plastic only", "wood"], "answer": 0, "explanation": "Also cobalt and pure iron." },
+        { "q": "A loudspeaker produces sound by:", "options": ["heating air", "interaction of a coil's changing field with a permanent magnet, vibrating the cone", "light energy", "chemical reaction"], "answer": 1, "explanation": "Commonly neodymium magnets are used." },
+        { "q": "A microphone works in reverse to a speaker by converting:", "options": ["electric signals to sound", "sound vibrations into electric signals", "light to sound", "heat to sound"], "answer": 1, "explanation": "Moving coil in a magnetic field produces current." },
+        { "q": "Magnetic door locks used at emergency exits work by:", "options": ["an electromagnet attracting a metal plate while current flows", "a permanent magnet only", "gravity", "springs"], "answer": 0, "explanation": "Switching off current releases the door." },
+        { "q": "The Earth's magnetic field is mainly caused by:", "options": ["rotation of the Earth", "pull of the Sun", "electric currents in the molten iron core (dynamo effect)", "the Moon"], "answer": 2, "explanation": "Motion of charges in the liquid outer core." },
+        { "q": "The Earth's magnetic field resembles the field of a:", "options": ["straight wire", "bar magnet", "horseshoe magnet", "single pole"], "answer": 1, "explanation": "Distorted by the solar wind on the Sun-side." },
+        { "q": "The Earth's magnetic field protects life from:", "options": ["rain", "harmful cosmic rays and charged particles from the Sun", "earthquakes", "volcanoes"], "answer": 1, "explanation": "It acts as a protective shield." },
+        { "q": "According to the book, the Earth's magnetic axis is inclined to its geographical axis by about:", "options": ["11.3°", "23.5°", "45°", "0°"], "answer": 0, "explanation": "So a compass does not point exactly to geographic north." },
+        { "q": "Auroras (polar lights) are formed when:", "options": ["moonlight reflects from ice", "charged particles from the Sun ionise air near the poles", "volcanoes erupt", "clouds collide"], "answer": 1, "explanation": "Earth's field guides particles towards the poles." },
+        { "q": "Earth's magnetic field intensity:", "options": ["is constant everywhere", "is very high at the equator", "is very low at the poles", "varies from place to place"], "answer": 3, "explanation": "It is generally stronger near the poles." },
+        { "q": "Pigeons and migratory birds navigate using:", "options": ["the Earth's magnetic field", "radio waves", "wind only", "the Moon's gravity"], "answer": 0, "explanation": "Iron crystals / magnetically sensitive molecules help them sense direction." }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "If a bar magnet is cut in half it will become:", "options": ["a monopole", "unmagnetized", "the same magnet", "magnet of less strength"], "answer": 3, "explanation": "Each half is a complete but smaller (weaker) magnet with N and S poles." },
+        { "q": "Which one is the quickest method to magnetize a material?", "options": ["strike with hammer", "moving into magnetic field", "stroking the opposite pole", "putting inside a current carrying coil"], "answer": 3, "explanation": "A solenoid's field aligns domains almost instantly." },
+        { "q": "Earth's magnetic field intensity is:", "options": ["constant everywhere", "very high at equator", "very low at poles", "varies place to place"], "answer": 3, "explanation": "It is not uniform over the Earth." },
+        { "q": "The cause of the Earth's magnetic field is:", "options": ["rotational motion of Earth", "spinning of Earth", "pull of the Sun", "motion of ions in the core"], "answer": 3, "explanation": "Moving charges in the molten core (dynamo effect)." },
+        { "q": "Material which is the best one for making a permanent magnet:", "options": ["Soft iron", "nickel", "cobalt", "steel"], "answer": 3, "explanation": "Steel retains magnetism (hard magnetic material)." },
+        { "q": "Material which is the best one for making an electromagnet:", "options": ["Soft iron", "nickel", "cobalt", "steel"], "answer": 0, "explanation": "Soft iron magnetises and demagnetises easily." },
+        { "q": "A sensitive magnetic material is to be shielded from the external magnetic field. It should be kept inside a box of:", "options": ["wood", "plastic", "steel", "soft iron"], "answer": 3, "explanation": "Soft iron diverts field lines around the inside." },
+        { "q": "Magnetic field lines:", "options": ["are farthest at poles", "intersect each other", "are closed", "do not pass in vacuum"], "answer": 2, "explanation": "They form closed loops (N to S outside, S to N inside)." },
+        { "q": "When two wires carrying current in the same direction are placed parallel near each other, due to the magnetic field produced by each wire they:", "options": ["repel each other", "attract each other", "have no effect on each other", "stop the current through them"], "answer": 1, "explanation": "Parallel currents in the same direction attract." },
+        { "q": "Which of the following material is ferromagnetic?", "options": ["silver", "copper", "aluminum", "nickel"], "answer": 3, "explanation": "Nickel, iron and cobalt are ferromagnetic." }
+      ]
+    }
+  ]
+}

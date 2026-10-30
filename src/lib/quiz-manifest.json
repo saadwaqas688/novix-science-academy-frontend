@@ -365,5 +365,46 @@
         "count": 15
       }
     ]
+  },
+  "9/physics/8": {
+    "url": "/quizzes/class-9/physics/ch-8.json",
+    "chapterTitle": "Magnetism",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Magnetic Poles, Forces and Domain Theory",
+        "count": 11
+      },
+      {
+        "id": "q2",
+        "topic": "Magnetic Field and Field Lines",
+        "count": 12
+      },
+      {
+        "id": "q3",
+        "topic": "Induced Magnetism and Methods of Magnetisation",
+        "count": 11
+      },
+      {
+        "id": "q4",
+        "topic": "Temporary and Permanent Magnets and their Uses",
+        "count": 11
+      },
+      {
+        "id": "q5",
+        "topic": "Magnetic Materials and Magnetic Shielding",
+        "count": 12
+      },
+      {
+        "id": "q6",
+        "topic": "Applications of Magnets and Earth's Magnetic Field",
+        "count": 12
+      },
+      {
+        "id": "q7",
+        "topic": "Exercise MCQs (Book)",
+        "count": 10
+      }
+    ]
   }
 }
