@@ -76,7 +76,7 @@ export default function AdminDashboard() {
                   <TableHeader><TableRow><TableHead>Student</TableHead><TableHead>Assessment</TableHead><TableHead>Date</TableHead><TableHead className="text-right">Score</TableHead></TableRow></TableHeader>
                   <TableBody>
                     {d.recentAttempts.map((t) => (
-                      <TableRow key={t.id}>
+                      <TableRow key={`${t.kind}${t.id}`}>
                         <TableCell data-label="Student" className="font-semibold">{t.userName}</TableCell>
                         <TableCell data-label="Assessment">{t.topic} <span className="text-muted-foreground">· {t.subjectName}</span></TableCell>
                         <TableCell data-label="Date">{fmtDate(t.createdAt)}</TableCell>

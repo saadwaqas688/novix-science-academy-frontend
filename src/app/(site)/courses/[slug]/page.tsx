@@ -10,6 +10,8 @@ import { useClassLevel } from '@/lib/class-level';
 import type { SubjectPage } from '@/lib/types';
 import { SubjectIcon, subjectCover } from '@/lib/subjects';
 import { staticNotes } from '@/lib/static-notes';
+import { chapterQuizzes, quizKey } from '@/lib/quizzes';
+import type { QuizBest } from '@/lib/types';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/misc';
@@ -23,10 +25,18 @@ function Course() {
   const { slug } = useParams<{ slug: string }>();
   const { cls } = useClassLevel();
   const q = useQuery({ queryKey: ['subject', slug, cls], queryFn: () => api<SubjectPage>(`/subjects/${slug}?classLevel=${cls}`) });
+  const qr = useQuery({ queryKey: ['quiz-results', slug, cls], queryFn: () => api<{ results: QuizBest[] }>(`/quiz-results?subject=${slug}&classLevel=${cls}`).then((r) => r.results) });
+  const quizStats = (n: number) => {
+    const list = chapterQuizzes(slug, cls, n);
+    const done = list.filter((m) => qr.data?.some((r) => r.quizKey === quizKey(cls, slug, n, m.id))).length;
+    return { total: list.length, done };
+  };
   if (q.error) return <ErrorState message={(q.error as Error).message} onRetry={() => q.refetch()} />;
   const d = q.data;
   const cover = subjectCover(slug, d?.subject.color);
-  const pct = d && d.progress.total ? Math.round((d.progress.done / d.progress.total) * 100) : 0;
+  const extra = d ? d.chapters.map((c) => quizStats(c.number)).reduce((a, x) => ({ total: a.total + x.total, done: a.done + x.done }), { total: 0, done: 0 }) : { total: 0, done: 0 };
+  const progress = d ? { done: d.progress.done + extra.done, total: d.progress.total + extra.total } : { done: 0, total: 0 };
+  const pct = progress.total ? Math.round((progress.done / progress.total) * 100) : 0;
 
   return (
     <>
@@ -45,10 +55,10 @@ function Course() {
         <div className="relative mt-5 flex flex-wrap items-center justify-between gap-3 sm:mt-6">
           <ClassSwitcher light />
           <div className="flex flex-wrap items-center gap-3">
-            {d && d.progress.total > 0 && (
+            {progress.total > 0 && (
               <div className="flex items-center gap-2.5 text-[13px] font-semibold">
                 <div className="h-2 w-28 overflow-hidden rounded-full bg-white/25 sm:w-44"><div className="h-full rounded-full bg-white" style={{ width: `${pct}%` }} /></div>
-                {d.progress.done}/{d.progress.total} tests done
+                {progress.done}/{progress.total} tests done
               </div>
             )}
             {d?.book
@@ -69,7 +79,7 @@ function Course() {
               <div className="flex flex-wrap gap-1.5">
                 {(() => { const has = c.hasNotes || !!staticNotes(slug, cls, c.number); return <Chip on={has} icon={FileText} text={has ? 'Notes' : 'Soon'} />; })()}
                 <Chip on={c.videoCount > 0} icon={Video} text={c.videoCount ? String(c.videoCount) : 'Soon'} />
-                <Chip on={c.assessmentCount > 0} info icon={Target} text={c.assessmentCount ? `${c.completedCount}/${c.assessmentCount} tests` : 'Soon'} />
+                {(() => { const x = quizStats(c.number); const tot = c.assessmentCount + x.total; const dn = c.completedCount + x.done; return <Chip on={tot > 0} info icon={Target} text={tot ? `${dn}/${tot} tests` : 'Soon'} />; })()}
               </div>
             </div>
             <ChevronRight className="size-5 self-center text-muted-foreground/60 transition group-hover:translate-x-0.5" />

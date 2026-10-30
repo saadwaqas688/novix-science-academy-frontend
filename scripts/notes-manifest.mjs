@@ -1,25 +1,45 @@
-// Scans public/notes/class-<n>/<subject>/ch-<n>.pdf and writes src/lib/notes-manifest.json.
-// Runs automatically before `npm run build` and `npm run dev`.
-// To add notes: put the PDF at e.g. public/notes/class-9/physics/ch-3.pdf and push.
+// Builds two manifests from files in public/ (runs before `npm run build` and `npm run dev`):
+//   public/notes/class-<n>/<subject>/ch-<n>.pdf     -> src/lib/notes-manifest.json
+//   public/quizzes/class-<n>/<subject>/ch-<n>.json  -> src/lib/quiz-manifest.json
+// To add content: drop the file in the right folder and push.
 import fs from 'fs';
 import path from 'path';
 
-const root = path.resolve('public/notes');
-const out = path.resolve('src/lib/notes-manifest.json');
-const manifest = {};
-if (fs.existsSync(root)) {
+function walk(root, ext, onFile) {
+  if (!fs.existsSync(root)) return;
   for (const cls of fs.readdirSync(root)) {
     const m = cls.match(/^class-(\d+)$/); if (!m) continue;
     for (const subject of fs.readdirSync(path.join(root, cls))) {
       const dir = path.join(root, cls, subject);
       if (!fs.statSync(dir).isDirectory()) continue;
       for (const file of fs.readdirSync(dir)) {
-        const c = file.match(/^ch-(\d+)\.pdf$/i); if (!c) continue;
-        const size = fs.statSync(path.join(dir, file)).size;
-        manifest[`${m[1]}/${subject}/${Number(c[1])}`] = { url: `/notes/${cls}/${subject}/${file}`, sizeBytes: size };
+        const c = file.match(new RegExp(`^ch-(\\d+)\\.${ext}$`, 'i')); if (!c) continue;
+        onFile({ cls: m[1], subject, chapter: Number(c[1]), file: path.join(dir, file), url: `/${path.basename(root)}/${cls}/${subject}/${file}` });
       }
     }
   }
 }
-fs.writeFileSync(out, JSON.stringify(manifest, null, 2) + '\n');
-console.log(`notes manifest: ${Object.keys(manifest).length} file(s)`);
+
+const notes = {};
+walk(path.resolve('public/notes'), 'pdf', (f) => { notes[`${f.cls}/${f.subject}/${f.chapter}`] = { url: f.url, sizeBytes: fs.statSync(f.file).size }; });
+fs.writeFileSync(path.resolve('src/lib/notes-manifest.json'), JSON.stringify(notes, null, 2) + '\n');
+
+const quizzes = {};
+walk(path.resolve('public/quizzes'), 'json', (f) => {
+  const data = JSON.parse(fs.readFileSync(f.file, 'utf8'));
+  const ids = new Set();
+  for (const q of data.quizzes) {
+    if (ids.has(q.id)) throw new Error(`${f.file}: duplicate quiz id ${q.id}`);
+    ids.add(q.id);
+    q.questions.forEach((x, i) => {
+      if (!x.q || !Array.isArray(x.options) || x.options.length < 2 || !(x.answer >= 0 && x.answer < x.options.length))
+        throw new Error(`${f.file}: quiz ${q.id} question ${i + 1} is invalid`);
+    });
+  }
+  quizzes[`${f.cls}/${f.subject}/${f.chapter}`] = {
+    url: f.url, chapterTitle: data.chapterTitle || '',
+    quizzes: data.quizzes.map((q) => ({ id: q.id, topic: q.topic, count: q.questions.length })),
+  };
+});
+fs.writeFileSync(path.resolve('src/lib/quiz-manifest.json'), JSON.stringify(quizzes, null, 2) + '\n');
+console.log(`manifest: ${Object.keys(notes).length} notes file(s), ${Object.values(quizzes).reduce((n, c) => n + c.quizzes.length, 0)} quiz(zes)`);

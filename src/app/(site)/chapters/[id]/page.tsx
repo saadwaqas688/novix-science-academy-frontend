@@ -8,6 +8,8 @@ import { api } from '@/lib/api';
 import type { ChapterPage } from '@/lib/types';
 import { subjectCover } from '@/lib/subjects';
 import { staticNotes } from '@/lib/static-notes';
+import { chapterQuizzes, quizHref, quizKey } from '@/lib/quizzes';
+import type { QuizBest } from '@/lib/types';
 import { fmtSize } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -22,11 +24,26 @@ export default function ChapterRoute() {
 function Chapter() {
   const { id } = useParams<{ id: string }>();
   const q = useQuery({ queryKey: ['chapter', id], queryFn: () => api<ChapterPage>(`/chapters/${id}`) });
+  const d = q.data;
+  const staticList = d ? chapterQuizzes(d.subject.slug, d.chapter.classLevel, d.chapter.number) : [];
+  const qr = useQuery({
+    queryKey: ['quiz-results', d?.subject.slug, d?.chapter.classLevel, d?.chapter.number],
+    queryFn: () => api<{ results: QuizBest[] }>(`/quiz-results?subject=${d!.subject.slug}&classLevel=${d!.chapter.classLevel}&chapterNumber=${d!.chapter.number}`).then((r) => r.results),
+    enabled: staticList.length > 0,
+  });
   if (q.error) return <ErrorState message={(q.error as Error).message} onRetry={() => q.refetch()} />;
   if (!q.data) return <div className="space-y-4"><Skeleton className="h-16 w-2/3" /><Skeleton className="h-12" /><Skeleton className="h-48" /></div>;
   const { chapter, subject, videos, assessments } = q.data;
   const notes = q.data.notes ?? staticNotes(subject.slug, chapter.classLevel, chapter.number);
   const cover = subjectCover(subject.slug, subject.color);
+  const tests = [
+    ...assessments.map((a) => ({ key: `t${a.id}`, topic: a.topic, count: a.questionCount, best: a.bestScore, attempts: a.attemptCount, href: `/test/${a.id}` })),
+    ...staticList.map((m) => {
+      const k = quizKey(chapter.classLevel, subject.slug, chapter.number, m.id);
+      const r = qr.data?.find((x) => x.quizKey === k);
+      return { key: k, topic: m.topic, count: m.count, best: r ? r.best : null, attempts: r?.count ?? 0, href: quizHref(k) };
+    }),
+  ];
   const defaultTab = typeof window !== 'undefined' && window.location.hash === '#assessments' ? 'assessments' : 'notes';
 
   return (
@@ -46,7 +63,7 @@ function Chapter() {
         <TabsList className="sticky top-16 z-20 -mx-4 bg-background/90 px-4 backdrop-blur-xl sm:top-[68px] sm:mx-0 sm:px-0">
           <TabsTrigger value="notes"><FileText /> Notes</TabsTrigger>
           <TabsTrigger value="videos"><Video /> Videos <Count n={videos.length} /></TabsTrigger>
-          <TabsTrigger value="assessments"><Target /> Assessments <Count n={assessments.length} /></TabsTrigger>
+          <TabsTrigger value="assessments"><Target /> Assessments <Count n={tests.length} /></TabsTrigger>
         </TabsList>
 
         <TabsContent value="notes">
@@ -86,23 +103,23 @@ function Chapter() {
         </TabsContent>
 
         <TabsContent value="assessments">
-          {assessments.length ? (
+          {tests.length ? (
             <div className="flex flex-col gap-3">
-              {assessments.map((a, i) => (
-                <div key={a.id} className="glass flex flex-wrap items-center gap-3.5 rounded-2xl border border-border p-4 shadow-soft sm:flex-nowrap sm:gap-4 sm:px-5">
+              {tests.map((a, i) => (
+                <div key={a.key} className="glass flex flex-wrap items-center gap-3.5 rounded-2xl border border-border p-4 shadow-soft sm:flex-nowrap sm:gap-4 sm:px-5">
                   <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-brand-wash font-display font-extrabold text-brand-ink">{i + 1}</span>
                   <div className="min-w-0 flex-1">
                     <h4 className="font-bold">{a.topic}</h4>
                     <div className="mt-1 flex flex-wrap items-center gap-2.5 text-[12.5px] text-muted-foreground">
-                      <span className="flex items-center gap-1"><ListChecks className="size-3.5" /> {a.questionCount} MCQs</span>
-                      <span className="flex items-center gap-1"><Clock className="size-3.5" /> ~{a.questionCount} min</span>
-                      {a.bestScore !== null
-                        ? <><Badge variant={a.bestScore / a.questionCount >= 0.8 ? 'good' : a.bestScore / a.questionCount >= 0.5 ? 'warning' : 'critical'}>Best {a.bestScore}/{a.questionCount}</Badge><span>{a.attemptCount} attempt{a.attemptCount > 1 ? 's' : ''}</span></>
+                      <span className="flex items-center gap-1"><ListChecks className="size-3.5" /> {a.count} MCQs</span>
+                      <span className="flex items-center gap-1"><Clock className="size-3.5" /> ~{a.count} min</span>
+                      {a.best !== null
+                        ? <><Badge variant={a.best / a.count >= 0.8 ? 'good' : a.best / a.count >= 0.5 ? 'warning' : 'critical'}>Best {a.best}/{a.count}</Badge><span>{a.attempts} attempt{a.attempts > 1 ? 's' : ''}</span></>
                         : <Badge>Not attempted</Badge>}
                     </div>
                   </div>
-                  <Button asChild size="sm" variant={a.bestScore !== null ? 'outline' : 'default'} className="w-full sm:w-auto">
-                    <Link href={`/test/${a.id}`}>{a.bestScore !== null ? 'Retake' : 'Start'} <ChevronRight /></Link>
+                  <Button asChild size="sm" variant={a.best !== null ? 'outline' : 'default'} className="w-full sm:w-auto">
+                    <Link href={a.href}>{a.best !== null ? 'Retake' : 'Start'} <ChevronRight /></Link>
                   </Button>
                 </div>
               ))}

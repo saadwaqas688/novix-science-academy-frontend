@@ -10,7 +10,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
 import { Logo } from '@/components/common';
 
 const isActive = (path: string, key: string) =>
-  key === '/' ? path === '/' : key === '/courses' ? /^\/(courses|chapters|results)/.test(path) : path.startsWith(key);
+  key === '/' ? path === '/' : key === '/courses' ? /^\/(courses|chapters|results|quiz-result)/.test(path) : path.startsWith(key);
 
 export function Avatar({ name, className }: { name: string; className?: string }) {
   return <span className={cn('grid size-9 shrink-0 place-items-center rounded-full bg-gradient-accent font-display text-sm font-bold text-white', className)}>{initials(name)}</span>;

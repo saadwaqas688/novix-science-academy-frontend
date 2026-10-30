@@ -38,7 +38,7 @@ export default function ResultsAdmin() {
               <TableHeader><TableRow><TableHead>Student</TableHead><TableHead>Assessment</TableHead><TableHead>Subject</TableHead><TableHead>Time</TableHead><TableHead>Date</TableHead><TableHead className="text-right">Score</TableHead></TableRow></TableHeader>
               <TableBody>
                 {r.data.map((t) => (
-                  <TableRow key={t.id}>
+                  <TableRow key={`${t.kind}${t.id}`}>
                     <TableCell className="max-md:block"><div className="flex items-center gap-3"><Avatar name={t.userName} /><div className="min-w-0"><b className="block text-sm">{t.userName}</b><small className="text-xs text-muted-foreground">{t.userEmail}</small></div></div></TableCell>
                     <TableCell data-label="Assessment">{t.topic} · Ch {t.chapterNumber}</TableCell>
                     <TableCell data-label="Subject">{t.subjectName} · {t.classLevel}</TableCell>

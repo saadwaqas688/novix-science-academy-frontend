@@ -1,0 +1,58 @@
+{
+  "9/physics/1": {
+    "url": "/quizzes/class-9/physics/ch-1.json",
+    "chapterTitle": "Physical Quantities and Measurement",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Physics and Physical Quantities",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "International System of Units (SI)",
+        "count": 12
+      },
+      {
+        "id": "q3",
+        "topic": "Scientific Notation and Prefixes",
+        "count": 13
+      },
+      {
+        "id": "q4",
+        "topic": "Scalars and Vectors",
+        "count": 12
+      },
+      {
+        "id": "q5",
+        "topic": "Metre Rule and Vernier Callipers",
+        "count": 12
+      },
+      {
+        "id": "q6",
+        "topic": "Screw Gauge",
+        "count": 11
+      },
+      {
+        "id": "q7",
+        "topic": "Mass, Volume and Time Measurement & Estimation",
+        "count": 13
+      },
+      {
+        "id": "q8",
+        "topic": "Errors, Precision and Accuracy",
+        "count": 13
+      },
+      {
+        "id": "q9",
+        "topic": "Significant Figures and Rounding Off",
+        "count": 13
+      },
+      {
+        "id": "q10",
+        "topic": "Exercise MCQs (Book)",
+        "count": 13
+      }
+    ]
+  }
+}

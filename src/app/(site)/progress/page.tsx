@@ -8,6 +8,7 @@ import { Award, BarChart3, CheckCircle2, ListChecks, RotateCcw, Target } from 'l
 import { api } from '@/lib/api';
 import type { Progress as ProgressData } from '@/lib/types';
 import { SubjectIcon, subjectCover } from '@/lib/subjects';
+import { quizHref } from '@/lib/quizzes';
 import { cn, fmtDate } from '@/lib/utils';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/misc';
@@ -24,7 +25,7 @@ function ProgressPage() {
   if (!q.data) return <div className="grid gap-4"><Skeleton className="h-24" /><Skeleton className="h-80" /></div>;
   const { attempts, summary, bySubject } = q.data;
   const chron = [...attempts].reverse().filter((a) => filter === 'all' || a.subjectSlug === filter).slice(-12);
-  const chartData = chron.map((a) => ({ id: a.id, label: fmtDate(a.createdAt, false), pct: Math.round((a.score / a.total) * 100), score: `${a.score}/${a.total}`, topic: a.topic, color: a.subjectColor }));
+  const chartData = chron.map((a) => ({ id: `${a.kind}${a.id}`, label: fmtDate(a.createdAt, false), pct: Math.round((a.score / a.total) * 100), score: `${a.score}/${a.total}`, topic: a.topic, color: a.subjectColor }));
 
   return (
     <>
@@ -95,14 +96,14 @@ function ProgressPage() {
               {attempts.map((a) => {
                 const tone = a.score / a.total >= 0.8 ? 'text-good' : a.score / a.total >= 0.5 ? 'text-warning' : 'text-critical';
                 return (
-                  <div key={a.id} className="flex items-center gap-3.5 border-t border-border py-3.5 first:border-0">
+                  <div key={`${a.kind}${a.id}`} className="flex items-center gap-3.5 border-t border-border py-3.5 first:border-0">
                     <span className="grid size-10 shrink-0 place-items-center rounded-xl text-white" style={{ background: subjectCover(a.subjectSlug, a.subjectColor) }}><SubjectIcon icon={a.subjectIcon} className="size-[18px]" /></span>
-                    <Link href={`/results/${a.id}`} className="min-w-0 flex-1">
+                    <Link href={a.kind === 'quiz' ? `/quiz-result/${a.id}` : `/results/${a.id}`} className="min-w-0 flex-1">
                       <b className="block truncate text-[14.5px]">{a.topic}</b>
                       <span className="text-[12.5px] text-muted-foreground">{a.subjectName} · Ch {a.chapterNumber} · {fmtDate(a.createdAt)}</span>
                     </Link>
                     <span className={cn('min-w-12 text-right font-display font-extrabold', tone)}>{a.score}/{a.total}</span>
-                    <Link href={`/test/${a.assessmentId}`} title="Retake" className="grid size-9 place-items-center rounded-full border border-border bg-surface text-ink-2 hover:border-primary hover:text-brand-ink"><RotateCcw className="size-4" /></Link>
+                    <Link href={a.kind === 'quiz' ? quizHref(a.quizKey!) : `/test/${a.assessmentId}`} title="Retake" className="grid size-9 place-items-center rounded-full border border-border bg-surface text-ink-2 hover:border-primary hover:text-brand-ink"><RotateCcw className="size-4" /></Link>
                   </div>
                 );
               })}

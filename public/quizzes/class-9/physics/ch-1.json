@@ -1,0 +1,202 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 1,
+  "chapterTitle": "Physical Quantities and Measurement",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Physics and Physical Quantities",
+      "slos": ["P-09-A-01", "P-09-A-02", "P-09-A-03"],
+      "questions": [
+        { "q": "In the nineteenth century, physical sciences were divided into how many distinct disciplines?", "options": ["Three", "Four", "Five", "Six"], "answer": 2, "explanation": "Physics, chemistry, astronomy, geology and meteorology — five disciplines, of which physics is the most fundamental." },
+        { "q": "Which is the most fundamental of all the physical sciences?", "options": ["Chemistry", "Physics", "Geology", "Astronomy"], "answer": 1, "explanation": "Other sciences rely on the principles of physics, so physics is called the most fundamental science." },
+        { "q": "Biology uses the physics principle of ______ to understand how blood flows through the heart, arteries and veins.", "options": ["fluid movement", "magnetism", "reflection of light", "radioactivity"], "answer": 0, "explanation": "Blood flow is explained by the physics of fluid movement." },
+        { "q": "Which branch of physics deals with heat and its transformation into other forms of energy?", "options": ["Optics", "Thermodynamics", "Electromagnetism", "Nuclear physics"], "answer": 1, "explanation": "Thermodynamics is the study of heat, temperature and energy transfer." },
+        { "q": "Physical quantities are those quantities which:", "options": ["can be measured", "cannot be measured", "can only be felt", "have no unit"], "answer": 0, "explanation": "A physical quantity can be measured and is expressed as a number with a unit." },
+        { "q": "Which of the following is a non-physical quantity?", "options": ["Temperature", "Density", "Taste", "Time"], "answer": 2, "explanation": "Taste, feeling and colour cannot be measured, so they are non-physical quantities." },
+        { "q": "Measurement is a comparison of an unknown quantity with a known:", "options": ["guess", "standard", "vector", "prefix"], "answer": 1, "explanation": "Measurement compares an unknown physical quantity with a standard to see how large or small it is." },
+        { "q": "In the statement \"the length of a person is 1.65 m\", the number 1.65 is called the:", "options": ["unit", "numerical magnitude", "prefix", "standard"], "answer": 1, "explanation": "A measurement = numerical magnitude (1.65) × unit (metre)." },
+        { "q": "Which of the following is a base physical quantity?", "options": ["Velocity", "Area", "Mass", "Force"], "answer": 2, "explanation": "Mass is one of the seven base quantities; velocity, area and force are derived from base quantities." },
+        { "q": "Physical quantities obtained by multiplying or dividing base quantities are called:", "options": ["base quantities", "derived quantities", "scalar quantities", "non-physical quantities"], "answer": 1, "explanation": "Derived quantities (area, speed, force, etc.) are formed from base quantities." },
+        { "q": "Which of the following is a derived quantity?", "options": ["Time", "Electric current", "Density", "Temperature"], "answer": 2, "explanation": "Density = mass ÷ volume, so it is derived from mass and length." },
+        { "q": "The cubit, used by the Egyptians to build the pyramids, is the length from the:", "options": ["shoulder to wrist", "elbow to the tip of the middle finger", "wrist to the fingertip", "heel to toe"], "answer": 1, "explanation": "A cubit is the measure from the elbow to the tip of the middle finger with the arm extended." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "International System of Units (SI)",
+      "slos": ["P-09-A-03", "P-09-A-04"],
+      "questions": [
+        { "q": "How many base quantities are chosen in the International System of Units (SI)?", "options": ["5", "6", "7", "9"], "answer": 2, "explanation": "SI has seven base quantities: length, mass, time, electric current, temperature, amount of substance and light intensity." },
+        { "q": "SI is the short form of the French name \"Système International d'Unités\", which means:", "options": ["Standard International Units", "International System of Units", "Scientific International Units", "System of Indian Units"], "answer": 1, "explanation": "SI stands for the International System of Units." },
+        { "q": "The SI unit of electric current is:", "options": ["volt", "coulomb", "ampere", "ohm"], "answer": 2, "explanation": "Ampere (A) is the SI base unit of electric current." },
+        { "q": "The SI unit of temperature is:", "options": ["degree Celsius", "kelvin", "degree Fahrenheit", "joule"], "answer": 1, "explanation": "Kelvin (K) is the SI base unit of temperature." },
+        { "q": "The SI base unit of light (luminous) intensity is:", "options": ["candela", "lux", "watt", "lumen"], "answer": 0, "explanation": "Candela (cd) is the base unit of light intensity." },
+        { "q": "The symbol of the SI unit of amount of substance is:", "options": ["m", "M", "mol", "ms"], "answer": 2, "explanation": "The mole is written as 'mol'." },
+        { "q": "The SI unit of acceleration is:", "options": ["m s⁻¹", "m s⁻²", "m² s⁻¹", "kg m s⁻²"], "answer": 1, "explanation": "Acceleration = change in velocity ÷ time, so its unit is m s⁻²." },
+        { "q": "One newton (N) in terms of base units is:", "options": ["kg m s⁻¹", "kg m s⁻²", "kg m² s⁻²", "kg m⁻¹ s⁻²"], "answer": 1, "explanation": "F = ma, so N = kg × m s⁻² = kg m s⁻²." },
+        { "q": "One pascal (Pa) in terms of base units is:", "options": ["kg m s⁻²", "kg m⁻¹ s⁻²", "kg m² s⁻²", "kg m⁻³"], "answer": 1, "explanation": "Pressure = force ÷ area = kg m s⁻² ÷ m² = kg m⁻¹ s⁻²." },
+        { "q": "One joule (J) in terms of base units is:", "options": ["kg m s⁻²", "kg m² s⁻¹", "kg m² s⁻²", "kg m s⁻¹"], "answer": 2, "explanation": "Energy = force × distance = kg m s⁻² × m = kg m² s⁻²." },
+        { "q": "The SI unit of density is:", "options": ["kg m⁻³", "kg m³", "kg m⁻²", "m³ kg⁻¹"], "answer": 0, "explanation": "Density = mass ÷ volume, so the unit is kg m⁻³." },
+        { "q": "Which of the following is NOT an SI base unit?", "options": ["metre", "second", "newton", "kelvin"], "answer": 2, "explanation": "Newton is a derived unit (kg m s⁻²); metre, second and kelvin are base units." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Scientific Notation and Prefixes",
+      "slos": ["P-09-A-05", "P-11-A-06"],
+      "questions": [
+        { "q": "In scientific notation (standard form), the mantissa must be:", "options": ["between 0 and 1", "equal to or greater than 1 and less than 10", "between 10 and 100", "any whole number"], "answer": 1, "explanation": "Number = mantissa × 10ⁿ, where 1 ≤ mantissa < 10." },
+        { "q": "0.00045 m written in scientific notation is:", "options": ["4.5 × 10⁻⁴ m", "45 × 10⁻⁵ m", "4.5 × 10⁻³ m", "0.45 × 10⁻³ m"], "answer": 0, "explanation": "Moving the decimal 4 places right gives 4.5, so the exponent is −4." },
+        { "q": "The mass of the Earth, 5,980,000,000,000,000,000,000,000 kg, in scientific notation is:", "options": ["5.98 × 10²³ kg", "5.98 × 10²⁴ kg", "59.8 × 10²³ kg", "5.98 × 10²⁵ kg"], "answer": 1, "explanation": "The decimal moves 24 places to the left, so the power of ten is 24." },
+        { "q": "The number of seconds in a day (86 400 s) in standard form is:", "options": ["8.64 × 10³ s", "8.64 × 10⁴ s", "86.4 × 10⁴ s", "0.864 × 10⁴ s"], "answer": 1, "explanation": "86 400 = 8.64 × 10⁴ (decimal moved 4 places left)." },
+        { "q": "The prefix \"mega\" represents:", "options": ["10³", "10⁶", "10⁹", "10⁻⁶"], "answer": 1, "explanation": "Mega (M) = 10⁶." },
+        { "q": "The prefix \"nano\" represents:", "options": ["10⁻³", "10⁻⁶", "10⁻⁹", "10⁻¹²"], "answer": 2, "explanation": "Nano (n) = 10⁻⁹." },
+        { "q": "The diameter of a proton, 1.7 × 10⁻¹⁵ m, can be written as:", "options": ["1.7 pm", "1.7 fm", "1.7 nm", "1.7 µm"], "answer": 1, "explanation": "10⁻¹⁵ = femto (f), so 1.7 × 10⁻¹⁵ m = 1.7 fm." },
+        { "q": "86.4 ks is equal to:", "options": ["8640 s", "86 400 s", "864 s", "8.64 s"], "answer": 1, "explanation": "kilo = 10³, so 86.4 ks = 86.4 × 1000 s = 86 400 s." },
+        { "q": "Which of the following prefixes represents the smallest value?", "options": ["milli", "micro", "nano", "pico"], "answer": 3, "explanation": "pico = 10⁻¹² is smaller than nano (10⁻⁹), micro (10⁻⁶) and milli (10⁻³)." },
+        { "q": "1 µm is equal to:", "options": ["10⁻³ m", "10⁻⁶ m", "10⁻⁹ m", "10⁶ m"], "answer": 1, "explanation": "micro (µ) = 10⁻⁶." },
+        { "q": "5000 g can be written with a prefix as:", "options": ["5 mg", "5 kg", "5 Mg", "5 cg"], "answer": 1, "explanation": "5000 g = 5 × 10³ g = 5 kg." },
+        { "q": "The thickness of a sheet of paper, 100 000 nm, in metres is:", "options": ["10⁻³ m", "10⁻⁴ m", "10⁻⁵ m", "10⁻⁶ m"], "answer": 1, "explanation": "100 000 nm = 10⁵ × 10⁻⁹ m = 10⁻⁴ m." },
+        { "q": "Pakistan's power capacity of 40 000 MW is equal to:", "options": ["4 GW", "40 GW", "400 GW", "40 TW"], "answer": 1, "explanation": "40 000 × 10⁶ W = 4 × 10¹⁰ W = 40 × 10⁹ W = 40 GW." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Scalars and Vectors",
+      "slos": ["P-09-A-07", "P-09-A-08", "P-09-A-09", "P-09-A-10"],
+      "questions": [
+        { "q": "A scalar quantity is completely described by its:", "options": ["direction only", "magnitude with proper unit", "magnitude and direction", "unit only"], "answer": 1, "explanation": "Scalars need only magnitude (size) with a unit, e.g. 30 s." },
+        { "q": "Which of the following is a vector quantity?", "options": ["Speed", "Mass", "Displacement", "Energy"], "answer": 2, "explanation": "Displacement needs both magnitude and direction." },
+        { "q": "Which of the following is a scalar quantity?", "options": ["Weight", "Momentum", "Temperature", "Acceleration"], "answer": 2, "explanation": "Temperature has magnitude only; weight, momentum and acceleration have direction." },
+        { "q": "Which of the following is a vector quantity?", "options": ["Time", "Distance", "Electric field strength", "Energy"], "answer": 2, "explanation": "Electric field strength acts in a definite direction, so it is a vector." },
+        { "q": "Weight is a vector quantity because:", "options": ["it is measured in kilograms", "it always acts towards the centre of the Earth", "it changes from place to place", "it is a type of energy"], "answer": 1, "explanation": "Weight is a force with a definite direction (towards the Earth's centre)." },
+        { "q": "You take 5 s to reach the classroom door and 20 s more to reach the school gate, so the total time is 25 s. This shows that time:", "options": ["is a vector", "is a scalar added by ordinary algebra", "follows vector algebra", "has a direction"], "answer": 1, "explanation": "Scalars are added, subtracted and multiplied by the ordinary rules of algebra." },
+        { "q": "Graphically, a vector is represented by:", "options": ["a dot", "a line segment with an arrow head", "a circle", "a square"], "answer": 1, "explanation": "The length of the arrow (to scale) gives magnitude and the arrow head gives direction." },
+        { "q": "In the head-to-tail rule, the resultant vector is drawn from the:", "options": ["head of the first vector to the tail of the last", "tail of the first vector to the head of the last", "tail of the last vector to the head of the first", "midpoint of the first vector"], "answer": 1, "explanation": "Joining the tail of the first vector to the head of the last gives the resultant." },
+        { "q": "Two forces of 3 N and 4 N act at right angles to each other. The magnitude of their resultant is:", "options": ["1 N", "5 N", "7 N", "12 N"], "answer": 1, "explanation": "R = √(3² + 4²) = √25 = 5 N (Pythagoras theorem)." },
+        { "q": "A boy walks 6 m east and then 8 m north. The magnitude of his displacement is:", "options": ["2 m", "10 m", "14 m", "48 m"], "answer": 1, "explanation": "Displacement = √(6² + 8²) = √100 = 10 m." },
+        { "q": "If vector A lies along the x-axis and vector B along the y-axis, the direction of their resultant from the x-axis is θ =", "options": ["tan⁻¹(A/B)", "tan⁻¹(B/A)", "sin⁻¹(A/B)", "cos⁻¹(B/A)"], "answer": 1, "explanation": "tan θ = perpendicular/base = B/A, so θ = tan⁻¹(B/A)." },
+        { "q": "The point where the x-axis and y-axis of a coordinate system intersect is called the:", "options": ["origin", "vertex", "focus", "centre of gravity"], "answer": 0, "explanation": "The point of intersection of the two axes is the origin O." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Metre Rule and Vernier Callipers",
+      "slos": ["P-09-A-12", "P-09-A-19"],
+      "questions": [
+        { "q": "The least count of a metre rule is:", "options": ["1 cm", "1 mm", "0.1 mm", "0.01 mm"], "answer": 1, "explanation": "A metre rule has 1000 small divisions of 1 mm each." },
+        { "q": "The minimum value that can be measured on the scale of an instrument is called its:", "options": ["range", "least count", "zero error", "pitch"], "answer": 1, "explanation": "The measurement of every instrument is limited to its least count." },
+        { "q": "The least count of vernier callipers is found by:", "options": ["main scale division × vernier divisions", "smallest main scale division ÷ total number of vernier scale divisions", "pitch ÷ circular scale divisions", "vernier divisions ÷ main scale division"], "answer": 1, "explanation": "Least count = smallest division on main scale ÷ total divisions on vernier scale." },
+        { "q": "If the smallest main scale division is 1 mm and the vernier scale has 10 divisions, the least count is:", "options": ["1 mm", "0.1 mm", "0.01 mm", "10 mm"], "answer": 1, "explanation": "1 mm ÷ 10 = 0.1 mm (0.01 cm)." },
+        { "q": "If the smallest main scale division is 1 mm and the vernier scale has 20 divisions, the least count is:", "options": ["0.5 mm", "0.2 mm", "0.05 mm", "0.02 mm"], "answer": 2, "explanation": "1 mm ÷ 20 = 0.05 mm." },
+        { "q": "The internal diameter of a beaker is measured with the ______ of vernier callipers.", "options": ["outside jaws", "inside jaws", "depth probe", "main scale only"], "answer": 1, "explanation": "Inside jaws are used for internal diameters of hollow objects." },
+        { "q": "Which part of vernier callipers is used to measure the depth of a small hole?", "options": ["Outside jaws", "Inside jaws", "Depth probe", "Thimble"], "answer": 2, "explanation": "The depth probe slides into a hole to measure its depth." },
+        { "q": "When the jaws are closed, the zero of the vernier scale is to the RIGHT of the zero of the main scale. The zero error is:", "options": ["zero", "positive", "negative", "random"], "answer": 1, "explanation": "Vernier zero to the right of main scale zero gives a positive zero error." },
+        { "q": "When the jaws are closed, the zero of the vernier scale is to the LEFT of the zero of the main scale. The zero error is:", "options": ["zero", "positive", "negative", "random"], "answer": 2, "explanation": "Vernier zero to the left of main scale zero gives a negative zero error." },
+        { "q": "Main scale reading is 2.3 cm and the 6th vernier division coincides. If the least count is 0.01 cm, the total reading is:", "options": ["2.36 cm", "2.306 cm", "2.9 cm", "8.3 cm"], "answer": 0, "explanation": "Total = 2.3 cm + 6 × 0.01 cm = 2.36 cm." },
+        { "q": "The least count of digital vernier callipers is:", "options": ["0.1 mm", "0.01 mm", "1 mm", "0.001 mm"], "answer": 1, "explanation": "Digital vernier callipers have a least count of 0.01 mm, so they are more precise." },
+        { "q": "A measuring tape is most suitable for measuring:", "options": ["the thickness of a coin", "the diameter of a wire", "the length of a classroom", "the depth of a test tube"], "answer": 2, "explanation": "A measuring tape is a flexible ruler for larger distances, typically a few metres." }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Screw Gauge",
+      "slos": ["P-09-A-12", "P-09-A-19"],
+      "questions": [
+        { "q": "A screw gauge is used for measuring lengths even smaller than those measured by:", "options": ["a light year", "vernier callipers", "an electron microscope", "a stopwatch"], "answer": 1, "explanation": "A screw gauge (least count 0.01 mm) is more precise than vernier callipers (0.1 mm)." },
+        { "q": "The distance travelled by the circular scale on the main (linear) scale in one complete rotation is called:", "options": ["least count", "pitch", "zero error", "range"], "answer": 1, "explanation": "This distance is the pitch of the screw gauge." },
+        { "q": "The least count of a screw gauge is equal to:", "options": ["pitch × number of circular divisions", "pitch ÷ total number of divisions on circular scale", "main scale division ÷ vernier divisions", "number of circular divisions ÷ pitch"], "answer": 1, "explanation": "Least count = pitch ÷ total divisions on the circular scale." },
+        { "q": "A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. Its least count is:", "options": ["0.1 mm", "0.05 mm", "0.01 mm", "0.001 mm"], "answer": 2, "explanation": "0.5 mm ÷ 50 = 0.01 mm." },
+        { "q": "A screw gauge has a pitch of 1 mm and 100 circular scale divisions. Its least count is:", "options": ["0.1 mm", "0.01 mm", "0.001 mm", "1 mm"], "answer": 1, "explanation": "1 mm ÷ 100 = 0.01 mm." },
+        { "q": "The least count of a screw gauge in centimetres is:", "options": ["0.1 cm", "0.01 cm", "0.001 cm", "1 cm"], "answer": 2, "explanation": "0.01 mm = 0.001 cm." },
+        { "q": "The ratchet of a screw gauge is used to:", "options": ["read the main scale", "prevent too much pressure on the object", "measure the pitch", "remove zero error"], "answer": 1, "explanation": "Turning the ratchet until it clicks stops the user from over-tightening the object." },
+        { "q": "Main scale reading is 3.5 mm and the 28th circular division is in line with the datum line. With least count 0.01 mm, the reading is:", "options": ["3.78 mm", "3.528 mm", "6.3 mm", "31.5 mm"], "answer": 0, "explanation": "Total = 3.5 mm + 28 × 0.01 mm = 3.5 + 0.28 = 3.78 mm." },
+        { "q": "Which instrument is best to measure the diameter of a thin wire?", "options": ["Metre rule", "Measuring tape", "Vernier callipers", "Screw gauge"], "answer": 3, "explanation": "The screw gauge has the smallest least count, so it gives the most precise reading for thin wires." },
+        { "q": "When the spindle touches the anvil, the zero of the circular scale has NOT reached the datum line. The zero error is:", "options": ["zero", "positive", "negative", "random"], "answer": 1, "explanation": "According to the book, the zero error is positive if the circular scale zero has not reached the main scale zero." },
+        { "q": "A screw gauge is also called a:", "options": ["micrometer", "barometer", "manometer", "odometer"], "answer": 0, "explanation": "It is also known as a micrometer screw gauge." }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Mass, Volume and Time Measurement & Estimation",
+      "slos": ["P-09-A-11", "P-09-A-13", "P-09-A-14"],
+      "questions": [
+        { "q": "The first mass-measuring instrument invented was the:", "options": ["spring balance", "balance", "digital scale", "measuring cylinder"], "answer": 1, "explanation": "The balance (beam balance) was the first mass-measuring instrument." },
+        { "q": "A physical balance is so sensitive that it can measure masses of the order of:", "options": ["tonnes", "kilograms only", "milligrams", "megagrams"], "answer": 2, "explanation": "A physical balance can measure mass in the milligram range." },
+        { "q": "A physical balance is placed in a glass case so that:", "options": ["it looks attractive", "dust and wind cannot affect its accuracy", "it does not need levelling", "the pointer moves faster"], "answer": 1, "explanation": "The protective glass case keeps out dust and air currents." },
+        { "q": "The levelling screws of a physical balance are used to:", "options": ["level the balance", "add standard weights", "move the pans", "find the zero error of the pointer scale"], "answer": 0, "explanation": "Levelling screws make the balance horizontal before use." },
+        { "q": "A measuring cylinder is used to measure the:", "options": ["mass of liquids", "volume of liquids", "density of solids", "temperature of liquids"], "answer": 1, "explanation": "A measuring (graduated) cylinder measures the volume of liquids." },
+        { "q": "The scale of a measuring cylinder is usually marked in:", "options": ["mm", "mL or cm³", "g", "kg m⁻³"], "answer": 1, "explanation": "Volume is read in millilitres (mL) or cubic centimetres (cm³)." },
+        { "q": "The water level in a measuring cylinder rises from 40 cm³ to 55 cm³ when a stone is completely immersed. The volume of the stone is:", "options": ["40 cm³", "55 cm³", "15 cm³", "95 cm³"], "answer": 2, "explanation": "Volume of stone = final reading − initial reading = 55 − 40 = 15 cm³." },
+        { "q": "While reading a measuring cylinder, the eye should be:", "options": ["above the liquid level", "below the liquid level", "level with the bottom of the meniscus", "at any angle"], "answer": 2, "explanation": "Reading at eye level with the bottom of the meniscus avoids parallax error." },
+        { "q": "The duration of a specific interval of time is measured by a:", "options": ["stopwatch", "vernier callipers", "physical balance", "measuring cylinder"], "answer": 0, "explanation": "A stopwatch measures time intervals." },
+        { "q": "According to the book, the least count of a digital stopwatch is generally:", "options": ["1 s", "0.1 s", "1 min", "10 s"], "answer": 1, "explanation": "The book states: analogue stopwatch least count 1 s, digital stopwatch 0.1 s." },
+        { "q": "The right button of a digital stopwatch is used to:", "options": ["start the watch", "reset it and record lap (split) times", "change the battery", "switch on the light"], "answer": 1, "explanation": "The left button starts/stops; the right button resets and records lap times." },
+        { "q": "A reasonable estimate of the height of a classroom door is about:", "options": ["0.2 m", "2 m", "20 m", "200 m"], "answer": 1, "explanation": "A door is a little taller than an adult, about 2 m." },
+        { "q": "A reasonable estimate of the mass of a grade 9 student is about:", "options": ["5 kg", "50 kg", "500 kg", "5000 kg"], "answer": 1, "explanation": "A teenager typically has a mass of around 40–60 kg." }
+      ]
+    },
+    {
+      "id": "q8",
+      "topic": "Errors, Precision and Accuracy",
+      "slos": ["P-09-A-15", "P-09-A-17", "P-11-A-09"],
+      "questions": [
+        { "q": "The uncertainty that arises during a measurement is called:", "options": ["least count", "error", "precision", "pitch"], "answer": 1, "explanation": "Every measurement has some doubt, called error." },
+        { "q": "Errors that occur consistently in one direction (always positive or always negative) are called:", "options": ["random errors", "systematic errors", "human reactions", "significant errors"], "answer": 1, "explanation": "Systematic errors shift all readings in the same direction." },
+        { "q": "Zero error of an instrument is an example of:", "options": ["random error", "systematic (instrumental) error", "personal error only", "rounding off"], "answer": 1, "explanation": "Instrumental errors, including zero errors, are systematic errors." },
+        { "q": "Random errors can be reduced by:", "options": ["using a faulty instrument", "taking repeated readings and finding their mean", "taking only one reading", "ignoring the least count"], "answer": 1, "explanation": "Random errors are unpredictable, so averaging many readings reduces their effect." },
+        { "q": "Systematic errors can be reduced by:", "options": ["taking an average only", "improving technique, choosing better instruments and correcting zero error", "taking readings quickly", "using a bigger unit"], "answer": 1, "explanation": "Better instruments and techniques remove the cause of systematic error." },
+        { "q": "An error caused by an observer's bias or carelessness is a:", "options": ["personal (systematic) error", "zero error", "least count", "random number"], "answer": 0, "explanation": "Personal errors arise from bias, improper setup or carelessness." },
+        { "q": "The time for 10 oscillations of a simple pendulum is 20.0 s. The period (time for one oscillation) is:", "options": ["0.2 s", "2.0 s", "10 s", "200 s"], "answer": 1, "explanation": "Period = total time ÷ number of oscillations = 20.0 ÷ 10 = 2.0 s." },
+        { "q": "We time 10 oscillations instead of one mainly to reduce error due to:", "options": ["zero error", "human reaction time", "the pendulum's mass", "air pressure"], "answer": 1, "explanation": "Human reflexes are slow; timing many oscillations reduces the effect of reaction time." },
+        { "q": "Three readings of a length are 2.31 cm, 2.33 cm and 2.32 cm. The average value is:", "options": ["2.31 cm", "2.32 cm", "2.33 cm", "6.96 cm"], "answer": 1, "explanation": "Mean = (2.31 + 2.33 + 2.32) ÷ 3 = 6.96 ÷ 3 = 2.32 cm." },
+        { "q": "Precision is the degree of:", "options": ["closeness of a measured value to the true value", "agreement between repeated measurements of the same quantity", "difference between two units", "size of the least count only"], "answer": 1, "explanation": "Precision means consistency and repeatability of results." },
+        { "q": "Accuracy refers to how close a measured value is to the:", "options": ["previous reading", "true or accepted value", "least count", "average of wrong readings"], "answer": 1, "explanation": "Accuracy is closeness to the true value." },
+        { "q": "A thermometer always reads 2 °C higher than the actual temperature. Its readings are:", "options": ["accurate and precise", "precise but not accurate", "accurate but not precise", "neither accurate nor precise"], "answer": 1, "explanation": "Readings are consistent (precise) but always away from the true value (not accurate)." },
+        { "q": "Darts land near the centre of the target but are scattered all over. The throws are:", "options": ["accurate but not precise", "precise but not accurate", "accurate and precise", "neither accurate nor precise"], "answer": 0, "explanation": "Close to the bullseye = accurate; scattered = not precise." }
+      ]
+    },
+    {
+      "id": "q9",
+      "topic": "Significant Figures and Rounding Off",
+      "slos": ["P-09-A-16"],
+      "questions": [
+        { "q": "Significant figures are:", "options": ["all zeros in a number", "all accurately known digits and the first doubtful digit", "only the digits after the decimal", "only non-zero digits"], "answer": 1, "explanation": "Accurately known digits + first doubtful digit = significant figures." },
+        { "q": "The number of significant figures in 23.457 is:", "options": ["3", "4", "5", "6"], "answer": 2, "explanation": "All non-zero digits are significant: 2, 3, 4, 5, 7." },
+        { "q": "The number of significant figures in 0.0029 is:", "options": ["2", "3", "4", "5"], "answer": 0, "explanation": "Leading zeros are only place holders; only 2 and 9 are significant." },
+        { "q": "The number of significant figures in 0.00290 is:", "options": ["2", "3", "4", "6"], "answer": 1, "explanation": "The final zero after a non-zero digit is significant: 2, 9, 0." },
+        { "q": "The number of significant figures in 100.8 s is:", "options": ["2", "3", "4", "5"], "answer": 2, "explanation": "Zeros between significant digits are significant: 1, 0, 0, 8." },
+        { "q": "The number of significant figures in 210.0 g is:", "options": ["2", "3", "4", "5"], "answer": 2, "explanation": "The zero after the decimal point and the zero between 1 and the decimal are significant." },
+        { "q": "How many significant figures are shown in 2.900 × 10⁴?", "options": ["2", "3", "4", "5"], "answer": 2, "explanation": "In scientific notation all digits of the mantissa (2, 9, 0, 0) are significant." },
+        { "q": "\"29,000 spectators watched a match\" is an estimate. The number of significant figures is:", "options": ["2", "3", "4", "5"], "answer": 0, "explanation": "Only 2 and 9 are measured; the zeros just show place value." },
+        { "q": "3.876 rounded off to two decimal places is:", "options": ["3.87", "3.88", "3.9", "3.876"], "answer": 1, "explanation": "The dropped digit 6 ≥ 5, so 7 becomes 8 → 3.88." },
+        { "q": "657.873 rounded off to two decimal places is:", "options": ["657.88", "657.87", "657.9", "658"], "answer": 1, "explanation": "The dropped digit 3 < 5, so 7 stays the same → 657.87." },
+        { "q": "24.68 rounded off to three significant figures is:", "options": ["24.6", "24.7", "25.0", "24.68"], "answer": 1, "explanation": "Dropping 8 (≥ 5) increases 6 to 7 → 24.7." },
+        { "q": "7,847 rounded off to three significant figures is:", "options": ["7,840", "7,850", "7,800", "7,900"], "answer": 1, "explanation": "The last digit 7 is replaced by zero and, being ≥ 5, raises 4 to 5 → 7,850." },
+        { "q": "0.07683 rounded off to three significant figures is:", "options": ["0.0768", "0.0769", "0.077", "0.07683"], "answer": 0, "explanation": "Dropping 3 (< 5) leaves 0.0768." }
+      ]
+    },
+    {
+      "id": "q10",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "Which one of the following units is not a derived unit?", "options": ["pascal", "kilogram", "newton", "watt"], "answer": 1, "explanation": "Kilogram is an SI base unit; pascal, newton and watt are derived." },
+        { "q": "Amount of a substance in terms of numbers is measured in:", "options": ["gram", "kilogram", "newton", "mole"], "answer": 3, "explanation": "The mole is the SI base unit of amount of substance." },
+        { "q": "The number of significant figures in 0.00650 s is:", "options": ["2", "3", "5", "6"], "answer": 1, "explanation": "Leading zeros are not significant; 6, 5 and the final 0 are." },
+        { "q": "Which of the following numbers shows 4 significant digits?", "options": ["9000.8", "4", "5174.00", "0.001248"], "answer": 3, "explanation": "0.001248 has 1, 2, 4, 8 (4 digits); 9000.8 has 5 and 5174.00 has 6." },
+        { "q": "Which of the following prefixes represents the largest value?", "options": ["mega", "pico", "peta", "kilo"], "answer": 2, "explanation": "peta = 10¹⁵ is larger than mega (10⁶) and kilo (10³)." },
+        { "q": "A micrometer can be used to measure:", "options": ["current", "force", "length", "mass"], "answer": 2, "explanation": "A micrometer (screw gauge) measures small lengths." },
+        { "q": "The instrument that best measures the internal diameter of a pipe is:", "options": ["screw gauge", "vernier callipers", "metre rule", "measuring tape"], "answer": 1, "explanation": "Vernier callipers have inside jaws for internal diameters." },
+        { "q": "The least count of a screw gauge is 0.01 mm. If the main scale reading is zero and the third line of its circular scale coincides with the datum line, the measurement is:", "options": ["0 mm", "3 mm", "0.03 mm", "0.3 mm"], "answer": 2, "explanation": "Reading = 0 + 3 × 0.01 mm = 0.03 mm." },
+        { "q": "9.483 × 10³ m is the standard form of:", "options": ["94.83 m", "9.483 m", "948.3 m", "9483 m"], "answer": 3, "explanation": "9.483 × 1000 = 9483 m." },
+        { "q": "Which of the following is a base unit?", "options": ["pascal", "coulomb", "metre per second", "mole"], "answer": 3, "explanation": "Mole is one of the seven SI base units." },
+        { "q": "The number having one significant digit is:", "options": ["1.1", "6.0", "7.1", "6 × 10²"], "answer": 3, "explanation": "In 6 × 10² only the digit 6 is significant; the others have two." },
+        { "q": "The ratio of millimetre to micrometre is:", "options": ["1000 metre", "0.001 metre", "1000", "0.001"], "answer": 2, "explanation": "10⁻³ m ÷ 10⁻⁶ m = 10³ = 1000 (a ratio has no unit)." },
+        { "q": "0.2 mm in metres is:", "options": ["0.0002 m", "2 × 10⁻⁴ m", "both A and B", "none"], "answer": 2, "explanation": "0.2 × 10⁻³ m = 2 × 10⁻⁴ m = 0.0002 m." }
+      ]
+    }
+  ]
+}

@@ -49,8 +49,8 @@ export interface AttemptResult {
 }
 
 export interface ProgressAttempt {
-  id: number; score: number; total: number; durationSec: number; createdAt: string;
-  assessmentId: number; topic: string; chapterId: number; chapterNumber: number; chapterTitle: string; classLevel: string;
+  id: number; kind: 'test' | 'quiz'; quizKey: string | null; score: number; total: number; durationSec: number; createdAt: string;
+  assessmentId: number | null; topic: string; chapterId: number | null; chapterNumber: number; chapterTitle: string; classLevel: string;
   subjectSlug: string; subjectName: string; subjectColor: string; subjectIcon: string;
 }
 export interface Progress {
@@ -60,7 +60,7 @@ export interface Progress {
 }
 
 export interface AdminAttempt {
-  id: number; score: number; total: number; durationSec: number; createdAt: string;
+  id: number; kind: 'test' | 'quiz'; quizKey: string | null; score: number; total: number; durationSec: number; createdAt: string;
   userId: number; userName: string; userEmail: string; assessmentId: number; topic: string;
   chapterNumber: number; chapterTitle: string; classLevel: string; subjectSlug: string; subjectName: string; subjectColor: string;
 }
@@ -75,3 +75,9 @@ export interface AdminAssessmentRow {
 }
 
 export interface EditableQuestion { text: string; options: string[]; correctIndex: number | null }
+
+export interface QuizBest { quizKey: string; chapterNumber: number; best: number; total: number; count: number }
+export interface QuizResult {
+  id: number; quizKey: string; subjectSlug: string; subjectName: string; classLevel: string; chapterNumber: number; chapterTitle: string;
+  topic: string; answers: (number | null)[]; score: number; total: number; durationSec: number; createdAt: string;
+}
