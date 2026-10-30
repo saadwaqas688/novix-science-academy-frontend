@@ -217,5 +217,51 @@
         "count": 15
       }
     ]
+  },
+  "9/physics/5": {
+    "url": "/quizzes/class-9/physics/ch-5.json",
+    "chapterTitle": "Pressure and Deformation in Solids",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Deformation, Elasticity and Hooke's Law",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Load-Extension Graph, Limits and Applications of Hooke's Law",
+        "count": 12
+      },
+      {
+        "id": "q3",
+        "topic": "Pressure",
+        "count": 12
+      },
+      {
+        "id": "q4",
+        "topic": "Atmospheric Pressure, Altitude and Weather",
+        "count": 13
+      },
+      {
+        "id": "q5",
+        "topic": "Barometer and Applications of Atmospheric Pressure",
+        "count": 13
+      },
+      {
+        "id": "q6",
+        "topic": "Liquid Pressure and Manometer",
+        "count": 12
+      },
+      {
+        "id": "q7",
+        "topic": "Pascal's Law and its Applications",
+        "count": 11
+      },
+      {
+        "id": "q8",
+        "topic": "Exercise MCQs (Book)",
+        "count": 15
+      }
+    ]
   }
 }

@@ -1,0 +1,164 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 5,
+  "chapterTitle": "Pressure and Deformation in Solids",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Deformation, Elasticity and Hooke's Law",
+      "slos": ["P-09-B-55", "P-09-B-56"],
+      "questions": [
+        { "q": "A force applied on a body may change its:", "options": ["mass only", "size and shape", "density only", "temperature only"], "answer": 1, "explanation": "Forces can stretch, compress, bend or twist objects (deformation)." },
+        { "q": "The ability of a deformed body to return to its original shape and size when the deforming force is removed is called:", "options": ["plasticity", "elasticity", "rigidity", "pressure"], "answer": 1, "explanation": "E.g. a stretched spring or a bent bow returns to its original form." },
+        { "q": "Materials that do not return to their original shapes after being deformed are called:", "options": ["elastic", "inelastic (plastic)", "rigid", "Hookean"], "answer": 1, "explanation": "Examples: plasticine, clay and dough." },
+        { "q": "Beyond the ______, a material does not return to its original dimensions when the force is removed.", "options": ["elastic limit", "zero point", "origin", "least count"], "answer": 0, "explanation": "Most materials are elastic only up to the elastic limit." },
+        { "q": "Hooke's law states that, within the elastic limit, extension is directly proportional to:", "options": ["mass of spring", "applied (restoring) force", "length of spring", "time"], "answer": 1, "explanation": "F = −kx (or F = kx in magnitude)." },
+        { "q": "The SI unit of spring constant k is:", "options": ["N m", "N m⁻¹", "N m²", "kg m⁻¹"], "answer": 1, "explanation": "k = F/x, so newton per metre." },
+        { "q": "The negative sign in F = −kx shows that the restoring force:", "options": ["is zero", "acts opposite to the displacement", "acts along the displacement", "is very small"], "answer": 1, "explanation": "The spring pulls back towards its natural length." },
+        { "q": "A 50 kg boy compresses a chair's spring by 10 cm (g = 9.8 m/s²). The spring constant is:", "options": ["490 N/m", "4900 N/m", "5 N/m", "49 000 N/m"], "answer": 1, "explanation": "k = mg/x = 490 ÷ 0.1 = 4900 N/m." },
+        { "q": "A force of 20 N stretches a spring by 4 cm. Its spring constant is:", "options": ["5 N/m", "80 N/m", "500 N/m", "0.2 N/m"], "answer": 2, "explanation": "k = 20 ÷ 0.04 = 500 N/m." },
+        { "q": "A spring with k = 200 N/m is stretched by 0.05 m. The force applied is:", "options": ["10 N", "4000 N", "40 N", "0.25 N"], "answer": 0, "explanation": "F = kx = 200 × 0.05 = 10 N." },
+        { "q": "A stiffer spring has a:", "options": ["smaller spring constant", "larger spring constant", "zero spring constant", "negative mass"], "answer": 1, "explanation": "A larger k means more force is needed for the same extension." },
+        { "q": "Particles of solids return to equilibrium after removal of force mainly because they are:", "options": ["loosely packed", "closely packed with strong intermolecular forces", "moving randomly", "charged"], "answer": 1, "explanation": "Close packing lets solids retain their shape." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Load-Extension Graph, Limits and Applications of Hooke's Law",
+      "slos": ["P-09-B-57", "P-09-B-58", "P-09-B-59"],
+      "questions": [
+        { "q": "Within the limit of proportionality, a force-extension graph is a:", "options": ["curve", "straight line through the origin", "horizontal line", "circle"], "answer": 1, "explanation": "Force ∝ extension gives a straight line." },
+        { "q": "The gradient (F/x) of the straight part of a force-extension graph gives:", "options": ["mass", "spring constant k", "pressure", "elastic limit"], "answer": 1, "explanation": "Slope = F/x = k." },
+        { "q": "The point up to which force and extension remain directly proportional is called the:", "options": ["breaking point", "limit of proportionality", "ultimate stress", "yield point only"], "answer": 1, "explanation": "Beyond it the graph begins to curve." },
+        { "q": "Hooke's law holds good up to the:", "options": ["proportional limit", "breaking point", "plastic limit", "ultimate stress"], "answer": 0, "explanation": "Hooke's law is obeyed only up to the limit of proportionality." },
+        { "q": "On a stress-strain curve, the maximum stress a material can bear before breaking is called:", "options": ["elastic limit", "ultimate stress", "limit of proportionality", "zero stress"], "answer": 1, "explanation": "Point C in the book's graph; D is the breaking point." },
+        { "q": "The elastic limit is also called the:", "options": ["yield strength", "breaking stress", "spring constant", "pressure"], "answer": 0, "explanation": "Point B: up to here the material behaves elastically." },
+        { "q": "In the experiment to plot a load-extension graph, extension is found by:", "options": ["new length − original length", "new length + original length", "load × length", "original length ÷ load"], "answer": 0, "explanation": "Extension x = stretched length − natural length." },
+        { "q": "In a mechanical watch, the balance wheel is returned to its centre by a:", "options": ["magnet", "hairspring (spiral torsion spring)", "pendulum", "battery"], "answer": 1, "explanation": "The spring's elasticity keeps each 'tick' time constant." },
+        { "q": "A spring balance works on the principle of:", "options": ["Pascal's law", "Hooke's law", "Archimedes' principle", "Newton's third law"], "answer": 1, "explanation": "Extension of the spring is proportional to the weight." },
+        { "q": "In a galvanometer, the hairspring makes the deflection of the pointer:", "options": ["random", "proportional to the force (current)", "zero", "inversely proportional to current"], "answer": 1, "explanation": "By Hooke's law, allowing a linear scale." },
+        { "q": "Which of these is NOT an application of Hooke's law?", "options": ["car suspension", "diving board", "spring balance", "hydraulic brakes"], "answer": 3, "explanation": "Hydraulic brakes work on Pascal's law." },
+        { "q": "The most elastic material among the following is:", "options": ["rubber", "wood", "glass", "steel"], "answer": 3, "explanation": "Steel regains its shape best and has a high elastic limit (book MCQ answer)." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Pressure",
+      "slos": ["P-09-B-77", "P-09-B-78", "P-09-B-79"],
+      "questions": [
+        { "q": "Pressure is defined as:", "options": ["force × area", "force per unit area", "mass per unit volume", "force per unit length"], "answer": 1, "explanation": "P = F/A." },
+        { "q": "The SI unit of pressure is:", "options": ["newton", "pascal (N m⁻²)", "bar", "atm"], "answer": 1, "explanation": "1 Pa = 1 N/m²." },
+        { "q": "For the same force, if the area is halved, the pressure:", "options": ["is halved", "doubles", "stays the same", "becomes four times"], "answer": 1, "explanation": "P ∝ 1/A." },
+        { "q": "A balloon bursts easily when pricked with a pin because:", "options": ["the pin is heavy", "the small tip area gives very large pressure", "the pin is sharp only", "air pressure is low"], "answer": 1, "explanation": "Same force on tiny area gives huge pressure." },
+        { "q": "A sharp knife cuts better than a blunt knife because it:", "options": ["has more weight", "has a smaller area, giving more pressure", "has less friction", "is longer"], "answer": 1, "explanation": "Smaller area → greater pressure for the same force." },
+        { "q": "A 50 kg boy (W = 490 N) stands on both feet with total area 0.04 m². The pressure is:", "options": ["12 250 Pa", "24 500 Pa", "19.6 Pa", "1225 Pa"], "answer": 0, "explanation": "P = 490 ÷ 0.04 = 12 250 Pa." },
+        { "q": "If the same boy stands on one foot (0.02 m²), the pressure becomes:", "options": ["6125 Pa", "12 250 Pa", "24 500 Pa", "490 Pa"], "answer": 2, "explanation": "Area halves, pressure doubles: 490 ÷ 0.02 = 24 500 Pa." },
+        { "q": "Being stepped on by a high-heeled shoe hurts more than a flat shoe because:", "options": ["weight is more", "weight acts on a smaller area", "the heel is hard", "friction is more"], "answer": 1, "explanation": "Smaller area → larger pressure." },
+        { "q": "The pressure exerted by a man on the ground is least when he:", "options": ["stands on one leg", "stands on both feet", "sits", "lies (sleeps) on the ground"], "answer": 3, "explanation": "Lying down spreads his weight over the largest area." },
+        { "q": "Pressure on a surface produces a force that acts:", "options": ["parallel to the surface", "at right angles (perpendicular) to the surface", "at 45° to the surface", "in random directions"], "answer": 1, "explanation": "F = P × A acts normal to the surface." },
+        { "q": "Wide tracks on tanks and tractors are used to:", "options": ["increase pressure on soil", "reduce pressure so they do not sink", "increase speed", "increase weight"], "answer": 1, "explanation": "Large area reduces pressure." },
+        { "q": "A force of 100 N acts on an area of 0.5 m². The pressure is:", "options": ["50 Pa", "200 Pa", "100.5 Pa", "0.005 Pa"], "answer": 1, "explanation": "P = 100 ÷ 0.5 = 200 Pa." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Atmospheric Pressure, Altitude and Weather",
+      "slos": ["P-09-B-80", "P-09-B-81", "P-09-B-82"],
+      "questions": [
+        { "q": "The pressure exerted by the atmosphere on the Earth's surface and on all objects is called:", "options": ["liquid pressure", "atmospheric pressure", "gauge pressure", "hydraulic pressure"], "answer": 1, "explanation": "We live at the bottom of an 'ocean' of air." },
+        { "q": "Average atmospheric pressure at sea level is about:", "options": ["1.013 × 10⁵ Pa", "1.013 × 10³ Pa", "760 Pa", "9.8 Pa"], "answer": 0, "explanation": "1 atm = 1.013 × 10⁵ Pa." },
+        { "q": "1 bar is equal to:", "options": ["1.000 × 10⁵ Pa", "1.013 × 10⁵ Pa", "100 Pa", "760 mmHg"], "answer": 0, "explanation": "Used in meteorology." },
+        { "q": "1 millibar (mbar) is equal to:", "options": ["10 Pa", "100 Pa", "1000 Pa", "1 Pa"], "answer": 1, "explanation": "1 mbar = 100 Pa." },
+        { "q": "A pressure of 1000 mbar is equivalent to:", "options": ["0.1 kPa", "1 kPa", "10 kPa", "100 kPa"], "answer": 3, "explanation": "1000 × 100 Pa = 100 000 Pa = 100 kPa." },
+        { "q": "A can collapses when air is pumped out of it because:", "options": ["the can is weak", "outside atmospheric pressure is unopposed", "gravity increases", "it gets hot"], "answer": 1, "explanation": "No air inside to balance the outside pressure." },
+        { "q": "Otto von Guericke's Magdeburg hemispheres could not be pulled apart by horses because:", "options": ["they were glued", "atmospheric pressure held them together after air was removed", "they were magnets", "they were very heavy"], "answer": 1, "explanation": "They fell apart when air was let back in." },
+        { "q": "As we go up from the Earth's surface, atmospheric pressure:", "options": ["increases", "decreases", "stays the same", "first increases then decreases"], "answer": 1, "explanation": "The air becomes thinner with height." },
+        { "q": "Atmospheric pressure is smallest at:", "options": ["Karachi", "Lahore", "Islamabad", "Murree"], "answer": 3, "explanation": "Murree is at the greatest height among these." },
+        { "q": "At the top of Mount Everest (8.8 km), atmospheric pressure is about:", "options": ["101 kPa", "33 kPa", "0 kPa", "200 kPa"], "answer": 1, "explanation": "Thin air at high altitude causes breathing difficulty." },
+        { "q": "A rapidly falling barometer reading usually indicates:", "options": ["fair weather", "an approaching storm/rain", "an earthquake", "no change"], "answer": 1, "explanation": "A rising barometer suggests improving weather." },
+        { "q": "Lines on a weather map joining places of equal atmospheric pressure are called:", "options": ["isotherms", "isobars", "contours", "meridians"], "answer": 1, "explanation": "Closely packed isobars indicate strong winds." },
+        { "q": "Winds blow from:", "options": ["low pressure to high pressure", "high pressure to low pressure", "east to west always", "cold to hot only"], "answer": 1, "explanation": "Air moves from high to low pressure regions." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Barometer and Applications of Atmospheric Pressure",
+      "slos": ["P-09-B-83", "P-09-B-80"],
+      "questions": [
+        { "q": "Atmospheric pressure is commonly measured with a:", "options": ["hygrometer", "barometer", "manometer", "thermometer"], "answer": 1, "explanation": "A barometer measures atmospheric pressure." },
+        { "q": "The most common liquid used in a liquid barometer is:", "options": ["water", "alcohol", "mercury", "oil"], "answer": 2, "explanation": "Mercury's high density keeps the column short." },
+        { "q": "At sea level, the mercury column in a barometer stands at about:", "options": ["76 mm", "760 mm", "7600 mm", "10 m"], "answer": 1, "explanation": "760 mmHg = 1 atm." },
+        { "q": "1 atm is equal to:", "options": ["760 torr", "100 torr", "1 torr", "76 torr"], "answer": 0, "explanation": "1 torr = 1 mmHg." },
+        { "q": "1 mmHg is about:", "options": ["1.316 × 10⁻³ atm", "1 atm", "133.29 atm", "1.316 × 10³ atm"], "answer": 0, "explanation": "1/760 atm ≈ 1.316 × 10⁻³ atm (≈ 133.3 Pa)." },
+        { "q": "If a liquid twice as dense as mercury were used in a barometer, the column height at sea level would be:", "options": ["1520 mm", "760 mm", "380 mm", "190 mm"], "answer": 2, "explanation": "h ∝ 1/ρ, so 760 ÷ 2 = 380 mm." },
+        { "q": "Water is not used in barometers mainly because:", "options": ["it is costly", "its column would be about 10 m tall", "it is poisonous", "it is too dense"], "answer": 1, "explanation": "Water is 13.6 times less dense than mercury." },
+        { "q": "Mercury barometers are often replaced by aneroid/digital barometers because mercury is:", "options": ["cheap", "toxic", "too light", "transparent"], "answer": 1, "explanation": "Safety concerns." },
+        { "q": "Barometers in aircraft (altimeters) estimate height because:", "options": ["pressure increases with height", "pressure decreases with height", "temperature is constant", "g increases"], "answer": 1, "explanation": "Lower pressure means greater altitude." },
+        { "q": "We can drink juice with a straw because:", "options": ["juice is light", "atmospheric pressure pushes the liquid up when mouth pressure is lowered", "of gravity", "of surface tension"], "answer": 1, "explanation": "Sucking reduces pressure in the mouth." },
+        { "q": "We cannot sip water with a straw on the Moon because:", "options": ["gravity is less", "there is no atmosphere", "water freezes", "the straw breaks"], "answer": 1, "explanation": "No atmospheric pressure to push the water up." },
+        { "q": "When the piston of a syringe is pulled back, liquid enters it because:", "options": ["the liquid is attracted", "pressure inside drops and atmospheric pressure pushes the liquid in", "of gravity", "of friction"], "answer": 1, "explanation": "Atmospheric pressure drives liquid into the cylinder." },
+        { "q": "It is difficult to cook food at high altitudes because:", "options": ["boiling point of water rises", "boiling point of water falls due to low pressure", "there is less oxygen for fire only", "food freezes"], "answer": 1, "explanation": "Water boils at a lower temperature, so cooking takes longer." }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Liquid Pressure and Manometer",
+      "slos": ["P-09-B-84", "P-09-B-85"],
+      "questions": [
+        { "q": "Pressure in a liquid at depth h is given by:", "options": ["P = ρ/gh", "P = ρgh", "P = mgh", "P = F × A"], "answer": 1, "explanation": "Derived from weight of liquid column ÷ area." },
+        { "q": "Pressure of a liquid in a container increases with:", "options": ["base area", "volume", "depth", "mass of container"], "answer": 2, "explanation": "More liquid above means more weight per unit area." },
+        { "q": "Liquid pressure depends on:", "options": ["depth and density of the liquid", "shape of the container", "area of the base only", "volume only"], "answer": 0, "explanation": "P = ρgh (g constant)." },
+        { "q": "Water spurts out farthest from the lowest hole in a can because:", "options": ["the hole is bigger", "pressure is greatest at the greatest depth", "air pushes it", "gravity is stronger there"], "answer": 1, "explanation": "Pressure increases with depth." },
+        { "q": "In a stationary fluid, pressure varies:", "options": ["with depth only", "horizontally only", "both with depth and horizontally", "neither"], "answer": 0, "explanation": "At the same level the pressure is the same." },
+        { "q": "The pressure of water at a depth of 10 m (ρ = 1000 kg/m³, g = 9.8 m/s²) is:", "options": ["9.8 × 10⁴ Pa", "9.8 × 10³ Pa", "1 × 10³ Pa", "98 Pa"], "answer": 0, "explanation": "P = 1000 × 9.8 × 10 = 98 000 Pa." },
+        { "q": "The water pressure on a submarine at 8.5 km depth is about:", "options": ["8.3 × 10⁷ Pa", "8.3 × 10⁴ Pa", "8.3 × 10³ Pa", "8.3 Pa"], "answer": 0, "explanation": "P = 1000 × 9.8 × 8500 ≈ 8.33 × 10⁷ Pa." },
+        { "q": "Divers wear special suits to protect them from:", "options": ["low pressure", "high pressure", "low temperature only", "light"], "answer": 1, "explanation": "Water pressure increases greatly with depth." },
+        { "q": "A dam is made thicker at the bottom because:", "options": ["it looks strong", "water pressure is greatest at the bottom", "of earthquakes", "water is lighter at the bottom"], "answer": 1, "explanation": "Pressure increases with depth." },
+        { "q": "A manometer is a device used to measure:", "options": ["temperature", "pressure of a fluid (gas or liquid)", "humidity", "current"], "answer": 1, "explanation": "Commonly a U-tube with liquid." },
+        { "q": "In a U-tube manometer, the pressure difference is found from:", "options": ["the mass of liquid", "the difference in liquid levels (P = ρgh)", "the width of the tube", "the colour of liquid"], "answer": 1, "explanation": "Height difference h gives pressure difference ρgh." },
+        { "q": "Which is an application of a manometer?", "options": ["measuring gas pressure and leak testing", "measuring time", "measuring mass", "measuring length"], "answer": 0, "explanation": "Also used for vacuum, flow and liquid-level measurement." }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Pascal's Law and its Applications",
+      "slos": ["P-09-B-86"],
+      "questions": [
+        { "q": "Pascal's law states that pressure applied to an enclosed fluid is:", "options": ["lost in the fluid", "transmitted unchanged to every point of the fluid", "doubled", "transmitted only downward"], "answer": 1, "explanation": "E.g. pumping air raises pressure equally throughout a tyre." },
+        { "q": "Pascal's law was given by:", "options": ["Newton", "Blaise Pascal", "Hooke", "Torricelli"], "answer": 1, "explanation": "Blaise Pascal (1623–1662)." },
+        { "q": "In a hydraulic lift, the output force F₂ is:", "options": ["F₁ × A₁/A₂", "F₁ × A₂/A₁", "F₁ + A₂", "F₁ − A₁"], "answer": 1, "explanation": "Equal pressures: F₁/A₁ = F₂/A₂." },
+        { "q": "If the large piston's area is 100 times the small piston's area, the force is multiplied:", "options": ["10 times", "100 times", "1000 times", "not at all"], "answer": 1, "explanation": "F₂ = 100 F₁; hydraulic lift is a force multiplier." },
+        { "q": "A hydraulic lift with A₁ = 0.002 m² and A₂ = 0.9 m² lifts a car weighing 17 640 N. The force on the small piston is:", "options": ["39.2 N", "392 N", "3.92 N", "17 640 N"], "answer": 0, "explanation": "F₁ = 17 640 × 0.002/0.9 = 39.2 N." },
+        { "q": "A force of 50 N acts on a piston of area 0.01 m². The pressure transmitted is:", "options": ["0.5 Pa", "5000 Pa", "500 Pa", "50 Pa"], "answer": 1, "explanation": "P = 50 ÷ 0.01 = 5000 Pa." },
+        { "q": "In a hydraulic brake system, pressing the brake pedal increases pressure in the:", "options": ["tyres", "master cylinder's brake fluid", "engine", "fuel tank"], "answer": 1, "explanation": "This pressure is transmitted equally to all wheels." },
+        { "q": "In hydraulic brakes, the pressure is transmitted to all wheels through:", "options": ["air", "brake fluid in brake lines", "steel rods", "electric wires"], "answer": 1, "explanation": "The liquid transmits pressure unchanged (Pascal's law)." },
+        { "q": "The liquid used in hydraulic machines should be:", "options": ["easily compressible", "practically incompressible (oil/water)", "a gas", "solid"], "answer": 1, "explanation": "An incompressible liquid transmits pressure fully." },
+        { "q": "When a balloon is inflated, it expands uniformly in all directions because:", "options": ["rubber is weak", "pressure acts equally in all directions, perpendicular to the surface", "of gravity", "air is light"], "answer": 1, "explanation": "Force due to pressure acts at right angles to every part of the surface." },
+        { "q": "A small car lifter can lift a load heavier than itself because it:", "options": ["creates energy", "multiplies force using Pascal's law", "reduces weight of the car", "uses magnets"], "answer": 1, "explanation": "Small force on small area → large force on large area." }
+      ]
+    },
+    {
+      "id": "q8",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "The most elastic material of the following is:", "options": ["Rubber", "Wood", "Glass", "Steel"], "answer": 3, "explanation": "Steel regains its original shape best and has a high elastic limit." },
+        { "q": "Hooke's law holds good up to:", "options": ["proportional limit", "yield limit", "elastic limit", "plastic limit"], "answer": 0, "explanation": "Force ∝ extension only up to the limit of proportionality." },
+        { "q": "A mass of 2 kg is hung by a spring, which displaces it through 5 cm. The spring constant is about:", "options": ["400 N/m", "40 N/m", "4 N/m", "4000 N/m"], "answer": 0, "explanation": "k = mg/x = 2 × 9.8/0.05 ≈ 392 N/m ≈ 400 N/m." },
+        { "q": "Materials which do not regain their original shape after removal of the load producing deformation are termed as:", "options": ["Elastic materials", "Plastic materials", "Rigid materials", "Hooke's materials"], "answer": 1, "explanation": "They remain permanently deformed." },
+        { "q": "SI unit of pressure is:", "options": ["bar", "newton", "psi", "pascal"], "answer": 3, "explanation": "1 Pa = 1 N m⁻²." },
+        { "q": "Which will exert greater pressure?", "options": ["3 g needle of tip area 1 mm²", "4000 kg elephant of total feet area 0.5 m²", "A girl of mass 40 kg wearing high heel shoes of cross-sectional area 0.5 cm²", "A loaded ship of mass 2.2 × 10⁷ kg having area 600 m²"], "answer": 2, "explanation": "Girl: 392 N ÷ 0.5 × 10⁻⁴ m² ≈ 7.8 × 10⁶ Pa — the largest of all." },
+        { "q": "Pressure of 1000 mbar is equivalent to:", "options": ["0.1 kPa", "1 kPa", "10 kPa", "100 kPa"], "answer": 3, "explanation": "1000 × 100 Pa = 100 kPa." },
+        { "q": "Pressure of 1 mm Hg is equal to:", "options": ["1.316 × 10⁻³ atm", "1 atm", "133.29 atm", "1.316 × 10⁵ atm"], "answer": 0, "explanation": "1 atm = 760 mmHg, so 1 mmHg = 1/760 ≈ 1.316 × 10⁻³ atm." },
+        { "q": "Atmospheric pressure is commonly measured using a:", "options": ["hygrometer", "barometer", "manometer", "thermometer"], "answer": 1, "explanation": "Barometer measures atmospheric pressure." },
+        { "q": "Pressure of liquid in a container increases with:", "options": ["base", "volume", "depth", "mass"], "answer": 2, "explanation": "P = ρgh." },
+        { "q": "The atmospheric pressure will be smaller at:", "options": ["Islamabad", "Peshawar", "Lahore", "Murree"], "answer": 3, "explanation": "Murree is at the highest altitude." },
+        { "q": "A girl of mass 50 kg wears heels with an area of 2 cm² in contact with the ground. The pressure she exerts on ground is (g = 10 m/s²):", "options": ["2.5 × 10⁵ Pa", "2.5 × 10⁶ Pa", "2.5 × 10⁴ Pa", "2.5 × 10³ Pa"], "answer": 1, "explanation": "P = 500 N ÷ 2 × 10⁻⁴ m² = 2.5 × 10⁶ Pa." },
+        { "q": "Divers wear special suits in order to protect them from:", "options": ["low pressure", "high pressure", "low temperature", "high temperature"], "answer": 1, "explanation": "Water pressure is very high at depth." },
+        { "q": "In a stationary fluid, the local pressure of the fluid varies:", "options": ["with depth only", "horizontally only", "both with depth and along horizontal direction", "neither with depth nor along horizontal direction"], "answer": 0, "explanation": "Points at the same depth have equal pressure." },
+        { "q": "The pressure exerted by a man on the surface of earth will be smaller when he:", "options": ["stands on both feet", "sits on the ground", "stands on one leg", "sleeps on the ground"], "answer": 3, "explanation": "Largest contact area gives least pressure." }
+      ]
+    }
+  ]
+}
