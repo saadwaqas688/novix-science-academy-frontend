@@ -1,0 +1,199 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 6,
+  "chapterTitle": "Work and Energy",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Work",
+      "slos": ["P-09-B-60", "P-09-B-61"],
+      "questions": [
+        { "q": "Work is said to be done when:", "options": ["a force is applied only", "a force displaces a body in its own direction", "a body is at rest", "a body has mass"], "answer": 1, "explanation": "W = F × d (displacement in the direction of force)." },
+        { "q": "Work is a ______ quantity.", "options": ["vector", "scalar", "dimensionless", "derived vector"], "answer": 1, "explanation": "Work has magnitude only." },
+        { "q": "The SI unit of work is:", "options": ["watt", "joule", "newton", "pascal"], "answer": 1, "explanation": "1 J = 1 N × 1 m." },
+        { "q": "A force of 100 N moves a box 200 m in its direction. The work done is:", "options": ["2 J", "20 000 J", "300 J", "0.5 J"], "answer": 1, "explanation": "W = 100 × 200 = 20 000 J (20 kJ)." },
+        { "q": "A man pushes a truck but it does not move. The work done is:", "options": ["positive", "negative", "zero", "infinite"], "answer": 2, "explanation": "No displacement ⇒ W = 0." },
+        { "q": "A man stands still holding a heavy bag on his head. The work done on the bag is:", "options": ["mgh", "zero", "positive", "negative"], "answer": 1, "explanation": "There is no displacement, so no work is done." },
+        { "q": "When force is applied at an angle θ to the displacement, the work done is:", "options": ["Fd", "Fd cos θ", "Fd sin θ", "F/d"], "answer": 1, "explanation": "Only the component F cos θ along motion does work." },
+        { "q": "Work done is maximum when the angle between force and displacement is:", "options": ["0°", "45°", "90°", "180°"], "answer": 0, "explanation": "cos 0° = 1 (maximum)." },
+        { "q": "Work done is zero when force is ______ to the displacement.", "options": ["parallel", "perpendicular", "opposite", "equal"], "answer": 1, "explanation": "cos 90° = 0, e.g. centripetal force." },
+        { "q": "Work done by friction on a moving body is usually:", "options": ["positive", "negative", "zero", "infinite"], "answer": 1, "explanation": "Friction acts opposite to motion." },
+        { "q": "Work done by pushing a box with 150 N through 5 m is:", "options": ["30 J", "750 J", "155 J", "145 J"], "answer": 1, "explanation": "W = 150 × 5 = 750 J." },
+        { "q": "In a force-displacement graph, work done equals the:", "options": ["slope", "area under the graph", "intercept", "maximum force"], "answer": 1, "explanation": "Area = F × d = work." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Energy and its Forms",
+      "slos": ["P-09-B-62", "P-09-B-63"],
+      "questions": [
+        { "q": "Energy is defined as the:", "options": ["rate of doing work", "capacity (ability) of a body to do work", "force per unit area", "mass × velocity"], "answer": 1, "explanation": "When work is done, energy is transferred." },
+        { "q": "The SI unit of energy is:", "options": ["watt", "joule", "newton", "kWh only"], "answer": 1, "explanation": "Energy and work have the same unit, joule." },
+        { "q": "Energy stored in the bonds between atoms (e.g. in food and petrol) is:", "options": ["chemical energy", "nuclear energy", "sound energy", "kinetic energy"], "answer": 0, "explanation": "It is released in chemical reactions." },
+        { "q": "Energy released from changes in atomic nuclei is:", "options": ["chemical energy", "nuclear energy", "electrical energy", "elastic energy"], "answer": 1, "explanation": "Used in nuclear power stations." },
+        { "q": "Energy from the Sun reaches Earth as:", "options": ["sound energy", "electromagnetic (radiant) energy", "nuclear energy", "elastic energy"], "answer": 1, "explanation": "It sustains life on Earth." },
+        { "q": "All forms of energy can be classified as either:", "options": ["heat or light", "potential (stored) or kinetic (motion)", "electric or magnetic", "solar or nuclear"], "answer": 1, "explanation": "Together they are called mechanical energy for moving/positioned bodies." },
+        { "q": "A stretched slingshot stores:", "options": ["kinetic energy", "elastic potential energy", "nuclear energy", "sound energy"], "answer": 1, "explanation": "Work done in stretching is stored in its configuration." },
+        { "q": "A battery stores energy in the form of:", "options": ["kinetic energy", "chemical (and electrical) potential energy", "nuclear energy", "gravitational energy"], "answer": 1, "explanation": "Chemical energy is converted into electrical energy." },
+        { "q": "Energy stored in a capacitor is:", "options": ["electrostatic potential energy", "kinetic energy", "chemical energy", "sound energy"], "answer": 0, "explanation": "It is stored in the electric field between the plates." },
+        { "q": "A boy pushing a toy car transfers energy to it by:", "options": ["heating", "doing work", "radiation", "sound"], "answer": 1, "explanation": "Work done is a transfer of energy." },
+        { "q": "Which of these is an example of stored energy?", "options": ["a moving bullet", "water stored in a dam", "a flowing river", "a falling stone"], "answer": 1, "explanation": "Water at height has gravitational potential energy." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Kinetic Energy",
+      "slos": ["P-09-B-64", "P-09-B-66"],
+      "questions": [
+        { "q": "The energy possessed by a body due to its motion is:", "options": ["potential energy", "kinetic energy", "chemical energy", "nuclear energy"], "answer": 1, "explanation": "E_k = ½ m v²." },
+        { "q": "Kinetic energy depends on:", "options": ["mass and speed", "height only", "colour", "shape only"], "answer": 0, "explanation": "E_k = ½ m v²." },
+        { "q": "If the velocity of a body is doubled, its kinetic energy becomes:", "options": ["double", "half", "four times", "same"], "answer": 2, "explanation": "E_k ∝ v²." },
+        { "q": "If the mass of a body is doubled at the same speed, its kinetic energy:", "options": ["doubles", "becomes four times", "halves", "stays same"], "answer": 0, "explanation": "E_k ∝ m." },
+        { "q": "A 120 g cricket ball has 50 J of kinetic energy. Its speed is about:", "options": ["28.9 m/s", "833 m/s", "8.3 m/s", "50 m/s"], "answer": 0, "explanation": "v = √(2E/m) = √(100/0.12) ≈ 28.9 m/s." },
+        { "q": "A 4 kg body moves at 5 m/s. Its kinetic energy is:", "options": ["10 J", "20 J", "50 J", "100 J"], "answer": 2, "explanation": "½ × 4 × 25 = 50 J." },
+        { "q": "The work-energy theorem states that work done on a body equals:", "options": ["its mass", "change in its kinetic energy", "its momentum", "its weight"], "answer": 1, "explanation": "W = ΔE_k." },
+        { "q": "A car, an elephant and a cricket ball have the same kinetic energy. Which has the greatest speed?", "options": ["car", "elephant", "cricket ball", "all same"], "answer": 2, "explanation": "For the same E_k, smaller mass means larger speed." },
+        { "q": "A heavy and a light object have the same momentum. The one with greater kinetic energy is:", "options": ["the lighter one", "the heavier one", "both same", "cannot say"], "answer": 0, "explanation": "E_k = p²/2m; smaller m gives larger E_k." },
+        { "q": "Kinetic energy is a:", "options": ["vector quantity", "scalar quantity", "unitless quantity", "force"], "answer": 1, "explanation": "Like all energies, it is scalar." },
+        { "q": "A 1000 kg car moving at 20 m/s has kinetic energy:", "options": ["20 kJ", "200 kJ", "400 kJ", "10 kJ"], "answer": 1, "explanation": "½ × 1000 × 400 = 200 000 J." },
+        { "q": "A football at the same speed as a cricket ball has more kinetic energy because:", "options": ["it is round", "it has more mass", "it moves faster", "it is softer"], "answer": 1, "explanation": "E_k ∝ m." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Gravitational Potential Energy",
+      "slos": ["P-09-B-65", "P-09-B-66"],
+      "questions": [
+        { "q": "The energy possessed by a body due to its position is:", "options": ["kinetic energy", "potential energy", "heat energy", "sound energy"], "answer": 1, "explanation": "E.g. a book on a high shelf." },
+        { "q": "Gravitational potential energy is given by:", "options": ["½ mv²", "mgh", "mg/h", "Fd/t"], "answer": 1, "explanation": "Work done against gravity = weight × height." },
+        { "q": "A 5 kg stone lifted to 20 m gains potential energy (g = 9.8 m/s²):", "options": ["100 J", "980 J", "196 J", "49 J"], "answer": 1, "explanation": "5 × 9.8 × 20 = 980 J." },
+        { "q": "A 60 kg athlete jumps 1.5 m high. His potential energy gain is:", "options": ["90 J", "882 J", "588 J", "400 J"], "answer": 1, "explanation": "60 × 9.8 × 1.5 = 882 J." },
+        { "q": "A ball weighing 50 N is lifted to a height of 5 m. Its potential energy is:", "options": ["10 J", "55 J", "250 J", "45 J"], "answer": 2, "explanation": "E_p = W × h = 50 × 5 = 250 J." },
+        { "q": "If the height of an object is doubled, its gravitational PE:", "options": ["halves", "doubles", "becomes four times", "stays same"], "answer": 1, "explanation": "E_p ∝ h." },
+        { "q": "When a box is taken to the second floor, the work done is converted into:", "options": ["kinetic energy", "potential energy", "heat energy", "sound energy"], "answer": 1, "explanation": "Work against gravity is stored as gravitational PE." },
+        { "q": "A 75 kg boy (g = 10 m/s²) has 3000 J of PE. His height is:", "options": ["4 m", "40 m", "0.4 m", "2 m"], "answer": 0, "explanation": "h = E/(mg) = 3000/750 = 4 m." },
+        { "q": "The PE of a book on a shelf depends on:", "options": ["its speed", "its mass and height", "its colour", "its volume only"], "answer": 1, "explanation": "E_p = mgh." },
+        { "q": "Potential energy is a:", "options": ["scalar quantity", "vector quantity", "force", "unitless quantity"], "answer": 0, "explanation": "Like all energies, it is scalar." },
+        { "q": "When a book falls from a shelf, its potential energy changes into:", "options": ["chemical energy", "kinetic energy", "nuclear energy", "elastic energy"], "answer": 1, "explanation": "It speeds up as it falls." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Energy Conversion, Conservation and Perpetual Motion",
+      "slos": ["P-09-B-67", "P-09-B-68", "P-09-B-69"],
+      "questions": [
+        { "q": "The law of conservation of energy states that energy:", "options": ["can be created", "can be destroyed", "can neither be created nor destroyed, only converted", "always decreases"], "answer": 2, "explanation": "The total energy of an isolated system stays constant." },
+        { "q": "In a hydroelectric plant, the potential energy of stored water is first converted into:", "options": ["chemical energy", "kinetic energy", "nuclear energy", "sound energy"], "answer": 1, "explanation": "Falling water turns the turbine, then electricity is produced." },
+        { "q": "In an electric bulb, electrical energy is converted into:", "options": ["light and heat energy", "chemical energy", "kinetic energy only", "nuclear energy"], "answer": 0, "explanation": "Light (useful) and heat (wasted)." },
+        { "q": "In a petrol car, the chemical energy of fuel is converted into:", "options": ["nuclear energy", "kinetic energy (and heat)", "light only", "elastic energy"], "answer": 1, "explanation": "Most energy is lost as heat." },
+        { "q": "In a petrol car, roughly what percentage of fuel energy actually moves the car?", "options": ["17–21%", "80%", "100%", "50–60%"], "answer": 0, "explanation": "About 80% is lost to the environment as heat." },
+        { "q": "A ball falls freely from height h (no air resistance). Just before hitting the ground:", "options": ["E_k = 0", "E_k = mgh", "E_p = mgh", "total energy is zero"], "answer": 1, "explanation": "All PE converts to KE; mechanical energy stays constant." },
+        { "q": "A ball thrown downward: as it falls, its:", "options": ["KE increases and PE decreases", "KE decreases and PE increases", "both increase", "both decrease"], "answer": 0, "explanation": "PE converts into KE." },
+        { "q": "A 0.45 kg football kicked upward at 22 m/s would rise (no friction) to about:", "options": ["24.7 m", "2.2 m", "49.4 m", "11 m"], "answer": 0, "explanation": "h = v²/2g = 484/19.6 ≈ 24.7 m." },
+        { "q": "Energy that is converted into non-useful forms (mostly heat) is called:", "options": ["kinetic energy", "dissipated (wasted) energy", "nuclear energy", "potential energy"], "answer": 1, "explanation": "It is not destroyed, just not useful." },
+        { "q": "A perpetual motion machine is one that:", "options": ["works with fuel", "works forever without any external energy source", "has 50% efficiency", "uses solar energy"], "answer": 1, "explanation": "It is hypothetical and impossible." },
+        { "q": "Perpetual motion machines cannot work because:", "options": ["they are expensive", "they would violate the law of conservation of energy (some energy is always lost to friction)", "they are too large", "they need oil"], "answer": 1, "explanation": "Output cannot exceed input; losses are unavoidable." },
+        { "q": "A cyclist reaches the top of a hill. Going down without pedalling, his PE changes into:", "options": ["chemical energy", "kinetic energy", "nuclear energy", "sound only"], "answer": 1, "explanation": "His speed increases as he goes down." }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Energy Resources: Renewable, Non-renewable, Fossil, Nuclear and Biomass",
+      "slos": ["P-09-B-70", "P-09-B-71", "P-09-B-72"],
+      "questions": [
+        { "q": "An energy resource that is limited and cannot be replaced naturally in a short time is:", "options": ["renewable", "non-renewable", "sustainable", "infinite"], "answer": 1, "explanation": "E.g. coal, oil, natural gas, uranium." },
+        { "q": "Which is a renewable source of energy?", "options": ["Coal", "Natural gas", "Sunlight", "Uranium"], "answer": 2, "explanation": "Sunlight is continuously replenished." },
+        { "q": "Fossil fuels are formed from:", "options": ["rocks", "remains of ancient plants and animals", "sea water", "sunlight directly"], "answer": 1, "explanation": "Formed over millions of years." },
+        { "q": "Energy is obtained from fossil fuels through:", "options": ["fission", "combustion (burning)", "photosynthesis", "fusion"], "answer": 1, "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O + energy." },
+        { "q": "The main gas in natural gas is:", "options": ["oxygen", "methane", "hydrogen sulphide", "nitrogen"], "answer": 1, "explanation": "Methane; easy to transport." },
+        { "q": "A major disadvantage of burning fossil fuels is:", "options": ["they are cheap", "emission of CO₂ causing pollution and climate change", "they are easy to store", "high energy output"], "answer": 1, "explanation": "They also release other harmful gases." },
+        { "q": "Nuclear power plants usually use the fuel:", "options": ["U-238", "U-235", "coal", "methane"], "answer": 1, "explanation": "Energy is released by nuclear fission of U-235." },
+        { "q": "A big disadvantage of nuclear energy is:", "options": ["greenhouse gases", "radioactive waste", "low energy", "it needs sunlight"], "answer": 1, "explanation": "Radioactive waste is highly toxic." },
+        { "q": "The energy in biomass originally comes from:", "options": ["the Earth's core", "the Sun (through photosynthesis)", "the Moon", "nuclear fission"], "answer": 1, "explanation": "Plants store solar energy as chemical energy." },
+        { "q": "Biogas is mostly composed of about 60%:", "options": ["carbon dioxide", "methane", "oxygen", "hydrogen"], "answer": 1, "explanation": "The rest is mainly CO₂." },
+        { "q": "Biogas is considered a CO₂-neutral fuel because:", "options": ["it produces no gas", "the CO₂ released was recently taken from the atmosphere by plants", "it is not burned", "it is radioactive"], "answer": 1, "explanation": "It does not add 'old' carbon to the air." },
+        { "q": "Nuclear fuel is classified as:", "options": ["renewable", "non-renewable", "biomass", "solar"], "answer": 1, "explanation": "Uranium is limited." }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Hydro, Solar, Geothermal, Wind, Wave and Tidal Energy",
+      "slos": ["P-09-B-70", "P-09-B-71", "P-09-B-72"],
+      "questions": [
+        { "q": "Hydroelectric generation uses the ______ energy of water stored at a height.", "options": ["chemical", "gravitational potential", "nuclear", "elastic"], "answer": 1, "explanation": "It changes to KE, then to electrical energy in turbines." },
+        { "q": "A disadvantage of large hydroelectric dams is:", "options": ["air pollution", "flooding farmland and damaging ecosystems", "radioactive waste", "they need coal"], "answer": 1, "explanation": "Large reservoirs change the environment." },
+        { "q": "Solar cells (photovoltaic cells) convert sunlight directly into:", "options": ["heat", "electricity", "sound", "chemical energy"], "answer": 1, "explanation": "Made of semiconductors such as silicon." },
+        { "q": "A disadvantage of solar energy is that it is:", "options": ["polluting", "intermittent (not available at night or on cloudy days)", "non-renewable", "radioactive"], "answer": 1, "explanation": "It needs storage or backup systems." },
+        { "q": "Energy derived from heated ground water and hot rocks inside the Earth is:", "options": ["tidal energy", "geothermal energy", "hydroelectric energy", "nuclear energy"], "answer": 1, "explanation": "Heat comes from the core and radioactive decay." },
+        { "q": "A disadvantage of geothermal energy is:", "options": ["it depends on weather", "it is viable only in certain places and may release toxic H₂S", "it emits lots of CO₂", "it needs sunlight"], "answer": 1, "explanation": "It is reliable but location-specific." },
+        { "q": "Wind turbines convert the ______ energy of wind into electricity.", "options": ["potential", "kinetic", "chemical", "nuclear"], "answer": 1, "explanation": "Blades turn a generator." },
+        { "q": "Wind farms are best located in:", "options": ["areas with weak winds", "coastal or open areas with strong, steady winds", "inside cities", "deep valleys only"], "answer": 1, "explanation": "They need constant strong winds and open space." },
+        { "q": "Tides are mainly caused by the gravitational pull of the:", "options": ["Sun only", "Moon", "Mars", "Earth's core"], "answer": 1, "explanation": "Tides occur twice a day." },
+        { "q": "An advantage of tidal energy is that it is:", "options": ["unpredictable", "predictable due to the regular cycle of tides", "non-renewable", "cheap to install"], "answer": 1, "explanation": "But it is costly and limited to a few locations." },
+        { "q": "Devices that capture energy of sea waves are called:", "options": ["solar panels", "Wave Energy Converters (WECs)", "nuclear reactors", "barometers"], "answer": 1, "explanation": "E.g. point absorbers, attenuators, oscillating water columns." },
+        { "q": "Which source produces electricity with no greenhouse gases during operation?", "options": ["coal", "natural gas", "wind", "oil"], "answer": 2, "explanation": "Wind (also solar, hydro) is clean during operation." }
+      ]
+    },
+    {
+      "id": "q8",
+      "topic": "Power",
+      "slos": ["P-09-B-73"],
+      "questions": [
+        { "q": "Power is defined as:", "options": ["work × time", "the rate of doing work", "force × distance", "energy × time"], "answer": 1, "explanation": "P = W/t." },
+        { "q": "The SI unit of power is:", "options": ["joule", "watt", "horsepower", "erg"], "answer": 1, "explanation": "1 W = 1 J/s." },
+        { "q": "1 horsepower is equal to:", "options": ["746 W", "756 W", "736 W", "1000 W"], "answer": 0, "explanation": "1 hp = 746 W." },
+        { "q": "100 J of work is done in 5 s. The power is:", "options": ["500 W", "20 W", "105 W", "0.05 W"], "answer": 1, "explanation": "P = 100/5 = 20 W." },
+        { "q": "1 kilowatt-hour (kWh) is equal to:", "options": ["1000 J", "3.6 × 10⁶ J", "3600 J", "3.6 × 10³ J"], "answer": 1, "explanation": "1000 W × 3600 s = 3.6 × 10⁶ J." },
+        { "q": "Electricity bills are charged in:", "options": ["watts", "kilowatt-hours (units)", "joules per second", "horsepower"], "answer": 1, "explanation": "1 unit = 1 kWh." },
+        { "q": "An engine does 3.69 × 10⁷ J of work in 60 s. Its power is about:", "options": ["615 kW", "61.5 kW", "6.15 kW", "6150 kW"], "answer": 0, "explanation": "P = 3.69 × 10⁷/60 ≈ 6.15 × 10⁵ W (≈ 825 hp)." },
+        { "q": "A weight lifter of power 1960 W lifts a load 2 m high in 3 s. The mass of the load is (g = 9.8 m/s²):", "options": ["100 kg", "200 kg", "300 kg", "400 kg"], "answer": 2, "explanation": "m = P t/(g h) = 1960 × 3/(9.8 × 2) = 300 kg." },
+        { "q": "A 100 W bulb converts energy at the rate of:", "options": ["100 J per hour", "100 J per second", "1 J per second", "100 J per minute"], "answer": 1, "explanation": "1 W = 1 J/s." },
+        { "q": "A 2 kW heater runs for 3 hours. Energy used is:", "options": ["6 kWh", "1.5 kWh", "5 kWh", "0.67 kWh"], "answer": 0, "explanation": "E = P t = 2 × 3 = 6 kWh." },
+        { "q": "Power is a:", "options": ["vector quantity", "scalar quantity", "force", "unitless number"], "answer": 1, "explanation": "Like work, it is scalar." },
+        { "q": "Two boys climb the same stairs; one takes less time. Compared to the slower boy (same mass), he does:", "options": ["more work, same power", "same work, more power", "less work, more power", "same work, same power"], "answer": 1, "explanation": "Work = mgh same; power = W/t greater." }
+      ]
+    },
+    {
+      "id": "q9",
+      "topic": "Efficiency",
+      "slos": ["P-09-B-74", "P-09-B-75", "P-09-B-76"],
+      "questions": [
+        { "q": "Efficiency of a machine is the ratio of:", "options": ["input to output", "useful output work (energy) to total input work (energy)", "power to time", "work to force"], "answer": 1, "explanation": "η = useful output ÷ input." },
+        { "q": "Efficiency has:", "options": ["unit joule", "unit watt", "no unit", "unit newton"], "answer": 2, "explanation": "It is a ratio of same quantities." },
+        { "q": "A petrol engine takes in 400 J of fuel energy and does 120 J of useful work. Its efficiency is:", "options": ["30%", "3.3%", "70%", "120%"], "answer": 0, "explanation": "η = 120/400 = 0.3 = 30%." },
+        { "q": "A practical engine cannot have an efficiency equal to or greater than:", "options": ["0", "0.5", "0.8", "1"], "answer": 3, "explanation": "Some energy is always lost, so η < 1 (100%)." },
+        { "q": "No machine is 100% efficient mainly because of:", "options": ["gravity", "friction and unavoidable heat losses", "its colour", "its mass"], "answer": 1, "explanation": "Output is always less than input." },
+        { "q": "An incandescent (filament) bulb is about ______ efficient.", "options": ["95%", "5%", "50%", "25%"], "answer": 1, "explanation": "Most energy becomes heat." },
+        { "q": "A fluorescent lamp is about ______ efficient.", "options": ["5%", "20%", "95%", "100%"], "answer": 1, "explanation": "It wastes less energy as heat than a filament bulb." },
+        { "q": "Which has the highest efficiency according to the book's table?", "options": ["automobile engine", "hydroelectric power plant", "fluorescent light", "fossil fuel power plant"], "answer": 1, "explanation": "Hydroelectric plants and large electric motors are about 95% efficient." },
+        { "q": "The efficiency of an automobile engine is about:", "options": ["25%", "95%", "85%", "5%"], "answer": 0, "explanation": "Most fuel energy is lost as heat." },
+        { "q": "A motor with efficiency 80% is given 500 J of energy. Its useful output is:", "options": ["400 J", "100 J", "625 J", "580 J"], "answer": 0, "explanation": "0.8 × 500 = 400 J; 100 J is wasted." },
+        { "q": "Output power of a system with efficiency η and input power P_in is:", "options": ["P_in / η", "η × P_in", "P_in − η", "P_in + η"], "answer": 1, "explanation": "P_out = η P_in." },
+        { "q": "An LED bulb of 80% efficiency does not violate conservation of energy because:", "options": ["it creates energy", "the remaining 20% is converted into heat", "it destroys 20% energy", "it is 100% efficient"], "answer": 1, "explanation": "Total energy remains conserved." }
+      ]
+    },
+    {
+      "id": "q10",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "The unit of work or energy joule (J) is equal to:", "options": ["horsepower", "watt metre", "watt second", "newton second"], "answer": 2, "explanation": "E = P × t, so 1 J = 1 W × 1 s." },
+        { "q": "A car, an elephant and a cricket ball have same kinetic energies. Which of these will have a greater speed?", "options": ["Car", "Elephant", "Cricket ball", "all have same speed"], "answer": 2, "explanation": "Same E_k: smallest mass has largest speed." },
+        { "q": "A ball weighing 50 N is lifted to a height of 5 metre. The potential energy stored in it is:", "options": ["10 J", "250 J", "45 J", "55 J"], "answer": 1, "explanation": "E_p = W × h = 50 × 5 = 250 J." },
+        { "q": "What is the power utilized when 100 J of work is done in 5 s?", "options": ["10 W", "20 W", "105 W", "500 W"], "answer": 1, "explanation": "P = 100/5 = 20 W." },
+        { "q": "The SI unit of power is:", "options": ["joule", "watt", "horsepower", "erg"], "answer": 1, "explanation": "1 W = 1 J s⁻¹." },
+        { "q": "A 4 kg body is thrown vertically upward from the ground with a velocity of 5 m/s. If friction is neglected, its kinetic energy just before hitting the ground is:", "options": ["25 J", "50 J", "75 J", "100 J"], "answer": 1, "explanation": "It returns with the same speed: ½ × 4 × 5² = 50 J." },
+        { "q": "A ball is thrown downward with an initial velocity, its:", "options": ["E_k increases & E_p decreases", "E_k decreases & E_p increases", "Both E_k & E_p increase", "Both E_k & E_p decrease"], "answer": 0, "explanation": "Height decreases (PE ↓) and speed increases (KE ↑)." },
+        { "q": "The type of energy derived from heated ground water is:", "options": ["tidal energy", "geothermal energy", "hydroelectric energy", "nuclear energy"], "answer": 1, "explanation": "Heat from inside the Earth." },
+        { "q": "A weight lifter of power 1960 watt lifts a load of mass M from the ground to a height of 2 m in 3 second. M is:", "options": ["100 kg", "200 kg", "300 kg", "400 kg"], "answer": 2, "explanation": "M = Pt/(gh) = 5880/19.6 = 300 kg." },
+        { "q": "Which one is a renewable source of energy?", "options": ["Coal", "Natural gas", "Sunlight", "Uranium"], "answer": 2, "explanation": "Sunlight is replenished naturally." },
+        { "q": "One unit of horsepower is equivalent to:", "options": ["756 watt", "716 watt", "736 watt", "746 watt"], "answer": 3, "explanation": "1 hp = 746 W." },
+        { "q": "A practical engine cannot have an efficiency equal or greater than:", "options": ["0", "0.5", "0.8", "1"], "answer": 3, "explanation": "Losses make η always less than 1." },
+        { "q": "A heavy and a lighter object have same momenta. The object with greater kinetic energy is:", "options": ["lighter", "heavy", "same kinetic energy", "either a or b"], "answer": 0, "explanation": "E_k = p²/2m: smaller mass → greater KE." },
+        { "q": "A force is acting on a body but causes no displacement. The work done on the body is:", "options": ["positive", "negative", "zero", "infinite"], "answer": 2, "explanation": "W = F × 0 = 0." },
+        { "q": "A box is taken to the second floor of a building by doing some work. This work converts to:", "options": ["kinetic energy", "potential energy", "heat energy", "sound energy"], "answer": 1, "explanation": "Stored as gravitational potential energy." }
+      ]
+    }
+  ]
+}
