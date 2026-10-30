@@ -105,5 +105,66 @@
         "count": 14
       }
     ]
+  },
+  "9/physics/3": {
+    "url": "/quizzes/class-9/physics/ch-3.json",
+    "chapterTitle": "Dynamics-I",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Force: Contact and Non-Contact Forces",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Fundamental Forces in Nature",
+        "count": 13
+      },
+      {
+        "id": "q3",
+        "topic": "Free Body Diagrams and Net Force",
+        "count": 11
+      },
+      {
+        "id": "q4",
+        "topic": "Newton's First Law, Mass and Inertia",
+        "count": 12
+      },
+      {
+        "id": "q5",
+        "topic": "Newton's Second Law of Motion",
+        "count": 12
+      },
+      {
+        "id": "q6",
+        "topic": "Newton's Third Law and Limitations of Newton's Laws",
+        "count": 11
+      },
+      {
+        "id": "q7",
+        "topic": "Mass, Weight and their Measurement",
+        "count": 12
+      },
+      {
+        "id": "q8",
+        "topic": "Gravitational Field and Field Strength",
+        "count": 11
+      },
+      {
+        "id": "q9",
+        "topic": "Momentum, Force and Impulse",
+        "count": 12
+      },
+      {
+        "id": "q10",
+        "topic": "Conservation of Momentum",
+        "count": 11
+      },
+      {
+        "id": "q11",
+        "topic": "Exercise MCQs (Book)",
+        "count": 15
+      }
+    ]
   }
 }

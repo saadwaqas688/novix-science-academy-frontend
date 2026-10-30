@@ -1,0 +1,217 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 3,
+  "chapterTitle": "Dynamics-I",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Force: Contact and Non-Contact Forces",
+      "slos": ["P-09-B-23", "P-09-B-24"],
+      "questions": [
+        { "q": "Dynamics is the study of motion:", "options": ["without its causes", "along with the causes (forces) of motion", "of stationary bodies only", "of light"], "answer": 1, "explanation": "Dynamics connects force and motion; kinematics ignores causes." },
+        { "q": "Force is a ______ quantity which changes or tends to change the state of a body.", "options": ["scalar", "vector", "dimensionless", "derived scalar"], "answer": 1, "explanation": "Force has magnitude and direction." },
+        { "q": "A batter hitting a cricket ball is an example of:", "options": ["non-contact force", "contact force", "gravitational force", "magnetic force"], "answer": 1, "explanation": "There is physical contact between bat and ball." },
+        { "q": "The force perpendicular to the contact surface that keeps objects from passing through each other is:", "options": ["friction", "tension", "normal force", "thrust"], "answer": 2, "explanation": "'Normal' means perpendicular; e.g. the table pushing up on a book." },
+        { "q": "The force that propels a rocket or aeroplane in the direction of motion is:", "options": ["thrust", "friction", "tension", "normal force"], "answer": 0, "explanation": "Engines produce thrust." },
+        { "q": "Friction always acts:", "options": ["in the direction of motion", "opposite to the motion or attempted motion", "perpendicular to the surface", "upward"], "answer": 1, "explanation": "Friction resists relative motion of surfaces in contact." },
+        { "q": "Air resistance is a type of:", "options": ["tension", "frictional (drag) force", "normal force", "magnetic force"], "answer": 1, "explanation": "It is friction between air and a moving object." },
+        { "q": "The force transmitted through a string, rope or cable is called:", "options": ["thrust", "tension", "normal force", "weight"], "answer": 1, "explanation": "Tension, e.g. strands of a spider web pulling on one another." },
+        { "q": "The force with which a stretched spring or rubber band resists change in its shape is:", "options": ["elastic force", "gravitational force", "electrostatic force", "thrust"], "answer": 0, "explanation": "Elastic forces arise from forces between particles of the material." },
+        { "q": "Which of the following is a non-contact force?", "options": ["Friction", "Tension", "Magnetic force", "Normal force"], "answer": 2, "explanation": "Magnets push or pull without touching — action at a distance." },
+        { "q": "The force between a positively charged nucleus and a negatively charged electron is:", "options": ["gravitational force", "electrostatic force", "tension", "friction"], "answer": 1, "explanation": "Attraction/repulsion between charges is electrostatic force." },
+        { "q": "The force experienced by the Moon due to the Earth is:", "options": ["magnetic", "gravitational", "frictional", "normal"], "answer": 1, "explanation": "Attraction between two masses is gravitational force." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Fundamental Forces in Nature",
+      "slos": ["P-09-B-25"],
+      "questions": [
+        { "q": "The strongest of all the fundamental forces is the:", "options": ["gravitational force", "electromagnetic force", "strong nuclear force", "weak nuclear force"], "answer": 2, "explanation": "It holds protons tightly together in the nucleus." },
+        { "q": "The weakest of the fundamental forces is the:", "options": ["gravitational force", "weak nuclear force", "electromagnetic force", "strong nuclear force"], "answer": 0, "explanation": "Gravity is noticed only when at least one object is very massive." },
+        { "q": "The strong nuclear force keeps protons in the nucleus by overcoming their:", "options": ["gravitational attraction", "electrostatic repulsion", "magnetic attraction", "weight"], "answer": 1, "explanation": "Like-charged protons repel; the strong force overcomes this." },
+        { "q": "The range of the strong nuclear force is nearly equal to the:", "options": ["diameter of the Earth", "diameter of a proton", "size of an atom", "infinite"], "answer": 1, "explanation": "It is a very short-range force." },
+        { "q": "The exchange particle of the electromagnetic force is the:", "options": ["pion", "graviton", "photon", "W boson"], "answer": 2, "explanation": "The massless photon gives the EM force infinite range." },
+        { "q": "Normal force, friction and tension are actually results of the:", "options": ["gravitational force", "electromagnetic force", "strong nuclear force", "weak nuclear force"], "answer": 1, "explanation": "They come from interactions of charged particles at contact surfaces." },
+        { "q": "The proposed exchange particle of gravity, not yet detected, is the:", "options": ["photon", "graviton", "pion", "Z boson"], "answer": 1, "explanation": "The graviton is the only exchange particle not yet detected." },
+        { "q": "The weak nuclear force is responsible for:", "options": ["holding planets in orbit", "radioactive decay", "magnetism", "friction"], "answer": 1, "explanation": "It changes the type of quark, turning a neutron into a proton." },
+        { "q": "According to the book, the weak nuclear force is about how many times weaker than the strong nuclear force?", "options": ["10", "100", "10 000", "10⁻³⁸"], "answer": 2, "explanation": "The book states it is 10 000 times weaker than the strong force." },
+        { "q": "The fundamental force with the shortest range is the:", "options": ["weak nuclear force", "strong nuclear force", "electromagnetic force", "gravitational force"], "answer": 0, "explanation": "The weak force has the shortest range of all." },
+        { "q": "The Pakistani physicist who helped unify the electromagnetic and weak forces (electroweak theory) is:", "options": ["Dr. Abdul Qadeer Khan", "Dr. Abdus Salam", "Dr. Atta-ur-Rahman", "Dr. Pervez Hoodbhoy"], "answer": 1, "explanation": "Abdus Salam, with Weinberg and Glashow, developed the electroweak theory." },
+        { "q": "After the electroweak unification, the fundamental forces are counted as:", "options": ["two", "three", "four", "five"], "answer": 1, "explanation": "Gravitational, electroweak and strong nuclear — three fundamental forces." },
+        { "q": "The weak force is carried by massive particles called:", "options": ["photons", "W⁺, W⁻ and Z⁰ bosons", "gravitons", "electrons"], "answer": 1, "explanation": "Their large mass limits the range of the weak force." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Free Body Diagrams and Net Force",
+      "slos": ["P-09-B-26", "P-09-B-29"],
+      "questions": [
+        { "q": "A diagram in which only the object being analysed is drawn with arrows showing all forces acting on it is a:", "options": ["system diagram", "free body diagram", "graph", "circuit diagram"], "answer": 1, "explanation": "A free body diagram (FBD) isolates the object." },
+        { "q": "In a free body diagram, the length of each force arrow is:", "options": ["always equal", "proportional to the magnitude of the force", "proportional to the mass", "random"], "answer": 1, "explanation": "Arrows are drawn to scale with their magnitudes." },
+        { "q": "The single force having the same effect as all the forces acting on a body is called:", "options": ["normal force", "resultant (net) force", "tension", "thrust"], "answer": 1, "explanation": "Resultant and net force are used interchangeably." },
+        { "q": "If the net force on an object is 0 N, the forces are:", "options": ["unbalanced", "balanced", "increasing", "always zero individually"], "answer": 1, "explanation": "Balanced forces produce no change in motion." },
+        { "q": "Forces of 10 N and 6 N act on a box in the same direction. The net force is:", "options": ["4 N", "16 N", "60 N", "zero"], "answer": 1, "explanation": "Like parallel forces are added: 10 + 6 = 16 N." },
+        { "q": "Forces of 10 N to the right and 6 N to the left act on a box. The net force is:", "options": ["16 N right", "4 N right", "4 N left", "zero"], "answer": 1, "explanation": "Unlike parallel forces are subtracted: 10 − 6 = 4 N in the direction of the larger force." },
+        { "q": "In a tug of war, both teams pull with 500 N in opposite directions. The rope:", "options": ["accelerates", "does not move (net force zero)", "moves towards one team", "breaks always"], "answer": 1, "explanation": "Equal and opposite forces cancel; net force is zero." },
+        { "q": "Three forces of 5 N, 7 N (right) and 8 N (left) act on a body. The net force is:", "options": ["20 N right", "4 N right", "4 N left", "10 N left"], "answer": 1, "explanation": "12 N right − 8 N left = 4 N right." },
+        { "q": "For a book lying at rest on a table, the forces in its free body diagram are:", "options": ["weight only", "weight downward and normal force upward", "friction and thrust", "tension only"], "answer": 1, "explanation": "Weight (F_g) down and normal force (F_N) up, balancing each other." },
+        { "q": "When forces act at an angle to each other, the resultant is found by:", "options": ["simple addition", "head-to-tail rule of vector addition", "multiplying them", "ignoring directions"], "answer": 1, "explanation": "Vectors at an angle are added graphically by head-to-tail rule." },
+        { "q": "An unbalanced net force on an object always produces:", "options": ["no change", "a change in its motion (acceleration)", "a change in mass", "zero velocity"], "answer": 1, "explanation": "Unbalanced forces change speed and/or direction." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Newton's First Law, Mass and Inertia",
+      "slos": ["P-09-B-17", "P-09-B-18", "P-09-B-27", "P-09-B-28"],
+      "questions": [
+        { "q": "Newton presented his three laws of motion in 1686 in the book:", "options": ["Origin of Species", "Principia Mathematica", "Almagest", "Opticks"], "answer": 1, "explanation": "Philosophiae Naturalis Principia Mathematica." },
+        { "q": "Newton's first law states that if the net external force on an object is zero, the object:", "options": ["must be at rest", "maintains its state of rest or uniform motion", "accelerates", "loses mass"], "answer": 1, "explanation": "F_net = 0 ⇒ Δv = 0, a = 0." },
+        { "q": "The natural tendency of an object to resist a change in its state of rest or uniform motion is called:", "options": ["momentum", "inertia", "impulse", "friction"], "answer": 1, "explanation": "That is why the first law is called the law of inertia." },
+        { "q": "Mass is a measure of the:", "options": ["quantity of matter and inertia of a body", "gravitational pull on a body", "speed of a body", "volume of a body"], "answer": 0, "explanation": "Greater mass means greater inertia." },
+        { "q": "Which has the greatest inertia?", "options": ["A bicycle", "A car", "A loaded truck", "A football"], "answer": 2, "explanation": "Inertia depends on mass; the loaded truck has the most mass." },
+        { "q": "When a bus suddenly starts moving, standing passengers fall:", "options": ["forward", "backward", "sideways", "upward"], "answer": 1, "explanation": "The upper body tends to stay at rest due to inertia." },
+        { "q": "When a moving bus suddenly stops, passengers fall:", "options": ["forward", "backward", "upward", "they do not move"], "answer": 0, "explanation": "The body tends to keep moving due to inertia." },
+        { "q": "When a bus turns around a curve, passengers tend to move:", "options": ["towards the centre of the curve", "to the outer side, continuing straight ahead", "backward", "upward"], "answer": 1, "explanation": "Inertia makes them continue in a straight line." },
+        { "q": "A card on a glass with a coin on it is flicked away quickly; the coin falls into the glass because of:", "options": ["inertia of rest", "friction", "magnetism", "momentum of the card"], "answer": 0, "explanation": "The coin stays at rest horizontally, then gravity pulls it down." },
+        { "q": "On Earth, a rolling ball eventually stops because of:", "options": ["its inertia", "friction and other opposing forces", "Newton's third law", "its weight increasing"], "answer": 1, "explanation": "External forces like friction retard its motion." },
+        { "q": "A passenger pushing the walls inside a moving train does not change the train's velocity because the push is:", "options": ["an external force", "an internal force", "too large", "a non-contact force"], "answer": 1, "explanation": "Only external net forces change the velocity of a system." },
+        { "q": "An object in free space, moving with no net force, will:", "options": ["slow down and stop", "move with constant velocity forever", "speed up", "move in a circle"], "answer": 1, "explanation": "No friction and negligible gravity — it keeps constant velocity." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Newton's Second Law of Motion",
+      "slos": ["P-09-B-30", "P-09-B-28"],
+      "questions": [
+        { "q": "According to Newton's second law, acceleration is:", "options": ["directly proportional to mass", "directly proportional to net force and inversely proportional to mass", "inversely proportional to force", "independent of force"], "answer": 1, "explanation": "a = F_net / m." },
+        { "q": "The mathematical form of Newton's second law is:", "options": ["F = m/a", "F = ma", "F = mv", "F = a/m"], "answer": 1, "explanation": "F_net = m a." },
+        { "q": "One newton is the force that produces an acceleration of 1 m/s² in a mass of:", "options": ["1 g", "1 kg", "10 kg", "9.8 kg"], "answer": 1, "explanation": "1 N = 1 kg × 1 m/s² = 1 kg m s⁻²." },
+        { "q": "If the net force on a body is doubled (mass constant), its acceleration:", "options": ["halves", "doubles", "stays same", "becomes four times"], "answer": 1, "explanation": "a ∝ F." },
+        { "q": "If the mass is doubled with the same net force, the acceleration:", "options": ["doubles", "is halved", "stays the same", "becomes zero"], "answer": 1, "explanation": "a ∝ 1/m." },
+        { "q": "A 3000 N engine force acts on a bus of mass 12 000 kg. Its acceleration is:", "options": ["4 m/s²", "0.25 m/s²", "2.5 m/s²", "36 m/s²"], "answer": 1, "explanation": "a = 3000 ÷ 12 000 = 0.25 m/s² (book Example 3.1)." },
+        { "q": "The same 3000 N force acts on a car of mass 1200 kg. Its acceleration is:", "options": ["0.25 m/s²", "2.5 m/s²", "25 m/s²", "0.4 m/s²"], "answer": 1, "explanation": "a = 3000 ÷ 1200 = 2.5 m/s²." },
+        { "q": "The direction of acceleration produced by a net force is:", "options": ["opposite to the force", "same as the net force", "perpendicular to the force", "always downward"], "answer": 1, "explanation": "Acceleration is in the direction of the net force." },
+        { "q": "A force of 20 N acts on a 4 kg mass. The acceleration is:", "options": ["80 m/s²", "5 m/s²", "0.2 m/s²", "24 m/s²"], "answer": 1, "explanation": "a = 20 ÷ 4 = 5 m/s²." },
+        { "q": "What force is needed to give a 1500 kg car an acceleration of 2 m/s²?", "options": ["750 N", "3000 N", "1502 N", "1498 N"], "answer": 1, "explanation": "F = ma = 1500 × 2 = 3000 N." },
+        { "q": "Newton's first law can be deduced from the second law because if F = 0 then:", "options": ["m = 0", "a = 0, so velocity stays constant", "v = 0 always", "the body accelerates"], "answer": 1, "explanation": "F = ma = 0 ⇒ a = 0 ⇒ rest or uniform velocity." },
+        { "q": "A boy lifts a 2 kg book upward with acceleration 3 m/s² (g = 9.8 m/s²). The total force he applies is:", "options": ["6 N", "19.6 N", "25.6 N", "13.6 N"], "answer": 2, "explanation": "F = m(g + a) = 2 × (9.8 + 3) = 25.6 N." }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Newton's Third Law and Limitations of Newton's Laws",
+      "slos": ["P-09-B-31", "P-09-B-32", "P-09-B-33"],
+      "questions": [
+        { "q": "Newton's third law states that whenever one object exerts a force on a second object:", "options": ["the second object accelerates only", "the second exerts an equal and opposite force on the first", "both stop", "the first object loses mass"], "answer": 1, "explanation": "F_AB = −F_BA." },
+        { "q": "Action and reaction forces cannot cancel each other because they:", "options": ["are unequal", "act on different bodies", "act in the same direction", "are not forces"], "answer": 1, "explanation": "Action acts on one body and reaction on the other." },
+        { "q": "When we kick a football, the reaction force acts on:", "options": ["the ball", "the foot", "the ground", "the air"], "answer": 1, "explanation": "The ball pushes back on the foot with an equal force." },
+        { "q": "When we jump, the force that pushes us into the air is:", "options": ["our weight", "the reaction force of the ground", "air resistance", "friction of air"], "answer": 1, "explanation": "Legs push the ground; the ground pushes us up." },
+        { "q": "We feel pain when punching a wall because of:", "options": ["inertia", "the reaction force of the wall", "gravity", "friction"], "answer": 1, "explanation": "The wall exerts an equal and opposite force on the hand." },
+        { "q": "A rocket moves upward because:", "options": ["air pushes it up", "exhaust gases pushed downward exert an equal upward thrust on it", "gravity is absent", "of its inertia"], "answer": 1, "explanation": "This is Newton's third law (action–reaction)." },
+        { "q": "Action and reaction forces are always:", "options": ["of different types", "of the same type, equal in magnitude, opposite in direction", "acting on the same body", "unequal"], "answer": 1, "explanation": "They form a pair of the same type acting on different objects." },
+        { "q": "The force which actually moves a car forward is:", "options": ["engine force on the car", "friction of the road on the tyres (reaction)", "weight of the car", "air resistance"], "answer": 1, "explanation": "Tyres push the road backward; the road pushes the tyres forward." },
+        { "q": "Newton's laws are NOT applicable to:", "options": ["a moving car", "objects moving at speeds close to the speed of light", "a falling apple", "a rolling ball"], "answer": 1, "explanation": "At such speeds relativistic mechanics is needed." },
+        { "q": "On the atomic (very small) scale, motion is described by:", "options": ["Newton's laws", "quantum mechanics", "Kepler's laws", "Hooke's law"], "answer": 1, "explanation": "Position and acceleration are not well defined there." },
+        { "q": "Newton's laws give a good approximation for:", "options": ["sub-atomic particles", "large (macroscopic) objects at ordinary speeds", "light", "objects near speed of light"], "answer": 1, "explanation": "They work very well in everyday physics and engineering." }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Mass, Weight and their Measurement",
+      "slos": ["P-09-B-17", "P-09-B-19", "P-09-B-21", "P-09-B-22"],
+      "questions": [
+        { "q": "Weight is defined as the:", "options": ["quantity of matter in a body", "gravitational force acting on a body", "volume of a body", "inertia of a body"], "answer": 1, "explanation": "W = mg; it acts towards the centre of the Earth." },
+        { "q": "The SI unit of weight is:", "options": ["kilogram", "newton", "gram", "kg m/s"], "answer": 1, "explanation": "Weight is a force, measured in newtons." },
+        { "q": "Mass is a ______ quantity and weight is a ______ quantity.", "options": ["vector, scalar", "scalar, vector", "vector, vector", "scalar, scalar"], "answer": 1, "explanation": "Weight has direction (downward); mass does not." },
+        { "q": "The weight of an 8 kg school bag on Earth (g = 9.8 m/s²) is:", "options": ["8 N", "78.4 N", "0.82 N", "17.8 N"], "answer": 1, "explanation": "W = 8 × 9.8 = 78.4 N." },
+        { "q": "On the Moon (g = 1.625 m/s²), the same 8 kg bag weighs:", "options": ["78.4 N", "13 N", "8 N", "1.6 N"], "answer": 1, "explanation": "W = 8 × 1.625 = 13 N; its mass is still 8 kg." },
+        { "q": "When an astronaut goes from the Earth to the Moon, his:", "options": ["mass decreases", "weight decreases but mass stays same", "weight increases", "both mass and weight stay same"], "answer": 1, "explanation": "Mass does not depend on gravity; weight does." },
+        { "q": "A spring balance measures:", "options": ["mass directly", "force (weight)", "volume", "density"], "answer": 1, "explanation": "The spring stretches in proportion to the applied force." },
+        { "q": "A device that measures force electronically with high accuracy and digital readout is a:", "options": ["force sensor", "metre rule", "beam balance", "stopwatch"], "answer": 0, "explanation": "A force sensor uses an electronic gauge." },
+        { "q": "Electronic weighing scales show mass in kg because they:", "options": ["measure mass directly", "measure weight and divide it by g (calibrated)", "measure volume", "measure inertia"], "answer": 1, "explanation": "m = W/g; scales are calibrated to show mass." },
+        { "q": "A boy holds a 2 kg book at rest. The force he applies is (g = 9.8 m/s²):", "options": ["2 N", "19.6 N", "9.8 N", "0 N"], "answer": 1, "explanation": "He balances its weight: 2 × 9.8 = 19.6 N." },
+        { "q": "An object weighs 49 N on Earth (g = 9.8 m/s²). Its mass is:", "options": ["5 kg", "480 kg", "49 kg", "0.2 kg"], "answer": 0, "explanation": "m = W/g = 49 ÷ 9.8 = 5 kg." },
+        { "q": "Mass of a body is measured by:", "options": ["spring balance", "physical/electronic balance", "force meter", "newton meter"], "answer": 1, "explanation": "Balances compare or are calibrated for mass." }
+      ]
+    },
+    {
+      "id": "q8",
+      "topic": "Gravitational Field and Field Strength",
+      "slos": ["P-09-B-20"],
+      "questions": [
+        { "q": "The region around a massive object where its gravitational force is operative is called:", "options": ["magnetic field", "gravitational field", "electric field", "force line"], "answer": 1, "explanation": "E.g. the region around the Earth or the Sun." },
+        { "q": "Gravitational field strength is the gravitational force acting per unit:", "options": ["volume", "mass", "area", "time"], "answer": 1, "explanation": "g = F/m." },
+        { "q": "The SI unit of gravitational field strength is:", "options": ["N kg⁻¹", "kg N⁻¹", "N m", "kg m⁻³"], "answer": 0, "explanation": "Newton per kilogram (N/kg)." },
+        { "q": "On the Earth's surface, the gravitational field strength is:", "options": ["9.8 N/kg", "1.6 N/kg", "98 N/kg", "6.67 N/kg"], "answer": 0, "explanation": "g = 9.8 N/kg, equal in value to 9.8 m/s²." },
+        { "q": "N kg⁻¹ is equivalent to:", "options": ["m s⁻¹", "m s⁻²", "kg m s⁻¹", "kg s⁻²"], "answer": 1, "explanation": "N/kg = (kg m s⁻²)/kg = m s⁻²." },
+        { "q": "The direction of gravitational field strength on Earth is:", "options": ["upward", "towards the centre of the Earth", "eastward", "it has no direction"], "answer": 1, "explanation": "It is a vector pointing in the direction of gravitational force." },
+        { "q": "As we move away from the Earth's surface, the gravitational field strength:", "options": ["increases", "decreases", "stays the same", "becomes negative"], "answer": 1, "explanation": "Gravity weakens with distance from the Earth." },
+        { "q": "A 1 kg object at the Earth's surface experiences a force of:", "options": ["1 N", "9.8 N", "100 N", "0 N"], "answer": 1, "explanation": "F = mg = 1 × 9.8 = 9.8 N." },
+        { "q": "A body has a weight of 150 N on a planet where its mass is about 40.3 kg. The field strength there is about:", "options": ["3.7 N/kg", "9.8 N/kg", "1.6 N/kg", "24.8 N/kg"], "answer": 0, "explanation": "g = W/m ≈ 150 ÷ 40.3 ≈ 3.7 N/kg, the value for Mars." },
+        { "q": "Gravitational field strength and acceleration due to gravity are:", "options": ["different in value", "equal in magnitude, so the same symbol g is used", "always zero", "unrelated"], "answer": 1, "explanation": "g = F/m = a, so 9.8 N/kg = 9.8 m/s²." },
+        { "q": "A 60 kg astronaut on a planet with g = 24.8 N/kg weighs:", "options": ["60 N", "588 N", "1488 N", "2.4 N"], "answer": 2, "explanation": "W = 60 × 24.8 = 1488 N." }
+      ]
+    },
+    {
+      "id": "q9",
+      "topic": "Momentum, Force and Impulse",
+      "slos": ["P-09-B-39", "P-09-B-40", "P-09-B-42"],
+      "questions": [
+        { "q": "Momentum of a body is the product of its:", "options": ["mass and acceleration", "mass and velocity", "force and time", "weight and velocity"], "answer": 1, "explanation": "p = m v." },
+        { "q": "Momentum is a ______ quantity in the direction of ______.", "options": ["scalar, force", "vector, velocity", "vector, acceleration", "scalar, motion"], "answer": 1, "explanation": "It points in the direction of velocity." },
+        { "q": "The SI unit of momentum is:", "options": ["kg m s⁻²", "kg m s⁻¹ (or N s)", "N m", "kg m² s⁻¹"], "answer": 1, "explanation": "kg m/s; and N s = kg m s⁻² × s = kg m s⁻¹." },
+        { "q": "A 45 g golf ball moves at 80 m/s. Its momentum is:", "options": ["3600 kg m/s", "3.6 kg m/s", "0.36 kg m/s", "36 kg m/s"], "answer": 1, "explanation": "p = 0.045 × 80 = 3.6 kg m/s." },
+        { "q": "In terms of momentum, Newton's second law states that net force equals:", "options": ["momentum × time", "time rate of change of momentum", "mass × velocity", "change in velocity"], "answer": 1, "explanation": "F = Δp/Δt = (mv_f − mv_i)/Δt." },
+        { "q": "Impulse is defined as:", "options": ["mass × velocity", "force × time interval for which it acts", "force ÷ time", "momentum ÷ time"], "answer": 1, "explanation": "J = F × Δt = Δp." },
+        { "q": "Impulse is equal to the:", "options": ["change in momentum", "change in velocity", "weight", "kinetic energy"], "answer": 0, "explanation": "F Δt = Δp." },
+        { "q": "In a force-time graph, impulse is given by the:", "options": ["slope", "area under the curve", "maximum force", "intercept"], "answer": 1, "explanation": "Area = force × time = impulse." },
+        { "q": "A force acts on a body for 2 s and changes its momentum by 50 kg m/s. The force is:", "options": ["100 N", "25 N", "52 N", "48 N"], "answer": 1, "explanation": "F = Δp/Δt = 50 ÷ 2 = 25 N." },
+        { "q": "A 1200 kg car moving at 8 m/s is stopped in 5 s. The average force required is:", "options": ["−1920 N", "−9600 N", "−48 000 N", "−750 N"], "answer": 0, "explanation": "F = (0 − 1200 × 8) ÷ 5 = −1920 N (opposite to motion)." },
+        { "q": "Cricket gloves are padded with foam so that while catching the ball:", "options": ["the time of impact increases and force decreases", "the force increases", "the momentum increases", "the ball moves faster"], "answer": 0, "explanation": "Same Δp over longer Δt means smaller force." },
+        { "q": "A 2 kg ball moving at 15 m/s stops in 0.2 s in sand. The force by the sand on the ball is:", "options": ["−150 N", "−6 N", "−30 N", "−1.5 N"], "answer": 0, "explanation": "F = (0 − 2 × 15) ÷ 0.2 = −150 N." }
+      ]
+    },
+    {
+      "id": "q10",
+      "topic": "Conservation of Momentum",
+      "slos": ["P-09-B-41"],
+      "questions": [
+        { "q": "A system on which the net external force is zero is called:", "options": ["an open system", "an isolated system", "a closed loop", "a free body"], "answer": 1, "explanation": "Its interactions with the environment have no effect." },
+        { "q": "The law of conservation of momentum states that the momentum of an isolated system:", "options": ["increases", "decreases", "remains constant", "becomes zero"], "answer": 2, "explanation": "If no net external force acts, total momentum cannot change." },
+        { "q": "Before firing, the total momentum of a gun and bullet at rest is:", "options": ["maximum", "zero", "equal to bullet's momentum", "negative"], "answer": 1, "explanation": "Both are at rest, so p = 0." },
+        { "q": "After firing, the gun moves backward. This is called:", "options": ["recoil", "inertia", "friction", "thrust"], "answer": 0, "explanation": "The gun gains momentum opposite to the bullet." },
+        { "q": "The recoil velocity of a gun is small compared with the bullet's velocity because the gun:", "options": ["has less mass", "has much greater mass", "is fixed", "has no momentum"], "answer": 1, "explanation": "m_g v_g = −m_b v_b; bigger mass ⇒ smaller velocity." },
+        { "q": "A 17 g bullet is fired at 350 m/s from a 3 kg rifle. The recoil velocity is about:", "options": ["−1.98 m/s", "−19.8 m/s", "−0.198 m/s", "−350 m/s"], "answer": 0, "explanation": "v_g = −(0.017 × 350)/3 ≈ −1.98 m/s (book Example 3.6)." },
+        { "q": "A 100 g bullet is fired at 20 m/s from a 5 kg gun. The recoil speed of the gun is:", "options": ["4 m/s", "0.4 m/s", "0.04 m/s", "40 m/s"], "answer": 1, "explanation": "v = (0.1 × 20)/5 = 0.4 m/s." },
+        { "q": "A rocket accelerates in empty space because:", "options": ["it pushes against air", "hot gases rush out with large momentum and the rocket gains equal and opposite momentum", "there is no gravity", "of friction"], "answer": 1, "explanation": "Conservation of momentum (and Newton's third law)." },
+        { "q": "A man on a frictionless (oily) floor can move out by:", "options": ["walking normally", "throwing his bag in the opposite direction", "jumping up", "waiting"], "answer": 1, "explanation": "The bag gains momentum one way; he gains equal momentum the other way." },
+        { "q": "In the expression m_g v_g + m_b v_b = 0, the negative sign of v_g shows that:", "options": ["the gun is at rest", "the gun moves opposite to the bullet", "the gun is faster", "momentum is lost"], "answer": 1, "explanation": "Velocities of gun and bullet are in opposite directions." },
+        { "q": "Two skaters at rest push each other apart. Their total momentum after pushing is:", "options": ["zero", "doubled", "equal to the heavier skater's momentum", "infinite"], "answer": 0, "explanation": "Initial momentum is zero, and it is conserved." }
+      ]
+    },
+    {
+      "id": "q11",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "Inertia of a body is related to which of the following quantities?", "options": ["mass", "force", "weight", "friction"], "answer": 0, "explanation": "Inertia depends on mass: greater mass, greater inertia." },
+        { "q": "A force of 5 N is applied to a body weighing 10 N. Its acceleration in m/s² is (take g ≈ 10 m/s²):", "options": ["0.5", "2", "5", "50"], "answer": 2, "explanation": "m = W/g = 10/10 = 1 kg, so a = F/m = 5/1 = 5 m/s²." },
+        { "q": "SI unit of linear momentum is:", "options": ["kg m s⁻²", "kg m² s⁻¹", "N m", "kg m s⁻¹"], "answer": 3, "explanation": "p = mv, so kg × m/s = kg m s⁻¹." },
+        { "q": "The rate of change of momentum of a freely falling body is equal to its:", "options": ["momentum", "velocity", "weight", "size"], "answer": 2, "explanation": "Δp/Δt = net force = its weight (mg)." },
+        { "q": "Change in momentum of a body is equal to:", "options": ["(force)(velocity)", "(force)(time)", "(mass)(time)", "force"], "answer": 1, "explanation": "Δp = F × Δt (impulse)." },
+        { "q": "A book of mass 5 kg is placed on the table. The magnitude of the normal (reaction) force by the table on the book is (take g ≈ 10 m/s²):", "options": ["50 N", "5 N", "25 N", "10 N"], "answer": 0, "explanation": "The table balances its weight: mg = 5 × 10 = 50 N (net force on the book is zero)." },
+        { "q": "Thrust force is a consequence of which law of motion?", "options": ["First", "Second", "Third", "Fourth"], "answer": 2, "explanation": "Gases pushed backward push the engine forward — action and reaction." },
+        { "q": "A force acts on a body for 2 seconds and it produces 50 kg m/s change in its momentum. The force acting on the body is:", "options": ["100 N", "50 N", "25 N", "2 N"], "answer": 2, "explanation": "F = Δp/Δt = 50 ÷ 2 = 25 N." },
+        { "q": "At the fairground (rotor ride), the force that balances your weight is:", "options": ["gravitational force", "centripetal force", "electrostatic force", "frictional force"], "answer": 3, "explanation": "Friction between your back and the wall acts upward and balances your weight." },
+        { "q": "When a hanging carpet is beaten by a stick, dust flies off the carpet. It is mainly due to:", "options": ["action force on carpet", "reaction force by carpet", "inertia of dust", "rate of change of momentum of carpet"], "answer": 2, "explanation": "The carpet moves suddenly but the dust stays at rest due to inertia and separates." },
+        { "q": "A bucket having some water is revolved in a vertical circle. Water does not spill out even when the bucket is upside down, due to:", "options": ["weight of water", "centrifugal force on water", "inertia of water", "action and reaction balance each other"], "answer": 2, "explanation": "The water's inertia keeps it moving along its path, pressing it into the bucket." },
+        { "q": "The force which moves the car is:", "options": ["force developed by engine", "force of friction between road and tyre", "weight of car", "water spilt on the road"], "answer": 1, "explanation": "Tyres push the road back; the road's frictional reaction pushes the car forward." },
+        { "q": "N kg⁻¹ is equivalent to:", "options": ["m s⁻¹", "m s⁻²", "kg m s⁻¹", "kg s⁻²"], "answer": 1, "explanation": "N/kg = kg m s⁻²/kg = m s⁻²." },
+        { "q": "An object of mass 1 kg placed at Earth's surface experiences a force of:", "options": ["1 N", "9.8 N", "100 N", "any value"], "answer": 1, "explanation": "W = mg = 1 × 9.8 = 9.8 N." },
+        { "q": "Net force on a body falling in air with uniform velocity is equal to:", "options": ["weight of the body", "air resistance on the body", "difference of weight and air resistance, which is non-zero", "zero"], "answer": 3, "explanation": "Uniform velocity means zero acceleration, so net force = 0." }
+      ]
+    }
+  ]
+}
