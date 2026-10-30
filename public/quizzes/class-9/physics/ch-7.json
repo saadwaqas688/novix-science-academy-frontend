@@ -1,0 +1,160 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 7,
+  "chapterTitle": "Density and Temperature",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Density",
+      "slos": ["P-09-C-01"],
+      "questions": [
+        { "q": "Density of a substance is defined as:", "options": ["mass × volume", "mass per unit volume", "volume per unit mass", "weight per unit area"], "answer": 1, "explanation": "ρ = m/V." },
+        { "q": "The SI unit of density is:", "options": ["kg m⁻³", "g cm³", "kg m³", "N m⁻²"], "answer": 0, "explanation": "Kilogram per cubic metre." },
+        { "q": "1 g/cm³ is equal to:", "options": ["10 kg/m³", "100 kg/m³", "1000 kg/m³", "0.001 kg/m³"], "answer": 2, "explanation": "Multiply g/cm³ by 1000 to get kg/m³." },
+        { "q": "The density of petrol is 0.9 g/cm³. In kg/m³ it is:", "options": ["9 kg/m³", "90 kg/m³", "900 kg/m³", "9000 kg/m³"], "answer": 2, "explanation": "0.9 × 1000 = 900 kg/m³." },
+        { "q": "Density is a:", "options": ["vector quantity", "scalar quantity", "base quantity", "force"], "answer": 1, "explanation": "It has magnitude only." },
+        { "q": "In general, the order of densities is:", "options": ["gas > liquid > solid", "solid > liquid > gas", "liquid > solid > gas", "all equal"], "answer": 1, "explanation": "Solids have the most closely packed particles." },
+        { "q": "100 g, 1 kg and 1 tonne of water at room temperature have:", "options": ["increasing density", "decreasing density", "the same density", "no density"], "answer": 2, "explanation": "Density does not depend on the amount of substance." },
+        { "q": "A cube of side 5 cm has a mass of 500 g. Its density is:", "options": ["4 g/cm³", "100 g/cm³", "20 g/cm³", "0.25 g/cm³"], "answer": 0, "explanation": "V = 125 cm³; ρ = 500/125 = 4 g/cm³." },
+        { "q": "A liquid of density 50 kg/m³ fills a 5 m³ container. Its mass is:", "options": ["10 kg", "55 kg", "250 kg", "0.1 kg"], "answer": 2, "explanation": "m = ρV = 50 × 5 = 250 kg." },
+        { "q": "The most dense naturally occurring element at room temperature is:", "options": ["gold", "lead", "osmium", "mercury"], "answer": 2, "explanation": "Osmium is about 22.6 g/cm³." },
+        { "q": "The density of a material generally decreases on heating because:", "options": ["mass decreases", "volume increases (expansion)", "weight increases", "particles disappear"], "answer": 1, "explanation": "Same mass in a larger volume." },
+        { "q": "Liquid A (1 g/mL) and liquid B (0.8 g/mL) are mixed and do not dissolve. Which floats on top?", "options": ["A", "B", "both mix", "neither"], "answer": 1, "explanation": "The less dense liquid floats on top." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Measuring Density of Liquids and Solids",
+      "slos": ["P-09-C-02"],
+      "questions": [
+        { "q": "To find the density of a liquid we need a balance and a:", "options": ["metre rule", "measuring cylinder", "thermometer", "stopwatch"], "answer": 1, "explanation": "The cylinder gives volume; the balance gives mass." },
+        { "q": "Mass of liquid is found by:", "options": ["mass of cylinder + liquid − mass of empty cylinder", "mass of empty cylinder only", "volume × 1000", "mass of cylinder + liquid + empty cylinder"], "answer": 0, "explanation": "Subtract the empty cylinder's mass." },
+        { "q": "An empty cylinder is 145 g; with 60 mL of liquid it is 205 g. The density is:", "options": ["1 g/mL", "3.4 g/mL", "0.29 g/mL", "60 g/mL"], "answer": 0, "explanation": "(205 − 145)/60 = 1 g/mL — it is water." },
+        { "q": "The volume of a regular cuboid is found by:", "options": ["displacement only", "length × width × height", "πr²", "mass/density only"], "answer": 1, "explanation": "Measure dimensions with a ruler/vernier." },
+        { "q": "A brick of 3.30 kg has volume 0.00140 m³. Its density is about:", "options": ["2360 kg/m³", "236 kg/m³", "4.6 kg/m³", "23 600 kg/m³"], "answer": 0, "explanation": "3.30 ÷ 0.00140 ≈ 2360 kg/m³." },
+        { "q": "The volume of an irregular stone is found by the:", "options": ["formula method", "displacement method", "weighing method", "heating method"], "answer": 1, "explanation": "Water displaced equals the stone's volume." },
+        { "q": "In the displacement method, the volume of the object is:", "options": ["V₁ + V₂", "V₂ − V₁", "V₁ × V₂", "V₁ / V₂"], "answer": 1, "explanation": "Final reading minus initial reading." },
+        { "q": "A rock of 80.52 g raises water from 18 mL to 46 mL. Its density is about:", "options": ["2.88 g/cm³", "1.75 g/cm³", "4.47 g/cm³", "0.35 g/cm³"], "answer": 0, "explanation": "V = 28 cm³; ρ = 80.52/28 ≈ 2.88 g/cm³." },
+        { "q": "The displacement method works only for objects that are:", "options": ["soluble and floating", "insoluble and sink in water", "gases", "hot"], "answer": 1, "explanation": "The object must not dissolve and should be fully immersed." },
+        { "q": "The volume of a sphere of radius r is:", "options": ["4πr²", "(4/3)πr³", "πr²h", "2πr"], "answer": 1, "explanation": "Used for regular spherical solids." },
+        { "q": "A metal block 2 cm × 3 cm × 5 cm has mass 240 g. Its density is:", "options": ["8 g/cm³", "48 g/cm³", "0.125 g/cm³", "24 g/cm³"], "answer": 0, "explanation": "V = 30 cm³; 240/30 = 8 g/cm³." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "States of Matter and Plasma",
+      "slos": ["P-09-C-03", "P-09-C-04"],
+      "questions": [
+        { "q": "In which state do particles only vibrate about their mean positions?", "options": ["solid", "liquid", "gas", "plasma"], "answer": 0, "explanation": "Strong forces hold particles in a fixed lattice." },
+        { "q": "Particles of a liquid:", "options": ["are fixed", "slide (glide) over one another", "are very far apart", "are ions"], "answer": 1, "explanation": "So liquids flow and take the shape of the container." },
+        { "q": "The attractive force between gas particles is:", "options": ["very strong", "intermediate", "negligibly weak", "infinite"], "answer": 2, "explanation": "Gas particles move freely and fill the container." },
+        { "q": "Which state is highly compressible and fills any container?", "options": ["solid", "liquid", "gas", "none"], "answer": 2, "explanation": "Large spaces between gas particles." },
+        { "q": "Liquids and gases are together called:", "options": ["solids", "fluids", "plasmas", "crystals"], "answer": 1, "explanation": "Both can flow." },
+        { "q": "When a solid melts into a liquid, its particles:", "options": ["come closer", "move farther apart", "stop moving", "become ions"], "answer": 1, "explanation": "Attractive forces weaken and particles start sliding." },
+        { "q": "Which statement describes gas particles?", "options": ["tightly packed with strong bonds", "fixed positions", "moving randomly and freely at high speed", "arranged in a repeating pattern"], "answer": 2, "explanation": "Constant random motion with collisions." },
+        { "q": "Plasma consists of:", "options": ["only neutral atoms", "positive ions, free electrons and neutral atoms", "only electrons", "solid particles"], "answer": 1, "explanation": "It is an ionised gas." },
+        { "q": "Plasma is called the fourth state of matter because:", "options": ["it is cold", "it is a hot, highly ionised state different from ordinary gas", "it is a liquid", "it is rare"], "answer": 1, "explanation": "About 99% of the visible universe is plasma." },
+        { "q": "Which of these contains plasma?", "options": ["ice", "the Sun and stars", "water", "a wooden table"], "answer": 1, "explanation": "Also lightning, neon lights and auroras." },
+        { "q": "Plasma is a good conductor of electricity because it has:", "options": ["no particles", "free electrons and ions", "only neutral atoms", "fixed lattice"], "answer": 1, "explanation": "Charged particles carry current." },
+        { "q": "How many states (phases) of matter are described in the book?", "options": ["2", "3", "4", "5"], "answer": 2, "explanation": "Solid, liquid, gas and plasma." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Temperature, Particle Motion and Internal Energy",
+      "slos": ["P-09-C-05", "P-09-C-06"],
+      "questions": [
+        { "q": "Temperature of a substance is directly proportional to the:", "options": ["total mass of particles", "average kinetic energy of its particles", "volume", "density"], "answer": 1, "explanation": "Hotter = faster-moving particles." },
+        { "q": "When a substance is heated (without change of state), its particles:", "options": ["slow down", "speed up", "stop", "disappear"], "answer": 1, "explanation": "Their kinetic energy and temperature rise." },
+        { "q": "The lowest possible temperature, at which particles have least kinetic energy, is:", "options": ["0 °C", "absolute zero (0 K)", "−100 °C", "273 K"], "answer": 1, "explanation": "0 K = −273.15 °C." },
+        { "q": "Absolute zero on the Celsius scale is about:", "options": ["0 °C", "−273.15 °C", "−100 °C", "273.15 °C"], "answer": 1, "explanation": "0 K = −273.15 °C." },
+        { "q": "At absolute zero, the pressure of a gas would be:", "options": ["maximum", "zero", "1 atm", "infinite"], "answer": 1, "explanation": "Particles would not collide with the walls." },
+        { "q": "Internal energy of a substance is the:", "options": ["kinetic energy of the whole object", "total kinetic and potential energy of its particles", "heat given only", "temperature"], "answer": 1, "explanation": "Sum of particle KE and PE." },
+        { "q": "Increasing the temperature of an object:", "options": ["decreases its internal energy", "increases its internal energy", "has no effect", "makes it zero"], "answer": 1, "explanation": "Particles gain kinetic energy." },
+        { "q": "The internal energy of an ideal gas is only due to:", "options": ["potential energy", "translational kinetic energy of particles", "chemical energy", "nuclear energy"], "answer": 1, "explanation": "Ideal gas particles have no mutual attraction." },
+        { "q": "When an ideal gas expands at constant temperature, its internal energy:", "options": ["increases", "decreases", "remains the same", "cannot be determined"], "answer": 2, "explanation": "Internal energy of an ideal gas depends only on temperature." },
+        { "q": "Which is NOT a form of internal energy?", "options": ["kinetic energy of particles", "potential energy of particles", "chemical energy of bonds", "light energy"], "answer": 3, "explanation": "Light is radiated energy, not stored in particles." },
+        { "q": "Internal energy can be increased without heating by:", "options": ["doing work on it (e.g. rubbing or compressing)", "cooling it", "leaving it alone", "painting it"], "answer": 0, "explanation": "Friction or compression increases particle energy." },
+        { "q": "During melting, temperature stays constant because heat is used to:", "options": ["increase KE of particles", "break intermolecular attractions (change state)", "destroy particles", "reduce mass"], "answer": 1, "explanation": "Energy goes into changing state, not raising KE." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Thermometric Properties and Types of Thermometers",
+      "slos": ["P-09-C-07"],
+      "questions": [
+        { "q": "A physical property that changes with temperature and is used to measure it is called:", "options": ["density", "thermometric property", "pressure", "least count"], "answer": 1, "explanation": "E.g. expansion, pressure, resistance, emf, colour." },
+        { "q": "A mercury thermometer works on the change in:", "options": ["electrical resistance", "pressure", "volume (expansion) of liquid", "colour"], "answer": 2, "explanation": "Mercury expands uniformly with temperature." },
+        { "q": "A constant-volume gas thermometer works on the change in:", "options": ["volume of gas", "pressure of gas", "colour", "emf"], "answer": 1, "explanation": "At constant volume, pressure ∝ temperature." },
+        { "q": "A thermocouple measures temperature through a change in:", "options": ["volume", "e.m.f. (voltage)", "colour", "length"], "answer": 1, "explanation": "Voltage between hot and cold junctions." },
+        { "q": "A resistance thermometer (thermistor) works on the change in:", "options": ["colour", "electrical resistance", "pressure", "volume of liquid"], "answer": 1, "explanation": "Resistance varies with temperature." },
+        { "q": "A bimetallic strip thermometer works on:", "options": ["unequal expansion of two metals", "change in colour", "change in emf", "pressure of gas"], "answer": 0, "explanation": "The strip bends as temperature changes." },
+        { "q": "Liquid crystal strip thermometers measure temperature by change in:", "options": ["volume", "colour", "resistance", "pressure"], "answer": 1, "explanation": "Used for fever, aquariums and baby bottles." },
+        { "q": "Which thermometer is best for very high temperatures like furnaces?", "options": ["mercury thermometer", "thermocouple", "clinical thermometer", "liquid crystal strip"], "answer": 1, "explanation": "It has a very wide range and fast response." },
+        { "q": "Which thermometer is most suitable for rapidly changing temperatures?", "options": ["constant volume gas thermometer", "resistance thermometer", "liquid-in-glass thermometer", "thermocouple"], "answer": 3, "explanation": "Its small junction responds very quickly." },
+        { "q": "Water is not used in liquid-in-glass thermometers because it:", "options": ["expands uniformly", "is opaque, wets glass, expands irregularly and freezes at 0 °C", "is expensive", "is a metal"], "answer": 1, "explanation": "It also has a small range (0–100 °C)." },
+        { "q": "A constant-pressure gas thermometer uses the change in gas ______ with temperature.", "options": ["colour", "volume", "resistance", "mass"], "answer": 1, "explanation": "At constant pressure, volume increases with temperature (Charles's law)." }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Fixed Points and Temperature Scales",
+      "slos": ["P-09-C-08"],
+      "questions": [
+        { "q": "Fixed points are needed to calibrate a thermometer because they:", "options": ["make it heavy", "give accessible and reproducible reference temperatures for marking the scale", "change colour", "increase range"], "answer": 1, "explanation": "The gap between them is divided into equal parts." },
+        { "q": "The lower fixed point on the Celsius scale is:", "options": ["melting point of ice, 0 °C", "boiling point of water", "−273 °C", "37 °C"], "answer": 0, "explanation": "Ice melts at 0 °C at standard pressure." },
+        { "q": "The upper fixed point on the Celsius scale is:", "options": ["50 °C", "100 °C (boiling point of water)", "212 °C", "373 °C"], "answer": 1, "explanation": "Water boils at 100 °C at standard pressure." },
+        { "q": "On the Fahrenheit scale, ice melts at ______ and water boils at ______.", "options": ["0 °F, 100 °F", "32 °F, 212 °F", "273 °F, 373 °F", "−32 °F, 180 °F"], "answer": 1, "explanation": "Hence 180 divisions between fixed points." },
+        { "q": "On the Kelvin scale, ice melts at about:", "options": ["0 K", "100 K", "273 K", "373 K"], "answer": 2, "explanation": "T(K) = T(°C) + 273." },
+        { "q": "The number of divisions between the fixed points on the Celsius scale is:", "options": ["100", "180", "212", "273"], "answer": 0, "explanation": "100 − 0 = 100." },
+        { "q": "The number of divisions between the fixed points on the Fahrenheit scale is:", "options": ["100", "180", "212", "32"], "answer": 1, "explanation": "212 − 32 = 180." },
+        { "q": "37 °C on the Kelvin scale is:", "options": ["310 K", "236 K", "37 K", "273 K"], "answer": 0, "explanation": "37 + 273 = 310 K." },
+        { "q": "100 °C on the Fahrenheit scale is:", "options": ["180 °F", "212 °F", "132 °F", "373 °F"], "answer": 1, "explanation": "F = 9/5 × 100 + 32 = 212 °F." },
+        { "q": "A mercury level is 2 cm at the ice point and 6 cm at the steam point. Each 1 °C division is:", "options": ["0.04 cm", "0.06 cm", "0.08 cm", "1 cm"], "answer": 0, "explanation": "(6 − 2)/100 = 0.04 cm." },
+        { "q": "A thermometer reads 25 cm at 100 °C and 5 cm at 0 °C. When it reads 15 cm, the temperature is:", "options": ["15 °C", "50 °C", "60 °C", "75 °C"], "answer": 1, "explanation": "(15 − 5)/(25 − 5) × 100 = 50 °C." }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Sensitivity, Range, Linearity; Liquid-in-Glass vs Thermocouple",
+      "slos": ["P-09-C-09", "P-09-C-10", "P-09-C-11"],
+      "questions": [
+        { "q": "Sensitivity of a thermometer is its ability to:", "options": ["measure very high temperatures", "detect small changes in temperature", "show equal divisions", "work fast"], "answer": 1, "explanation": "It is like the least count of an instrument." },
+        { "q": "Range of a thermometer is:", "options": ["its length", "the lowest to highest temperatures it can measure", "its least count", "its accuracy"], "answer": 1, "explanation": "E.g. clinical thermometer: 35–42 °C." },
+        { "q": "The range of a clinical thermometer is:", "options": ["0–100 °C", "35–42 °C", "−10–110 °C", "94–108 °C on Celsius"], "answer": 1, "explanation": "94–108 °F on the Fahrenheit scale." },
+        { "q": "Linearity means a thermometer:", "options": ["is straight", "shows equal changes in reading for equal changes in temperature across its range", "is long", "has a large bulb"], "answer": 1, "explanation": "Equally spaced scale marks." },
+        { "q": "A liquid-in-glass thermometer becomes more sensitive with a:", "options": ["wider capillary tube", "narrower capillary tube", "shorter tube", "thicker glass"], "answer": 1, "explanation": "A small expansion produces a longer rise in a narrow tube." },
+        { "q": "Which of these can increase the sensitivity of a liquid-in-glass thermometer?", "options": ["a bigger bulb containing more liquid", "a wider tube", "using water", "thicker bulb wall"], "answer": 0, "explanation": "More liquid expands more for each degree, so the thread rises more." },
+        { "q": "Mercury is used in thermometers because it:", "options": ["is transparent", "expands uniformly, is opaque, does not wet glass and has a wide liquid range", "is cheap and safe", "freezes at 0 °C"], "answer": 1, "explanation": "Melting −39 °C, boiling 357 °C." },
+        { "q": "Alcohol thermometers are preferred in very cold regions because alcohol:", "options": ["boils at high temperature", "has a very low freezing point", "is opaque", "is heavy"], "answer": 1, "explanation": "Alcohol freezes at about −115 °C." },
+        { "q": "A thermocouple consists of:", "options": ["a glass tube with mercury", "two wires of different metals joined at a junction", "a bimetallic strip", "a gas bulb"], "answer": 1, "explanation": "Hot junction and cold junction connected to a voltmeter." },
+        { "q": "In a thermocouple, as the hot junction is heated, the voltage:", "options": ["decreases", "increases", "stays zero", "reverses always"], "answer": 1, "explanation": "Voltage varies with temperature difference." },
+        { "q": "Thermocouples are suitable for high temperatures but liquid-in-glass thermometers are not because:", "options": ["glass melts and liquid boils at high temperatures", "thermocouples are made of glass", "liquids freeze", "they are the same"], "answer": 0, "explanation": "Metal junctions withstand very high temperatures." },
+        { "q": "Borosilicate glass improves a liquid-in-glass thermometer's:", "options": ["colour", "linearity", "mass", "weight"], "answer": 1, "explanation": "It has a more uniform (linear) expansion." }
+      ]
+    },
+    {
+      "id": "q8",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "How many phases of matter are there?", "options": ["1", "2", "3", "4"], "answer": 3, "explanation": "Solid, liquid, gas and plasma." },
+        { "q": "In which of the materials do particles have only vibrational motion?", "options": ["Solid", "Liquids", "Gas", "Plasma"], "answer": 0, "explanation": "Solid particles vibrate about fixed positions." },
+        { "q": "Which amount of water has greater density at room temperature?", "options": ["100 g", "1 kg", "1 ton", "All have same density"], "answer": 3, "explanation": "Density does not depend on quantity." },
+        { "q": "What is the mass of a liquid of density 50 kg m⁻³ in a container of volume 5 m³?", "options": ["200 kg", "225 kg", "250 kg", "275 kg"], "answer": 2, "explanation": "m = ρV = 50 × 5 = 250 kg." },
+        { "q": "Gases and liquids are categorized as:", "options": ["Liquids", "Gases", "Fluids", "Solids"], "answer": 2, "explanation": "Both can flow." },
+        { "q": "Which statement describes the particle structure of gases?", "options": ["Particles are tightly packed and have strong bonds", "Particles have moderate kinetic energy and move randomly", "Particles are arranged in a repeating pattern", "Particles have fixed positions and low kinetic energy"], "answer": 1, "explanation": "Gas particles move randomly and freely." },
+        { "q": "Which state of matter has particles that are highly compressible and can fill any container?", "options": ["Solid", "Liquid", "Gas", "Plasma"], "answer": 2, "explanation": "Gas particles have large spaces between them." },
+        { "q": "What happens to the arrangement of particles when a solid is heated and turns into a liquid?", "options": ["Particles become more closely packed", "Particles move farther apart", "Particles start vibrating in fixed positions", "Particles change their state from solid to gas"], "answer": 1, "explanation": "Bonds weaken and particles move apart." },
+        { "q": "Which of the following is NOT a form of internal energy?", "options": ["Kinetic energy of the particles", "Potential energy of the particles", "Chemical energy of the bonds between the particles", "Light energy"], "answer": 3, "explanation": "Light is not stored in particles of the substance." },
+        { "q": "When an ideal gas is expanded keeping its temperature constant, its internal energy:", "options": ["Increases", "Decreases", "Remains the same", "Cannot be determined"], "answer": 2, "explanation": "Depends only on temperature for an ideal gas." },
+        { "q": "Which of the following physical properties is used in a mercury thermometer?", "options": ["Electrical resistance", "Pressure", "Volume", "Colour"], "answer": 2, "explanation": "Volume expansion of mercury." },
+        { "q": "Which of the following can increase the sensitivity of a liquid-in-glass thermometer?", "options": ["Use a bigger bulb which contains more amount of liquid", "Use a longer capillary tube", "Use a thicker glass wall", "Use a liquid that changes colour"], "answer": 0, "explanation": "More liquid expands more per degree, raising the thread further." },
+        { "q": "The thermometer which is most suitable for measuring rapidly changing temperatures is:", "options": ["Constant volume gas thermometer", "Resistance thermometer", "Liquid in glass thermometer", "Thermocouple"], "answer": 3, "explanation": "Thermocouples respond very quickly." },
+        { "q": "A liquid-in-glass thermometer has a mercury level of 2 cm at the melting point of ice and 6 cm at the boiling point of water. What is the distance between every 1 °C division?", "options": ["0.04 cm", "0.06 cm", "0.08 cm", "1.00 cm"], "answer": 0, "explanation": "(6 − 2) cm ÷ 100 = 0.04 cm." },
+        { "q": "Which thermometer uses voltage to measure the temperature of a hot body?", "options": ["Thermocouple", "Resistance thermometer", "Liquid-in-glass thermometer", "Gas thermometer"], "answer": 0, "explanation": "It measures the emf between two junctions." }
+      ]
+    }
+  ]
+}

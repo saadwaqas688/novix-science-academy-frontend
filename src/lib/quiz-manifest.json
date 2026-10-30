@@ -319,5 +319,51 @@
         "count": 15
       }
     ]
+  },
+  "9/physics/7": {
+    "url": "/quizzes/class-9/physics/ch-7.json",
+    "chapterTitle": "Density and Temperature",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Density",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Measuring Density of Liquids and Solids",
+        "count": 11
+      },
+      {
+        "id": "q3",
+        "topic": "States of Matter and Plasma",
+        "count": 12
+      },
+      {
+        "id": "q4",
+        "topic": "Temperature, Particle Motion and Internal Energy",
+        "count": 12
+      },
+      {
+        "id": "q5",
+        "topic": "Thermometric Properties and Types of Thermometers",
+        "count": 11
+      },
+      {
+        "id": "q6",
+        "topic": "Fixed Points and Temperature Scales",
+        "count": 11
+      },
+      {
+        "id": "q7",
+        "topic": "Sensitivity, Range, Linearity; Liquid-in-Glass vs Thermocouple",
+        "count": 12
+      },
+      {
+        "id": "q8",
+        "topic": "Exercise MCQs (Book)",
+        "count": 15
+      }
+    ]
   }
 }
