@@ -1,0 +1,181 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 4,
+  "chapterTitle": "Dynamics-II",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Parallel Forces and Moment of Force (Torque)",
+      "slos": ["P-09-B-43", "P-09-B-44"],
+      "questions": [
+        { "q": "The line along which a force acts is called the:", "options": ["moment arm", "line of action of the force", "axis of rotation", "pivot"], "answer": 1, "explanation": "The line of action may be extended to find the moment arm." },
+        { "q": "Parallel forces acting in the same direction are called:", "options": ["unlike parallel forces", "like parallel forces", "couple", "balanced forces"], "answer": 1, "explanation": "E.g. pushing a cart with both hands." },
+        { "q": "Parallel forces acting in opposite directions are called:", "options": ["like parallel forces", "unlike parallel forces", "concurrent forces", "normal forces"], "answer": 1, "explanation": "E.g. turning a bike handle with both hands." },
+        { "q": "The turning effect produced in a body about a fixed point due to applied force is called:", "options": ["momentum", "moment of force (torque)", "impulse", "inertia"], "answer": 1, "explanation": "Torque causes change in rotational motion." },
+        { "q": "The SI unit of moment of force is:", "options": ["N", "N m", "N m⁻¹", "kg m s⁻¹"], "answer": 1, "explanation": "τ = F × d → newton × metre." },
+        { "q": "Moment of force τ is given by:", "options": ["F / d", "F × d (d = perpendicular distance from axis to line of action)", "F + d", "m × v"], "answer": 1, "explanation": "The perpendicular distance d is called the moment arm." },
+        { "q": "A force of 60 N acts at a moment arm of 0.40 m. The torque is:", "options": ["150 N m", "24 N m", "60.4 N m", "2.4 N m"], "answer": 1, "explanation": "τ = 60 × 0.40 = 24 N m (book Example 4.1)." },
+        { "q": "When the line of action of a force passes through the axis of rotation, the torque is:", "options": ["maximum", "zero", "infinite", "negative"], "answer": 1, "explanation": "The moment arm is zero, so τ = 0 (e.g. pushing a door at its hinge)." },
+        { "q": "By convention, anticlockwise moment is taken as ______ and clockwise moment as ______.", "options": ["negative, positive", "positive, negative", "positive, positive", "zero, positive"], "answer": 1, "explanation": "Anticlockwise (+), clockwise (−)." },
+        { "q": "A long-handled wrench is used to open a tight nut because it:", "options": ["reduces the force on the nut", "increases the moment arm, giving more torque for the same force", "decreases friction", "increases mass"], "answer": 1, "explanation": "Torque increases with moment arm." },
+        { "q": "The axis of rotation of a door is at its:", "options": ["handle", "hinges", "centre", "bottom edge"], "answer": 1, "explanation": "The door rotates about the line through its hinges." },
+        { "q": "Torque plays the same role in rotational motion as ______ plays in translational motion.", "options": ["mass", "force", "velocity", "time"], "answer": 1, "explanation": "Net torque changes rotation just as net force changes linear motion." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Equilibrium and Principle of Moments",
+      "slos": ["P-09-B-34", "P-09-B-45", "P-09-B-46"],
+      "questions": [
+        { "q": "A body is in equilibrium when:", "options": ["only net force is zero", "net force and net torque on it are both zero", "it is moving fast", "only net torque is zero"], "answer": 1, "explanation": "All forces and torques must be balanced." },
+        { "q": "The first condition of equilibrium is:", "options": ["Στ = 0", "ΣF = 0", "Σm = 0", "Σv = 0"], "answer": 1, "explanation": "The vector sum of all forces must be zero (force polygon closes)." },
+        { "q": "The second condition of equilibrium is:", "options": ["ΣF = 0", "Στ = 0", "a = g", "p = 0"], "answer": 1, "explanation": "The vector sum of all torques must be zero." },
+        { "q": "The second condition of equilibrium is also called the:", "options": ["law of inertia", "principle of moments", "law of conservation of momentum", "Hooke's law"], "answer": 1, "explanation": "Sum of clockwise moments = sum of anticlockwise moments." },
+        { "q": "A 4 N weight is 0.2 m from the pivot on one side of a metre rule. To balance it, a 2 N weight must be placed on the other side at:", "options": ["0.1 m", "0.4 m", "0.8 m", "0.2 m"], "answer": 1, "explanation": "4 × 0.2 = 2 × d ⇒ d = 0.4 m." },
+        { "q": "Kamil (250 N) sits 0.6 m from a seesaw pivot. Bilal (200 N) must sit at what distance to balance?", "options": ["0.48 m", "0.75 m", "0.6 m", "1.2 m"], "answer": 1, "explanation": "250 × 0.6 = 200 × d ⇒ d = 0.75 m." },
+        { "q": "To balance a heavier weight, a lighter weight should be placed:", "options": ["closer to the pivot", "farther from the pivot", "on the pivot", "on the same side"], "answer": 1, "explanation": "A larger moment arm compensates a smaller force." },
+        { "q": "A book resting on a table is in:", "options": ["static equilibrium", "dynamic equilibrium", "no equilibrium", "unstable motion"], "answer": 0, "explanation": "At rest with balanced forces (weight and normal force)." },
+        { "q": "A paratrooper falling with constant velocity is in:", "options": ["static equilibrium", "dynamic translational equilibrium", "dynamic rotational equilibrium", "no equilibrium"], "answer": 1, "explanation": "Moving with uniform linear velocity, net force zero." },
+        { "q": "A ceiling fan rotating with unchanging speed is in:", "options": ["static equilibrium", "dynamic rotational equilibrium", "unstable equilibrium", "no equilibrium"], "answer": 1, "explanation": "Uniform rotation means net torque is zero." },
+        { "q": "A body in equilibrium must NOT have:", "options": ["speed", "momentum", "velocity", "acceleration"], "answer": 3, "explanation": "Net force zero ⇒ acceleration zero; it may still move uniformly." },
+        { "q": "In an experiment to verify the principle of moments with a metre rule, the rule is first balanced at its:", "options": ["one end", "centre of gravity (middle)", "10 cm mark", "any point"], "answer": 1, "explanation": "Pivoting at its CG makes the rule's own weight produce no moment." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Centre of Mass and Centre of Gravity",
+      "slos": ["P-09-B-47", "P-09-B-48"],
+      "questions": [
+        { "q": "The point about which the mass of a rigid body is equally distributed is its:", "options": ["centre of gravity", "centre of mass", "pivot", "axis"], "answer": 1, "explanation": "The CM can be treated as the point where all mass is concentrated." },
+        { "q": "The point where the whole weight of a body appears to act is its:", "options": ["centre of mass", "centre of gravity", "moment arm", "fulcrum"], "answer": 1, "explanation": "CG is where the entire force of gravity seems to act." },
+        { "q": "For small objects, the centre of mass and centre of gravity are:", "options": ["always different", "the same", "on opposite sides", "unrelated"], "answer": 1, "explanation": "g is the same throughout a small object." },
+        { "q": "CM and CG of a very tall object (like a mountain) differ slightly because:", "options": ["mass changes with height", "g decreases with altitude", "the object is rigid", "weight is zero at the top"], "answer": 1, "explanation": "Slightly different g at different heights shifts the CG." },
+        { "q": "The centre of gravity of a uniform sphere or cube lies at its:", "options": ["surface", "geometric centre", "base", "edge"], "answer": 1, "explanation": "For symmetric, homogeneous objects it is the geometric centre." },
+        { "q": "The centre of gravity of a uniform metre rod is at:", "options": ["one end", "its mid-point", "the 25 cm mark", "outside the rod"], "answer": 1, "explanation": "So a uniform rod balances at its centre." },
+        { "q": "The CG of an irregular plane sheet is found by suspending it from different points and using a:", "options": ["spring balance", "plumb line", "metre rule only", "stopwatch"], "answer": 1, "explanation": "Vertical lines through the suspension points meet at the CG." },
+        { "q": "The point where the plumb lines drawn from different suspension points intersect is the:", "options": ["pivot", "centre of gravity", "line of action", "moment arm"], "answer": 1, "explanation": "The CG always lies vertically below the point of suspension." },
+        { "q": "The centre of gravity of a ring or a bent arm can lie:", "options": ["only inside the material", "outside the material of the body", "only at the surface", "nowhere"], "answer": 1, "explanation": "CG may lie in empty space, e.g. centre of a ring." },
+        { "q": "When a hammer is thrown, its centre of mass follows a:", "options": ["complicated path", "smooth parabolic path", "circular path", "zig-zag path"], "answer": 1, "explanation": "Other points rotate around the CM in complicated paths." },
+        { "q": "If the line of action of a force passes through the centre of mass of a free body, the force:", "options": ["rotates it", "produces no rotation", "makes it vibrate", "has no effect"], "answer": 1, "explanation": "There is no moment arm about the CM, so only translation occurs." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "States of Equilibrium and Stability",
+      "slos": ["P-09-B-34", "P-09-B-49", "P-09-B-50", "P-09-B-51"],
+      "questions": [
+        { "q": "Stability is the ability of an object to:", "options": ["move faster", "return to its original position when the disturbing force is removed", "rotate freely", "float"], "answer": 1, "explanation": "Stable objects are difficult to topple." },
+        { "q": "A body that returns to its original position after being slightly tilted is in:", "options": ["stable equilibrium", "unstable equilibrium", "neutral equilibrium", "dynamic equilibrium"], "answer": 0, "explanation": "E.g. a book lying flat on a table." },
+        { "q": "In stable equilibrium, when the body is displaced its centre of mass:", "options": ["falls", "rises", "stays at the same level", "disappears"], "answer": 1, "explanation": "The weight then produces a moment that restores it." },
+        { "q": "A pencil balanced on its tip is in:", "options": ["stable equilibrium", "unstable equilibrium", "neutral equilibrium", "static stable state"], "answer": 1, "explanation": "When displaced, its CG falls and it topples." },
+        { "q": "A ball on a horizontal floor is in:", "options": ["stable equilibrium", "unstable equilibrium", "neutral equilibrium", "no equilibrium"], "answer": 2, "explanation": "It stays in its new position; its CG neither rises nor falls." },
+        { "q": "Stability of an object can be improved by:", "options": ["raising its CG and narrowing its base", "lowering its CG and widening its base", "making it taller", "reducing its mass only"], "answer": 1, "explanation": "Lower CG + larger area of support = more stable." },
+        { "q": "Racing cars are built low and wide to:", "options": ["look attractive", "increase stability", "increase air drag", "reduce weight"], "answer": 1, "explanation": "Low CG and wide base prevent toppling on turns." },
+        { "q": "Self-righting toys (wobbling dolls) return upright because their CG is:", "options": ["very high", "low, near the heavy rounded base", "outside the toy", "at the top"], "answer": 1, "explanation": "The weight creates a restoring moment when tilted." },
+        { "q": "A double-decker bus is more likely to topple when its:", "options": ["lower deck is full", "upper deck is full and lower deck empty", "both decks are empty", "tyres are new"], "answer": 1, "explanation": "A heavy upper deck raises the CG, reducing stability." },
+        { "q": "A tightrope walker carries a long horizontal pole mainly to:", "options": ["look balanced", "improve stability by lowering the CG and resisting rotation", "increase weight", "reduce friction"], "answer": 1, "explanation": "The pole's mass far from the body increases resistance to tipping." },
+        { "q": "An object topples when the vertical line through its CG:", "options": ["falls within its base", "falls outside its base", "passes through the pivot", "is horizontal"], "answer": 1, "explanation": "The weight then produces a toppling moment." },
+        { "q": "Standing with legs spread apart on a moving bus improves stability because it:", "options": ["raises the CG", "increases the base area", "reduces mass", "increases speed"], "answer": 1, "explanation": "A wider base keeps the CG over the base for larger tilts." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Friction: Sliding, Rolling and Methods to Reduce",
+      "slos": ["P-09-B-35", "P-09-B-37", "P-09-B-38"],
+      "questions": [
+        { "q": "Friction always acts:", "options": ["along the motion", "opposite to motion or attempted motion", "upward", "perpendicular to motion"], "answer": 1, "explanation": "It resists relative motion between surfaces." },
+        { "q": "The main cause of friction is:", "options": ["smoothness of surfaces", "interlocking of microscopic roughness of surfaces", "magnetism", "gravity only"], "answer": 1, "explanation": "Even polished surfaces are rough under a microscope." },
+        { "q": "Friction between brake pads and a bicycle rim is:", "options": ["rolling friction", "sliding friction", "fluid friction", "static only"], "answer": 1, "explanation": "The pads slide against the rim to slow the wheel." },
+        { "q": "For the same weight, rolling friction is:", "options": ["much greater than sliding friction", "much smaller than sliding friction", "equal to sliding friction", "zero"], "answer": 1, "explanation": "It can be 2–3 orders of magnitude smaller." },
+        { "q": "The invention of the wheel was a milestone because it replaced:", "options": ["rolling friction with sliding friction", "sliding friction with rolling friction", "gravity", "air resistance"], "answer": 1, "explanation": "Rolling makes moving heavy loads much easier." },
+        { "q": "Ball bearings reduce friction by:", "options": ["polishing surfaces", "converting sliding friction into rolling friction", "adding oil", "increasing weight"], "answer": 1, "explanation": "Balls roll between moving parts." },
+        { "q": "Applying oil or grease between machine parts reduces friction because:", "options": ["liquids have less friction than solid surfaces in contact", "it increases roughness", "it adds weight", "it heats the parts"], "answer": 0, "explanation": "Lubricants separate the solid surfaces." },
+        { "q": "Which is an ADVANTAGE of friction?", "options": ["wear and tear", "heating of machine parts", "it helps us walk without slipping", "energy waste"], "answer": 2, "explanation": "Friction between shoes and ground lets us walk." },
+        { "q": "Which is a DISADVANTAGE of friction?", "options": ["holding nails in wood", "tyres gripping the road", "wasting energy in machines", "helping us write"], "answer": 2, "explanation": "Energy is wasted as heat to overcome friction." },
+        { "q": "It is difficult to walk on a slippery floor because of:", "options": ["increased friction", "reduced friction", "more weight", "high grip"], "answer": 1, "explanation": "Less friction means less grip for pushing backward." },
+        { "q": "According to the book, wider tyres do not increase friction because friction:", "options": ["depends on speed", "does not depend on the area of contact", "depends on tyre colour", "is zero on roads"], "answer": 1, "explanation": "Wide tyres only spread the weight, reducing heat and wear." },
+        { "q": "Treads on tyres are mainly made to:", "options": ["increase friction", "displace water from the road to avoid skidding", "reduce weight", "look attractive"], "answer": 1, "explanation": "Racing cars on dry days often use treadless tyres." }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Fluid Friction, Terminal Velocity and Frictional Dissipation",
+      "slos": ["P-09-B-35", "P-09-B-36"],
+      "questions": [
+        { "q": "The retarding force experienced by an object moving through a fluid is called:", "options": ["thrust", "drag force", "tension", "normal force"], "answer": 1, "explanation": "Drag is the result of fluid friction." },
+        { "q": "Drag force does NOT depend on the:", "options": ["size and shape of the object", "speed relative to the fluid", "type of fluid", "colour of the object"], "answer": 3, "explanation": "It depends on size, shape, orientation, fluid and speed." },
+        { "q": "As a falling object's speed increases, the air resistance on it:", "options": ["decreases", "increases", "stays constant", "becomes zero"], "answer": 1, "explanation": "Drag increases with speed." },
+        { "q": "Terminal velocity is reached when:", "options": ["weight is zero", "drag force becomes equal to weight", "drag is zero", "speed is zero"], "answer": 1, "explanation": "Net force becomes zero (dynamic equilibrium)." },
+        { "q": "At terminal velocity, the acceleration of a falling body is:", "options": ["9.8 m/s²", "increasing", "zero", "negative"], "answer": 2, "explanation": "Speed stays constant, so acceleration is zero." },
+        { "q": "The terminal speed of a human skydiver in air (without parachute) is about:", "options": ["5 m/s", "53 m/s", "530 m/s", "3 m/s"], "answer": 1, "explanation": "About 53 m/s or 190 km/h." },
+        { "q": "After the parachute opens, the terminal speed reduces to about:", "options": ["5–10 m/s", "53 m/s", "100 m/s", "zero"], "answer": 0, "explanation": "The large area increases drag, giving a new lower terminal velocity." },
+        { "q": "The correct order of terminal speeds is:", "options": ["Raindrop > Snowflake > Hailstone", "Hailstone > Raindrop > Snowflake", "Snowflake > Raindrop > Hailstone", "All equal"], "answer": 1, "explanation": "Heavy, compact hailstones fall fastest; light, wide snowflakes slowest." },
+        { "q": "A force that decreases the mechanical energy of a system (converting it to heat) is called:", "options": ["conservative force", "dissipative force", "centripetal force", "elastic force"], "answer": 1, "explanation": "Friction and air resistance are dissipative." },
+        { "q": "Our hands get warm when we rub them together because of:", "options": ["frictional dissipation", "magnetism", "radiation from the Sun", "inertia"], "answer": 0, "explanation": "Work against friction appears as heat." },
+        { "q": "Shooting stars (meteors) glow because:", "options": ["they are hot stars", "air friction/compression heats them as they plough through the atmosphere", "the Moon lights them", "they contain light bulbs"], "answer": 1, "explanation": "Intense heating vaporises most meteors." },
+        { "q": "Skydivers change their body orientation to:", "options": ["change their mass", "manipulate drag and control speed and direction", "increase g", "reduce weight"], "answer": 1, "explanation": "Changing effective size and orientation changes drag." }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Rotating Bodies and Centripetal Force",
+      "slos": ["P-09-B-52", "P-09-B-53", "P-09-B-54"],
+      "questions": [
+        { "q": "Motion in a circular path with constant speed is called:", "options": ["uniform circular motion", "rectilinear motion", "random motion", "vibratory motion"], "answer": 0, "explanation": "Speed is constant but direction changes continuously." },
+        { "q": "In uniform circular motion, the velocity of the object:", "options": ["is constant", "changes because its direction changes", "is zero", "increases in magnitude"], "answer": 1, "explanation": "So the object is accelerating." },
+        { "q": "The acceleration in uniform circular motion is directed:", "options": ["along the tangent", "towards the centre of the circle", "away from the centre", "upward"], "answer": 1, "explanation": "It is called centripetal (centre-seeking) acceleration." },
+        { "q": "The force that pulls an object out of a straight-line path into a circular path is:", "options": ["centrifugal force", "centripetal force", "friction always", "thrust"], "answer": 1, "explanation": "Centripetal force acts towards the centre." },
+        { "q": "The magnitude of centripetal force is:", "options": ["mv/r", "mv²/r", "mr/v²", "mv²r"], "answer": 1, "explanation": "F_c = m v² / r." },
+        { "q": "A 5 kg hammer ball is swung at 25 m/s on a 1.5 m wire. The centripetal force is about:", "options": ["83 N", "2083 N", "417 N", "125 N"], "answer": 1, "explanation": "F = 5 × 25² ÷ 1.5 = 3125 ÷ 1.5 ≈ 2083 N." },
+        { "q": "For a ball whirled on a string, the centripetal force is provided by:", "options": ["gravity", "tension in the string", "friction", "air resistance"], "answer": 1, "explanation": "The string pulls the ball towards the centre." },
+        { "q": "The centripetal force that keeps planets in orbit around the Sun is:", "options": ["tension", "gravitational force", "friction", "magnetic force"], "answer": 1, "explanation": "The Sun's gravity pulls the planets towards it." },
+        { "q": "For a car turning on a flat road, the centripetal force is provided by:", "options": ["engine force", "friction between tyres and road", "weight", "air drag"], "answer": 1, "explanation": "If friction is insufficient the car skids outward." },
+        { "q": "A car taking a turn too fast skids off the road due to:", "options": ["excess centripetal force", "lack of sufficient centripetal force", "gravity", "rolling friction"], "answer": 1, "explanation": "Required mv²/r exceeds available friction." },
+        { "q": "If the string of a whirling stone breaks, the stone moves:", "options": ["towards the centre", "along the tangent in a straight line", "in a circle", "upward"], "answer": 1, "explanation": "With no centripetal force it continues straight due to inertia." },
+        { "q": "If the speed of a body in a circle is doubled (same mass and radius), the centripetal force becomes:", "options": ["double", "half", "four times", "same"], "answer": 2, "explanation": "F ∝ v², so 2² = 4 times." }
+      ]
+    },
+    {
+      "id": "q8",
+      "topic": "Orbital Motion and Planetary Data",
+      "slos": ["P-09-F-01", "P-09-F-02"],
+      "questions": [
+        { "q": "An object that orbits another object in space is called a:", "options": ["planet", "satellite", "star", "comet only"], "answer": 1, "explanation": "Satellites can be natural (Moon) or artificial (ISS)." },
+        { "q": "The time taken by an object to complete one orbit is called its:", "options": ["frequency", "orbital period", "speed", "radius"], "answer": 1, "explanation": "Earth's orbital period around the Sun is 365 days." },
+        { "q": "The average orbital speed of a satellite in a circular orbit is:", "options": ["2πr / T", "T / 2πr", "πr² / T", "2πT / r"], "answer": 0, "explanation": "Distance in one orbit = circumference 2πr, time = T." },
+        { "q": "Earth orbits the Sun at r = 1.5 × 10¹¹ m with T ≈ 3.16 × 10⁷ s. Its orbital speed is about:", "options": ["29.8 km/s", "3 km/s", "300 km/s", "0.3 km/s"], "answer": 0, "explanation": "v = 2π × 1.5 × 10¹¹ ÷ 3.16 × 10⁷ ≈ 2.98 × 10⁴ m/s." },
+        { "q": "We do not feel Earth's huge orbital speed because:", "options": ["it is very small", "we move along with the Earth (relatively at rest)", "the atmosphere stops it", "gravity cancels it"], "answer": 1, "explanation": "Motion is relative; everything around us moves with us." },
+        { "q": "The farther a planet is from the Sun, its orbital period is:", "options": ["shorter", "longer", "the same", "zero"], "answer": 1, "explanation": "E.g. Neptune takes almost 165 years." },
+        { "q": "The farther a planet is from the Sun, its average orbital speed is generally:", "options": ["greater", "smaller", "the same", "infinite"], "answer": 1, "explanation": "Outer planets move more slowly in their orbits." },
+        { "q": "If an artificial satellite is given too little speed at its orbit height, it will:", "options": ["escape into space", "fall back towards the Earth", "stay at rest", "move in a larger circle"], "answer": 1, "explanation": "Gravity pulls it down." },
+        { "q": "If a satellite's speed is too high, it will:", "options": ["fall to Earth", "move in an elliptical orbit or escape", "stop", "move in a smaller circle"], "answer": 1, "explanation": "Speed must be adjusted for a circular orbit." },
+        { "q": "A satellite's orbital speed at a given height depends on:", "options": ["the mass of the satellite", "the orbit radius (not the satellite's mass)", "its colour", "its shape"], "answer": 1, "explanation": "All satellites at the same height have the same speed." },
+        { "q": "The planet with the shortest orbital period in our solar system is:", "options": ["Neptune", "Earth", "Mercury", "Jupiter"], "answer": 2, "explanation": "Mercury is closest to the Sun (about 88 days)." },
+        { "q": "A satellite moves in a circle of radius 7000 km with period 5800 s. Its orbital speed is about:", "options": ["7.6 km/s", "1.2 km/s", "76 km/s", "0.76 km/s"], "answer": 0, "explanation": "v = 2π × 7 × 10⁶ ÷ 5800 ≈ 7.6 × 10³ m/s." }
+      ]
+    },
+    {
+      "id": "q9",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "A seesaw balances perfectly with two children of equal weight sitting at equal distances from the fulcrum. If one child moves closer to the fulcrum:", "options": ["The seesaw remains balanced", "The seesaw tips towards the child who moved closer", "The seesaw tips towards the child who stayed further away", "The seesaw topples"], "answer": 2, "explanation": "The moved child's moment decreases, so the farther child's larger moment tips the seesaw his way." },
+        { "q": "When line of action of the applied force passes through its pivot point then moment of force acting on the body is:", "options": ["maximum", "minimum", "zero", "infinite"], "answer": 2, "explanation": "Moment arm is zero, so τ = F × 0 = 0." },
+        { "q": "If a body is at rest or moving with uniform rotational velocity, then torque acting on the body will be:", "options": ["maximum", "minimum", "zero", "infinite"], "answer": 2, "explanation": "No change in rotation means net torque is zero." },
+        { "q": "A body in equilibrium must not have:", "options": ["speed", "quantity of motion", "velocity", "acceleration"], "answer": 3, "explanation": "Net force zero ⇒ no acceleration." },
+        { "q": "A uniformly rotating fan is said to be in:", "options": ["static equilibrium only", "dynamic equilibrium only", "both static and dynamic equilibrium", "not in equilibrium"], "answer": 1, "explanation": "It rotates uniformly — dynamic (rotational) equilibrium." },
+        { "q": "You throw a weighted fishing net into a calm lake. As the net sinks, it opens fully underwater. Compared to the moment it left your hand, where is the net's centre of mass now?", "options": ["Higher in the water column", "Lower in the water column", "At the same depth but slightly shifted horizontally", "Unchanged from its position when thrown"], "answer": 1, "explanation": "The whole net has sunk, so its centre of mass is lower." },
+        { "q": "A tightrope walker carries a long pole while walking across a rope. The stability of the walker is best improved if the pole is:", "options": ["long and placed vertically", "long and placed horizontally", "short and placed vertically", "short and placed horizontally"], "answer": 1, "explanation": "A long horizontal pole spreads mass far from the body and resists tipping." },
+        { "q": "It is more difficult to walk on a slippery surface than on a non-slippery one because of:", "options": ["reduced friction", "increased friction", "high grip", "lower weight"], "answer": 0, "explanation": "Less friction means less grip." },
+        { "q": "For an object moving with terminal velocity, its acceleration:", "options": ["increases with time", "decreases with time", "is zero", "first increases then decreases"], "answer": 2, "explanation": "Velocity is constant, so acceleration is zero." },
+        { "q": "The correct order of comparison for the terminal speeds of a raindrop, snowflake and hailstone is:", "options": ["Raindrop > Snowflake > Hailstone", "Hailstone > Raindrop > Snowflake", "Snowflake > Raindrop > Hailstone", "Raindrop = Snowflake = Hailstone"], "answer": 1, "explanation": "Heavier compact bodies have higher terminal speed." },
+        { "q": "You are trying to loosen a nut using a spanner, but it is not working. In order to open the nut, you need to:", "options": ["insert a pipe to increase length of spanner", "use a spanner of small length", "use plastic and soft spanner", "tie a rope with spanner"], "answer": 0, "explanation": "Longer moment arm gives more torque." },
+        { "q": "The force that always changes direction of velocity and not its magnitude is called:", "options": ["gravitational force", "electric force", "centripetal force", "friction"], "answer": 2, "explanation": "Centripetal force is perpendicular to velocity." },
+        { "q": "The reason that a car moving on a horizontal road gets thrown out of the road while taking a turn is:", "options": ["the reaction of the ground", "rolling friction between tyre and road", "gravitational force", "lack of sufficient centripetal force"], "answer": 3, "explanation": "Friction cannot supply the required mv²/r." },
+        { "q": "A car drives at steady speed around a perfectly circular track.", "options": ["The car's acceleration is zero", "The net force on the car is zero", "Both the acceleration and net force on the car point outward", "Both the acceleration and net force on the car point inward"], "answer": 3, "explanation": "Centripetal acceleration and force point towards the centre." },
+        { "q": "A satellite of mass m is revolving around the Earth with an orbital speed v. If mass of the satellite is doubled, its orbital speed will become:", "options": ["double", "half", "one fourth", "remain the same"], "answer": 3, "explanation": "Orbital speed does not depend on the satellite's mass." }
+      ]
+    }
+  ]
+}

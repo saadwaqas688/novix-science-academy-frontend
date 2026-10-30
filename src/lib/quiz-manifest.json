@@ -166,5 +166,56 @@
         "count": 15
       }
     ]
+  },
+  "9/physics/4": {
+    "url": "/quizzes/class-9/physics/ch-4.json",
+    "chapterTitle": "Dynamics-II",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Parallel Forces and Moment of Force (Torque)",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Equilibrium and Principle of Moments",
+        "count": 12
+      },
+      {
+        "id": "q3",
+        "topic": "Centre of Mass and Centre of Gravity",
+        "count": 11
+      },
+      {
+        "id": "q4",
+        "topic": "States of Equilibrium and Stability",
+        "count": 12
+      },
+      {
+        "id": "q5",
+        "topic": "Friction: Sliding, Rolling and Methods to Reduce",
+        "count": 12
+      },
+      {
+        "id": "q6",
+        "topic": "Fluid Friction, Terminal Velocity and Frictional Dissipation",
+        "count": 12
+      },
+      {
+        "id": "q7",
+        "topic": "Rotating Bodies and Centripetal Force",
+        "count": 12
+      },
+      {
+        "id": "q8",
+        "topic": "Orbital Motion and Planetary Data",
+        "count": 12
+      },
+      {
+        "id": "q9",
+        "topic": "Exercise MCQs (Book)",
+        "count": 15
+      }
+    ]
   }
 }
