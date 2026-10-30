@@ -406,5 +406,36 @@
         "count": 10
       }
     ]
+  },
+  "9/physics/9": {
+    "url": "/quizzes/class-9/physics/ch-9.json",
+    "chapterTitle": "Nature of Science and Physics",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Physics, its Scope and Physicists",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Branches of Physics and Interdisciplinary Fields",
+        "count": 13
+      },
+      {
+        "id": "q3",
+        "topic": "Hypothesis, Theory, Law and Falsifiability",
+        "count": 11
+      },
+      {
+        "id": "q4",
+        "topic": "Science, Technology and Engineering",
+        "count": 11
+      },
+      {
+        "id": "q5",
+        "topic": "Exercise MCQs (Book)",
+        "count": 8
+      }
+    ]
   }
 }

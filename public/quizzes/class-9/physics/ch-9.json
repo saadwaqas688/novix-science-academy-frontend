@@ -1,0 +1,98 @@
+{
+  "subject": "physics",
+  "classLevel": "9",
+  "chapter": 9,
+  "chapterTitle": "Nature of Science and Physics",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Physics, its Scope and Physicists",
+      "slos": ["P-09-G-01", "P-09-G-04", "P-09-G-05"],
+      "questions": [
+        { "q": "The word 'science' comes from the Latin word 'Scientia', which means:", "options": ["to measure", "to know", "to calculate", "to observe"], "answer": 1, "explanation": "Science is to know about nature." },
+        { "q": "Physics is the branch of science that describes:", "options": ["only living things", "matter, energy, space, time and their mutual interactions", "only chemicals", "only the Earth"], "answer": 1, "explanation": "This is the book's definition of physics." },
+        { "q": "The two main branches of science are:", "options": ["physics and chemistry", "physical sciences and biological sciences", "botany and zoology", "geology and geography"], "answer": 1, "explanation": "Physical sciences study non-living things; biological sciences study life." },
+        { "q": "Physics is one of the branches of:", "options": ["physical sciences", "biological sciences", "social science", "life sciences"], "answer": 0, "explanation": "Along with chemistry, geology, astronomy etc." },
+        { "q": "A scientist who specialises in physics is called a:", "options": ["chemist", "biologist", "physicist", "geologist"], "answer": 2, "explanation": "Physicists do theoretical and experimental research." },
+        { "q": "The main objective of physics is to:", "options": ["make money", "understand the physical world by developing theories based on observations and experiments", "study only plants", "write stories"], "answer": 1, "explanation": "Physicists express natural happenings in mathematical laws." },
+        { "q": "A cell phone locates our position using signals from:", "options": ["radio stations", "GPS satellites", "the Moon", "microwaves only"], "answer": 1, "explanation": "GPS uses satellites and physics of electromagnetic waves." },
+        { "q": "The sky appears blue because sunlight is:", "options": ["absorbed by clouds", "scattered by gas molecules of the atmosphere", "reflected by oceans", "refracted by ice"], "answer": 1, "explanation": "Blue light is scattered the most." },
+        { "q": "Submarines and heavy ships work on the principle of:", "options": ["magnetism", "floatation", "refraction", "thermodynamics"], "answer": 1, "explanation": "Buoyancy keeps them afloat." },
+        { "q": "Newton's laws fail for objects moving near the speed of light. This was solved by:", "options": ["Galileo", "Einstein's theory of relativity", "Pascal's law", "Hooke's law"], "answer": 1, "explanation": "Relativity agrees with Newton at low speeds and is accurate at high speeds." },
+        { "q": "The improvement of Newton's laws by Einstein shows that science is:", "options": ["fixed and final", "collaborative and self-correcting", "based on opinion", "only theoretical"], "answer": 1, "explanation": "Scientists share knowledge and critique ideas to improve theories." },
+        { "q": "Large lakes keep the climate of nearby land moderate because water has a:", "options": ["low density", "large heat capacity", "high boiling point only", "blue colour"], "answer": 1, "explanation": "Water absorbs and releases heat slowly." }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Branches of Physics and Interdisciplinary Fields",
+      "slos": ["P-09-G-02", "P-09-G-03"],
+      "questions": [
+        { "q": "The branch of physics that studies light and instruments like spectacles is:", "options": ["thermodynamics", "electromagnetism", "mechanics", "optics"], "answer": 3, "explanation": "Optics deals with the nature and properties of light." },
+        { "q": "Studying how air conditioners cool a house belongs to:", "options": ["thermodynamics (thermal physics)", "electromagnetism", "nuclear physics", "optics"], "answer": 0, "explanation": "It deals with heat and energy transfer." },
+        { "q": "The branch that deals with neutrons and protons in the nucleus is:", "options": ["solid state physics", "plasma physics", "electricity", "nuclear physics"], "answer": 3, "explanation": "Structure and behaviour of atomic nuclei." },
+        { "q": "The study of sound is called:", "options": ["optics", "acoustics", "astronomy", "geophysics"], "answer": 1, "explanation": "Production, transmission and reception of sound." },
+        { "q": "The study of the origin, structure and future of the whole universe is:", "options": ["cosmology", "biophysics", "acoustics", "optics"], "answer": 0, "explanation": "Cosmology spans the universe from birth to death." },
+        { "q": "The study of fundamental particles and forces (high energy physics) is:", "options": ["particle physics", "climate physics", "geophysics", "acoustics"], "answer": 0, "explanation": "Also called high energy physics." },
+        { "q": "Fluid dynamics of blood flow and use of radiation in diagnosis are studied in:", "options": ["biophysics", "astrophysics", "acoustics", "cosmology"], "answer": 0, "explanation": "Physics applied to living systems." },
+        { "q": "The study of the Earth's structure and processes (e.g. earthquakes) using physics is:", "options": ["geophysics", "optics", "nuclear physics", "biophysics"], "answer": 0, "explanation": "Uses seismic waves and energy transfer." },
+        { "q": "The motion of microscopic particles like electrons is described by:", "options": ["classical mechanics", "quantum mechanics", "acoustics", "geophysics"], "answer": 1, "explanation": "Classical mechanics fails at atomic scale." },
+        { "q": "Bodies moving with speeds close to the speed of light are studied in:", "options": ["classical mechanics", "relativistic mechanics", "thermal physics", "optics"], "answer": 1, "explanation": "Einstein's relativity." },
+        { "q": "Using computers and numerical analysis to solve complex physics problems is:", "options": ["computational physics", "astronomy", "optics", "acoustics"], "answer": 0, "explanation": "It combines computer science, physics and mathematics." },
+        { "q": "Chemistry uses physics of ______ to understand chemical reactions.", "options": ["sound", "subatomic particles", "planets", "fluids only"], "answer": 1, "explanation": "Physics is the most fundamental science used by others." },
+        { "q": "Which branch of science plays an important role in engineering?", "options": ["biology", "chemistry", "physics", "genetics"], "answer": 2, "explanation": "Engineering applies physical principles." }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Hypothesis, Theory, Law and Falsifiability",
+      "slos": ["P-09-G-06", "P-10-G-07"],
+      "questions": [
+        { "q": "A tentative assumption or explanation made before research that can be tested is a:", "options": ["law", "theory", "hypothesis", "fact"], "answer": 2, "explanation": "It can be verified or rejected by experiments." },
+        { "q": "A well-supported explanation of some aspect of nature, verified through rigorous testing, is a:", "options": ["guess", "hypothesis", "theory", "opinion"], "answer": 2, "explanation": "Theories explain how and why phenomena occur." },
+        { "q": "A statement that summarises an observed regularity in nature and relates variables is a:", "options": ["theory", "law", "hypothesis", "model"], "answer": 1, "explanation": "E.g. Newton's laws of motion." },
+        { "q": "Which is an example of a scientific theory?", "options": ["Newton's laws of motion", "Kinetic molecular theory", "Boyle's law", "Law of gravitation"], "answer": 1, "explanation": "Also the theory of general relativity." },
+        { "q": "Which is an example of a scientific law?", "options": ["Theory of relativity", "Newton's law of universal gravitation", "Kinetic theory", "Big Bang theory"], "answer": 1, "explanation": "Laws describe a relationship observed in nature." },
+        { "q": "The main difference between laws and theories is:", "options": ["laws describe phenomena, theories explain why they happen", "laws are opinions", "theories are guesses", "there is no difference"], "answer": 0, "explanation": "Laws are narrower; theories focus on how and why." },
+        { "q": "Scientists develop a hypothesis before research mainly because it:", "options": ["decides the result", "helps predict outcomes and define what to test", "avoids experiments", "is always true"], "answer": 1, "explanation": "It guides the design of experiments." },
+        { "q": "Falsifiability means a theory is scientific only if:", "options": ["it can never be tested", "it makes claims that could be proven false by evidence", "everybody believes it", "it is very old"], "answer": 1, "explanation": "Scientific ideas must be testable and disprovable." },
+        { "q": "Which statement is NOT falsifiable (not scientific)?", "options": ["All metals expand on heating", "Objects fall with acceleration 9.8 m/s² near Earth", "Invisible undetectable spirits move the planets", "Like poles of magnets repel"], "answer": 2, "explanation": "No experiment could ever test or disprove it." },
+        { "q": "If reliable new evidence contradicts a theory, scientists:", "options": ["ignore the evidence", "modify or replace the theory", "stop research", "make it a law"], "answer": 1, "explanation": "Science is self-correcting." },
+        { "q": "The best definition of 'theory' in science is:", "options": ["a guess or hunch", "a comprehensive set of ideas explaining a phenomenon in nature", "always proven true", "a hypothesis without evidence"], "answer": 1, "explanation": "A theory is supported by a large body of evidence." }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Science, Technology and Engineering",
+      "slos": ["P-09-G-08"],
+      "questions": [
+        { "q": "Science is best described as:", "options": ["making tools", "systematic study to gain knowledge of how nature works", "building bridges", "selling products"], "answer": 1, "explanation": "Through observation, hypotheses and experiments." },
+        { "q": "Technology is:", "options": ["the study of nature only", "the application of scientific knowledge for practical purposes (tools, machines, systems)", "a theory", "a law of physics"], "answer": 1, "explanation": "It satisfies human needs." },
+        { "q": "Engineering is:", "options": ["guessing", "the practical use of scientific and mathematical principles to design and build structures, devices and processes", "only research", "studying plants"], "answer": 1, "explanation": "It solves real-world problems creatively." },
+        { "q": "Studying the laws of motion through experiments is an example of:", "options": ["science", "technology", "engineering", "business"], "answer": 0, "explanation": "It is pursuit of knowledge." },
+        { "q": "Development of smartphones is an example of:", "options": ["pure science", "technology", "a hypothesis", "a law"], "answer": 1, "explanation": "Applying physics and materials science to make a device." },
+        { "q": "Designing and building a bridge is mainly:", "options": ["civil engineering", "astronomy", "biophysics", "cosmology"], "answer": 0, "explanation": "Uses materials science and structural mechanics." },
+        { "q": "The relation among science, technology and engineering is that:", "options": ["they are unrelated", "advances in science lead to new technology, and engineers use science to create technologies that drive further science", "engineering comes before science always", "technology replaces science"], "answer": 1, "explanation": "They are distinct but interconnected." },
+        { "q": "Which is an example of technology based on physics?", "options": ["Newton's laws", "MRI machine", "kinetic theory", "a hypothesis"], "answer": 1, "explanation": "It applies electromagnetism and nuclear physics." },
+        { "q": "Asking 'why does the sky look blue?' and testing it belongs to:", "options": ["science", "technology", "engineering", "marketing"], "answer": 0, "explanation": "Seeking an explanation of nature." },
+        { "q": "Using knowledge of electromagnetic waves to build a mobile network is:", "options": ["science only", "technology/engineering", "a hypothesis", "a law"], "answer": 1, "explanation": "Applying scientific knowledge for practical use." },
+        { "q": "In the book's summary, engineering is described as:", "options": ["the process of studying and developing technology", "a guess", "a natural law", "a type of energy"], "answer": 0, "explanation": "Technology is tools and methods; engineering develops them." }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Exercise MCQs (Book)",
+      "slos": [],
+      "questions": [
+        { "q": "What is the best definition of the term 'theory' as it is used in science?", "options": ["A theory is a guess or hunch about something that has occurred in nature", "A theory is a comprehensive set of ideas explaining a phenomenon in nature", "A theory is based on verifiable laws and can be proven true", "A theory is a hypothesis that uses laws and observation to make an assumption"], "answer": 1, "explanation": "A theory is a well-supported, broad explanation of a natural phenomenon." },
+        { "q": "Which statement below correctly identifies the difference between laws and theories?", "options": ["Laws describe phenomena, while theories explain why phenomena exist", "Laws are a statement of fact, while theories are a statement of opinion", "Laws explain why phenomena exist, while theories explain how", "Laws are a prediction of phenomena, while theories are an explanation"], "answer": 0, "explanation": "Laws describe what happens; theories explain how and why." },
+        { "q": "Why do scientists develop a hypothesis before conducting research?", "options": ["It gives them direction on how to interpret the results of their research", "It helps to predict outcomes and define the parameters of the research", "Hypotheses give the researcher an outcome to shape their work around", "Hypotheses help a researcher decide which observations to record and which to ignore"], "answer": 1, "explanation": "A hypothesis is a testable prediction that frames the investigation." },
+        { "q": "The branch of physics that is most important when studying how glasses help people see:", "options": ["Thermodynamics", "Electromagnetism", "Mechanics", "Optics"], "answer": 3, "explanation": "Lenses and vision are part of optics." },
+        { "q": "When studying how air conditioners cool your house, the branch is:", "options": ["Thermodynamics", "Electromagnetism", "Nuclear Physics", "Optics"], "answer": 0, "explanation": "Heat transfer and cooling cycles belong to thermodynamics." },
+        { "q": "The branch of physics that deals with particles such as neutrons and protons:", "options": ["Solid State Physics", "Plasma Physics", "Electricity", "Nuclear Physics"], "answer": 3, "explanation": "Nuclear physics studies the nucleus." },
+        { "q": "Which branch of science plays an important role in engineering?", "options": ["Biology", "Chemistry", "Physics", "Genetics"], "answer": 2, "explanation": "Engineering is based on physical principles." },
+        { "q": "Physics is one of the branches of:", "options": ["Physical sciences", "Biological sciences", "Social science", "Life sciences"], "answer": 0, "explanation": "Physics studies non-living matter and energy." }
+      ]
+    }
+  ]
+}
