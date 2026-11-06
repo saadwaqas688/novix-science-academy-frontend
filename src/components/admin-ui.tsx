@@ -1,5 +1,6 @@
 'use client';
 
+import { Lock } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import type { UserStatus } from '@/lib/types';
@@ -29,6 +30,7 @@ export function Segmented<T extends string>({ value, onChange, options, classNam
 }
 
 export function StatusBadge({ status }: { status: UserStatus }) {
+  if (status === 'disabled') return <Badge variant="critical"><Lock className="size-3" /> Disabled</Badge>;
   return <Badge variant={status === 'approved' ? 'good' : status === 'pending' ? 'warning' : 'critical'}>{status[0].toUpperCase() + status.slice(1)}</Badge>;
 }
 
@@ -56,3 +58,7 @@ export const SUBJECT_OPTIONS = [
 export const CLASS_OPTIONS = [
   { value: '9', label: 'Class 9' }, { value: '10', label: 'Class 10' }, { value: '11', label: 'Class 11' }, { value: '12', label: 'Class 12' },
 ];
+
+export function Online() {
+  return <span className="inline-flex items-center gap-1.5 font-semibold text-good"><span className="size-2 rounded-full bg-good ring-3 ring-good/20" /> Online now</span>;
+}

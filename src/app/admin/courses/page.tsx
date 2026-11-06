@@ -8,7 +8,7 @@ import { toast } from 'sonner';
 import { api, errMsg } from '@/lib/api';
 import type { AdminChapter, Book, SubjectSummary } from '@/lib/types';
 import { SubjectIcon, subjectCover } from '@/lib/subjects';
-import { cn, fmtSize } from '@/lib/utils';
+import { cn, fmtSize, youtubeId } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -135,12 +135,12 @@ function AddChapterDialog({ open, onOpenChange, slug, cls, onDone }: { open: boo
   );
 }
 
-type VRow = { title: string; youtubeUrl: string; duration: string };
+type VRow = { id?: number; title: string; youtubeUrl: string; duration: string };
 
 function ChapterDialog({ chapter, onClose, onSaved, subjectName, cls }: { chapter: AdminChapter; onClose: () => void; onSaved: () => void; subjectName: string; cls: string }) {
   const [title, setTitle] = useState(chapter.title);
   const [notes, setNotes] = useState(chapter.notes);
-  const [videos, setVideos] = useState<VRow[]>(chapter.videos.map((v) => ({ title: v.title, youtubeUrl: v.youtubeUrl, duration: v.duration || '' })));
+  const [videos, setVideos] = useState<VRow[]>(chapter.videos.map((v) => ({ id: v.id, title: v.title, youtubeUrl: v.youtubeUrl, duration: v.duration || '' })));
   const file = useRef<HTMLInputElement>(null);
 
   const uploadNotes = useMutation({
@@ -157,6 +157,8 @@ function ChapterDialog({ chapter, onClose, onSaved, subjectName, cls }: { chapte
     mutationFn: async () => {
       if (title.trim() !== chapter.title) await api(`/admin/chapters/${chapter.id}`, { method: 'PATCH', json: { title } });
       const list = videos.filter((v) => v.title.trim() || v.youtubeUrl.trim());
+      const bad = list.find((v) => !youtubeId(v.youtubeUrl));
+      if (bad) throw new Error(`"${bad.title || bad.youtubeUrl}": paste the full YouTube video link (youtube.com/watch?v=… or youtu.be/…)`);
       await api(`/admin/chapters/${chapter.id}/videos`, { method: 'PUT', json: { videos: list.map((v) => ({ ...v, duration: v.duration || null })) } });
     },
     onSuccess: () => { toast.success('Chapter saved'); onSaved(); onClose(); },
@@ -184,6 +186,7 @@ function ChapterDialog({ chapter, onClose, onSaved, subjectName, cls }: { chapte
         </div>
         <div className="flex flex-col gap-2">
           <Label>YouTube video lectures</Label>
+          <p className="-mt-1 text-xs text-muted-foreground">Paste any YouTube video link (youtube.com/watch, youtu.be or Shorts). Students watch it inside the app; a “Watch on YouTube” button is also shown.</p>
           {videos.map((v, i) => (
             <div key={i} className="grid gap-2 rounded-2xl border border-border p-2.5 sm:grid-cols-[1fr_1.3fr_80px_auto] sm:border-0 sm:p-0">
               <Input className="h-10" placeholder="Title" value={v.title} onChange={(e) => setV(i, 'title', e.target.value)} />

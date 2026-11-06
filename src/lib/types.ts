@@ -1,5 +1,5 @@
 export type ClassLevel = '9' | '10' | '11' | '12';
-export type UserStatus = 'pending' | 'approved' | 'rejected';
+export type UserStatus = 'pending' | 'approved' | 'rejected' | 'disabled';
 
 export interface User {
   id: number; name: string; email: string; phone: string; classLevel: string;
@@ -17,7 +17,7 @@ export interface SubjectSummary {
 
 export interface Book { id: number; fileUrl: string; fileName: string; sizeBytes: number }
 export interface Notes { id?: number; fileUrl: string; fileName: string; sizeBytes: number }
-export interface Video { id: number; title: string; youtubeUrl: string; duration: string | null }
+export interface Video { id: number; title: string; youtubeUrl: string; duration: string | null; watched?: boolean }
 
 export interface ChapterSummary {
   id: number; number: number; title: string; hasNotes: boolean; videoCount: number; assessmentCount: number; completedCount: number;
@@ -80,4 +80,23 @@ export interface QuizBest { quizKey: string; chapterNumber: number; best: number
 export interface QuizResult {
   id: number; quizKey: string; subjectSlug: string; subjectName: string; classLevel: string; chapterNumber: number; chapterTitle: string;
   topic: string; answers: (number | null)[]; score: number; total: number; durationSec: number; createdAt: string;
+}
+
+export interface AdminUserRow extends User {
+  quizCount: number; averageScore: number | null; activeSec14: number; lastSeenAt: string | null; online: boolean;
+}
+
+export interface ActivityResult {
+  id: number; kind: 'test' | 'quiz'; key: string; score: number; total: number; durationSec: number; createdAt: string;
+  topic: string; chapterNumber: number; chapterTitle: string; classLevel: string; subjectSlug: string; subjectName: string; subjectColor: string;
+}
+export interface AppSession { id: number; startedAt: string; lastSeenAt: string; activeSec: number; device: string }
+export interface UserActivity {
+  user: User;
+  results: ActivityResult[];
+  time: {
+    activeSec14: number; activeSecAll: number; activeDays14: number; sessionCount14: number;
+    lastSeenAt: string | null; online: boolean; sessions: AppSession[];
+  };
+  videosWatched: number;
 }

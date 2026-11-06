@@ -2,7 +2,9 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { useQueryClient } from '@tanstack/react-query';
+import { toast } from 'sonner';
 import { api, tokenStore } from './api';
+import { useActivityHeartbeat } from './activity';
 import type { User } from './types';
 
 interface AuthCtx {
@@ -35,7 +37,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [qc]);
 
   useEffect(() => {
-    const onUnauth = () => { if (tokenStore.get()) logout(); };
+    const onUnauth = (e: Event) => {
+      if (!tokenStore.get()) return;
+      const msg = (e as CustomEvent<string>).detail;
+      if (msg) toast.error(msg);
+      logout();
+    };
     window.addEventListener('novix:unauthorized', onUnauth);
     return () => window.removeEventListener('novix:unauthorized', onUnauth);
   }, [logout]);
@@ -47,6 +54,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUser(r.user);
     return r.user;
   }, [qc]);
+
+  useActivityHeartbeat(user?.role === 'student' ? user.id : null);
 
   const value = useMemo(() => ({ user, ready, login, logout, setUser }), [user, ready, login, logout]);
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

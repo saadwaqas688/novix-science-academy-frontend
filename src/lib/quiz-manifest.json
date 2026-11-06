@@ -1,4 +1,45 @@
 {
+  "10/chemistry/2": {
+    "url": "/quizzes/class-10/chemistry/ch-2.json",
+    "chapterTitle": "Matter",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Changes of State and Internal Energy",
+        "count": 15
+      },
+      {
+        "id": "q2",
+        "topic": "Heating and Cooling Curves",
+        "count": 13
+      },
+      {
+        "id": "q3",
+        "topic": "Evaporation, Boiling and Effect of Pressure",
+        "count": 14
+      },
+      {
+        "id": "q4",
+        "topic": "Kinetic Particle Theory and Gas Laws",
+        "count": 15
+      },
+      {
+        "id": "q5",
+        "topic": "Diffusion of Gases and Graham's Law",
+        "count": 13
+      },
+      {
+        "id": "q6",
+        "topic": "Sublimation and Diffusion of Medicines",
+        "count": 13
+      },
+      {
+        "id": "q7",
+        "topic": "Exercise MCQs (Textbook)",
+        "count": 10
+      }
+    ]
+  },
   "9/physics/1": {
     "url": "/quizzes/class-9/physics/ch-1.json",
     "chapterTitle": "Physical Quantities and Measurement",

@@ -19,3 +19,13 @@ export const scoreTone = (score: number, total: number) => {
   const p = total ? score / total : 0;
   return p >= 0.8 ? 'good' : p >= 0.5 ? 'warning' : 'critical';
 };
+
+/** "1h 05m" / "12m" / "0m" from seconds. */
+export const fmtSpent = (sec: number) => {
+  const m = Math.round(sec / 60);
+  return m < 60 ? `${m}m` : `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, '0')}m`;
+};
+
+/** YouTube video id from watch / youtu.be / shorts / embed / live links. */
+export const youtubeId = (url: string) => url.match(/(?:youtu\.be\/|[?&]v=|embed\/|shorts\/|live\/)([\w-]{11})/)?.[1] ?? null;
+export const youtubeThumb = (url: string) => { const id = youtubeId(url); return id ? `https://i.ytimg.com/vi/${id}/mqdefault.jpg` : null; };

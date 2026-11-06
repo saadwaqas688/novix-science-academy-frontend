@@ -30,7 +30,10 @@ export async function api<T = unknown>(path: string, opts: Opts = {}): Promise<T
   const data = await res.json().catch(() => ({}));
   if (!res.ok) {
     const err = new ApiError(res.status, data?.error?.message || 'Something went wrong', data?.error?.code);
-    if (res.status === 401 && typeof window !== 'undefined') window.dispatchEvent(new Event('novix:unauthorized'));
+    if (typeof window !== 'undefined') {
+      if (res.status === 401) window.dispatchEvent(new Event('novix:unauthorized'));
+      else if (res.status === 403 && data?.error?.code === 'DISABLED' && !path.startsWith('/auth/login')) window.dispatchEvent(new CustomEvent('novix:unauthorized', { detail: err.message }));
+    }
     throw err;
   }
   return data as T;

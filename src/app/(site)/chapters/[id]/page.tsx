@@ -3,14 +3,14 @@
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
-import { ChevronLeft, ChevronRight, Clock, Download, ExternalLink, Eye, FileText, ListChecks, Play, Target, Video } from 'lucide-react';
+import { Check, ChevronLeft, ChevronRight, Clock, Download, Eye, FileText, ListChecks, Play, Target, Video } from 'lucide-react';
 import { api } from '@/lib/api';
 import type { ChapterPage } from '@/lib/types';
 import { subjectCover } from '@/lib/subjects';
 import { staticNotes } from '@/lib/static-notes';
 import { chapterQuizzes, quizHref, quizKey } from '@/lib/quizzes';
 import type { QuizBest } from '@/lib/types';
-import { fmtSize } from '@/lib/utils';
+import { fmtSize, youtubeThumb } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/misc';
@@ -89,19 +89,23 @@ function Chapter() {
         <TabsContent value="videos">
           {videos.length ? (
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {videos.map((v) => (
-                <a key={v.id} href={v.youtubeUrl} target="_blank" rel="noopener" className="glass group overflow-hidden rounded-2xl border border-border shadow-soft transition hover:-translate-y-0.5 hover:shadow-lift">
-                  <div className="relative grid aspect-video place-items-center" style={{ background: cover }}>
-                    <span className="absolute top-2.5 left-2.5 rounded bg-red-600 px-1.5 py-0.5 text-[10.5px] font-bold text-white">YouTube</span>
+              {videos.map((v, k) => {
+                const th = youtubeThumb(v.youtubeUrl);
+                return (
+                <Link key={v.id} href={`/chapters/${chapter.id}/videos/${v.id}`} className="glass group overflow-hidden rounded-2xl border border-border shadow-soft transition hover:-translate-y-0.5 hover:shadow-lift">
+                  <div className="relative grid aspect-video place-items-center" style={{ background: th ? `center/cover url(${th})` : cover }}>
+                    <span className="absolute top-2.5 left-2.5 flex items-center gap-1 rounded bg-red-600 px-1.5 py-0.5 text-[10.5px] font-bold text-white"><Play className="size-2.5 fill-current" /> Lecture {k + 1}</span>
                     <span className="grid size-14 place-items-center rounded-full bg-white/95 text-red-600 shadow-xl transition group-hover:scale-110"><Play className="size-6 fill-current" /></span>
+                    {v.watched && <Badge variant="good" className="absolute bottom-2.5 left-2.5"><Check className="size-3" /> Watched</Badge>}
                     {v.duration && <span className="absolute right-2.5 bottom-2.5 rounded-md bg-black/65 px-1.5 py-0.5 text-[11.5px] text-white">{v.duration}</span>}
                   </div>
                   <div className="p-4">
                     <h4 className="mb-1 font-bold">{v.title}</h4>
-                    <span className="flex items-center gap-1.5 text-[12.5px] text-muted-foreground"><ExternalLink className="size-3.5" /> Watch on YouTube</span>
+                    <span className="flex items-center gap-1.5 text-[12.5px] text-muted-foreground"><Play className="size-3.5" /> Play in app</span>
                   </div>
-                </a>
-              ))}
+                </Link>
+                );
+              })}
             </div>
           ) : <ComingSoon icon={Video} text="Video lectures for this chapter will be added soon." />}
         </TabsContent>
