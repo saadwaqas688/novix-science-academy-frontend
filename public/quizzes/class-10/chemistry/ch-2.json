@@ -1,0 +1,1102 @@
+{
+  "subject": "chemistry",
+  "classLevel": "10",
+  "chapter": 2,
+  "chapterTitle": "Matter",
+  "quizzes": [
+    {
+      "id": "q1",
+      "topic": "Changes of State and Internal Energy",
+      "slos": [
+        "C-10-B-01"
+      ],
+      "questions": [
+        {
+          "q": "A state change (phase transition) is the transition of matter:",
+          "options": [
+            "from one element to another",
+            "from one state to another",
+            "from one compound to another",
+            "from one isotope to another"
+          ],
+          "answer": 1,
+          "explanation": "A state change converts matter from one physical state to another, e.g. solid to liquid."
+        },
+        {
+          "q": "During a phase transition, the temperature of a substance:",
+          "options": [
+            "keeps rising",
+            "keeps falling",
+            "remains constant",
+            "first rises then falls"
+          ],
+          "answer": 2,
+          "explanation": "Phase transitions occur without a temperature change; the energy goes into changing the state."
+        },
+        {
+          "q": "Internal energy of a substance is made up of:",
+          "options": [
+            "kinetic energy only",
+            "potential energy only",
+            "kinetic energy and potential energy of its particles",
+            "nuclear energy and chemical energy"
+          ],
+          "answer": 2,
+          "explanation": "Internal energy = kinetic energy (temperature-related) + potential energy (particle positions and interactions)."
+        },
+        {
+          "q": "During a phase transition, which energy of the particles changes significantly?",
+          "options": [
+            "kinetic energy",
+            "potential energy",
+            "nuclear energy",
+            "light energy"
+          ],
+          "answer": 1,
+          "explanation": "Temperature (and hence KE) stays constant; the potential energy changes as inter-particle forces are overcome or formed."
+        },
+        {
+          "q": "What happens to the internal energy of a substance during melting?",
+          "options": [
+            "It decreases",
+            "It stays the same",
+            "It increases",
+            "It fluctuates"
+          ],
+          "answer": 2,
+          "explanation": "Heat is absorbed during melting; the potential energy of the particles rises, so internal energy increases."
+        },
+        {
+          "q": "When heat is added to a solid at its melting point, the temperature stays constant because the energy:",
+          "options": [
+            "increases the kinetic energy of particles",
+            "weakens the forces holding the particles in place",
+            "is lost to the surroundings",
+            "decreases the potential energy"
+          ],
+          "answer": 1,
+          "explanation": "The energy increases potential energy and weakens the forces of attraction, without increasing kinetic energy."
+        },
+        {
+          "q": "In a solid, the particles:",
+          "options": [
+            "move freely past each other",
+            "are far apart and move rapidly",
+            "are tightly packed and vibrate in fixed positions",
+            "have no attractive forces"
+          ],
+          "answer": 2,
+          "explanation": "Solid particles are tightly packed in a well-ordered state and only vibrate about fixed positions."
+        },
+        {
+          "q": "The change of a liquid into a solid is called:",
+          "options": [
+            "melting",
+            "freezing",
+            "condensation",
+            "deposition"
+          ],
+          "answer": 1,
+          "explanation": "Freezing: liquid → solid. Energy is released and the potential energy of the particles decreases."
+        },
+        {
+          "q": "During freezing, energy is:",
+          "options": [
+            "absorbed and potential energy increases",
+            "released and potential energy decreases",
+            "absorbed and kinetic energy increases",
+            "released and kinetic energy increases"
+          ],
+          "answer": 1,
+          "explanation": "The energy released during freezing is used to form the solid structure; potential energy decreases."
+        },
+        {
+          "q": "During condensation, the particles of a gas:",
+          "options": [
+            "gain energy and move faster",
+            "lose energy and move slower",
+            "gain energy and move slower",
+            "lose energy and move faster"
+          ],
+          "answer": 1,
+          "explanation": "As the gas loses energy, particle motion slows down and attractive forces pull the particles together to form a liquid."
+        },
+        {
+          "q": "The change of a gas directly into a solid without passing through the liquid phase is called:",
+          "options": [
+            "sublimation",
+            "condensation",
+            "deposition",
+            "freezing"
+          ],
+          "answer": 2,
+          "explanation": "Deposition: gas → solid directly. Energy is released and potential energy falls sharply."
+        },
+        {
+          "q": "Which process involves a solid turning directly into a gas?",
+          "options": [
+            "Melting",
+            "Freezing",
+            "Sublimation",
+            "Condensation"
+          ],
+          "answer": 2,
+          "explanation": "Sublimation: solid → gas without becoming a liquid."
+        },
+        {
+          "q": "Which of the following processes releases energy?",
+          "options": [
+            "Melting",
+            "Boiling",
+            "Sublimation",
+            "Condensation"
+          ],
+          "answer": 3,
+          "explanation": "Condensation, freezing and deposition release energy; melting, boiling and sublimation absorb energy."
+        },
+        {
+          "q": "Which pair of changes both absorb energy?",
+          "options": [
+            "Melting and boiling",
+            "Freezing and condensation",
+            "Condensation and deposition",
+            "Freezing and deposition"
+          ],
+          "answer": 0,
+          "explanation": "Melting (solid → liquid) and boiling (liquid → gas) both need heat to overcome inter-particle forces."
+        },
+        {
+          "q": "The formation of snow from water vapour in the air is an example of:",
+          "options": [
+            "sublimation",
+            "deposition",
+            "evaporation",
+            "melting"
+          ],
+          "answer": 1,
+          "explanation": "Water vapour turns directly into ice crystals (gas → solid), which is deposition."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "topic": "Heating and Cooling Curves",
+      "slos": [
+        "C-10-B-03"
+      ],
+      "questions": [
+        {
+          "q": "A heating curve shows the change in:",
+          "options": [
+            "volume with pressure",
+            "temperature with time as a substance is heated",
+            "mass with time",
+            "pressure with temperature"
+          ],
+          "answer": 1,
+          "explanation": "A heating curve plots temperature against time while a substance is heated."
+        },
+        {
+          "q": "On a heating curve, the flat (horizontal) regions represent:",
+          "options": [
+            "a rise in kinetic energy",
+            "phase changes at constant temperature",
+            "cooling of the substance",
+            "a fall in potential energy"
+          ],
+          "answer": 1,
+          "explanation": "Flat regions are where melting or boiling happens; the temperature stays constant."
+        },
+        {
+          "q": "In the sloping parts of a heating curve (A to B, C to D), the:",
+          "options": [
+            "kinetic energy of the particles increases",
+            "temperature remains constant",
+            "substance changes its state",
+            "potential energy decreases"
+          ],
+          "answer": 0,
+          "explanation": "When temperature rises, the particles' kinetic energy increases and they move or vibrate faster."
+        },
+        {
+          "q": "In the flat part B to C of a heating curve, the absorbed heat is used to:",
+          "options": [
+            "increase kinetic energy",
+            "overcome the intermolecular forces holding the solid together",
+            "lower the temperature",
+            "form new bonds"
+          ],
+          "answer": 1,
+          "explanation": "B to C is melting; the energy breaks inter-particle forces instead of raising KE."
+        },
+        {
+          "q": "The heat absorbed when a solid melts at constant temperature is called:",
+          "options": [
+            "latent heat of vaporization",
+            "latent heat of fusion",
+            "specific heat",
+            "heat of reaction"
+          ],
+          "answer": 1,
+          "explanation": "Latent heat of fusion is absorbed during melting (and released during freezing)."
+        },
+        {
+          "q": "The heat absorbed when a liquid changes into a gas at its boiling point is called:",
+          "options": [
+            "latent heat of fusion",
+            "latent heat of vaporization",
+            "heat of sublimation",
+            "heat of neutralization"
+          ],
+          "answer": 1,
+          "explanation": "Segment D to E (boiling) requires the latent heat of vaporization."
+        },
+        {
+          "q": "On the heating curve, segment D to E represents:",
+          "options": [
+            "melting",
+            "freezing",
+            "boiling (liquid to gas)",
+            "warming of the solid"
+          ],
+          "answer": 2,
+          "explanation": "D to E is boiling/evaporation at constant temperature."
+        },
+        {
+          "q": "In the flat regions of a heating curve:",
+          "options": [
+            "KE constant, PE increases",
+            "KE increases, PE constant",
+            "KE decreases, PE decreases",
+            "KE increases, PE increases"
+          ],
+          "answer": 0,
+          "explanation": "At constant temperature KE stays the same while PE rises as the phase changes."
+        },
+        {
+          "q": "A cooling curve shows:",
+          "options": [
+            "the same process as a heating curve in the same order",
+            "the reverse process as a substance is cooled",
+            "only the gas phase",
+            "only melting"
+          ],
+          "answer": 1,
+          "explanation": "A cooling curve has similar regions to the heating curve but in reverse order."
+        },
+        {
+          "q": "On a cooling curve, segment E to D represents:",
+          "options": [
+            "boiling",
+            "condensation",
+            "melting",
+            "sublimation"
+          ],
+          "answer": 1,
+          "explanation": "E to D: the gas condenses into a liquid at constant temperature, releasing latent heat of vaporization."
+        },
+        {
+          "q": "On a cooling curve, the flat region C to B shows:",
+          "options": [
+            "freezing, with latent heat of fusion released",
+            "melting, with heat absorbed",
+            "condensation",
+            "cooling of the gas"
+          ],
+          "answer": 0,
+          "explanation": "C to B is freezing; the lost heat arranges the particles into a solid structure."
+        },
+        {
+          "q": "In the sloping parts of a cooling curve, the:",
+          "options": [
+            "kinetic energy of particles decreases",
+            "kinetic energy increases",
+            "state changes",
+            "potential energy increases"
+          ],
+          "answer": 0,
+          "explanation": "As temperature falls, particles move or vibrate less; their kinetic energy decreases."
+        },
+        {
+          "q": "For cooling (E to D and C to B), the book states that KE is constant but PE is:",
+          "options": [
+            "increasing",
+            "decreasing",
+            "zero",
+            "doubling"
+          ],
+          "answer": 1,
+          "explanation": "During condensation and freezing, energy is released and the potential energy of the particles decreases."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "topic": "Evaporation, Boiling and Effect of Pressure",
+      "slos": [
+        "C-10-B-02",
+        "C-10-B-05"
+      ],
+      "questions": [
+        {
+          "q": "Evaporation is the process in which:",
+          "options": [
+            "molecules throughout a liquid form bubbles",
+            "molecules at the surface of a liquid gain enough kinetic energy to escape into the gas phase",
+            "a solid changes directly into gas",
+            "a gas changes into liquid"
+          ],
+          "answer": 1,
+          "explanation": "Only surface molecules with enough KE to overcome intermolecular forces escape during evaporation."
+        },
+        {
+          "q": "Evaporation can occur at:",
+          "options": [
+            "only the boiling point",
+            "any temperature below the boiling point",
+            "only 100 °C",
+            "only at high pressure"
+          ],
+          "answer": 1,
+          "explanation": "Evaporation is gradual and happens at any temperature below the boiling point."
+        },
+        {
+          "q": "Evaporation causes cooling because:",
+          "options": [
+            "high-energy molecules leave, lowering the average KE of the remaining liquid",
+            "low-energy molecules leave the liquid",
+            "the liquid absorbs heat from nowhere",
+            "the pressure increases"
+          ],
+          "answer": 0,
+          "explanation": "As the fastest molecules escape, the average kinetic energy of the rest falls; that is why sweating cools the body."
+        },
+        {
+          "q": "Which is an example of evaporation?",
+          "options": [
+            "Water bubbling in a kettle",
+            "Drying of clothes on a line",
+            "Formation of ice",
+            "Melting of wax"
+          ],
+          "answer": 1,
+          "explanation": "Clothes dry as water evaporates from the surface below its boiling point."
+        },
+        {
+          "q": "Boiling occurs at:",
+          "options": [
+            "any temperature",
+            "a fixed temperature",
+            "only room temperature",
+            "any pressure"
+          ],
+          "answer": 1,
+          "explanation": "Boiling happens at a specific temperature, the boiling point, which depends on the external pressure."
+        },
+        {
+          "q": "Evaporation differs from boiling because:",
+          "options": [
+            "evaporation occurs at the surface of a liquid at any temperature",
+            "boiling occurs only at the surface",
+            "evaporation requires a fixed temperature",
+            "boiling occurs at any temperature"
+          ],
+          "answer": 0,
+          "explanation": "Evaporation is a slow surface process at any temperature; boiling is rapid, occurs throughout the liquid at the boiling point."
+        },
+        {
+          "q": "In boiling, vapour bubbles form:",
+          "options": [
+            "only at the surface",
+            "throughout the entire liquid",
+            "only at the bottom of the container",
+            "never"
+          ],
+          "answer": 1,
+          "explanation": "Boiling occurs throughout the liquid; bubbles form inside, rise and burst."
+        },
+        {
+          "q": "The boiling point of water at sea level is:",
+          "options": [
+            "0 °C",
+            "50 °C",
+            "100 °C (212 °F)",
+            "120 °C"
+          ],
+          "answer": 2,
+          "explanation": "At sea level (normal atmospheric pressure) water boils at 100 °C."
+        },
+        {
+          "q": "During boiling, the temperature of the liquid:",
+          "options": [
+            "keeps increasing",
+            "remains constant",
+            "decreases",
+            "becomes zero"
+          ],
+          "answer": 1,
+          "explanation": "The added energy converts liquid into gas, so the temperature stays constant."
+        },
+        {
+          "q": "Increasing the external pressure on a liquid:",
+          "options": [
+            "lowers its boiling point",
+            "raises its boiling point",
+            "does not affect its boiling point",
+            "makes it freeze"
+          ],
+          "answer": 1,
+          "explanation": "Higher pressure increases the boiling point; lower pressure decreases it."
+        },
+        {
+          "q": "Water boils at a lower temperature at high altitudes because:",
+          "options": [
+            "atmospheric pressure is higher",
+            "atmospheric pressure is lower",
+            "the air is colder",
+            "there is less oxygen"
+          ],
+          "answer": 1,
+          "explanation": "Lower external pressure lowers the boiling point."
+        },
+        {
+          "q": "At lower atmospheric pressure, the rate of evaporation:",
+          "options": [
+            "decreases",
+            "increases",
+            "stays the same",
+            "becomes zero"
+          ],
+          "answer": 1,
+          "explanation": "Less external pressure on the surface makes it easier for molecules to escape."
+        },
+        {
+          "q": "Food cooks faster in a pressure cooker because:",
+          "options": [
+            "the high pressure lowers the boiling point",
+            "the high pressure raises the boiling point of water",
+            "steam escapes quickly",
+            "the food absorbs pressure"
+          ],
+          "answer": 1,
+          "explanation": "High pressure suppresses boiling until a higher temperature is reached, so food cooks faster."
+        },
+        {
+          "q": "At higher atmospheric pressure, the rate of evaporation:",
+          "options": [
+            "increases",
+            "decreases",
+            "remains the same",
+            "doubles"
+          ],
+          "answer": 1,
+          "explanation": "Greater external pressure makes it harder for molecules to escape into the vapour phase."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "topic": "Kinetic Particle Theory and Gas Laws",
+      "slos": [
+        "C-10-B-04"
+      ],
+      "questions": [
+        {
+          "q": "A sample of gas is characterized by four variables:",
+          "options": [
+            "mass, density, colour, odour",
+            "number of moles (n), volume (V), pressure (P), temperature (T)",
+            "speed, mass, time, distance",
+            "energy, work, power, force"
+          ],
+          "answer": 1,
+          "explanation": "The behaviour of a gas is described by n, V, P and T."
+        },
+        {
+          "q": "Relationships that express the influence of one variable on another, keeping two variables constant, are called:",
+          "options": [
+            "chemical laws",
+            "gas laws",
+            "laws of motion",
+            "periodic laws"
+          ],
+          "answer": 1,
+          "explanation": "These are the gas laws, e.g. Boyle's, Charles's and Avogadro's laws."
+        },
+        {
+          "q": "Boyle's law states that for a fixed amount of gas at constant temperature, volume is:",
+          "options": [
+            "directly proportional to pressure",
+            "inversely proportional to pressure",
+            "directly proportional to temperature",
+            "independent of pressure"
+          ],
+          "answer": 1,
+          "explanation": "V ∝ 1/P, i.e. PV = constant."
+        },
+        {
+          "q": "The mathematical form of Boyle's law is:",
+          "options": [
+            "V/T = constant",
+            "PV = constant",
+            "V/n = constant",
+            "P/T = constant"
+          ],
+          "answer": 1,
+          "explanation": "At constant T and n, PV = k."
+        },
+        {
+          "q": "According to kinetic particle theory, when the volume of a gas decreases, the pressure increases because:",
+          "options": [
+            "particles become heavier",
+            "particles collide more frequently with the container walls",
+            "particles stop moving",
+            "temperature decreases"
+          ],
+          "answer": 1,
+          "explanation": "Less space means more frequent collisions with the walls, which raises the pressure."
+        },
+        {
+          "q": "In Boyle's law, the average kinetic energy of gas particles stays constant because:",
+          "options": [
+            "volume is constant",
+            "temperature does not change",
+            "pressure is constant",
+            "moles change"
+          ],
+          "answer": 1,
+          "explanation": "At constant temperature, the speed and average KE of the particles do not change; only collision frequency changes."
+        },
+        {
+          "q": "Which law states that the volume of a gas is directly proportional to its absolute temperature at constant pressure?",
+          "options": [
+            "Boyle's law",
+            "Charles's law",
+            "Avogadro's law",
+            "Dalton's law"
+          ],
+          "answer": 1,
+          "explanation": "Charles's law: V ∝ T, or V/T = constant."
+        },
+        {
+          "q": "The mathematical form of Charles's law is:",
+          "options": [
+            "PV = k",
+            "V/T = k",
+            "V/n = k",
+            "P × T = k"
+          ],
+          "answer": 1,
+          "explanation": "At constant P and n, V = kT, so V/T = constant."
+        },
+        {
+          "q": "When a gas is heated at constant pressure, its volume increases because:",
+          "options": [
+            "the particles move faster and the container must expand to keep pressure constant",
+            "the particles become smaller",
+            "the number of particles increases",
+            "the particles stop colliding"
+          ],
+          "answer": 0,
+          "explanation": "Higher temperature means higher KE; the volume increases so the pressure stays constant."
+        },
+        {
+          "q": "In Charles's law, temperature must be measured in:",
+          "options": [
+            "°C",
+            "°F",
+            "kelvin (absolute temperature)",
+            "any unit"
+          ],
+          "answer": 2,
+          "explanation": "Volume is directly proportional to the absolute temperature, i.e. temperature in kelvin."
+        },
+        {
+          "q": "Avogadro's law states that at constant temperature and pressure, volume of a gas is directly proportional to:",
+          "options": [
+            "its pressure",
+            "its temperature",
+            "the number of moles of gas",
+            "its density"
+          ],
+          "answer": 2,
+          "explanation": "V ∝ n, i.e. V/n = constant."
+        },
+        {
+          "q": "The mathematical form of Avogadro's law is:",
+          "options": [
+            "V = kn",
+            "PV = k",
+            "V = k/T",
+            "P = kn"
+          ],
+          "answer": 0,
+          "explanation": "V = kn where k is constant (T and P constant)."
+        },
+        {
+          "q": "According to kinetic theory, when more gas particles are added at constant temperature and pressure, the volume:",
+          "options": [
+            "decreases",
+            "increases to keep the collisions per unit area the same",
+            "remains constant",
+            "becomes zero"
+          ],
+          "answer": 1,
+          "explanation": "More particles would mean more collisions; the volume increases to keep pressure constant."
+        },
+        {
+          "q": "According to kinetic particle theory, the pressure of a gas in a sealed container increases when:",
+          "options": [
+            "the volume increases",
+            "the temperature decreases",
+            "the number of particles decreases",
+            "the temperature increases"
+          ],
+          "answer": 3,
+          "explanation": "Higher temperature means faster particles that collide more often and harder with the walls."
+        },
+        {
+          "q": "If the pressure on a fixed amount of gas is doubled at constant temperature, its volume becomes:",
+          "options": [
+            "double",
+            "half",
+            "four times",
+            "unchanged"
+          ],
+          "answer": 1,
+          "explanation": "By Boyle's law PV = constant, so doubling P halves V."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "topic": "Diffusion of Gases and Graham's Law",
+      "slos": [
+        "C-10-B-06",
+        "C-10-B-07"
+      ],
+      "questions": [
+        {
+          "q": "A simple everyday example of diffusion is:",
+          "options": [
+            "ice melting",
+            "perfume spreading across a room",
+            "water freezing",
+            "salt dissolving in a closed jar"
+          ],
+          "answer": 1,
+          "explanation": "Perfume molecules spread from the sprayer and are detected far away, which is diffusion."
+        },
+        {
+          "q": "According to kinetic particle theory, gases diffuse because their particles:",
+          "options": [
+            "are at rest",
+            "move randomly in all directions due to kinetic energy",
+            "repel each other",
+            "move only in straight lines towards each other"
+          ],
+          "answer": 1,
+          "explanation": "The random, constant motion of gas particles makes the gases spread and mix."
+        },
+        {
+          "q": "Diffusion is the process by which molecules spread from:",
+          "options": [
+            "low concentration to high concentration",
+            "high concentration to low concentration",
+            "liquid to solid",
+            "solid to gas"
+          ],
+          "answer": 1,
+          "explanation": "Molecules move from a region of high concentration to one of low concentration."
+        },
+        {
+          "q": "When the stopcock between flasks of H₂ and O₂ is opened, after some time:",
+          "options": [
+            "all H₂ stays in its flask",
+            "both gases spread uniformly throughout both flasks",
+            "the gases react immediately",
+            "O₂ moves out completely"
+          ],
+          "answer": 1,
+          "explanation": "Eventually the concentration of both gases becomes uniform and equilibrium is reached."
+        },
+        {
+          "q": "Graham's law of diffusion states that the rate of diffusion is:",
+          "options": [
+            "directly proportional to molar mass",
+            "inversely proportional to the square root of the molar mass",
+            "directly proportional to the square of molar mass",
+            "independent of molar mass"
+          ],
+          "answer": 1,
+          "explanation": "r ∝ 1/√m at constant temperature and pressure."
+        },
+        {
+          "q": "Which factor affects the rate of diffusion of gases?",
+          "options": [
+            "Molecular mass",
+            "Temperature",
+            "Both molecular mass and temperature",
+            "Neither"
+          ],
+          "answer": 2,
+          "explanation": "Lighter molecules diffuse faster, and diffusion is faster at higher temperature."
+        },
+        {
+          "q": "Which gas diffuses fastest?",
+          "options": [
+            "O₂ (32)",
+            "CO₂ (44)",
+            "H₂ (2)",
+            "Cl₂ (71)"
+          ],
+          "answer": 2,
+          "explanation": "Hydrogen has the lowest molar mass, so by Graham's law it diffuses fastest."
+        },
+        {
+          "q": "Lighter molecules diffuse faster because at the same temperature:",
+          "options": [
+            "they have higher average kinetic energy",
+            "they have the same average KE but greater velocity",
+            "they have greater mass",
+            "they have stronger forces"
+          ],
+          "answer": 1,
+          "explanation": "All molecules at the same T have the same average KE; since KE = ½mv², smaller m means larger v."
+        },
+        {
+          "q": "The kinetic energy of a molecule is given by:",
+          "options": [
+            "KE = mv",
+            "KE = ½mv²",
+            "KE = mgh",
+            "KE = ½m²v"
+          ],
+          "answer": 1,
+          "explanation": "KE = ½mv², where m is mass and v is velocity."
+        },
+        {
+          "q": "The rate of diffusion increases with temperature because:",
+          "options": [
+            "molecules get heavier",
+            "molecules gain kinetic energy and move faster",
+            "molecules stop colliding",
+            "pressure falls to zero"
+          ],
+          "answer": 1,
+          "explanation": "Higher temperature raises average KE and velocity, causing faster diffusion."
+        },
+        {
+          "q": "Graham's law applies at constant:",
+          "options": [
+            "volume and moles",
+            "temperature and pressure",
+            "mass and density",
+            "volume only"
+          ],
+          "answer": 1,
+          "explanation": "r ∝ 1/√m holds at constant T and P."
+        },
+        {
+          "q": "Which gas will diffuse more slowly than nitrogen (N₂ = 28)?",
+          "options": [
+            "He (4)",
+            "CH₄ (16)",
+            "NH₃ (17)",
+            "CO₂ (44)"
+          ],
+          "answer": 3,
+          "explanation": "CO₂ has a greater molar mass than N₂, so it diffuses more slowly."
+        },
+        {
+          "q": "You feel cold when perfume is applied to your palm because:",
+          "options": [
+            "perfume is a cold liquid",
+            "perfume evaporates, taking heat from the skin",
+            "perfume freezes on the skin",
+            "perfume reacts with the skin"
+          ],
+          "answer": 1,
+          "explanation": "Evaporation absorbs heat from the surroundings (the skin), producing a cooling effect."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "topic": "Sublimation and Diffusion of Medicines",
+      "slos": [
+        "C-10-B-08",
+        "C-10-B-09"
+      ],
+      "questions": [
+        {
+          "q": "Sublimation is the process in which a substance changes:",
+          "options": [
+            "from liquid to gas",
+            "from solid directly to vapour without becoming a liquid",
+            "from gas to liquid",
+            "from solid to liquid"
+          ],
+          "answer": 1,
+          "explanation": "In sublimation, the solid goes directly to the vapour state."
+        },
+        {
+          "q": "Which of the following substances easily undergoes sublimation?",
+          "options": [
+            "Sodium chloride",
+            "Camphor",
+            "Iron",
+            "Sugar"
+          ],
+          "answer": 1,
+          "explanation": "Carbon dioxide (dry ice), camphor and naphthalene sublime easily."
+        },
+        {
+          "q": "Sublimation occurs when molecules held by relatively weak intermolecular forces:",
+          "options": [
+            "lose all their energy",
+            "gain enough energy to break those forces and escape as vapour",
+            "form covalent bonds",
+            "become heavier"
+          ],
+          "answer": 1,
+          "explanation": "Some molecules gain enough energy to break intermolecular forces and go straight into the vapour state."
+        },
+        {
+          "q": "Solid air fresheners use the process of:",
+          "options": [
+            "condensation",
+            "deposition",
+            "sublimation",
+            "freezing"
+          ],
+          "answer": 2,
+          "explanation": "The solid fragrance slowly turns into vapour that spreads through the space."
+        },
+        {
+          "q": "Dye-sublimation printers are used in:",
+          "options": [
+            "3D printing on T-shirts, mugs and bags",
+            "making ice",
+            "purifying water",
+            "boiling liquids"
+          ],
+          "answer": 0,
+          "explanation": "The textile industry uses dye sublimation in 3D printing to print on many objects at reduced cost."
+        },
+        {
+          "q": "Freeze-drying of food items for preservation is based on:",
+          "options": [
+            "condensation",
+            "sublimation",
+            "melting",
+            "boiling"
+          ],
+          "answer": 1,
+          "explanation": "Freeze-drying removes frozen water by sublimation, preserving food for longer."
+        },
+        {
+          "q": "Dry ice is the solid form of:",
+          "options": [
+            "water",
+            "carbon dioxide",
+            "nitrogen",
+            "ammonia"
+          ],
+          "answer": 1,
+          "explanation": "Dry ice is solid CO₂, which sublimes directly into gas."
+        },
+        {
+          "q": "Black soot formed inside a vehicle exhaust is an example of:",
+          "options": [
+            "sublimation",
+            "deposition",
+            "evaporation",
+            "melting"
+          ],
+          "answer": 1,
+          "explanation": "Gas-phase particles settle directly as a solid, which is deposition."
+        },
+        {
+          "q": "The diffusion of medicine in the body is important because:",
+          "options": [
+            "it controls the temperature of the medicine",
+            "it ensures the medicine reaches all parts of the body",
+            "it keeps the medicine in one place",
+            "it increases the molecular mass of the medicine"
+          ],
+          "answer": 1,
+          "explanation": "Drug molecules must spread through tissues and organs to reach the cells where they act."
+        },
+        {
+          "q": "A higher rate of diffusion of a drug generally means that the drug:",
+          "options": [
+            "works more slowly",
+            "works faster",
+            "does not work",
+            "becomes poisonous"
+          ],
+          "answer": 1,
+          "explanation": "Higher diffusion levels usually mean the drug reaches its target faster."
+        },
+        {
+          "q": "Drug diffusion is faster when:",
+          "options": [
+            "drug concentration is low and tissue concentration is high",
+            "drug concentration is high and surrounding tissue concentration is low",
+            "both concentrations are equal",
+            "there is no concentration gradient"
+          ],
+          "answer": 1,
+          "explanation": "A larger concentration gradient between the drug and surrounding tissues gives faster diffusion."
+        },
+        {
+          "q": "Generally, which form of a drug diffuses most quickly?",
+          "options": [
+            "Tablet",
+            "Capsule",
+            "Liquid",
+            "Solid powder in a capsule"
+          ],
+          "answer": 2,
+          "explanation": "Liquid drugs move faster because their particles are already dispersed."
+        },
+        {
+          "q": "Controlled-release formulations of medicines are used to:",
+          "options": [
+            "stop diffusion completely",
+            "control the rate of drug diffusion so the effect stays consistent over time",
+            "increase the molar mass of the drug",
+            "make the drug evaporate"
+          ],
+          "answer": 1,
+          "explanation": "They regulate diffusion so the therapeutic effect remains consistent."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "topic": "Exercise MCQs (Textbook)",
+      "slos": [
+        "C-10-B-01",
+        "C-10-B-02",
+        "C-10-B-04",
+        "C-10-B-07",
+        "C-10-B-08",
+        "C-10-B-09"
+      ],
+      "questions": [
+        {
+          "q": "What happens to the internal energy of a substance during melting?",
+          "options": [
+            "It decreases",
+            "It stays the same",
+            "It increases",
+            "It fluctuates"
+          ],
+          "answer": 2,
+          "explanation": "Particles absorb energy to overcome intermolecular forces, so internal energy increases."
+        },
+        {
+          "q": "Which process involves a solid turning directly into a gas?",
+          "options": [
+            "Melting",
+            "Freezing",
+            "Sublimation",
+            "Condensation"
+          ],
+          "answer": 2,
+          "explanation": "Sublimation, e.g. naphthalene balls and dry ice."
+        },
+        {
+          "q": "Boiling occurs at:",
+          "options": [
+            "Any temperature",
+            "A fixed temperature",
+            "Only at room temperature",
+            "Any pressure"
+          ],
+          "answer": 1,
+          "explanation": "Boiling takes place at the boiling point, a fixed temperature for a given pressure."
+        },
+        {
+          "q": "During condensation, the particles in a gas:",
+          "options": [
+            "Gain energy and move faster",
+            "Lose energy and move slower",
+            "Gain energy and move slower",
+            "Lose energy and move faster"
+          ],
+          "answer": 1,
+          "explanation": "Losing energy slows the particles and lets attractive forces pull them together."
+        },
+        {
+          "q": "Which law states that the volume of a gas is directly proportional to its temperature at constant pressure?",
+          "options": [
+            "Boyle's Law",
+            "Charles's Law",
+            "Avogadro's Law",
+            "Dalton's Law"
+          ],
+          "answer": 1,
+          "explanation": "Charles's law: V ∝ T at constant P."
+        },
+        {
+          "q": "Evaporation differs from boiling because:",
+          "options": [
+            "Evaporation occurs at the surface of a liquid at any temperature",
+            "Boiling occurs only at the surface",
+            "Evaporation requires a fixed temperature",
+            "Boiling occurs at any temperature"
+          ],
+          "answer": 0,
+          "explanation": "Evaporation is a surface process at any temperature; boiling is at a fixed temperature throughout the liquid."
+        },
+        {
+          "q": "According to kinetic particle theory, the pressure of a gas increases when:",
+          "options": [
+            "The volume increases",
+            "The temperature decreases",
+            "The number of particles decreases",
+            "The temperature increases"
+          ],
+          "answer": 3,
+          "explanation": "Faster particles collide more often and more forcefully with the walls."
+        },
+        {
+          "q": "Which factor affects the rate of diffusion of gases?",
+          "options": [
+            "Molecular mass",
+            "Temperature",
+            "Both a and b",
+            "Neither a nor b"
+          ],
+          "answer": 2,
+          "explanation": "Rate depends on molar mass (Graham's law) and on temperature."
+        },
+        {
+          "q": "Solid air fresheners use the process of:",
+          "options": [
+            "Condensation",
+            "Deposition",
+            "Sublimation",
+            "Freezing"
+          ],
+          "answer": 2,
+          "explanation": "The solid fragrance sublimes into vapour."
+        },
+        {
+          "q": "The diffusion of medicine in the body is important because:",
+          "options": [
+            "It controls the temperature of the medicine",
+            "It ensures the medicine reaches all parts of the body",
+            "It keeps the medicine in one place",
+            "It increases the molecular mass of the medicine"
+          ],
+          "answer": 1,
+          "explanation": "Diffusion carries the drug to the tissues and cells where it acts."
+        }
+      ]
+    }
+  ]
+}
