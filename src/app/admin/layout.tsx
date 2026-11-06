@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
-import { BarChart3, ExternalLink, GraduationCap, Layers, LayoutGrid, LogOut, Menu, SlidersHorizontal, Target, Users } from 'lucide-react';
+import { BarChart3, CalendarCheck, ExternalLink, GraduationCap, Layers, LayoutGrid, LogOut, Menu, SlidersHorizontal, Target, Users } from 'lucide-react';
 import { api } from '@/lib/api';
 import { useAuth } from '@/lib/auth';
 import { cn } from '@/lib/utils';
@@ -20,6 +20,7 @@ const NAV = [
   { href: '/admin/assessments', label: 'Assessments', icon: Target },
   { href: '/admin/results', label: 'Results', icon: BarChart3 },
   { section: 'Academy' },
+  { href: '/admin/attendance', label: 'Attendance', icon: CalendarCheck },
   { href: '/admin/profile', label: 'Teacher profile', icon: SlidersHorizontal },
 ] as const;
 

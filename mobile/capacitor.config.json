@@ -1,0 +1,16 @@
+{
+  "appId": "pk.novix.academy",
+  "appName": "Novix Academy",
+  "webDir": "www",
+  "appendUserAgent": "NovixApp/1.0",
+  "backgroundColor": "#f6f9fc",
+  "server": {
+    "url": "https://novixscienceacademy.netlify.app",
+    "androidScheme": "https",
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  }
+}

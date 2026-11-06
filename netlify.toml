@@ -9,3 +9,16 @@
 # Next.js runtime (SSR, routing, dynamic pages)
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# Android app download
+[[headers]]
+  for = "/downloads/*.apk"
+  [headers.values]
+    Content-Type = "application/vnd.android.package-archive"
+    Content-Disposition = "attachment; filename=\"Novix-Academy.apk\""
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/downloads/app-version.json"
+  [headers.values]
+    Cache-Control = "no-cache"

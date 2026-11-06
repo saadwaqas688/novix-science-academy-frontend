@@ -12,6 +12,7 @@ import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/misc';
 import { BookCard } from '@/components/book-card';
 import { ClassSwitcher, SectionHeading } from '@/components/common';
+import { DownloadAppCard } from '@/components/download-app';
 
 export default function HomePage() {
   const { user } = useAuth();
@@ -103,6 +104,7 @@ export default function HomePage() {
           </div>
         ))}
       </section>
+      <DownloadAppCard />
     </>
   );
 }

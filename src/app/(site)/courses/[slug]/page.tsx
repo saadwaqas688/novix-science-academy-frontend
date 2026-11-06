@@ -13,6 +13,7 @@ import { staticNotes } from '@/lib/static-notes';
 import { chapterQuizzes, quizKey } from '@/lib/quizzes';
 import type { QuizBest } from '@/lib/types';
 import { cn } from '@/lib/utils';
+import { openOutside } from '@/lib/native';
 import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/misc';
 import { AuthGate, ClassSwitcher, ErrorState, SectionHeading } from '@/components/common';
@@ -62,7 +63,7 @@ function Course() {
               </div>
             )}
             {d?.book
-              ? <Button asChild size="sm" variant="outline" className="border-white/30 bg-white/15 text-white hover:border-white hover:text-white"><a href={d.book.fileUrl} target="_blank" rel="noopener"><BookOpen /> Open book (PDF)</a></Button>
+              ? <Button asChild size="sm" variant="outline" className="border-white/30 bg-white/15 text-white hover:border-white hover:text-white"><a href={d.book.fileUrl} target="_blank" rel="noopener" onClick={(e) => openOutside(e, d.book!.fileUrl)}><BookOpen /> Open book (PDF)</a></Button>
               : <Button size="sm" variant="outline" className="border-white/30 bg-white/15 text-white hover:text-white" onClick={() => toast.info('The book PDF will be uploaded soon')}><BookOpen /> Book: coming soon</Button>}
           </div>
         </div>

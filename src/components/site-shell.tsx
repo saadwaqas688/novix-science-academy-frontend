@@ -8,6 +8,7 @@ import { cn, initials } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/misc';
 import { Logo } from '@/components/common';
+import { DownloadAppHeaderButton } from '@/components/download-app';
 
 const isActive = (path: string, key: string) =>
   key === '/' ? path === '/' : key === '/courses' ? /^\/(courses|chapters|results|quiz-result)/.test(path) : path.startsWith(key);
@@ -33,6 +34,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <span className="flex-1" />
+        <DownloadAppHeaderButton className="hidden lg:inline-flex" />
         {user ? (
           <DropdownMenu>
             <DropdownMenuTrigger className="flex items-center gap-2.5 rounded-full border border-border bg-surface py-1 pr-1 pl-1 outline-none sm:pr-4">

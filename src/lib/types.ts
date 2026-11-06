@@ -100,3 +100,18 @@ export interface UserActivity {
   };
   videosWatched: number;
 }
+
+export type AttendanceMark = 'present' | 'absent' | 'leave';
+export interface AttendanceStudentRow {
+  id: number; name: string; groupName: string; present: number; absent: number; leave: number;
+  present30: number; marked30: number; lastDate: string | null; recent: AttendanceMark[];
+}
+export interface AttendanceList {
+  students: AttendanceStudentRow[];
+  summary: { students: number; firstDate: string | null; latestDate: string | null; days: number; latestDay: Partial<Record<AttendanceMark, number>> };
+}
+export interface AttendanceStudentDetail {
+  student: { id: number; name: string; groupName: string; createdAt: string };
+  records: { date: string; status: AttendanceMark }[];
+  latestDate: string | null;
+}

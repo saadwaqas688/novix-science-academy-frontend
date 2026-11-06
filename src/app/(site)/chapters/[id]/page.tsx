@@ -11,6 +11,7 @@ import { staticNotes } from '@/lib/static-notes';
 import { chapterQuizzes, quizHref, quizKey } from '@/lib/quizzes';
 import type { QuizBest } from '@/lib/types';
 import { fmtSize, youtubeThumb } from '@/lib/utils';
+import { openOutside } from '@/lib/native';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/misc';
@@ -77,8 +78,8 @@ function Chapter() {
                     <p className="truncate text-[13px] text-muted-foreground">{notes.fileName} · {fmtSize(notes.sizeBytes)}</p>
                   </div>
                   <div className="flex w-full gap-2 sm:w-auto">
-                    <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} target="_blank" rel="noopener"><Eye /> Read</a></Button>
-                    <Button asChild variant="outline" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} download={notes.fileName}><Download /> Download</a></Button>
+                    <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} target="_blank" rel="noopener" onClick={(e) => openOutside(e, notes.fileUrl)}><Eye /> Read</a></Button>
+                    <Button asChild variant="outline" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} download={notes.fileName} onClick={(e) => openOutside(e, notes.fileUrl)}><Download /> Download</a></Button>
                   </div>
                 </div>
               ))}
