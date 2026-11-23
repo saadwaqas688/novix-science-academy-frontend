@@ -148,6 +148,32 @@
       }
     ]
   },
+  "9/chemistry/14": {
+    "url": "/quizzes/class-9/chemistry/ch-14.json",
+    "chapterTitle": "Hydrocarbons",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Hydrocarbons and Alkanes",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Preparation of Alkanes",
+        "count": 12
+      },
+      {
+        "id": "q3",
+        "topic": "Properties of Alkanes: Halogenation and Combustion",
+        "count": 12
+      },
+      {
+        "id": "q4",
+        "topic": "Exercise MCQs (Book)",
+        "count": 5
+      }
+    ]
+  },
   "9/physics/1": {
     "url": "/quizzes/class-9/physics/ch-1.json",
     "chapterTitle": "Physical Quantities and Measurement",

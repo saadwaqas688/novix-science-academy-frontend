@@ -1,0 +1,487 @@
+{
+ "subject": "chemistry",
+ "classLevel": "9",
+ "chapter": 14,
+ "chapterTitle": "Hydrocarbons",
+ "quizzes": [
+  {
+   "id": "q1",
+   "topic": "Hydrocarbons and Alkanes",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Organic compounds that contain only carbon and hydrogen are called:",
+     "options": [
+      "alkyl halides",
+      "hydrocarbons",
+      "alcohols",
+      "carbohydrates"
+     ],
+     "answer": 1,
+     "explanation": "Hydrocarbons are the simplest organic compounds."
+    },
+    {
+     "q": "Hydrocarbons are classified according to the type of bond between:",
+     "options": [
+      "carbon and oxygen",
+      "hydrogen and oxygen",
+      "hydrogen atoms",
+      "carbon atoms"
+     ],
+     "answer": 3,
+     "explanation": "Single, double or triple C–C bonds."
+    },
+    {
+     "q": "Alkanes are:",
+     "options": [
+      "saturated hydrocarbons",
+      "aromatic compounds",
+      "ionic compounds",
+      "unsaturated hydrocarbons"
+     ],
+     "answer": 0,
+     "explanation": "They contain only single bonds."
+    },
+    {
+     "q": "The bonding in alkanes is:",
+     "options": [
+      "ionic",
+      "single covalent",
+      "double covalent",
+      "triple covalent"
+     ],
+     "answer": 1,
+     "explanation": "All C–C and C–H bonds are single."
+    },
+    {
+     "q": "The general formula of alkanes is:",
+     "options": [
+      "CₙH₂ₙ",
+      "CₙHₙ",
+      "CₙH₂ₙ₊₂",
+      "CₙH₂ₙ₋₂"
+     ],
+     "answer": 2,
+     "explanation": "e.g. CH₄, C₂H₆, C₃H₈."
+    },
+    {
+     "q": "The simplest alkane is:",
+     "options": [
+      "ethane",
+      "propane",
+      "methane",
+      "ethene"
+     ],
+     "answer": 2,
+     "explanation": "CH₄."
+    },
+    {
+     "q": "The main component of natural gas is:",
+     "options": [
+      "methane",
+      "ethane",
+      "propene",
+      "butane"
+     ],
+     "answer": 0,
+     "explanation": "Natural gas is mainly CH₄."
+    },
+    {
+     "q": "Each carbon atom in an alkane forms:",
+     "options": [
+      "four bonds",
+      "one bond",
+      "two bonds",
+      "three bonds"
+     ],
+     "answer": 0,
+     "explanation": "Carbon is tetravalent."
+    },
+    {
+     "q": "The molecular formula of ethane is:",
+     "options": [
+      "C₂H₂",
+      "CH₄",
+      "C₂H₄",
+      "C₂H₆"
+     ],
+     "answer": 3,
+     "explanation": "Second member of the alkane series."
+    },
+    {
+     "q": "Pentane contains how many carbon atoms?",
+     "options": [
+      "Five",
+      "Three",
+      "Six",
+      "Four"
+     ],
+     "answer": 0,
+     "explanation": "C₅H₁₂."
+    },
+    {
+     "q": "Which is a saturated hydrocarbon?",
+     "options": [
+      "Propene",
+      "Ethyne",
+      "Propane",
+      "Ethene"
+     ],
+     "answer": 2,
+     "explanation": "Propane has only single bonds."
+    },
+    {
+     "q": "The molecular formula of propane is:",
+     "options": [
+      "C₃H₆",
+      "C₄H₁₀",
+      "C₃H₄",
+      "C₃H₈"
+     ],
+     "answer": 3,
+     "explanation": "CₙH₂ₙ₊₂ with n = 3."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "topic": "Preparation of Alkanes",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Addition of hydrogen across a carbon–carbon multiple bond is called:",
+     "options": [
+      "halogenation",
+      "hydrogenation",
+      "cracking",
+      "combustion"
+     ],
+     "answer": 1,
+     "explanation": "Definition of hydrogenation."
+    },
+    {
+     "q": "Hydrogenation is carried out using finely divided:",
+     "options": [
+      "iron",
+      "zinc",
+      "copper",
+      "nickel"
+     ],
+     "answer": 3,
+     "explanation": "Ni at 200–300 °C and high pressure."
+    },
+    {
+     "q": "Hydrogenation with Ni takes place at:",
+     "options": [
+      "0 °C",
+      "200–300 °C",
+      "1000 °C",
+      "450–750 °C"
+     ],
+     "answer": 1,
+     "explanation": "Under high pressure."
+    },
+    {
+     "q": "Hydrogenation can occur at room temperature in the presence of:",
+     "options": [
+      "Ni only",
+      "Zn",
+      "Fe",
+      "Pt or Pd"
+     ],
+     "answer": 3,
+     "explanation": "Platinum or palladium."
+    },
+    {
+     "q": "Ethene + H₂ (Ni) →",
+     "options": [
+      "methane",
+      "ethyne",
+      "propane",
+      "ethane"
+     ],
+     "answer": 3,
+     "explanation": "CH₂=CH₂ + H₂ → CH₃–CH₃."
+    },
+    {
+     "q": "An alkyne adds how many molecules of hydrogen to form an alkane?",
+     "options": [
+      "One",
+      "Three",
+      "Four",
+      "Two"
+     ],
+     "answer": 3,
+     "explanation": "Triple → double → single bond."
+    },
+    {
+     "q": "Alkyl halides are reduced to alkanes using:",
+     "options": [
+      "O₂ and heat",
+      "Zn and aqueous acid",
+      "Ni and H₂O",
+      "Cl₂ and sunlight"
+     ],
+     "answer": 1,
+     "explanation": "Zn/HCl gives nascent hydrogen."
+    },
+    {
+     "q": "Atomic hydrogen liberated by Zn and acid is called:",
+     "options": [
+      "hydride",
+      "nascent hydrogen",
+      "molecular hydrogen",
+      "heavy hydrogen"
+     ],
+     "answer": 1,
+     "explanation": "It reduces alkyl halides."
+    },
+    {
+     "q": "CH₃Cl + 2[H] (Zn/HCl) →",
+     "options": [
+      "C₂H₆ + Cl₂",
+      "CH₂Cl₂ + H₂",
+      "CH₃OH + HCl",
+      "CH₄ + HCl"
+     ],
+     "answer": 3,
+     "explanation": "Reduction of chloromethane gives methane."
+    },
+    {
+     "q": "Breaking large hydrocarbons into smaller ones by heat is called:",
+     "options": [
+      "substitution",
+      "cracking",
+      "reduction",
+      "hydrogenation"
+     ],
+     "answer": 1,
+     "explanation": "Thermal cracking."
+    },
+    {
+     "q": "Thermal cracking takes place at:",
+     "options": [
+      "below 0 °C",
+      "200–300 °C",
+      "room temperature",
+      "450–750 °C and high pressure"
+     ],
+     "answer": 3,
+     "explanation": "High temperature and pressure."
+    },
+    {
+     "q": "Cracking of decane gives octane and:",
+     "options": [
+      "propane",
+      "ethyne",
+      "methane",
+      "ethene"
+     ],
+     "answer": 3,
+     "explanation": "C₁₀H₂₂ → C₈H₁₈ + C₂H₄."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "topic": "Properties of Alkanes: Halogenation and Combustion",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Alkane molecules are essentially:",
+     "options": [
+      "non-polar",
+      "acidic",
+      "ionic",
+      "highly polar"
+     ],
+     "answer": 0,
+     "explanation": "They do not dissolve in water."
+    },
+    {
+     "q": "Compared with water, alkanes are:",
+     "options": [
+      "less dense and soluble",
+      "less dense and insoluble",
+      "denser and soluble",
+      "denser and insoluble"
+     ],
+     "answer": 1,
+     "explanation": "They float and do not mix."
+    },
+    {
+     "q": "Alkanes with up to four carbon atoms are:",
+     "options": [
+      "solids",
+      "liquids",
+      "plasmas",
+      "gases"
+     ],
+     "answer": 3,
+     "explanation": "Colourless and odourless gases."
+    },
+    {
+     "q": "Hexane is used to extract vegetable oils because alkanes are:",
+     "options": [
+      "strong acids",
+      "ionic",
+      "unreactive solvents",
+      "oxidizing agents"
+     ],
+     "answer": 2,
+     "explanation": "Lack of reactivity makes them good solvents."
+    },
+    {
+     "q": "A reaction that takes place in sunlight is called:",
+     "options": [
+      "neutralization",
+      "thermal reaction",
+      "photochemical reaction",
+      "hydrogenation"
+     ],
+     "answer": 2,
+     "explanation": "e.g. halogenation of alkanes."
+    },
+    {
+     "q": "In a substitution reaction, one atom or group of atoms is:",
+     "options": [
+      "removed as water",
+      "replaced by another",
+      "broken by heat",
+      "added across a double bond"
+     ],
+     "answer": 1,
+     "explanation": "Definition of substitution."
+    },
+    {
+     "q": "CH₄ + Cl₂ (diffused sunlight) →",
+     "options": [
+      "CH₂Cl₂ + H₂",
+      "C + 4HCl",
+      "CO₂ + HCl",
+      "CH₃Cl + HCl"
+     ],
+     "answer": 3,
+     "explanation": "Chloromethane is formed."
+    },
+    {
+     "q": "In direct sunlight, methane and chlorine react explosively to form:",
+     "options": [
+      "ethane",
+      "carbon and HCl",
+      "chloromethane only",
+      "CO₂ and H₂O"
+     ],
+     "answer": 1,
+     "explanation": "CH₄ + 2Cl₂ → C + 4HCl."
+    },
+    {
+     "q": "Complete combustion of methane gives:",
+     "options": [
+      "CO₂ and H₂O",
+      "CH₃Cl",
+      "CO and C",
+      "H₂ and O₂"
+     ],
+     "answer": 0,
+     "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O + heat."
+    },
+    {
+     "q": "Most alkanes burn with a:",
+     "options": [
+      "green flame",
+      "no flame",
+      "yellow smoky flame",
+      "blue flame"
+     ],
+     "answer": 3,
+     "explanation": "Clean combustion."
+    },
+    {
+     "q": "Incomplete combustion of methane gives:",
+     "options": [
+      "CO, C and H₂O",
+      "H₂ only",
+      "CH₃Cl",
+      "CO₂ and H₂O only"
+     ],
+     "answer": 0,
+     "explanation": "Due to limited oxygen."
+    },
+    {
+     "q": "Lighter alkanes are used as fuels because they:",
+     "options": [
+      "give a large amount of heat per gram",
+      "cannot be controlled",
+      "do not burn",
+      "are very expensive"
+     ],
+     "answer": 0,
+     "explanation": "Also cheap and controllable."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "topic": "Exercise MCQs (Book)",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Which molecule contains a carbon–carbon single bond?",
+     "options": [
+      "Ethane",
+      "Ethene",
+      "Ethyne",
+      "Methanol"
+     ],
+     "answer": 0,
+     "explanation": "Ethane has a C–C single bond."
+    },
+    {
+     "q": "Which product is obtained when chloromethane (methyl chloride) is reduced?",
+     "options": [
+      "Ethane",
+      "Ethene",
+      "Methane",
+      "Ethyne"
+     ],
+     "answer": 2,
+     "explanation": "CH₃Cl + 2[H] → CH₄ + HCl."
+    },
+    {
+     "q": "By hydrogenation we mean the addition of:",
+     "options": [
+      "Hydrogen",
+      "Water",
+      "Halogen",
+      "Hydrogen halide"
+     ],
+     "answer": 0,
+     "explanation": "H₂ is added across multiple bonds."
+    },
+    {
+     "q": "Combustion of methane produces:",
+     "options": [
+      "Carbon dioxide",
+      "Water",
+      "Heat",
+      "All of these"
+     ],
+     "answer": 3,
+     "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O + heat."
+    },
+    {
+     "q": "Reduction of chloromethane gives:",
+     "options": [
+      "Hydrogen",
+      "Chlorine",
+      "Methane",
+      "All of these"
+     ],
+     "answer": 2,
+     "explanation": "Methane is formed."
+    }
+   ]
+  }
+ ]
+}

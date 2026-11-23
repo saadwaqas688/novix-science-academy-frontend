@@ -134,7 +134,7 @@
   "9/chemistry/10": [
     {
       "url": "/notes/class-9/chemistry/ch-10.pdf",
-      "sizeBytes": 101396,
+      "sizeBytes": 93759,
       "part": "",
       "title": "Chapter notes"
     }
@@ -142,7 +142,7 @@
   "9/chemistry/11": [
     {
       "url": "/notes/class-9/chemistry/ch-11.pdf",
-      "sizeBytes": 108505,
+      "sizeBytes": 102132,
       "part": "",
       "title": "Chapter notes"
     }
@@ -150,7 +150,15 @@
   "9/chemistry/12": [
     {
       "url": "/notes/class-9/chemistry/ch-12.pdf",
-      "sizeBytes": 80934,
+      "sizeBytes": 74307,
+      "part": "",
+      "title": "Chapter notes"
+    }
+  ],
+  "9/chemistry/14": [
+    {
+      "url": "/notes/class-9/chemistry/ch-14.pdf",
+      "sizeBytes": 62315,
       "part": "",
       "title": "Chapter notes"
     }
