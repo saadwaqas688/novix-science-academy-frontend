@@ -33,6 +33,14 @@ walk(path.resolve('public/notes'), 'pdf', (f) => {
 for (const list of Object.values(notes)) list.sort((a, b) => (a.part === '' ? -1 : b.part === '' ? 1 : a.part.localeCompare(b.part, undefined, { numeric: true })));
 fs.writeFileSync(path.resolve('src/lib/notes-manifest.json'), JSON.stringify(notes, null, 2) + '\n');
 
+// Topic-wise SLO / concept based chapter notes: public/chapter-notes/class-<n>/<subject>/ch-<n>[-<part>].pdf
+const chapterNotes = {};
+walk(path.resolve('public/chapter-notes'), 'pdf', (f) => {
+  (chapterNotes[`${f.cls}/${f.subject}/${f.chapter}`] ||= []).push({ url: f.url, sizeBytes: fs.statSync(f.file).size, part: f.part, title: f.part ? partTitle(f.part) : 'Chapter notes (SLO & concept based)' });
+});
+for (const list of Object.values(chapterNotes)) list.sort((a, b) => (a.part === '' ? -1 : b.part === '' ? 1 : a.part.localeCompare(b.part, undefined, { numeric: true })));
+fs.writeFileSync(path.resolve('src/lib/chapter-notes-manifest.json'), JSON.stringify(chapterNotes, null, 2) + '\n');
+
 const quizzes = {};
 walk(path.resolve('public/quizzes'), 'json', (f) => {
   if (f.part) return;

@@ -3,11 +3,11 @@
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
-import { Check, ChevronLeft, ChevronRight, Clock, Download, Eye, FileText, ListChecks, Play, Target, Video } from 'lucide-react';
+import { BookOpen, Check, ChevronLeft, ChevronRight, Clock, Download, Eye, FileText, ListChecks, Play, Target, Video } from 'lucide-react';
 import { api } from '@/lib/api';
 import type { ChapterPage } from '@/lib/types';
 import { subjectCover } from '@/lib/subjects';
-import { staticNotes } from '@/lib/static-notes';
+import { staticChapterNotes, staticNotes, type StaticNote } from '@/lib/static-notes';
 import { chapterQuizzes, quizHref, quizKey } from '@/lib/quizzes';
 import type { QuizBest } from '@/lib/types';
 import { fmtSize, youtubeThumb } from '@/lib/utils';
@@ -36,6 +36,7 @@ function Chapter() {
   if (!q.data) return <div className="space-y-4"><Skeleton className="h-16 w-2/3" /><Skeleton className="h-12" /><Skeleton className="h-48" /></div>;
   const { chapter, subject, videos, assessments } = q.data;
   const notesList = q.data.notes ? [{ ...q.data.notes, title: 'Chapter notes' }] : staticNotes(subject.slug, chapter.classLevel, chapter.number);
+  const chapterNotesList = staticChapterNotes(subject.slug, chapter.classLevel, chapter.number);
   const cover = subjectCover(subject.slug, subject.color);
   const tests = [
     ...assessments.map((a) => ({ key: `t${a.id}`, topic: a.topic, count: a.questionCount, best: a.bestScore, attempts: a.attemptCount, href: `/test/${a.id}` })),
@@ -63,28 +64,17 @@ function Chapter() {
       <Tabs defaultValue={defaultTab}>
         <TabsList className="sticky top-16 z-20 -mx-4 bg-background/90 px-4 backdrop-blur-xl sm:top-[68px] sm:mx-0 sm:px-0">
           <TabsTrigger value="notes"><FileText /> Notes</TabsTrigger>
+          <TabsTrigger value="chapter-notes"><BookOpen /> Chapter Notes</TabsTrigger>
           <TabsTrigger value="videos"><Video /> Videos <Count n={videos.length} /></TabsTrigger>
           <TabsTrigger value="assessments"><Target /> Assessments <Count n={tests.length} /></TabsTrigger>
         </TabsList>
 
         <TabsContent value="notes">
-          {notesList.length ? (
-            <div className="space-y-3">
-              {notesList.map((notes) => (
-                <div key={notes.fileUrl} className="glass flex flex-wrap items-center gap-4 rounded-2xl border border-border p-4 shadow-soft sm:p-5">
-                  <span className="grid h-16 w-14 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-red-300 to-red-500 text-xs font-extrabold text-white">PDF</span>
-                  <div className="min-w-0 flex-1">
-                    <h4 className="truncate font-bold">{notes.title}</h4>
-                    <p className="truncate text-[13px] text-muted-foreground">{notes.fileName} · {fmtSize(notes.sizeBytes)}</p>
-                  </div>
-                  <div className="flex w-full gap-2 sm:w-auto">
-                    <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} target="_blank" rel="noopener" onClick={(e) => openOutside(e, notes.fileUrl)}><Eye /> Read</a></Button>
-                    <Button asChild variant="outline" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} download={notes.fileName} onClick={(e) => openOutside(e, notes.fileUrl)}><Download /> Download</a></Button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : <ComingSoon icon={FileText} text="Notes for this chapter are being prepared and will be uploaded soon." />}
+          {notesList.length ? <PdfList items={notesList} /> : <ComingSoon icon={FileText} text="Notes for this chapter are being prepared and will be uploaded soon." />}
+        </TabsContent>
+
+        <TabsContent value="chapter-notes">
+          {chapterNotesList.length ? <PdfList items={chapterNotesList} /> : <ComingSoon icon={BookOpen} text="Topic-wise chapter notes (SLO and concept based) for this chapter will be uploaded soon." />}
         </TabsContent>
 
         <TabsContent value="videos">
@@ -137,6 +127,26 @@ function Chapter() {
         </TabsContent>
       </Tabs>
     </>
+  );
+}
+
+function PdfList({ items }: { items: StaticNote[] }) {
+  return (
+    <div className="space-y-3">
+      {items.map((notes) => (
+        <div key={notes.fileUrl} className="glass flex flex-wrap items-center gap-4 rounded-2xl border border-border p-4 shadow-soft sm:p-5">
+          <span className="grid h-16 w-14 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-red-300 to-red-500 text-xs font-extrabold text-white">PDF</span>
+          <div className="min-w-0 flex-1">
+            <h4 className="truncate font-bold">{notes.title}</h4>
+            <p className="truncate text-[13px] text-muted-foreground">{notes.fileName} · {fmtSize(notes.sizeBytes)}</p>
+          </div>
+          <div className="flex w-full gap-2 sm:w-auto">
+            <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} target="_blank" rel="noopener" onClick={(e) => openOutside(e, notes.fileUrl)}><Eye /> Read</a></Button>
+            <Button asChild variant="outline" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} download={notes.fileName} onClick={(e) => openOutside(e, notes.fileUrl)}><Download /> Download</a></Button>
+          </div>
+        </div>
+      ))}
+    </div>
   );
 }
 
