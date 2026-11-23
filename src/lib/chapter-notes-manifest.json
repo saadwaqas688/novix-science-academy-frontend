@@ -6,5 +6,29 @@
       "part": "",
       "title": "Chapter notes (SLO & concept based)"
     }
+  ],
+  "10/physics/2": [
+    {
+      "url": "/chapter-notes/class-10/physics/ch-2.pdf",
+      "sizeBytes": 80150,
+      "part": "",
+      "title": "Chapter notes (SLO & concept based)"
+    }
+  ],
+  "9/physics/2": [
+    {
+      "url": "/chapter-notes/class-9/physics/ch-2.pdf",
+      "sizeBytes": 64559,
+      "part": "",
+      "title": "Chapter notes (SLO & concept based)"
+    }
+  ],
+  "9/physics/3": [
+    {
+      "url": "/chapter-notes/class-9/physics/ch-3.pdf",
+      "sizeBytes": 69411,
+      "part": "",
+      "title": "Chapter notes (SLO & concept based)"
+    }
   ]
 }

@@ -6,5 +6,29 @@
       "part": "",
       "title": "Student notes (Version 2 – for average students)"
     }
+  ],
+  "10/physics/2": [
+    {
+      "url": "/student-notes/class-10/physics/ch-2.pdf",
+      "sizeBytes": 52125,
+      "part": "",
+      "title": "Student notes (Version 2 – for average students)"
+    }
+  ],
+  "9/physics/2": [
+    {
+      "url": "/student-notes/class-9/physics/ch-2.pdf",
+      "sizeBytes": 48471,
+      "part": "",
+      "title": "Student notes (Version 2 – for average students)"
+    }
+  ],
+  "9/physics/3": [
+    {
+      "url": "/student-notes/class-9/physics/ch-3.pdf",
+      "sizeBytes": 48614,
+      "part": "",
+      "title": "Student notes (Version 2 – for average students)"
+    }
   ]
 }
