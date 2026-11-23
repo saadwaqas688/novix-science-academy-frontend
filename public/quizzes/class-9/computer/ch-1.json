@@ -1,0 +1,1186 @@
+{
+ "subject": "computer",
+ "classLevel": "9",
+ "chapter": 1,
+ "chapterTitle": "Computer Systems",
+ "quizzes": [
+  {
+   "id": "q1",
+   "topic": "History and Generations of Computers",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Who invented the Pascaline in 1642?",
+     "options": [
+      "Blaise Pascal",
+      "Howard Aiken",
+      "Charles Babbage",
+      "John Napier"
+     ],
+     "answer": 0,
+     "explanation": "Pascal's machine used gears and wheels for basic arithmetic."
+    },
+    {
+     "q": "Napier's Bones were mainly used for:",
+     "options": [
+      "Storing data",
+      "Printing results",
+      "Multiplication and division",
+      "Sorting punch cards"
+     ],
+     "answer": 2,
+     "explanation": "Napier's strips simplified multiplication and division."
+    },
+    {
+     "q": "Who designed the Analytical Engine?",
+     "options": [
+      "Charles Babbage",
+      "Wilhelm Leibniz",
+      "Blaise Pascal",
+      "Herman Hollerith"
+     ],
+     "answer": 0,
+     "explanation": "Babbage designed it in the 1830s as a general-purpose machine."
+    },
+    {
+     "q": "Hollerith's Tabulating Machine (1890) used:",
+     "options": [
+      "Punch cards",
+      "Transistors",
+      "Microprocessors",
+      "Vacuum tubes"
+     ],
+     "answer": 0,
+     "explanation": "It processed census data with punch cards."
+    },
+    {
+     "q": "Mark I (1944) was developed by:",
+     "options": [
+      "Charles Babbage",
+      "Blaise Pascal",
+      "John Von Neumann",
+      "Howard Aiken"
+     ],
+     "answer": 3,
+     "explanation": "Mark I was an electromechanical computer."
+    },
+    {
+     "q": "First-generation computers used:",
+     "options": [
+      "Integrated circuits",
+      "Microprocessors",
+      "Vacuum tubes",
+      "Transistors"
+     ],
+     "answer": 2,
+     "explanation": "1940–1956: vacuum tubes; huge and heat-producing."
+    },
+    {
+     "q": "Which technology replaced vacuum tubes in second-generation computers?",
+     "options": [
+      "Magnetic tapes",
+      "Integrated circuits",
+      "Transistors",
+      "Microprocessors"
+     ],
+     "answer": 2,
+     "explanation": "Transistors made computers smaller and more reliable."
+    },
+    {
+     "q": "Integrated circuits were introduced in the:",
+     "options": [
+      "Fourth generation",
+      "First generation",
+      "Third generation",
+      "Second generation"
+     ],
+     "answer": 2,
+     "explanation": "1963–1971."
+    },
+    {
+     "q": "The microprocessor was developed in the:",
+     "options": [
+      "Second generation",
+      "Third generation",
+      "Fourth generation",
+      "Fifth generation"
+     ],
+     "answer": 2,
+     "explanation": "From 1971, using LSI/VLSI."
+    },
+    {
+     "q": "ENIAC belongs to which generation?",
+     "options": [
+      "First",
+      "Third",
+      "Second",
+      "Fourth"
+     ],
+     "answer": 0,
+     "explanation": "ENIAC used vacuum tubes."
+    },
+    {
+     "q": "The main feature of fifth-generation computers is:",
+     "options": [
+      "Punch cards",
+      "Magnetic drums",
+      "Artificial intelligence",
+      "Vacuum tubes"
+     ],
+     "answer": 2,
+     "explanation": "They aim at thinking power."
+    },
+    {
+     "q": "Which language was used in first-generation computers?",
+     "options": [
+      "Machine language",
+      "Java",
+      "Python",
+      "C++"
+     ],
+     "answer": 0,
+     "explanation": "They worked on binary machine language."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "topic": "Systems and Hardware Components",
+   "slos": [],
+   "questions": [
+    {
+     "q": "A collection of interconnected components working together for a goal is a:",
+     "options": [
+      "Protocol",
+      "System",
+      "Network",
+      "Program"
+     ],
+     "answer": 1,
+     "explanation": "Definition of a system."
+    },
+    {
+     "q": "Which is a natural system?",
+     "options": [
+      "Solar system",
+      "Computer",
+      "Internet",
+      "Power grid"
+     ],
+     "answer": 0,
+     "explanation": "Natural systems occur without human input."
+    },
+    {
+     "q": "Which is an artificial system?",
+     "options": [
+      "River",
+      "Weather",
+      "Human body",
+      "Transportation system"
+     ],
+     "answer": 3,
+     "explanation": "Artificial systems are designed by humans."
+    },
+    {
+     "q": "The main function of the motherboard is to:",
+     "options": [
+      "Display output",
+      "Print documents",
+      "Store data permanently",
+      "Connect and integrate all hardware components"
+     ],
+     "answer": 3,
+     "explanation": "All components connect through the motherboard."
+    },
+    {
+     "q": "Which part of the CPU performs logical comparisons?",
+     "options": [
+      "ALU",
+      "CU",
+      "Hard disk",
+      "RAM"
+     ],
+     "answer": 0,
+     "explanation": "Arithmetic Logic Unit."
+    },
+    {
+     "q": "Which part of the CPU controls and directs all activities?",
+     "options": [
+      "Cache",
+      "Bus",
+      "ALU",
+      "Control Unit"
+     ],
+     "answer": 3,
+     "explanation": "The CU decodes instructions and gives control signals."
+    },
+    {
+     "q": "The storage capacity of a CD is about:",
+     "options": [
+      "1 TB",
+      "4 KB",
+      "16 GB",
+      "700 MB"
+     ],
+     "answer": 3,
+     "explanation": "CD stores about 700 MB."
+    },
+    {
+     "q": "Which storage device uses integrated circuits and has no moving parts?",
+     "options": [
+      "Hard disk",
+      "Magnetic tape",
+      "SSD",
+      "CD"
+     ],
+     "answer": 2,
+     "explanation": "Solid State Drive."
+    },
+    {
+     "q": "Which is an impact printer?",
+     "options": [
+      "Dot matrix printer",
+      "Laser printer",
+      "Inkjet printer",
+      "Thermal printer"
+     ],
+     "answer": 0,
+     "explanation": "It strikes a ribbon."
+    },
+    {
+     "q": "A plotter is mainly used to print:",
+     "options": [
+      "Small receipts",
+      "Carbon copies",
+      "Large engineering drawings and maps",
+      "Audio"
+     ],
+     "answer": 2,
+     "explanation": "Plotters draw large, precise graphics."
+    },
+    {
+     "q": "A graphics card is inserted into a(n):",
+     "options": [
+      "USB port",
+      "HDMI cable",
+      "Expansion slot",
+      "Audio jack"
+     ],
+     "answer": 2,
+     "explanation": "Expansion cards go into slots on the motherboard."
+    },
+    {
+     "q": "Which is both an input and output device?",
+     "options": [
+      "Scanner",
+      "Printer",
+      "Microphone",
+      "Touch screen"
+     ],
+     "answer": 3,
+     "explanation": "It displays and takes touch input."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "topic": "Von Neumann Architecture and Data Transmission",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Von Neumann architecture is based on the:",
+     "options": [
+      "Stored-program concept",
+      "Punch card concept",
+      "Cloud concept",
+      "Vacuum tube concept"
+     ],
+     "answer": 0,
+     "explanation": "Instructions and data are stored in the same memory."
+    },
+    {
+     "q": "Von Neumann architecture was introduced in:",
+     "options": [
+      "1971",
+      "1642",
+      "1890",
+      "1945"
+     ],
+     "answer": 3,
+     "explanation": "Published by John Von Neumann in 1945."
+    },
+    {
+     "q": "Which register holds the address of the next instruction?",
+     "options": [
+      "CIR",
+      "Program Counter",
+      "MDR",
+      "Accumulator"
+     ],
+     "answer": 1,
+     "explanation": "PC points to the next instruction."
+    },
+    {
+     "q": "Which register stores intermediate results of calculations?",
+     "options": [
+      "Accumulator",
+      "CIR",
+      "PC",
+      "MAR"
+     ],
+     "answer": 0,
+     "explanation": "AC holds ALU results."
+    },
+    {
+     "q": "Which register holds the memory address of data to be fetched?",
+     "options": [
+      "PC",
+      "AC",
+      "MAR",
+      "MDR"
+     ],
+     "answer": 2,
+     "explanation": "Memory Address Register."
+    },
+    {
+     "q": "Which register holds the current instruction being executed?",
+     "options": [
+      "CIR",
+      "AC",
+      "PC",
+      "MAR"
+     ],
+     "answer": 0,
+     "explanation": "Current Instruction Register."
+    },
+    {
+     "q": "Which bus carries memory addresses?",
+     "options": [
+      "Control bus",
+      "Data bus",
+      "USB bus",
+      "Address bus"
+     ],
+     "answer": 3,
+     "explanation": "Address bus carries locations, not data."
+    },
+    {
+     "q": "Read/write signals are carried by the:",
+     "options": [
+      "Data bus",
+      "Address bus",
+      "Control bus",
+      "Expansion bus"
+     ],
+     "answer": 2,
+     "explanation": "Control bus carries control signals."
+    },
+    {
+     "q": "The primary function of buses is to:",
+     "options": [
+      "Transmit data between components",
+      "Display graphics",
+      "Store files",
+      "Perform arithmetic"
+     ],
+     "answer": 0,
+     "explanation": "Buses are pathways."
+    },
+    {
+     "q": "The correct order of the instruction cycle is:",
+     "options": [
+      "Execute, fetch, decode",
+      "Fetch, execute, decode",
+      "Decode, fetch, execute",
+      "Fetch, decode, execute"
+     ],
+     "answer": 3,
+     "explanation": "Fetch-decode-execute cycle."
+    },
+    {
+     "q": "Processing multiple instructions at the same time in stages is called:",
+     "options": [
+      "Caching",
+      "Pipelining",
+      "Interrupt",
+      "Booting"
+     ],
+     "answer": 1,
+     "explanation": "Pipelining speeds up processing."
+    },
+    {
+     "q": "A signal that pauses the CPU to handle an important event is a(n):",
+     "options": [
+      "Pipeline",
+      "Protocol",
+      "Interrupt",
+      "Register"
+     ],
+     "answer": 2,
+     "explanation": "e.g. a key press."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "topic": "Computer Memory",
+   "slos": [],
+   "questions": [
+    {
+     "q": "The smallest unit of memory is:",
+     "options": [
+      "Kilobyte",
+      "Nibble",
+      "Bit",
+      "Byte"
+     ],
+     "answer": 2,
+     "explanation": "A bit is 0 or 1."
+    },
+    {
+     "q": "One byte equals:",
+     "options": [
+      "1024 bits",
+      "16 bits",
+      "8 bits",
+      "4 bits"
+     ],
+     "answer": 2,
+     "explanation": "8 bits = 1 byte."
+    },
+    {
+     "q": "1 KB equals:",
+     "options": [
+      "1024 bytes",
+      "1000 bits",
+      "1024 bits",
+      "100 bytes"
+     ],
+     "answer": 0,
+     "explanation": "1 KB = 1024 bytes."
+    },
+    {
+     "q": "1 TB equals:",
+     "options": [
+      "1000 KB",
+      "1024 PB",
+      "1024 MB",
+      "1024 GB"
+     ],
+     "answer": 3,
+     "explanation": "Units grow by 1024."
+    },
+    {
+     "q": "Which memory is volatile?",
+     "options": [
+      "Flash memory",
+      "RAM",
+      "ROM",
+      "Hard disk"
+     ],
+     "answer": 1,
+     "explanation": "RAM loses data without power."
+    },
+    {
+     "q": "Which memory retains data when the computer is turned off?",
+     "options": [
+      "Register",
+      "ROM",
+      "RAM",
+      "Cache"
+     ],
+     "answer": 1,
+     "explanation": "ROM is non-volatile."
+    },
+    {
+     "q": "The BIOS is stored in:",
+     "options": [
+      "ROM",
+      "Cache",
+      "CD",
+      "RAM"
+     ],
+     "answer": 0,
+     "explanation": "Boot instructions are in ROM."
+    },
+    {
+     "q": "The main purpose of cache memory is to:",
+     "options": [
+      "Provide high-speed storage",
+      "Connect networks",
+      "Store files permanently",
+      "Control printers"
+     ],
+     "answer": 0,
+     "explanation": "Cache stores frequently used data near the CPU."
+    },
+    {
+     "q": "Which cache level is the smallest and fastest?",
+     "options": [
+      "L2",
+      "L4",
+      "L3",
+      "L1"
+     ],
+     "answer": 3,
+     "explanation": "L1 is inside the core."
+    },
+    {
+     "q": "The fastest memory in the hierarchy is:",
+     "options": [
+      "Cache",
+      "RAM",
+      "Hard disk",
+      "Registers"
+     ],
+     "answer": 3,
+     "explanation": "Registers are inside the CPU."
+    },
+    {
+     "q": "Which memory uses laser beams to read and write data?",
+     "options": [
+      "Cache",
+      "RAM",
+      "Magnetic tape",
+      "Optical memory"
+     ],
+     "answer": 3,
+     "explanation": "CD, DVD, Blu-ray."
+    },
+    {
+     "q": "A hard disk is an example of:",
+     "options": [
+      "Chip memory",
+      "Cache",
+      "Optical memory",
+      "Magnetic memory"
+     ],
+     "answer": 3,
+     "explanation": "It stores data on magnetized surfaces."
+    },
+    {
+     "q": "Word size refers to the number of bits a CPU:",
+     "options": [
+      "Stores in ROM",
+      "Processes in one instruction",
+      "Sends to printer",
+      "Uses for booting"
+     ],
+     "answer": 1,
+     "explanation": "e.g. 32-bit or 64-bit."
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "topic": "Software and Programming Languages",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Software that manages hardware and provides a platform for applications is:",
+     "options": [
+      "Application software",
+      "System software",
+      "Business software",
+      "Entertainment software"
+     ],
+     "answer": 1,
+     "explanation": "e.g. operating system."
+    },
+    {
+     "q": "Which is an operating system?",
+     "options": [
+      "Linux",
+      "Spotify",
+      "QuickBooks",
+      "MS Word"
+     ],
+     "answer": 0,
+     "explanation": "Windows, macOS, Linux, Android are OSs."
+    },
+    {
+     "q": "Software that lets the OS communicate with a hardware device is a:",
+     "options": [
+      "Device driver",
+      "Utility",
+      "Loader",
+      "Compiler"
+     ],
+     "answer": 0,
+     "explanation": "Each device needs a driver."
+    },
+    {
+     "q": "Antivirus and disk cleanup are examples of:",
+     "options": [
+      "Productivity software",
+      "Firmware",
+      "Utility software",
+      "Device drivers"
+     ],
+     "answer": 2,
+     "explanation": "Utilities maintain the system."
+    },
+    {
+     "q": "Software permanently stored in hardware is called:",
+     "options": [
+      "Firmware",
+      "Malware",
+      "Shareware",
+      "Freeware"
+     ],
+     "answer": 0,
+     "explanation": "e.g. BIOS."
+    },
+    {
+     "q": "Which program combines object files into one executable?",
+     "options": [
+      "Loader",
+      "Assembler",
+      "Driver",
+      "Linker"
+     ],
+     "answer": 3,
+     "explanation": "The loader then loads it into memory."
+    },
+    {
+     "q": "QuickBooks is an example of:",
+     "options": [
+      "Business software",
+      "System software",
+      "Device driver",
+      "Entertainment software"
+     ],
+     "answer": 0,
+     "explanation": "Used for accounting."
+    },
+    {
+     "q": "Duolingo is an example of:",
+     "options": [
+      "Business software",
+      "Educational software",
+      "Utility software",
+      "Firmware"
+     ],
+     "answer": 1,
+     "explanation": "Used for learning languages."
+    },
+    {
+     "q": "Language consisting of 0s and 1s is:",
+     "options": [
+      "Assembly language",
+      "Machine language",
+      "Java",
+      "Python"
+     ],
+     "answer": 1,
+     "explanation": "Directly understood by the CPU."
+    },
+    {
+     "q": "Assembly language uses:",
+     "options": [
+      "Only 0s and 1s",
+      "Objects and classes",
+      "English sentences",
+      "Mnemonics like MOV and ADD"
+     ],
+     "answer": 3,
+     "explanation": "An assembler converts it to machine code."
+    },
+    {
+     "q": "Which translator converts a high-level program into machine code?",
+     "options": [
+      "Loader",
+      "Linker",
+      "Assembler",
+      "Compiler"
+     ],
+     "answer": 3,
+     "explanation": "Compilers/interpreters translate HLLs."
+    },
+    {
+     "q": "Which is an object-oriented language?",
+     "options": [
+      "FORTRAN",
+      "Java",
+      "Machine language",
+      "Assembly"
+     ],
+     "answer": 1,
+     "explanation": "Java, C++, Python use OOP."
+    },
+    {
+     "q": "Low-level languages are mostly used for:",
+     "options": [
+      "Websites",
+      "Device drivers and embedded systems",
+      "Data science",
+      "Social media apps"
+     ],
+     "answer": 1,
+     "explanation": "They work close to hardware."
+    }
+   ]
+  },
+  {
+   "id": "q6",
+   "topic": "Data Communication and Networks",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Which is NOT a component of data communication?",
+     "options": [
+      "Protocol",
+      "Sender",
+      "Medium",
+      "Compiler"
+     ],
+     "answer": 3,
+     "explanation": "Components: sender, message, medium, receiver, protocol."
+    },
+    {
+     "q": "A set of rules that governs data communication is a:",
+     "options": [
+      "Topology",
+      "Router",
+      "Medium",
+      "Protocol"
+     ],
+     "answer": 3,
+     "explanation": "e.g. TCP/IP."
+    },
+    {
+     "q": "Which component converts data into a signal for transmission?",
+     "options": [
+      "Medium",
+      "Sender",
+      "Message",
+      "Protocol"
+     ],
+     "answer": 1,
+     "explanation": "The sender encodes the data."
+    },
+    {
+     "q": "TV broadcast is an example of:",
+     "options": [
+      "Simplex mode",
+      "Full-duplex",
+      "Peer-to-peer",
+      "Half-duplex"
+     ],
+     "answer": 0,
+     "explanation": "One direction only."
+    },
+    {
+     "q": "A walkie-talkie works in:",
+     "options": [
+      "Full-duplex mode",
+      "Synchronous mode",
+      "Simplex mode",
+      "Half-duplex mode"
+     ],
+     "answer": 3,
+     "explanation": "Both ways, one at a time."
+    },
+    {
+     "q": "A telephone conversation is an example of:",
+     "options": [
+      "Half-duplex mode",
+      "Full-duplex mode",
+      "Broadcast mode",
+      "Simplex mode"
+     ],
+     "answer": 1,
+     "explanation": "Both ways at the same time."
+    },
+    {
+     "q": "Start and stop bits are used in:",
+     "options": [
+      "Synchronous transmission",
+      "Parallel buses",
+      "Circuit switching",
+      "Asynchronous transmission"
+     ],
+     "answer": 3,
+     "explanation": "They mark each character."
+    },
+    {
+     "q": "Which device sends data only to the intended device?",
+     "options": [
+      "Modem",
+      "Repeater",
+      "Switch",
+      "Hub"
+     ],
+     "answer": 2,
+     "explanation": "A hub broadcasts to all."
+    },
+    {
+     "q": "Which device connects networks using different protocols?",
+     "options": [
+      "Hub",
+      "Switch",
+      "Gateway",
+      "Repeater"
+     ],
+     "answer": 2,
+     "explanation": "It acts as a translator."
+    },
+    {
+     "q": "Which device connects a LAN to the internet and finds the best path?",
+     "options": [
+      "Speaker",
+      "Router",
+      "Switch",
+      "Hub"
+     ],
+     "answer": 1,
+     "explanation": "Routers route packets."
+    },
+    {
+     "q": "Each computer acts as both client and server in a:",
+     "options": [
+      "Client/server network",
+      "MAN",
+      "WAN",
+      "Peer-to-peer network"
+     ],
+     "answer": 3,
+     "explanation": "Suitable for small networks."
+    },
+    {
+     "q": "A network covering a city is a:",
+     "options": [
+      "LAN",
+      "MAN",
+      "PAN",
+      "WAN"
+     ],
+     "answer": 1,
+     "explanation": "Metropolitan Area Network."
+    },
+    {
+     "q": "In which topology are all devices connected to a central hub or switch?",
+     "options": [
+      "Bus",
+      "Ring",
+      "Star",
+      "Mesh"
+     ],
+     "answer": 2,
+     "explanation": "Central device controls traffic."
+    }
+   ]
+  },
+  {
+   "id": "q7",
+   "topic": "OSI Model, Protocols and Internet",
+   "slos": [],
+   "questions": [
+    {
+     "q": "How many layers does the OSI model have?",
+     "options": [
+      "Five",
+      "Four",
+      "Six",
+      "Seven"
+     ],
+     "answer": 3,
+     "explanation": "Physical to Application."
+    },
+    {
+     "q": "Which OSI layer converts data into a standard format?",
+     "options": [
+      "Physical layer",
+      "Network layer",
+      "Session layer",
+      "Presentation layer"
+     ],
+     "answer": 3,
+     "explanation": "Also encryption and compression."
+    },
+    {
+     "q": "Which OSI layer finds the best path for data?",
+     "options": [
+      "Application layer",
+      "Network layer",
+      "Data link layer",
+      "Transport layer"
+     ],
+     "answer": 1,
+     "explanation": "Routing is done here."
+    },
+    {
+     "q": "Which OSI layer transmits raw bits through cables?",
+     "options": [
+      "Session layer",
+      "Presentation layer",
+      "Data link layer",
+      "Physical layer"
+     ],
+     "answer": 3,
+     "explanation": "Lowest layer."
+    },
+    {
+     "q": "Which OSI layer provides services like e-mail directly to users?",
+     "options": [
+      "Physical layer",
+      "Network layer",
+      "Transport layer",
+      "Application layer"
+     ],
+     "answer": 3,
+     "explanation": "Top layer."
+    },
+    {
+     "q": "Which protocol is used for sending e-mail?",
+     "options": [
+      "HTTP",
+      "DNS",
+      "SMTP",
+      "FTP"
+     ],
+     "answer": 2,
+     "explanation": "Simple Mail Transfer Protocol."
+    },
+    {
+     "q": "Which protocol is used to transfer files?",
+     "options": [
+      "HTTP",
+      "SMTP",
+      "FTP",
+      "TCP"
+     ],
+     "answer": 2,
+     "explanation": "File Transfer Protocol."
+    },
+    {
+     "q": "Web pages are accessed using:",
+     "options": [
+      "SMTP",
+      "FTP",
+      "Bluetooth",
+      "HTTP"
+     ],
+     "answer": 3,
+     "explanation": "HyperText Transfer Protocol."
+    },
+    {
+     "q": "The Internet started as:",
+     "options": [
+      "Ethernet",
+      "WWW",
+      "ARPANET",
+      "Bluetooth"
+     ],
+     "answer": 2,
+     "explanation": "In the 1960s."
+    },
+    {
+     "q": "Which system converts domain names into IP addresses?",
+     "options": [
+      "SMTP",
+      "LAN",
+      "DNS",
+      "FTP"
+     ],
+     "answer": 2,
+     "explanation": "Domain Name System."
+    },
+    {
+     "q": "Dividing data into packets that travel by different routes is:",
+     "options": [
+      "Pipelining",
+      "Packet switching",
+      "Simplex",
+      "Circuit switching"
+     ],
+     "answer": 1,
+     "explanation": "Used on the Internet."
+    },
+    {
+     "q": "A traditional telephone call uses:",
+     "options": [
+      "Circuit switching",
+      "Peer-to-peer",
+      "Packet switching",
+      "Bus topology"
+     ],
+     "answer": 0,
+     "explanation": "A dedicated path for the whole call."
+    }
+   ]
+  },
+  {
+   "id": "q8",
+   "topic": "Exercise MCQs (Book)",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Which technology replaced vacuum tubes in second-generation computers?",
+     "options": [
+      "Transistors",
+      "Integrated Circuits (ICs)",
+      "Microprocessors",
+      "Magnetic tapes"
+     ],
+     "answer": 0,
+     "explanation": "Transistors were smaller, faster and more reliable."
+    },
+    {
+     "q": "What is the primary goal of fifth-generation computers?",
+     "options": [
+      "Fast speed",
+      "Thinking power",
+      "Enhanced memory",
+      "Faster microprocessors"
+     ],
+     "answer": 1,
+     "explanation": "AI gives computers thinking power."
+    },
+    {
+     "q": "Which computer generation introduced the use of Integrated Circuits (ICs)?",
+     "options": [
+      "First Generation",
+      "Second Generation",
+      "Third Generation",
+      "Fourth Generation"
+     ],
+     "answer": 2,
+     "explanation": "1963–1971."
+    },
+    {
+     "q": "In which generation of computers was the microprocessor developed?",
+     "options": [
+      "First Generation",
+      "Second Generation",
+      "Third Generation",
+      "Fourth Generation"
+     ],
+     "answer": 3,
+     "explanation": "From 1971."
+    },
+    {
+     "q": "What is the function of the motherboard in a computer system?",
+     "options": [
+      "To store and retrieve data permanently",
+      "To connect and integrate all hardware components",
+      "To perform mathematical calculations",
+      "To display output on a monitor"
+     ],
+     "answer": 1,
+     "explanation": "Main circuit board."
+    },
+    {
+     "q": "Which component of the microprocessor controls the decision-making processes?",
+     "options": [
+      "Arithmetic Logic Unit (ALU)",
+      "Control Unit (CU)",
+      "Memory unit",
+      "Registers"
+     ],
+     "answer": 1,
+     "explanation": "The CU directs all activities."
+    },
+    {
+     "q": "Which type of memory retains data even when the computer is turned off?",
+     "options": [
+      "RAM",
+      "ROM",
+      "Cache",
+      "Register"
+     ],
+     "answer": 1,
+     "explanation": "ROM is non-volatile."
+    },
+    {
+     "q": "What is the main purpose of Cache memory?",
+     "options": [
+      "Store program instructions",
+      "Provide high-speed storage",
+      "Control input/output devices",
+      "Perform arithmetic operations"
+     ],
+     "answer": 1,
+     "explanation": "Cache stores frequently used data for the CPU."
+    },
+    {
+     "q": "What is the smallest unit of memory in a digital computer?",
+     "options": [
+      "Kilobyte",
+      "Bit",
+      "Byte",
+      "Megabyte"
+     ],
+     "answer": 1,
+     "explanation": "Binary digit 0 or 1."
+    },
+    {
+     "q": "Which memory type uses laser beams to read and write data?",
+     "options": [
+      "RAM",
+      "Optical memory",
+      "Cache memory",
+      "ROM"
+     ],
+     "answer": 1,
+     "explanation": "CD, DVD, Blu-ray."
+    },
+    {
+     "q": "What is the primary function of the buses in a computer's memory system?",
+     "options": [
+      "Control memory operations",
+      "Display graphics",
+      "Transmit data between components",
+      "Perform arithmetic operations"
+     ],
+     "answer": 2,
+     "explanation": "Buses are pathways."
+    },
+    {
+     "q": "Which component of data communication converts the electrical signal into a suitable form for transmission?",
+     "options": [
+      "Message",
+      "Medium",
+      "Protocol",
+      "Sender"
+     ],
+     "answer": 3,
+     "explanation": "The sender encodes data into signals."
+    },
+    {
+     "q": "What is the primary function of the Presentation Layer in the OSI model?",
+     "options": [
+      "Establishing connections between computers",
+      "Converting data into a standard format",
+      "Deciding the physical path of data",
+      "Sending data in both directions simultaneously"
+     ],
+     "answer": 1,
+     "explanation": "Layer 6."
+    },
+    {
+     "q": "In which network topology is data transmission unidirectional, like radio or television broadcasts?",
+     "options": [
+      "Star Topology",
+      "Bus Topology",
+      "Mesh Topology",
+      "Ring Topology"
+     ],
+     "answer": 3,
+     "explanation": "In a ring, data travels in one direction around the loop."
+    },
+    {
+     "q": "Which network architecture requires each computer to act as either a server or a client but not both simultaneously?",
+     "options": [
+      "Client/Server Network",
+      "Peer-to-Peer Network",
+      "Metropolitan Area Network (MAN)",
+      "Wide Area Network (WAN)"
+     ],
+     "answer": 0,
+     "explanation": "In P2P each computer is both."
+    }
+   ]
+  }
+ ]
+}
