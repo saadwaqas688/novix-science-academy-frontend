@@ -40,6 +40,114 @@
       }
     ]
   },
+  "9/chemistry/10": {
+    "url": "/quizzes/class-9/chemistry/ch-10.json",
+    "chapterTitle": "Acids, Bases and Salts",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Arrhenius Concept and General Properties of Acids and Bases",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Bronsted–Lowry Concept of Acids and Bases",
+        "count": 12
+      },
+      {
+        "id": "q3",
+        "topic": "Strength of Acids and Bases, and Alkalis",
+        "count": 12
+      },
+      {
+        "id": "q4",
+        "topic": "Characteristic Properties of Acids and Acid Rain",
+        "count": 12
+      },
+      {
+        "id": "q5",
+        "topic": "Properties of Bases, Oxides and Hydroxides",
+        "count": 12
+      },
+      {
+        "id": "q6",
+        "topic": "Exercise MCQs (Book)",
+        "count": 5
+      }
+    ]
+  },
+  "9/chemistry/11": {
+    "url": "/quizzes/class-9/chemistry/ch-11.json",
+    "chapterTitle": "Environmental Chemistry - Air",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Composition of Atmosphere and Air Pollutants",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Sources and Effects of SO₂, NOₓ, CO, CO₂, CH₄ and Ozone",
+        "count": 12
+      },
+      {
+        "id": "q3",
+        "topic": "Global Warming and Greenhouse Effect",
+        "count": 11
+      },
+      {
+        "id": "q4",
+        "topic": "Acid Rain and Catalytic Converters",
+        "count": 12
+      },
+      {
+        "id": "q5",
+        "topic": "Strategies, Photosynthesis, Protection and Risk Factors",
+        "count": 12
+      },
+      {
+        "id": "q6",
+        "topic": "Exercise MCQs (Book)",
+        "count": 4
+      }
+    ]
+  },
+  "9/chemistry/12": {
+    "url": "/quizzes/class-9/chemistry/ch-12.json",
+    "chapterTitle": "Environmental Chemistry - Water",
+    "quizzes": [
+      {
+        "id": "q1",
+        "topic": "Properties of Water, Testing Water and Water as Solvent",
+        "count": 12
+      },
+      {
+        "id": "q2",
+        "topic": "Useful and Harmful Substances in Natural Water",
+        "count": 12
+      },
+      {
+        "id": "q3",
+        "topic": "Water Treatment, Distilled Water and Tap Water",
+        "count": 12
+      },
+      {
+        "id": "q4",
+        "topic": "Water Pollution and Waterborne Diseases",
+        "count": 12
+      },
+      {
+        "id": "q5",
+        "topic": "Water Scarcity in Pakistan and Fertilizers",
+        "count": 11
+      },
+      {
+        "id": "q6",
+        "topic": "Exercise MCQs (Book)",
+        "count": 4
+      }
+    ]
+  },
   "9/physics/1": {
     "url": "/quizzes/class-9/physics/ch-1.json",
     "chapterTitle": "Physical Quantities and Measurement",

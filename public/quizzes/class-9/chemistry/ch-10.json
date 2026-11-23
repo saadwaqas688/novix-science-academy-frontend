@@ -1,0 +1,765 @@
+{
+ "subject": "chemistry",
+ "classLevel": "9",
+ "chapter": 10,
+ "chapterTitle": "Acids, Bases and Salts",
+ "quizzes": [
+  {
+   "id": "q1",
+   "topic": "Arrhenius Concept and General Properties of Acids and Bases",
+   "slos": [],
+   "questions": [
+    {
+     "q": "According to Arrhenius, an acid is a substance that in water produces:",
+     "options": [
+      "Na⁺ ions",
+      "H⁺ ions",
+      "electrons",
+      "OH⁻ ions"
+     ],
+     "answer": 1,
+     "explanation": "Arrhenius acids ionize in water to give H⁺ ions."
+    },
+    {
+     "q": "According to Arrhenius, a base is a substance that in water produces:",
+     "options": [
+      "OH⁻ ions",
+      "H₃O⁺ ions",
+      "H⁺ ions",
+      "Cl⁻ ions"
+     ],
+     "answer": 0,
+     "explanation": "Arrhenius bases ionize in water to give OH⁻ ions."
+    },
+    {
+     "q": "The Arrhenius theory was proposed in:",
+     "options": [
+      "1911",
+      "1803",
+      "1887",
+      "1923"
+     ],
+     "answer": 2,
+     "explanation": "Svante Arrhenius proposed it in 1887."
+    },
+    {
+     "q": "Svante Arrhenius was a chemist from:",
+     "options": [
+      "England",
+      "Germany",
+      "Sweden",
+      "Denmark"
+     ],
+     "answer": 2,
+     "explanation": "He was a Swedish chemist."
+    },
+    {
+     "q": "Acids have a ______ taste.",
+     "options": [
+      "bitter",
+      "sour",
+      "salty",
+      "sweet"
+     ],
+     "answer": 1,
+     "explanation": "Acids taste sour; bases taste bitter."
+    },
+    {
+     "q": "Acids turn blue litmus paper:",
+     "options": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+     ],
+     "answer": 0,
+     "explanation": "Acids change blue litmus to red."
+    },
+    {
+     "q": "Which acid is used for removing scale from boilers?",
+     "options": [
+      "Phosphoric acid",
+      "Nitric acid",
+      "Ethanoic acid",
+      "Hydrochloric acid"
+     ],
+     "answer": 3,
+     "explanation": "HCl is used for cleaning metals, bricks and removing scale from boilers."
+    },
+    {
+     "q": "Phosphoric acid is used as:",
+     "options": [
+      "soap",
+      "an antacid",
+      "an acidulant for food",
+      "a drain cleaner"
+     ],
+     "answer": 2,
+     "explanation": "H₃PO₄ is used in fertilizers and as an acidulant for food."
+    },
+    {
+     "q": "Which equation shows an Arrhenius base?",
+     "options": [
+      "HCl → H⁺ + Cl⁻",
+      "HNO₃ → H⁺ + NO₃⁻",
+      "H₂SO₄ → 2H⁺ + SO₄²⁻",
+      "KOH → K⁺ + OH⁻"
+     ],
+     "answer": 3,
+     "explanation": "KOH gives OH⁻ ions in water."
+    },
+    {
+     "q": "A limitation of the Arrhenius theory is that it:",
+     "options": [
+      "explains all bases",
+      "applies to gases only",
+      "explains acidity of CO₂",
+      "applies only to aqueous solutions"
+     ],
+     "answer": 3,
+     "explanation": "It cannot explain substances like CO₂ and NH₃ outside water."
+    },
+    {
+     "q": "Arrhenius theory cannot explain why NH₃ is a base because NH₃:",
+     "options": [
+      "has no H atom",
+      "is an acid",
+      "is insoluble",
+      "has no OH group"
+     ],
+     "answer": 3,
+     "explanation": "There is no OH in NH₃, yet it is basic."
+    },
+    {
+     "q": "Aqueous solutions of both acids and bases:",
+     "options": [
+      "are always neutral",
+      "turn litmus green",
+      "do not conduct electricity",
+      "conduct electricity"
+     ],
+     "answer": 3,
+     "explanation": "Both produce ions in water, so they conduct electricity."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "topic": "Bronsted–Lowry Concept of Acids and Bases",
+   "slos": [],
+   "questions": [
+    {
+     "q": "According to Bronsted–Lowry, an acid is a:",
+     "options": [
+      "hydroxide donor",
+      "electron donor",
+      "proton donor",
+      "proton acceptor"
+     ],
+     "answer": 2,
+     "explanation": "A Bronsted–Lowry acid donates a proton."
+    },
+    {
+     "q": "According to Bronsted–Lowry, a base is a:",
+     "options": [
+      "proton acceptor",
+      "proton donor",
+      "H⁺ producer",
+      "electron acceptor"
+     ],
+     "answer": 0,
+     "explanation": "A Bronsted–Lowry base accepts a proton."
+    },
+    {
+     "q": "The Bronsted–Lowry theory was proposed in:",
+     "options": [
+      "1950",
+      "1923",
+      "1900",
+      "1887"
+     ],
+     "answer": 1,
+     "explanation": "Bronsted and Lowry proposed it independently in 1923."
+    },
+    {
+     "q": "In HCl + H₂O → H₃O⁺ + Cl⁻, the base is:",
+     "options": [
+      "H₃O⁺",
+      "HCl",
+      "H₂O",
+      "Cl⁻"
+     ],
+     "answer": 2,
+     "explanation": "Water accepts the proton from HCl."
+    },
+    {
+     "q": "In H₂O + NH₃ → NH₄⁺ + OH⁻, the acid is:",
+     "options": [
+      "OH⁻",
+      "NH₃",
+      "NH₄⁺",
+      "H₂O"
+     ],
+     "answer": 3,
+     "explanation": "Water donates a proton to NH₃."
+    },
+    {
+     "q": "NH₃ is a Bronsted–Lowry base because it:",
+     "options": [
+      "gives OH⁻ directly",
+      "accepts a proton",
+      "donates a proton",
+      "has OH group"
+     ],
+     "answer": 1,
+     "explanation": "NH₃ accepts H⁺ and forms NH₄⁺."
+    },
+    {
+     "q": "Substances that react with both acids and bases are called:",
+     "options": [
+      "neutral",
+      "inert",
+      "amphoteric",
+      "alkaline"
+     ],
+     "answer": 2,
+     "explanation": "Water and Al₂O₃ are amphoteric."
+    },
+    {
+     "q": "Water is amphoteric because it can:",
+     "options": [
+      "both donate and accept a proton",
+      "neither donate nor accept",
+      "only accept a proton",
+      "only donate a proton"
+     ],
+     "answer": 0,
+     "explanation": "Water acts as acid with NH₃ and as base with HCl."
+    },
+    {
+     "q": "After donating a proton, an acid generally forms a:",
+     "options": [
+      "positive ion",
+      "proton",
+      "negative ion",
+      "neutral atom"
+     ],
+     "answer": 2,
+     "explanation": "e.g. HCl forms Cl⁻."
+    },
+    {
+     "q": "After accepting a proton, a base generally forms a:",
+     "options": [
+      "neutral molecule only",
+      "electron",
+      "negative ion",
+      "positive ion"
+     ],
+     "answer": 3,
+     "explanation": "e.g. NH₃ forms NH₄⁺."
+    },
+    {
+     "q": "In H₂S + NH₃ → NH₄⁺ + HS⁻, H₂S acts as:",
+     "options": [
+      "a base",
+      "an indicator",
+      "an acid",
+      "a salt"
+     ],
+     "answer": 2,
+     "explanation": "H₂S donates a proton to NH₃."
+    },
+    {
+     "q": "Which base of Bronsted–Lowry theory is also an Arrhenius base?",
+     "options": [
+      "H₂O",
+      "NH₃",
+      "Cl⁻",
+      "OH⁻"
+     ],
+     "answer": 3,
+     "explanation": "All Bronsted bases except OH⁻ are not Arrhenius bases."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "topic": "Strength of Acids and Bases, and Alkalis",
+   "slos": [],
+   "questions": [
+    {
+     "q": "An acid that ionizes completely in aqueous solution is called:",
+     "options": [
+      "an alkali",
+      "a strong acid",
+      "a weak acid",
+      "a salt"
+     ],
+     "answer": 1,
+     "explanation": "Strong acids ionize 100%."
+    },
+    {
+     "q": "Which is a strong acid?",
+     "options": [
+      "CH₃COOH",
+      "HNO₃",
+      "HCN",
+      "H₂CO₃"
+     ],
+     "answer": 1,
+     "explanation": "HCl, HNO₃ and H₂SO₄ are strong acids."
+    },
+    {
+     "q": "Ethanoic acid ionizes in water only up to about:",
+     "options": [
+      "50%",
+      "100%",
+      "25%",
+      "5%"
+     ],
+     "answer": 3,
+     "explanation": "So ethanoic acid is a weak acid."
+    },
+    {
+     "q": "Which is a weak acid?",
+     "options": [
+      "HNO₃",
+      "HCl",
+      "H₂SO₄",
+      "CH₃COOH"
+     ],
+     "answer": 3,
+     "explanation": "Ethanoic acid ionizes partially."
+    },
+    {
+     "q": "Which is a strong base?",
+     "options": [
+      "Fe(OH)₃",
+      "Al(OH)₃",
+      "NaOH",
+      "NH₃"
+     ],
+     "answer": 2,
+     "explanation": "NaOH and KOH ionize completely."
+    },
+    {
+     "q": "Ammonia is a weak base because it:",
+     "options": [
+      "has no hydrogen",
+      "is a gas",
+      "ionizes to a little extent",
+      "ionizes completely"
+     ],
+     "answer": 2,
+     "explanation": "It produces few OH⁻ ions."
+    },
+    {
+     "q": "A base that is soluble in water is called:",
+     "options": [
+      "a salt",
+      "an alkali",
+      "an acid",
+      "an oxide"
+     ],
+     "answer": 1,
+     "explanation": "Alkalis are water-soluble bases."
+    },
+    {
+     "q": "Which statement is correct?",
+     "options": [
+      "All alkalis are bases",
+      "Alkalis are acids",
+      "All bases are alkalis",
+      "No base is an alkali"
+     ],
+     "answer": 0,
+     "explanation": "Only water-soluble bases are alkalis."
+    },
+    {
+     "q": "Which base is NOT an alkali?",
+     "options": [
+      "Ca(OH)₂",
+      "KOH",
+      "Cu(OH)₂",
+      "NaOH"
+     ],
+     "answer": 2,
+     "explanation": "Cu(OH)₂ is insoluble in water."
+    },
+    {
+     "q": "Which household item contains an alkali?",
+     "options": [
+      "Lemon juice",
+      "Vinegar",
+      "Soap",
+      "Cola"
+     ],
+     "answer": 2,
+     "explanation": "Soaps, detergents, shampoos and toothpaste contain alkali."
+    },
+    {
+     "q": "Strong acids ionize in water:",
+     "options": [
+      "50%",
+      "100%",
+      "0%",
+      "5%"
+     ],
+     "answer": 1,
+     "explanation": "All molecules of strong acids ionize."
+    },
+    {
+     "q": "Which is a weak base?",
+     "options": [
+      "NaOH",
+      "KOH",
+      "LiOH",
+      "Al(OH)₃"
+     ],
+     "answer": 3,
+     "explanation": "Al(OH)₃ and NH₃ are weak bases."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "topic": "Characteristic Properties of Acids and Acid Rain",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Metal + Acid →",
+     "options": [
+      "Base + Water",
+      "Salt + Hydrogen",
+      "Salt + CO₂",
+      "Salt + Water"
+     ],
+     "answer": 1,
+     "explanation": "Acids react with metals to give salt and H₂."
+    },
+    {
+     "q": "Zn + 2HCl →",
+     "options": [
+      "Zn(OH)₂ + Cl₂",
+      "ZnCl₂ + H₂",
+      "ZnCl₂ + H₂O",
+      "ZnO + H₂O"
+     ],
+     "answer": 1,
+     "explanation": "Zinc liberates hydrogen gas from HCl."
+    },
+    {
+     "q": "Metal carbonate + Acid →",
+     "options": [
+      "Base + Water",
+      "Salt + Hydrogen",
+      "Oxide + Water",
+      "Salt + Water + Carbon dioxide"
+     ],
+     "answer": 3,
+     "explanation": "Carbonates release CO₂ with acids."
+    },
+    {
+     "q": "The gas liberated when acids react with carbonates is:",
+     "options": [
+      "CO₂",
+      "H₂",
+      "NH₃",
+      "O₂"
+     ],
+     "answer": 0,
+     "explanation": "CO₂ forms bubbles in water."
+    },
+    {
+     "q": "Acid + Base → Salt + Water is called:",
+     "options": [
+      "oxidation",
+      "neutralization",
+      "hydration",
+      "decomposition"
+     ],
+     "answer": 1,
+     "explanation": "Acids neutralize bases."
+    },
+    {
+     "q": "HCl + NaOH →",
+     "options": [
+      "NaCl + H₂O",
+      "NaCl + H₂",
+      "NaOH + Cl₂",
+      "Na + HCl"
+     ],
+     "answer": 0,
+     "explanation": "Neutralization gives salt and water."
+    },
+    {
+     "q": "The reaction of carbonates with acids is used in the industrial preparation of:",
+     "options": [
+      "plastics",
+      "fertilizers only",
+      "glass, paper and soap",
+      "medicines only"
+     ],
+     "answer": 2,
+     "explanation": "As stated for metal carbonate–acid reactions."
+    },
+    {
+     "q": "Normal rain is slightly acidic due to dissolved:",
+     "options": [
+      "carbon dioxide",
+      "nitrogen",
+      "oxygen",
+      "argon"
+     ],
+     "answer": 0,
+     "explanation": "CO₂ dissolves in rainwater."
+    },
+    {
+     "q": "Acid rain contains dissolved:",
+     "options": [
+      "phosphoric acid",
+      "hydrochloric acid only",
+      "ethanoic acid",
+      "nitric and sulphuric acid"
+     ],
+     "answer": 3,
+     "explanation": "Oxides of N and S form these acids."
+    },
+    {
+     "q": "Acid rain damages statues made of marble because marble is a:",
+     "options": [
+      "metal hydroxide",
+      "pure metal",
+      "metal oxide",
+      "metal carbonate"
+     ],
+     "answer": 3,
+     "explanation": "Marble (CaCO₃) reacts with acids."
+    },
+    {
+     "q": "Mg + H₂SO₄ →",
+     "options": [
+      "MgSO₄ + H₂",
+      "MgO + H₂O",
+      "Mg(OH)₂ + SO₂",
+      "MgSO₄ + H₂O"
+     ],
+     "answer": 0,
+     "explanation": "Magnesium gives hydrogen with sulphuric acid."
+    },
+    {
+     "q": "Acids react with most metals and ______ them.",
+     "options": [
+      "harden",
+      "polish",
+      "dissolve into gas",
+      "corrode"
+     ],
+     "answer": 3,
+     "explanation": "Acids are corrosive."
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "topic": "Properties of Bases, Oxides and Hydroxides",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Bases have a ______ taste.",
+     "options": [
+      "sweet",
+      "bitter",
+      "sour",
+      "salty"
+     ],
+     "answer": 1,
+     "explanation": "Bases taste bitter."
+    },
+    {
+     "q": "Bases turn red litmus paper:",
+     "options": [
+      "blue",
+      "colourless",
+      "yellow",
+      "red"
+     ],
+     "answer": 0,
+     "explanation": "Bases change red litmus to blue."
+    },
+    {
+     "q": "Aqueous solutions of bases feel:",
+     "options": [
+      "slippery",
+      "dry",
+      "rough",
+      "sticky"
+     ],
+     "answer": 0,
+     "explanation": "Bases have a slippery touch."
+    },
+    {
+     "q": "On heating with ammonium salts, bases liberate:",
+     "options": [
+      "hydrogen gas",
+      "ammonia gas",
+      "carbon dioxide",
+      "oxygen"
+     ],
+     "answer": 1,
+     "explanation": "Base + ammonium salt → salt + NH₃ + water."
+    },
+    {
+     "q": "NaOH + NH₄Cl →",
+     "options": [
+      "Na + NH₄OH",
+      "NaCl + H₂",
+      "NaCl + NH₃ + H₂O",
+      "NaNH₂ + HCl"
+     ],
+     "answer": 2,
+     "explanation": "Ammonia is liberated."
+    },
+    {
+     "q": "Bases are oxides or hydroxides of:",
+     "options": [
+      "halogens",
+      "metals",
+      "noble gases",
+      "non-metals"
+     ],
+     "answer": 1,
+     "explanation": "Metal oxides/hydroxides are basic."
+    },
+    {
+     "q": "4Na + O₂ →",
+     "options": [
+      "2NaO",
+      "2Na₂O",
+      "Na₂O₂ + H₂",
+      "4NaOH"
+     ],
+     "answer": 1,
+     "explanation": "Sodium forms sodium oxide."
+    },
+    {
+     "q": "CaO + H₂O →",
+     "options": [
+      "Ca(OH)₂",
+      "CaCO₃",
+      "CaH₂ + O₂",
+      "CaO₂"
+     ],
+     "answer": 0,
+     "explanation": "Metal oxide + water → metal hydroxide."
+    },
+    {
+     "q": "Oxide ions in water accept protons and become:",
+     "options": [
+      "hydroxide ions",
+      "hydronium ions",
+      "hydrogen ions",
+      "oxygen gas"
+     ],
+     "answer": 0,
+     "explanation": "O²⁻ + H₂O → 2OH⁻."
+    },
+    {
+     "q": "Oxides that behave like both acids and bases are called:",
+     "options": [
+      "basic oxides",
+      "neutral oxides",
+      "acidic oxides",
+      "amphoteric oxides"
+     ],
+     "answer": 3,
+     "explanation": "e.g. Al₂O₃ and ZnO."
+    },
+    {
+     "q": "Which is an amphoteric oxide?",
+     "options": [
+      "Na₂O",
+      "ZnO",
+      "MgO",
+      "CaO"
+     ],
+     "answer": 1,
+     "explanation": "ZnO reacts with both acids and bases."
+    },
+    {
+     "q": "Magnesium burns in air to form:",
+     "options": [
+      "MgO",
+      "MgCO₃",
+      "Mg(OH)₂",
+      "MgCl₂"
+     ],
+     "answer": 0,
+     "explanation": "2Mg + O₂ → 2MgO."
+    }
+   ]
+  },
+  {
+   "id": "q6",
+   "topic": "Exercise MCQs (Book)",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Which of the following cannot be classified as an Arrhenius acid?",
+     "options": [
+      "HNO₃",
+      "H₂CO₃",
+      "CO₂",
+      "H₂SO₄"
+     ],
+     "answer": 2,
+     "explanation": "CO₂ has no hydrogen to give H⁺ ions."
+    },
+    {
+     "q": "Which of the following is a Bronsted base?",
+     "options": [
+      "NH₃",
+      "HCl",
+      "CH₃COOH",
+      "H₃O⁺"
+     ],
+     "answer": 0,
+     "explanation": "NH₃ accepts a proton."
+    },
+    {
+     "q": "Milk of magnesia contains Mg(OH)₂. It neutralizes excess stomach acid. Which salt is formed?",
+     "options": [
+      "MgSO₄",
+      "MgCO₃",
+      "MgCl₂",
+      "MgO"
+     ],
+     "answer": 2,
+     "explanation": "Stomach acid is HCl: Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O."
+    },
+    {
+     "q": "Ammonia is a base, because it:",
+     "options": [
+      "ionizes in water to give OH⁻ ions",
+      "contains OH group",
+      "can accept an electron pair",
+      "can accept a proton"
+     ],
+     "answer": 3,
+     "explanation": "In the Bronsted–Lowry sense NH₃ is a proton acceptor."
+    },
+    {
+     "q": "In H₂O + HCl ⇌ H₃O⁺ + Cl⁻, which species is the proton acceptor?",
+     "options": [
+      "H₂O",
+      "HCl",
+      "H₃O⁺",
+      "none"
+     ],
+     "answer": 0,
+     "explanation": "Water accepts the proton from HCl."
+    }
+   ]
+  }
+ ]
+}

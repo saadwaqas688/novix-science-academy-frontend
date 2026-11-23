@@ -1,0 +1,743 @@
+{
+ "subject": "chemistry",
+ "classLevel": "9",
+ "chapter": 11,
+ "chapterTitle": "Environmental Chemistry - Air",
+ "quizzes": [
+  {
+   "id": "q1",
+   "topic": "Composition of Atmosphere and Air Pollutants",
+   "slos": [],
+   "questions": [
+    {
+     "q": "The percentage of nitrogen in clean, dry air is about:",
+     "options": [
+      "1%",
+      "50%",
+      "78%",
+      "21%"
+     ],
+     "answer": 2,
+     "explanation": "Nitrogen is the major gas of air."
+    },
+    {
+     "q": "The percentage of oxygen in clean, dry air is about:",
+     "options": [
+      "21%",
+      "0.04%",
+      "10%",
+      "78%"
+     ],
+     "answer": 0,
+     "explanation": "Oxygen is about 21% of air."
+    },
+    {
+     "q": "The remainder of dry air is mainly noble gases and:",
+     "options": [
+      "hydrogen",
+      "ozone",
+      "methane",
+      "carbon dioxide"
+     ],
+     "answer": 3,
+     "explanation": "About 1% is noble gases and CO₂."
+    },
+    {
+     "q": "The air in a tropical rainforest may contain water vapour up to:",
+     "options": [
+      "14%",
+      "40%",
+      "0.4%",
+      "4%"
+     ],
+     "answer": 3,
+     "explanation": "Water vapour varies from place to place."
+    },
+    {
+     "q": "The envelope of gases surrounding the Earth is called:",
+     "options": [
+      "lithosphere",
+      "biosphere",
+      "hydrosphere",
+      "atmosphere"
+     ],
+     "answer": 3,
+     "explanation": "Atmosphere includes gases and water vapour."
+    },
+    {
+     "q": "Anything in air, water or soil that harms the environment is called a:",
+     "options": [
+      "catalyst",
+      "pollutant",
+      "solvent",
+      "nutrient"
+     ],
+     "answer": 1,
+     "explanation": "Definition of pollutant."
+    },
+    {
+     "q": "Collectively, NO and NO₂ are represented as:",
+     "options": [
+      "NOₓ",
+      "NH₃",
+      "SOₓ",
+      "N₂O"
+     ],
+     "answer": 0,
+     "explanation": "Oxides of nitrogen are written NOₓ."
+    },
+    {
+     "q": "Sulphur dioxide is released mainly by burning:",
+     "options": [
+      "hydrogen",
+      "fossil fuels",
+      "wood only",
+      "plastics only"
+     ],
+     "answer": 1,
+     "explanation": "Sulphur is found naturally in fossil fuels."
+    },
+    {
+     "q": "Ground-level ozone is often called:",
+     "options": [
+      "smog",
+      "acid rain",
+      "fog",
+      "haze"
+     ],
+     "answer": 0,
+     "explanation": "It is a secondary pollutant."
+    },
+    {
+     "q": "Ground-level ozone is a:",
+     "options": [
+      "noble gas",
+      "secondary pollutant",
+      "primary pollutant",
+      "greenhouse-free gas"
+     ],
+     "answer": 1,
+     "explanation": "It forms from NOₓ and VOCs in sunlight."
+    },
+    {
+     "q": "Particulate matter includes:",
+     "options": [
+      "oxygen and nitrogen",
+      "soot, smoke and dust",
+      "argon and neon",
+      "water vapour only"
+     ],
+     "answer": 1,
+     "explanation": "Fine solid or liquid particles in air."
+    },
+    {
+     "q": "Which gas is the most abundant in air?",
+     "options": [
+      "Ar",
+      "CO₂",
+      "O₂",
+      "N₂"
+     ],
+     "answer": 3,
+     "explanation": "About 78% of air is nitrogen."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "topic": "Sources and Effects of SO₂, NOₓ, CO, CO₂, CH₄ and Ozone",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Carbon monoxide is produced by:",
+     "options": [
+      "photosynthesis",
+      "respiration of plants",
+      "incomplete combustion",
+      "complete combustion"
+     ],
+     "answer": 2,
+     "explanation": "Not enough oxygen gives CO."
+    },
+    {
+     "q": "CO combines with haemoglobin to form:",
+     "options": [
+      "carbonic acid",
+      "carboxyhaemoglobin",
+      "methaemoglobin",
+      "oxyhaemoglobin"
+     ],
+     "answer": 1,
+     "explanation": "It cannot carry oxygen."
+    },
+    {
+     "q": "CO is dangerous because it is:",
+     "options": [
+      "coloured and smelly",
+      "non-toxic",
+      "heavier than water",
+      "colourless and odourless"
+     ],
+     "answer": 3,
+     "explanation": "Its presence cannot be felt."
+    },
+    {
+     "q": "Sulphur dioxide aggravates:",
+     "options": [
+      "anaemia",
+      "asthma and bronchitis",
+      "diabetes",
+      "fractures"
+     ],
+     "answer": 1,
+     "explanation": "SO₂ is a respiratory irritant."
+    },
+    {
+     "q": "The biggest source of nitrogen oxides is:",
+     "options": [
+      "photosynthesis",
+      "burning of fossil fuels in vehicles",
+      "oceans",
+      "volcanoes only"
+     ],
+     "answer": 1,
+     "explanation": "Car engines produce a lot of NOₓ."
+    },
+    {
+     "q": "Methane is released by:",
+     "options": [
+      "decomposition of vegetation and livestock",
+      "photosynthesis",
+      "catalytic converters",
+      "burning coal only"
+     ],
+     "answer": 0,
+     "explanation": "Wetlands, rice fields, landfills and livestock."
+    },
+    {
+     "q": "Higher levels of methane contribute to:",
+     "options": [
+      "global warming",
+      "acid rain only",
+      "cooling of Earth",
+      "ozone formation only"
+     ],
+     "answer": 0,
+     "explanation": "Methane is a greenhouse gas."
+    },
+    {
+     "q": "Sunlight breaks NO₂ into NO and:",
+     "options": [
+      "atomic oxygen",
+      "nitrogen",
+      "ozone",
+      "hydrogen"
+     ],
+     "answer": 0,
+     "explanation": "Atomic O then forms O₃ with O₂."
+    },
+    {
+     "q": "Ground-level ozone damages:",
+     "options": [
+      "only water bodies",
+      "respiratory organs and crops",
+      "nothing",
+      "only metals"
+     ],
+     "answer": 1,
+     "explanation": "It irritates lungs and reduces crop yield."
+    },
+    {
+     "q": "Particulates entering deep into the lungs can cause:",
+     "options": [
+      "anaemia",
+      "lung cancer",
+      "jaundice",
+      "typhoid"
+     ],
+     "answer": 1,
+     "explanation": "They cause respiratory problems and cancer."
+    },
+    {
+     "q": "Which gas is reddish brown?",
+     "options": [
+      "SO₂",
+      "CO",
+      "NO₂",
+      "NO"
+     ],
+     "answer": 2,
+     "explanation": "NO is colourless; NO₂ is reddish brown."
+    },
+    {
+     "q": "Which pollutant is mainly linked with climate change?",
+     "options": [
+      "N₂",
+      "CO₂",
+      "O₂",
+      "Ar"
+     ],
+     "answer": 1,
+     "explanation": "Increasing CO₂ causes global warming."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "topic": "Global Warming and Greenhouse Effect",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Gases like CO₂, methane and water vapour are called:",
+     "options": [
+      "acid gases",
+      "inert gases",
+      "greenhouse gases",
+      "noble gases"
+     ],
+     "answer": 2,
+     "explanation": "They trap heat in the atmosphere."
+    },
+    {
+     "q": "The Earth's surface emits energy in the form of:",
+     "options": [
+      "gamma rays",
+      "ultraviolet light",
+      "X-rays",
+      "infrared radiation"
+     ],
+     "answer": 3,
+     "explanation": "Greenhouse gases absorb this IR."
+    },
+    {
+     "q": "Greenhouse gases act like a:",
+     "options": [
+      "mirror",
+      "blanket",
+      "cooler",
+      "filter for oxygen"
+     ],
+     "answer": 1,
+     "explanation": "They trap heat in the lower atmosphere."
+    },
+    {
+     "q": "Without the greenhouse effect, the Earth would be:",
+     "options": [
+      "the same",
+      "much colder",
+      "much hotter",
+      "without oxygen"
+     ],
+     "answer": 1,
+     "explanation": "It helps regulate Earth's temperature."
+    },
+    {
+     "q": "Global warming is the warming due to:",
+     "options": [
+      "our influence on the greenhouse effect",
+      "natural volcanoes only",
+      "photosynthesis",
+      "the Moon"
+     ],
+     "answer": 0,
+     "explanation": "Human activities enhance the effect."
+    },
+    {
+     "q": "Which human activity increases CO₂ in air?",
+     "options": [
+      "Planting trees",
+      "Using solar energy",
+      "Walking",
+      "Deforestation"
+     ],
+     "answer": 3,
+     "explanation": "Fewer trees absorb less CO₂."
+    },
+    {
+     "q": "A possible effect of global warming is:",
+     "options": [
+      "cooling of oceans",
+      "melting of polar ice",
+      "more ozone at ground",
+      "less rainfall everywhere"
+     ],
+     "answer": 1,
+     "explanation": "Sea levels may rise."
+    },
+    {
+     "q": "The higher the concentration of greenhouse gases, the:",
+     "options": [
+      "more oxygen",
+      "less the greenhouse effect",
+      "greater the rise in temperature",
+      "lower the temperature"
+     ],
+     "answer": 2,
+     "explanation": "More gases trap more heat."
+    },
+    {
+     "q": "The greenhouse effect reduces thermal energy loss to:",
+     "options": [
+      "space",
+      "the core",
+      "the soil",
+      "the oceans"
+     ],
+     "answer": 0,
+     "explanation": "Heat is re-radiated back to Earth."
+    },
+    {
+     "q": "Global warming may cause:",
+     "options": [
+      "no change in rainfall",
+      "only snowfall",
+      "only earthquakes",
+      "floods in some areas and droughts in others"
+     ],
+     "answer": 3,
+     "explanation": "Rainfall patterns change."
+    },
+    {
+     "q": "Which gas is NOT a greenhouse gas?",
+     "options": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Water vapour",
+      "Methane"
+     ],
+     "answer": 0,
+     "explanation": "N₂ does not trap heat significantly."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "topic": "Acid Rain and Catalytic Converters",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Normal rainwater has a pH of about:",
+     "options": [
+      "2.1",
+      "7",
+      "5.6",
+      "9"
+     ],
+     "answer": 2,
+     "explanation": "It is saturated with CO₂."
+    },
+    {
+     "q": "Acid rain is rain with pH:",
+     "options": [
+      "more than 5.6",
+      "exactly 7",
+      "less than 5.6",
+      "more than 7"
+     ],
+     "answer": 2,
+     "explanation": "Definition of acid rain."
+    },
+    {
+     "q": "The pH of acid rain can be as low as:",
+     "options": [
+      "2.1",
+      "6.5",
+      "7.4",
+      "5.6"
+     ],
+     "answer": 0,
+     "explanation": "Lower than vinegar or lemon juice."
+    },
+    {
+     "q": "Which gases are responsible for acid rain?",
+     "options": [
+      "Ar and Ne",
+      "N₂ and O₂",
+      "SO₂ and NOₓ",
+      "CO and CH₄"
+     ],
+     "answer": 2,
+     "explanation": "They form sulphuric and nitric acids."
+    },
+    {
+     "q": "2SO₂ + O₂ →",
+     "options": [
+      "S + O₂",
+      "2SO₃",
+      "2SO",
+      "SO₄"
+     ],
+     "answer": 1,
+     "explanation": "SO₂ is oxidized to SO₃."
+    },
+    {
+     "q": "SO₃ + H₂O →",
+     "options": [
+      "H₂SO₄",
+      "H₂SO₃",
+      "H₂S",
+      "SO₂ + H₂"
+     ],
+     "answer": 0,
+     "explanation": "Sulphuric acid forms in rainwater."
+    },
+    {
+     "q": "NO₂ plays a catalytic role in the oxidation of:",
+     "options": [
+      "O₂ to O₃",
+      "N₂ to NO",
+      "SO₂ to SO₃",
+      "CO to CO₂"
+     ],
+     "answer": 2,
+     "explanation": "This increases acidity of rain."
+    },
+    {
+     "q": "CaCO₃ + H₂SO₄ →",
+     "options": [
+      "CaSO₄ + H₂O + CO₂",
+      "CaSO₃ + H₂",
+      "CaO + H₂SO₃",
+      "Ca + H₂SO₄"
+     ],
+     "answer": 0,
+     "explanation": "Marble is disintegrated by acid rain."
+    },
+    {
+     "q": "Acid rain can:",
+     "options": [
+      "clean statues",
+      "kill fish and destroy trees",
+      "reduce corrosion",
+      "increase crop yield"
+     ],
+     "answer": 1,
+     "explanation": "Lakes become too acidic."
+    },
+    {
+     "q": "Catalytic converters are installed in the:",
+     "options": [
+      "radiator",
+      "engine oil",
+      "fuel tank",
+      "exhaust system of cars"
+     ],
+     "answer": 3,
+     "explanation": "They treat exhaust gases."
+    },
+    {
+     "q": "Catalysts used in catalytic converters are:",
+     "options": [
+      "platinum, palladium and rhodium",
+      "iron, copper and zinc",
+      "lead and mercury",
+      "sodium and potassium"
+     ],
+     "answer": 0,
+     "explanation": "Noble metals act as catalysts."
+    },
+    {
+     "q": "In a catalytic converter, CO is converted into:",
+     "options": [
+      "CH₄",
+      "O₃",
+      "C",
+      "CO₂"
+     ],
+     "answer": 3,
+     "explanation": "2CO + 2NO → 2CO₂ + N₂."
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "topic": "Strategies, Photosynthesis, Protection and Risk Factors",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Planting trees reduces CO₂ through:",
+     "options": [
+      "combustion",
+      "photosynthesis",
+      "respiration",
+      "decomposition"
+     ],
+     "answer": 1,
+     "explanation": "Trees absorb CO₂."
+    },
+    {
+     "q": "In photosynthesis, CO₂ and water produce:",
+     "options": [
+      "ozone",
+      "glucose and oxygen",
+      "methane and water",
+      "CO and H₂"
+     ],
+     "answer": 1,
+     "explanation": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂."
+    },
+    {
+     "q": "Photosynthesis needs sunlight and:",
+     "options": [
+      "ozone",
+      "carbon monoxide",
+      "nitrogen oxides",
+      "chlorophyll"
+     ],
+     "answer": 3,
+     "explanation": "Chlorophyll absorbs sunlight."
+    },
+    {
+     "q": "Flue gas desulphurization removes:",
+     "options": [
+      "carbon dioxide",
+      "methane",
+      "oxygen",
+      "sulphur dioxide"
+     ],
+     "answer": 3,
+     "explanation": "Scrubbers remove SO₂ from flue gases."
+    },
+    {
+     "q": "Which helps reduce acid rain?",
+     "options": [
+      "Using low-sulphur fuels",
+      "Cutting trees",
+      "Burning more coal",
+      "Removing catalytic converters"
+     ],
+     "answer": 0,
+     "explanation": "Less sulphur means less SO₂."
+    },
+    {
+     "q": "Which is a renewable energy source?",
+     "options": [
+      "Natural gas",
+      "Coal",
+      "Wind",
+      "Petroleum"
+     ],
+     "answer": 2,
+     "explanation": "Wind, solar, hydro and geothermal."
+    },
+    {
+     "q": "The Paris Agreement aims to limit global warming to:",
+     "options": [
+      "0 °C",
+      "5 °C",
+      "1.5 °C",
+      "10 °C"
+     ],
+     "answer": 2,
+     "explanation": "International climate cooperation."
+    },
+    {
+     "q": "N95 masks are designed to filter:",
+     "options": [
+      "particles like dust and smoke",
+      "oxygen",
+      "nitrogen",
+      "water vapour"
+     ],
+     "answer": 0,
+     "explanation": "They protect against particulates."
+    },
+    {
+     "q": "Gas masks contain ______ filters.",
+     "options": [
+      "activated carbon",
+      "glass",
+      "cotton only",
+      "paper"
+     ],
+     "answer": 0,
+     "explanation": "Activated carbon absorbs gases and VOCs."
+    },
+    {
+     "q": "Air quality indices show air pollution on a:",
+     "options": [
+      "kelvin scale",
+      "Richter scale",
+      "numerical or colour-coded scale",
+      "pH scale"
+     ],
+     "answer": 2,
+     "explanation": "They help us take precautions."
+    },
+    {
+     "q": "A carbon monoxide detector helps to:",
+     "options": [
+      "alert people to CO levels",
+      "remove ozone",
+      "measure humidity",
+      "produce oxygen"
+     ],
+     "answer": 0,
+     "explanation": "So the area can be ventilated."
+    },
+    {
+     "q": "Which is a risk factor for respiratory diseases?",
+     "options": [
+      "Using N95 masks",
+      "Good ventilation",
+      "Smoking",
+      "Planting trees"
+     ],
+     "answer": 2,
+     "explanation": "Tobacco damages lungs and airways."
+    }
+   ]
+  },
+  {
+   "id": "q6",
+   "topic": "Exercise MCQs (Book)",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Which gas has the highest percentage in the air?",
+     "options": [
+      "O₂",
+      "CO₂",
+      "N₂",
+      "O₃"
+     ],
+     "answer": 2,
+     "explanation": "Nitrogen is about 78% of air."
+    },
+    {
+     "q": "Which is/are responsible for acid rain?",
+     "options": [
+      "SO₂ only",
+      "NOₓ only",
+      "Both NOₓ and SO₂",
+      "O₃"
+     ],
+     "answer": 2,
+     "explanation": "Both form acids in rainwater."
+    },
+    {
+     "q": "Which is a reddish brown gas?",
+     "options": [
+      "NO",
+      "NO₂",
+      "SO₂",
+      "O₃"
+     ],
+     "answer": 1,
+     "explanation": "Nitrogen dioxide is reddish brown."
+    },
+    {
+     "q": "Most air pollution is caused by:",
+     "options": [
+      "ozone",
+      "acid rain",
+      "carbon monoxide",
+      "the burning of fossil fuels"
+     ],
+     "answer": 3,
+     "explanation": "Vehicles, factories and power plants burn fossil fuels."
+    }
+   ]
+  }
+ ]
+}

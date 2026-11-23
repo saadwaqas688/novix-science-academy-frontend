@@ -1,0 +1,743 @@
+{
+ "subject": "chemistry",
+ "classLevel": "9",
+ "chapter": 12,
+ "chapterTitle": "Environmental Chemistry - Water",
+ "quizzes": [
+  {
+   "id": "q1",
+   "topic": "Properties of Water, Testing Water and Water as Solvent",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Pure water boils at sea level at:",
+     "options": [
+      "100 °C",
+      "110 °C",
+      "0 °C",
+      "90 °C"
+     ],
+     "answer": 0,
+     "explanation": "Pure water boils at 100 °C."
+    },
+    {
+     "q": "Pure water freezes at:",
+     "options": [
+      "100 °C",
+      "0 °C",
+      "−10 °C",
+      "4 °C"
+     ],
+     "answer": 1,
+     "explanation": "Freezing point of pure water."
+    },
+    {
+     "q": "Pure water is:",
+     "options": [
+      "colourless, odourless and tasteless",
+      "slightly sour",
+      "blue and salty",
+      "sweet"
+     ],
+     "answer": 0,
+     "explanation": "Properties of pure water."
+    },
+    {
+     "q": "Water exists on Earth in how many states?",
+     "options": [
+      "One",
+      "Two",
+      "Four",
+      "Three"
+     ],
+     "answer": 3,
+     "explanation": "Solid, liquid and gas."
+    },
+    {
+     "q": "Anhydrous copper(II) sulphate is:",
+     "options": [
+      "black",
+      "white",
+      "blue",
+      "green"
+     ],
+     "answer": 1,
+     "explanation": "It turns blue with water."
+    },
+    {
+     "q": "When water is added to anhydrous copper(II) sulphate, it turns:",
+     "options": [
+      "red",
+      "white",
+      "blue",
+      "colourless"
+     ],
+     "answer": 2,
+     "explanation": "Hydrated copper(II) sulphate is blue."
+    },
+    {
+     "q": "The absorption of water by anhydrous copper(II) sulphate is called:",
+     "options": [
+      "filtration",
+      "dehydration",
+      "hydration",
+      "distillation"
+     ],
+     "answer": 2,
+     "explanation": "It forms hydrated salt."
+    },
+    {
+     "q": "Impure water melts:",
+     "options": [
+      "at 4 °C",
+      "below 0 °C",
+      "at 100 °C",
+      "exactly at 0 °C"
+     ],
+     "answer": 1,
+     "explanation": "Impurities lower the melting point."
+    },
+    {
+     "q": "Impure water boils:",
+     "options": [
+      "exactly at 100 °C",
+      "below 90 °C",
+      "at 0 °C",
+      "above 100 °C"
+     ],
+     "answer": 3,
+     "explanation": "Impurities raise the boiling point."
+    },
+    {
+     "q": "Water is a very good:",
+     "options": [
+      "solvent",
+      "insulator",
+      "fuel",
+      "catalyst"
+     ],
+     "answer": 0,
+     "explanation": "It dissolves many substances."
+    },
+    {
+     "q": "During thunderstorms, rainwater dissolves:",
+     "options": [
+      "sodium chloride",
+      "nitric acid",
+      "ethanoic acid",
+      "sulphuric acid only"
+     ],
+     "answer": 1,
+     "explanation": "Lightning forms nitrogen oxides."
+    },
+    {
+     "q": "Groundwater dissolves ______ from rocks and soil.",
+     "options": [
+      "ozone",
+      "plastics",
+      "oxygen only",
+      "minerals"
+     ],
+     "answer": 3,
+     "explanation": "Groundwater contains minerals."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "topic": "Useful and Harmful Substances in Natural Water",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Aquatic organisms survive because water contains dissolved:",
+     "options": [
+      "nitrogen",
+      "oxygen",
+      "carbon monoxide",
+      "ozone"
+     ],
+     "answer": 1,
+     "explanation": "Dissolved oxygen supports respiration."
+    },
+    {
+     "q": "Iron is necessary for the production of:",
+     "options": [
+      "haemoglobin",
+      "bile",
+      "chlorophyll",
+      "insulin"
+     ],
+     "answer": 0,
+     "explanation": "Haemoglobin carries oxygen."
+    },
+    {
+     "q": "Metals like zinc, copper and manganese activate:",
+     "options": [
+      "fertilizers",
+      "hormones",
+      "viruses",
+      "enzymes"
+     ],
+     "answer": 3,
+     "explanation": "They help biological systems."
+    },
+    {
+     "q": "Excessive concentration of metals in water is:",
+     "options": [
+      "sweet",
+      "always beneficial",
+      "poisonous",
+      "harmless"
+     ],
+     "answer": 2,
+     "explanation": "Too much metal is toxic."
+    },
+    {
+     "q": "Phosphates in water bodies can cause:",
+     "options": [
+      "chlorination",
+      "distillation",
+      "hydration",
+      "eutrophication"
+     ],
+     "answer": 3,
+     "explanation": "Leads to algae blooms and less oxygen."
+    },
+    {
+     "q": "Nitrates in drinking water are especially harmful for:",
+     "options": [
+      "fish only",
+      "plants only",
+      "metals",
+      "young children"
+     ],
+     "answer": 3,
+     "explanation": "High nitrates are a health risk."
+    },
+    {
+     "q": "Phosphates enter water bodies from:",
+     "options": [
+      "ozone",
+      "fertilizers and detergents",
+      "volcanoes",
+      "chlorine"
+     ],
+     "answer": 1,
+     "explanation": "Through runoff."
+    },
+    {
+     "q": "Detergents damage the ______ of fish.",
+     "options": [
+      "bones",
+      "fins only",
+      "gills",
+      "eggs only"
+     ],
+     "answer": 2,
+     "explanation": "They also destroy protective mucous membranes."
+    },
+    {
+     "q": "Harmful microbes in water include:",
+     "options": [
+      "minerals",
+      "ions",
+      "oxygen",
+      "bacteria, viruses and parasites"
+     ],
+     "answer": 3,
+     "explanation": "They cause waterborne diseases."
+    },
+    {
+     "q": "Plastic waste in water is a threat to:",
+     "options": [
+      "aquatic life",
+      "only metals",
+      "air only",
+      "rocks"
+     ],
+     "answer": 0,
+     "explanation": "Plastics harm ecosystems."
+    },
+    {
+     "q": "Wastewater (sewage) carries:",
+     "options": [
+      "oxygen only",
+      "vitamins",
+      "pure water",
+      "pathogens"
+     ],
+     "answer": 3,
+     "explanation": "It contains bacteria and viruses."
+    },
+    {
+     "q": "Which is a beneficial substance in natural water?",
+     "options": [
+      "Plastic",
+      "Dissolved oxygen",
+      "Lead",
+      "Sewage"
+     ],
+     "answer": 1,
+     "explanation": "It supports aquatic life."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "topic": "Water Treatment, Distilled Water and Tap Water",
+   "slos": [],
+   "questions": [
+    {
+     "q": "In sedimentation, the suspended matter:",
+     "options": [
+      "floats",
+      "dissolves",
+      "evaporates",
+      "sinks to the bottom"
+     ],
+     "answer": 3,
+     "explanation": "Water stands in a reservoir."
+    },
+    {
+     "q": "In coagulation, water is treated with slaked lime and:",
+     "options": [
+      "chlorine",
+      "alum",
+      "sugar",
+      "salt"
+     ],
+     "answer": 1,
+     "explanation": "They form aluminium hydroxide."
+    },
+    {
+     "q": "The gelatinous mass formed in coagulation is:",
+     "options": [
+      "aluminium hydroxide",
+      "copper sulphate",
+      "calcium carbonate",
+      "sodium chloride"
+     ],
+     "answer": 0,
+     "explanation": "It carries down dirt and bacteria."
+    },
+    {
+     "q": "Water is filtered through:",
+     "options": [
+      "copper sheets",
+      "sand and gravel",
+      "cotton",
+      "plastic"
+     ],
+     "answer": 1,
+     "explanation": "Filtration removes solids."
+    },
+    {
+     "q": "Charcoal (carbon) is used to remove:",
+     "options": [
+      "salt",
+      "oxygen",
+      "minerals",
+      "colour and odour"
+     ],
+     "answer": 3,
+     "explanation": "It removes coloured and odorous compounds."
+    },
+    {
+     "q": "Chlorine is added to water to:",
+     "options": [
+      "change colour",
+      "increase pH",
+      "add minerals",
+      "kill bacteria"
+     ],
+     "answer": 3,
+     "explanation": "Chlorination is the final step."
+    },
+    {
+     "q": "Chlorine reacts with water to form:",
+     "options": [
+      "hypochlorous acid",
+      "chloric gas",
+      "sulphuric acid",
+      "hydrochloric acid only"
+     ],
+     "answer": 0,
+     "explanation": "HClO kills bacteria."
+    },
+    {
+     "q": "The pH of distilled water is:",
+     "options": [
+      "5.6",
+      "9",
+      "7",
+      "2"
+     ],
+     "answer": 2,
+     "explanation": "It is neutral."
+    },
+    {
+     "q": "Electrical conductivity of distilled water is:",
+     "options": [
+      "very high",
+      "same as sea water",
+      "very low",
+      "infinite"
+     ],
+     "answer": 2,
+     "explanation": "It has no dissolved ions."
+    },
+    {
+     "q": "Distilled water is used to calibrate:",
+     "options": [
+      "weighing balances only",
+      "pH meters",
+      "barometers",
+      "thermometers only"
+     ],
+     "answer": 1,
+     "explanation": "Used in analytical instruments."
+    },
+    {
+     "q": "Long-term drinking of distilled water can cause:",
+     "options": [
+      "typhoid",
+      "obesity",
+      "anaemia only",
+      "mineral deficiency"
+     ],
+     "answer": 3,
+     "explanation": "It lacks essential minerals."
+    },
+    {
+     "q": "Tap water in the laboratory is used for:",
+     "options": [
+      "preparing standard reagents",
+      "calibrating pH meters",
+      "drinking only",
+      "cleaning glassware"
+     ],
+     "answer": 3,
+     "explanation": "It is a general-purpose solvent."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "topic": "Water Pollution and Waterborne Diseases",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Dysentery is caused by the parasite:",
+     "options": [
+      "Entamoeba",
+      "Salmonella",
+      "Vibrio",
+      "Plasmodium"
+     ],
+     "answer": 0,
+     "explanation": "Spread by faecal contamination."
+    },
+    {
+     "q": "Typhoid is caused by the bacteria:",
+     "options": [
+      "Hepatitis virus",
+      "Plasmodium",
+      "Salmonella",
+      "Entamoeba"
+     ],
+     "answer": 2,
+     "explanation": "Spread through polluted water."
+    },
+    {
+     "q": "Hepatitis is an inflammation of the:",
+     "options": [
+      "kidney",
+      "liver",
+      "stomach",
+      "lungs"
+     ],
+     "answer": 1,
+     "explanation": "Caused by viruses."
+    },
+    {
+     "q": "Hepatitis types spread through polluted water are:",
+     "options": [
+      "B and C",
+      "A and E",
+      "B only",
+      "C and D"
+     ],
+     "answer": 1,
+     "explanation": "Hepatitis A and E."
+    },
+    {
+     "q": "Jaundice causes yellowness of the:",
+     "options": [
+      "nails only",
+      "hair",
+      "skin and eyes",
+      "teeth"
+     ],
+     "answer": 2,
+     "explanation": "Excess bile enters the blood."
+    },
+    {
+     "q": "Typhoid is characterized by fever between:",
+     "options": [
+      "90 °F and 95 °F",
+      "101 °F and 104 °F",
+      "105 °F and 110 °F",
+      "98 °F and 99 °F"
+     ],
+     "answer": 1,
+     "explanation": "Continuous fever and irregular pulse."
+    },
+    {
+     "q": "Swimming pool water is purified by:",
+     "options": [
+      "aeration and chlorination",
+      "boiling",
+      "filtration through cotton",
+      "adding sugar"
+     ],
+     "answer": 0,
+     "explanation": "Kills pathogenic organisms."
+    },
+    {
+     "q": "Chlorination is NOT effective against viruses that cause:",
+     "options": [
+      "dysentery",
+      "typhoid",
+      "cholera",
+      "hepatitis"
+     ],
+     "answer": 3,
+     "explanation": "As noted in the chapter."
+    },
+    {
+     "q": "Detergents in water make it unfit for:",
+     "options": [
+      "washing",
+      "aquatic life",
+      "irrigation only",
+      "industry"
+     ],
+     "answer": 1,
+     "explanation": "They remain in water for a long time."
+    },
+    {
+     "q": "Unclean water, poor sanitation and hygiene kill about ______ people each year.",
+     "options": [
+      "2.67 million",
+      "267 million",
+      "26 thousand",
+      "2,600"
+     ],
+     "answer": 0,
+     "explanation": "2,668,000 worldwide."
+    },
+    {
+     "q": "Heavy metals like As, Cr and Pb can cause:",
+     "options": [
+      "no effect",
+      "kidney diseases and cancer",
+      "better growth",
+      "stronger bones"
+     ],
+     "answer": 1,
+     "explanation": "Long-term exposure is harmful."
+    },
+    {
+     "q": "Which is a waterborne disease?",
+     "options": [
+      "Cholera",
+      "Anaemia",
+      "Asthma",
+      "Diabetes"
+     ],
+     "answer": 0,
+     "explanation": "Spread by contaminated water."
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "topic": "Water Scarcity in Pakistan and Fertilizers",
+   "slos": [],
+   "questions": [
+    {
+     "q": "A major cause of water scarcity in Pakistan is:",
+     "options": [
+      "drip irrigation",
+      "too much rainfall",
+      "population growth",
+      "fewer people"
+     ],
+     "answer": 2,
+     "explanation": "Demand for water increases."
+    },
+    {
+     "q": "Traditional flood irrigation causes water loss through:",
+     "options": [
+      "chlorination",
+      "freezing",
+      "evaporation",
+      "condensation"
+     ],
+     "answer": 2,
+     "explanation": "And inadequate distribution."
+    },
+    {
+     "q": "Climate change affects water availability by causing:",
+     "options": [
+      "irregular rainfall",
+      "regular rainfall",
+      "more glaciers",
+      "less evaporation"
+     ],
+     "answer": 0,
+     "explanation": "Rainfall patterns change."
+    },
+    {
+     "q": "A solution to water scarcity is:",
+     "options": [
+      "more flood irrigation",
+      "effective water management",
+      "illegal drilling",
+      "wasting water"
+     ],
+     "answer": 1,
+     "explanation": "Along with infrastructure and awareness."
+    },
+    {
+     "q": "Fertilizers mainly provide:",
+     "options": [
+      "nitrogen, phosphorus and potassium",
+      "iron, copper and zinc",
+      "sodium and chlorine",
+      "carbon, hydrogen and oxygen"
+     ],
+     "answer": 0,
+     "explanation": "Called NPK fertilizers."
+    },
+    {
+     "q": "NPK stands for:",
+     "options": [
+      "Nickel, Lead, Krypton",
+      "Nitrogen, Phosphorus, Potassium",
+      "Neon, Phosphorus, Krypton",
+      "Nitrogen, Platinum, Potassium"
+     ],
+     "answer": 1,
+     "explanation": "Three main plant nutrients."
+    },
+    {
+     "q": "Which is a fertilizer?",
+     "options": [
+      "Urea",
+      "Chlorine",
+      "Charcoal",
+      "Alum"
+     ],
+     "answer": 0,
+     "explanation": "Urea, ammonium salts and nitrates are fertilizers."
+    },
+    {
+     "q": "Giving fertilizers at the right time and in the right amount is called:",
+     "options": [
+      "sedimentation",
+      "coagulation",
+      "nutrient management",
+      "eutrophication"
+     ],
+     "answer": 2,
+     "explanation": "It reduces nutrient loss."
+    },
+    {
+     "q": "Fertilizers provide nutrients in readily available form because they:",
+     "options": [
+      "dissolve in water",
+      "are gases",
+      "are metals",
+      "are insoluble"
+     ],
+     "answer": 0,
+     "explanation": "Plants absorb dissolved nutrients."
+    },
+    {
+     "q": "Di-ammonium phosphate is an example of:",
+     "options": [
+      "a detergent",
+      "a pesticide",
+      "an ammonium salt fertilizer",
+      "a coagulant"
+     ],
+     "answer": 2,
+     "explanation": "Important fertilizer."
+    },
+    {
+     "q": "Strict control is needed on groundwater to prevent:",
+     "options": [
+      "illegal drilling",
+      "photosynthesis",
+      "rainfall",
+      "evaporation"
+     ],
+     "answer": 0,
+     "explanation": "Regulation and monitoring are essential."
+    }
+   ]
+  },
+  {
+   "id": "q6",
+   "topic": "Exercise MCQs (Book)",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Which of the following is not a waterborne disease?",
+     "options": [
+      "Hepatitis",
+      "Typhoid",
+      "Dysentery",
+      "Anaemia"
+     ],
+     "answer": 3,
+     "explanation": "Anaemia is not spread by water."
+    },
+    {
+     "q": "Which human activity results in contamination of water bodies?",
+     "options": [
+      "Livestock waste",
+      "Pesticides",
+      "Septic tanks",
+      "All of these"
+     ],
+     "answer": 3,
+     "explanation": "All of them pollute water."
+    },
+    {
+     "q": "pH of distilled water is:",
+     "options": [
+      "7",
+      "Less than 7",
+      "Greater than 7",
+      "None of these"
+     ],
+     "answer": 0,
+     "explanation": "Distilled water is neutral."
+    },
+    {
+     "q": "Anhydrous copper(II) sulphate is a ______ solid.",
+     "options": [
+      "blue",
+      "white",
+      "yellow",
+      "None of these"
+     ],
+     "answer": 1,
+     "explanation": "It turns blue only after absorbing water."
+    }
+   ]
+  }
+ ]
+}
