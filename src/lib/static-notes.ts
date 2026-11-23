@@ -1,5 +1,6 @@
 import manifest from './notes-manifest.json';
 import chapterManifest from './chapter-notes-manifest.json';
+import studentManifest from './student-notes-manifest.json';
 
 export type StaticNote = { fileUrl: string; fileName: string; sizeBytes: number; title: string };
 
@@ -23,4 +24,9 @@ export function staticNotes(subjectSlug: string, classLevel: string, chapterNumb
 /** Topic-wise SLO / concept based notes: public/chapter-notes/class-<n>/<subject>/ch-<n>.pdf */
 export function staticChapterNotes(subjectSlug: string, classLevel: string, chapterNumber: number): StaticNote[] {
   return staticNotes(subjectSlug, classLevel, chapterNumber, chapterManifest as Manifest, 'chapter-notes');
+}
+
+/** Version 2 notes for average students: public/student-notes/class-<n>/<subject>/ch-<n>.pdf */
+export function staticStudentNotes(subjectSlug: string, classLevel: string, chapterNumber: number): StaticNote[] {
+  return staticNotes(subjectSlug, classLevel, chapterNumber, studentManifest as Manifest, 'student-notes');
 }

@@ -3,11 +3,11 @@
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
-import { BookOpen, Check, ChevronLeft, ChevronRight, Clock, Download, Eye, FileText, ListChecks, Play, Target, Video } from 'lucide-react';
+import { BookOpen, Check, GraduationCap, ChevronLeft, ChevronRight, Clock, Download, Eye, FileText, ListChecks, Play, Target, Video } from 'lucide-react';
 import { api } from '@/lib/api';
 import type { ChapterPage } from '@/lib/types';
 import { subjectCover } from '@/lib/subjects';
-import { staticChapterNotes, staticNotes, type StaticNote } from '@/lib/static-notes';
+import { staticChapterNotes, staticNotes, staticStudentNotes, type StaticNote } from '@/lib/static-notes';
 import { chapterQuizzes, quizHref, quizKey } from '@/lib/quizzes';
 import type { QuizBest } from '@/lib/types';
 import { fmtSize, youtubeThumb } from '@/lib/utils';
@@ -37,6 +37,7 @@ function Chapter() {
   const { chapter, subject, videos, assessments } = q.data;
   const notesList = q.data.notes ? [{ ...q.data.notes, title: 'Chapter notes' }] : staticNotes(subject.slug, chapter.classLevel, chapter.number);
   const chapterNotesList = staticChapterNotes(subject.slug, chapter.classLevel, chapter.number);
+  const studentNotesList = staticStudentNotes(subject.slug, chapter.classLevel, chapter.number);
   const cover = subjectCover(subject.slug, subject.color);
   const tests = [
     ...assessments.map((a) => ({ key: `t${a.id}`, topic: a.topic, count: a.questionCount, best: a.bestScore, attempts: a.attemptCount, href: `/test/${a.id}` })),
@@ -65,6 +66,7 @@ function Chapter() {
         <TabsList className="sticky top-16 z-20 -mx-4 bg-background/90 px-4 backdrop-blur-xl sm:top-[68px] sm:mx-0 sm:px-0">
           <TabsTrigger value="notes"><FileText /> Notes</TabsTrigger>
           <TabsTrigger value="chapter-notes"><BookOpen /> Chapter Notes</TabsTrigger>
+          <TabsTrigger value="student"><GraduationCap /> Student</TabsTrigger>
           <TabsTrigger value="videos"><Video /> Videos <Count n={videos.length} /></TabsTrigger>
           <TabsTrigger value="assessments"><Target /> Assessments <Count n={tests.length} /></TabsTrigger>
         </TabsList>
@@ -75,6 +77,10 @@ function Chapter() {
 
         <TabsContent value="chapter-notes">
           {chapterNotesList.length ? <PdfList items={chapterNotesList} /> : <ComingSoon icon={BookOpen} text="Topic-wise chapter notes (SLO and concept based) for this chapter will be uploaded soon." />}
+        </TabsContent>
+
+        <TabsContent value="student">
+          {studentNotesList.length ? <PdfList items={studentNotesList} /> : <ComingSoon icon={GraduationCap} text="Short student notes (version 2) for this chapter will be uploaded soon." />}
         </TabsContent>
 
         <TabsContent value="videos">
