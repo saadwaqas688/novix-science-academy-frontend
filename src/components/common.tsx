@@ -50,7 +50,7 @@ export function AuthGate({ children, admin = false }: { children: React.ReactNod
   const allowed = !!user && (!admin || user.role === 'admin');
   useEffect(() => {
     if (!ready || allowed) return;
-    if (!user) router.replace(`/login?next=${encodeURIComponent(pathname)}`);
+    if (!user) router.replace(`/login?next=${encodeURIComponent(pathname + window.location.search)}`);
     else router.replace('/');
   }, [ready, allowed, user, router, pathname]);
   if (!ready || !allowed) return <PageLoader />;
