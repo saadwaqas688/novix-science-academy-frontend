@@ -1,0 +1,809 @@
+{
+ "subject": "computer",
+ "classLevel": "9",
+ "chapter": 2,
+ "chapterTitle": "Computational Thinking and Algorithms",
+ "quizzes": [
+  {
+   "id": "q1",
+   "topic": "Problems and Computing Problems",
+   "slos": [],
+   "questions": [
+    {
+     "q": "A challenge or situation that needs to be overcome using some action is a:",
+     "options": [
+      "Problem",
+      "Program",
+      "Algorithm",
+      "Flowchart"
+     ],
+     "answer": 0,
+     "explanation": "Definition of a problem."
+    },
+    {
+     "q": "A problem solved step-by-step using computation is a:",
+     "options": [
+      "Social problem",
+      "Concept map",
+      "Computing problem",
+      "Flowchart"
+     ],
+     "answer": 2,
+     "explanation": "It uses arithmetical or logical calculation."
+    },
+    {
+     "q": "A computer cannot solve a problem unless:",
+     "options": [
+      "It has a printer",
+      "It is switched on for long",
+      "We give it an algorithm as a program",
+      "It is connected to internet"
+     ],
+     "answer": 2,
+     "explanation": "Computers cannot think."
+    },
+    {
+     "q": "A decision problem has answers in the form of:",
+     "options": [
+      "A route",
+      "Yes or No",
+      "A number",
+      "A list"
+     ],
+     "answer": 1,
+     "explanation": "Binary response."
+    },
+    {
+     "q": "\"Is a given number even?\" is a:",
+     "options": [
+      "Search problem",
+      "Sorting problem",
+      "Decision problem",
+      "Counting problem"
+     ],
+     "answer": 2,
+     "explanation": "Answer is Yes or No."
+    },
+    {
+     "q": "Finding a route between two cities is a:",
+     "options": [
+      "Decision problem",
+      "Search problem",
+      "Counting problem",
+      "IPO problem"
+     ],
+     "answer": 1,
+     "explanation": "Search among nodes and links."
+    },
+    {
+     "q": "Search problems are often represented using:",
+     "options": [
+      "Graphs",
+      "Pie charts",
+      "Tables",
+      "Spreadsheets"
+     ],
+     "answer": 0,
+     "explanation": "Nodes connected by links."
+    },
+    {
+     "q": "In a search problem, the node from where the search starts is the:",
+     "options": [
+      "Initial state",
+      "Operation",
+      "Output",
+      "Goal"
+     ],
+     "answer": 0,
+     "explanation": "Start node."
+    },
+    {
+     "q": "The target or end condition of a search problem is the:",
+     "options": [
+      "Initial state",
+      "Input",
+      "Operation",
+      "Goal"
+     ],
+     "answer": 3,
+     "explanation": "Goal defines the end."
+    },
+    {
+     "q": "Google Maps finding a path is an example of a:",
+     "options": [
+      "Search problem",
+      "Abstraction",
+      "Counting problem",
+      "Decision problem"
+     ],
+     "answer": 0,
+     "explanation": "It searches routes."
+    },
+    {
+     "q": "If one event has A choices and another has B choices, total combinations are:",
+     "options": [
+      "A − B",
+      "A × B",
+      "A + B",
+      "A ÷ B"
+     ],
+     "answer": 1,
+     "explanation": "Counting principle."
+    },
+    {
+     "q": "5 shirts and 3 pants make how many dresses?",
+     "options": [
+      "53",
+      "15",
+      "2",
+      "8"
+     ],
+     "answer": 1,
+     "explanation": "5 × 3 = 15."
+    },
+    {
+     "q": "4 monitors, 2 keyboards, 4 computers and 3 printers give how many systems?",
+     "options": [
+      "48",
+      "24",
+      "13",
+      "96"
+     ],
+     "answer": 3,
+     "explanation": "4 × 2 × 4 × 3 = 96."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "topic": "Problem Solving and IPO",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Problem solving for simple problems uses how many steps?",
+     "options": [
+      "3",
+      "5",
+      "6",
+      "4"
+     ],
+     "answer": 3,
+     "explanation": "Define, design, implement, evaluate."
+    },
+    {
+     "q": "Complex problems are solved using how many steps?",
+     "options": [
+      "3",
+      "8",
+      "6",
+      "4"
+     ],
+     "answer": 2,
+     "explanation": "Includes decomposition and choosing the best plan."
+    },
+    {
+     "q": "The first step of problem solving is to:",
+     "options": [
+      "Draw output",
+      "Evaluate",
+      "Define and analyze the problem",
+      "Write code"
+     ],
+     "answer": 2,
+     "explanation": "Understand the problem first."
+    },
+    {
+     "q": "Designing a plan means writing a(n):",
+     "options": [
+      "Printer",
+      "Output",
+      "Algorithm",
+      "Network"
+     ],
+     "answer": 2,
+     "explanation": "Plan = algorithm."
+    },
+    {
+     "q": "\"Did our plan work?\" is checked in the step:",
+     "options": [
+      "Decompose",
+      "Implement",
+      "Evaluate",
+      "Design"
+     ],
+     "answer": 2,
+     "explanation": "Evaluation."
+    },
+    {
+     "q": "The step found only in complex problem solving is:",
+     "options": [
+      "Decompose the problem",
+      "Define the problem",
+      "Evaluate",
+      "Implement the plan"
+     ],
+     "answer": 0,
+     "explanation": "Make sub-problems."
+    },
+    {
+     "q": "In IPO, P stands for:",
+     "options": [
+      "Plan",
+      "Process",
+      "Proceed",
+      "Program"
+     ],
+     "answer": 1,
+     "explanation": "Input-Process-Output."
+    },
+    {
+     "q": "IPO charts represent Input, Process and Output in:",
+     "options": [
+      "Tabular form",
+      "Paragraph form",
+      "Circle form",
+      "Graph form"
+     ],
+     "answer": 0,
+     "explanation": "A table."
+    },
+    {
+     "q": "In the IPO chart for area of rectangle, the input is:",
+     "options": [
+      "Length and width",
+      "Multiplication",
+      "Area",
+      "Perimeter"
+     ],
+     "answer": 0,
+     "explanation": "Area is the output."
+    },
+    {
+     "q": "In the IPO chart for a student's average, \"divide sum by number of grades\" is the:",
+     "options": [
+      "Output",
+      "Goal",
+      "Process",
+      "Input"
+     ],
+     "answer": 2,
+     "explanation": "Operation on input."
+    },
+    {
+     "q": "Data that has been turned into information is the:",
+     "options": [
+      "Input",
+      "Algorithm",
+      "Output",
+      "Process"
+     ],
+     "answer": 2,
+     "explanation": "Output goes to user."
+    },
+    {
+     "q": "IPO charts are a handy tool used by:",
+     "options": [
+      "Doctors",
+      "Drivers",
+      "Software designers",
+      "Farmers"
+     ],
+     "answer": 2,
+     "explanation": "To solve problems."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "topic": "Computational Thinking",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Computational thinking is:",
+     "options": [
+      "Logically solving problems",
+      "Programming",
+      "Coding",
+      "Thinking like a computer"
+     ],
+     "answer": 0,
+     "explanation": "Logical, systematic problem solving."
+    },
+    {
+     "q": "Computational thinking can be thought of as an extension of:",
+     "options": [
+      "Typing",
+      "Drawing",
+      "Coding",
+      "Logical thinking"
+     ],
+     "answer": 3,
+     "explanation": "Book statement."
+    },
+    {
+     "q": "Computational thinking aims at a(n):",
+     "options": [
+      "Repeatable solution",
+      "One-time answer",
+      "Hardware design",
+      "Random guess"
+     ],
+     "answer": 0,
+     "explanation": "Solves all similar instances."
+    },
+    {
+     "q": "Breaking a problem into smaller sub-problems is:",
+     "options": [
+      "Abstraction",
+      "Decomposition",
+      "Algorithm design",
+      "Pattern recognition"
+     ],
+     "answer": 1,
+     "explanation": "Sub-problems."
+    },
+    {
+     "q": "Removing unnecessary details is called:",
+     "options": [
+      "Abstraction",
+      "Evaluation",
+      "Pattern recognition",
+      "Decomposition"
+     ],
+     "answer": 0,
+     "explanation": "Keeps essential information."
+    },
+    {
+     "q": "Finding similarities with previously solved problems is:",
+     "options": [
+      "Decomposition",
+      "Pattern recognition",
+      "Logical thinking",
+      "Abstraction"
+     ],
+     "answer": 1,
+     "explanation": "Patterns."
+    },
+    {
+     "q": "Creating a step-by-step plan of the solution is:",
+     "options": [
+      "Decomposition",
+      "Abstraction",
+      "Pattern recognition",
+      "Algorithm design"
+     ],
+     "answer": 3,
+     "explanation": "Actual design of solution."
+    },
+    {
+     "q": "In designing a game, ignoring the weather is an example of:",
+     "options": [
+      "Pattern recognition",
+      "Abstraction",
+      "Decomposition",
+      "Algorithm design"
+     ],
+     "answer": 1,
+     "explanation": "Unnecessary information removed."
+    },
+    {
+     "q": "Handling six enemies like a single enemy is:",
+     "options": [
+      "Decomposition",
+      "Evaluation",
+      "Abstraction",
+      "Pattern recognition"
+     ],
+     "answer": 3,
+     "explanation": "Same pattern."
+    },
+    {
+     "q": "Deciding where to go and how to complete a level is:",
+     "options": [
+      "Logical thinking",
+      "Decomposition",
+      "Pattern recognition",
+      "Abstraction"
+     ],
+     "answer": 1,
+     "explanation": "Dividing the game problem."
+    },
+    {
+     "q": "Which is NOT a property of computational thinking?",
+     "options": [
+      "Decomposition",
+      "Abstraction",
+      "Pattern recognition",
+      "Compilation"
+     ],
+     "answer": 3,
+     "explanation": "Four properties only."
+    },
+    {
+     "q": "\"Before you learn programming, understand ______.\"",
+     "options": [
+      "Hardware",
+      "Computational thinking",
+      "Networking",
+      "Memory"
+     ],
+     "answer": 1,
+     "explanation": "Book tip."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "topic": "Logical and Algorithmic Thinking",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Analyzing a situation using reason to reach sensible decisions is:",
+     "options": [
+      "Abstraction",
+      "Pattern recognition",
+      "Logical thinking",
+      "Decomposition"
+     ],
+     "answer": 2,
+     "explanation": "Based on facts."
+    },
+    {
+     "q": "Logical thinking is based on:",
+     "options": [
+      "Evidence and facts",
+      "Emotions",
+      "Luck",
+      "Guesses"
+     ],
+     "answer": 0,
+     "explanation": "Reasoning skills."
+    },
+    {
+     "q": "Islamabad is a city; cities have a mayor; so Islamabad has a mayor. This is:",
+     "options": [
+      "A decomposition",
+      "A fact",
+      "An abstraction",
+      "An inference"
+     ],
+     "answer": 3,
+     "explanation": "Inferred from facts."
+    },
+    {
+     "q": "Computers can think logically:",
+     "options": [
+      "Never even if programmed",
+      "Only when programmed to do so",
+      "Always by themselves",
+      "Only when connected to internet"
+     ],
+     "answer": 1,
+     "explanation": "They use logic but do not think."
+    },
+    {
+     "q": "Identifying the steps needed and implementing them logically and efficiently is:",
+     "options": [
+      "Algorithmic thinking",
+      "Pattern recognition",
+      "Abstraction",
+      "Logical thinking"
+     ],
+     "answer": 0,
+     "explanation": "Way of getting to a solution."
+    },
+    {
+     "q": "In the algorithm for the largest of three numbers, A is largest if:",
+     "options": [
+      "A = B",
+      "A < B and A < C",
+      "A > B and A > C",
+      "A > B or A < C"
+     ],
+     "answer": 2,
+     "explanation": "Compare with both."
+    },
+    {
+     "q": "If neither A nor B is the largest of three unequal numbers, then:",
+     "options": [
+      "All are equal",
+      "C is the largest",
+      "A is the largest",
+      "No answer"
+     ],
+     "answer": 1,
+     "explanation": "Last step."
+    },
+    {
+     "q": "Algorithmic thinking breaks complex problems into:",
+     "options": [
+      "Bigger problems",
+      "Hardware parts",
+      "Random steps",
+      "Smaller manageable parts"
+     ],
+     "answer": 3,
+     "explanation": "Solved one at a time."
+    },
+    {
+     "q": "Computers do nothing by:",
+     "options": [
+      "Programs",
+      "Instructions",
+      "Algorithms",
+      "Magic"
+     ],
+     "answer": 3,
+     "explanation": "Book statement."
+    },
+    {
+     "q": "Which is the correct order: understand problem, make solution, instruct computer?",
+     "options": [
+      "II, III, I",
+      "I, II, III",
+      "I, III, II",
+      "II, I, III"
+     ],
+     "answer": 3,
+     "explanation": "Understand → solve → instruct."
+    },
+    {
+     "q": "The output of the IPO chart for largest of three numbers is:",
+     "options": [
+      "Display largest number",
+      "Compare numbers",
+      "Three numbers",
+      "Add numbers"
+     ],
+     "answer": 0,
+     "explanation": "Result shown."
+    },
+    {
+     "q": "Algorithmic thinking skills make you a better:",
+     "options": [
+      "Painter",
+      "Problem solver",
+      "Typist",
+      "Gamer"
+     ],
+     "answer": 1,
+     "explanation": "Book tip."
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "topic": "Flowcharts and Concept Maps",
+   "slos": [],
+   "questions": [
+    {
+     "q": "Two methods used to design a solution are:",
+     "options": [
+      "LAN and WAN",
+      "RAM and ROM",
+      "Flowcharts and concept maps",
+      "IPO and OSI"
+     ],
+     "answer": 2,
+     "explanation": "Methods of solution design."
+    },
+    {
+     "q": "A diagrammatic representation of an algorithm is a:",
+     "options": [
+      "Flowchart",
+      "IPO chart",
+      "Concept map",
+      "Program"
+     ],
+     "answer": 0,
+     "explanation": "Definition."
+    },
+    {
+     "q": "Start and end of a flowchart are shown by:",
+     "options": [
+      "Diamond",
+      "Parallelogram",
+      "Rectangle",
+      "Oval"
+     ],
+     "answer": 3,
+     "explanation": "Terminal symbol."
+    },
+    {
+     "q": "Input and output in a flowchart are shown by:",
+     "options": [
+      "Parallelogram",
+      "Oval",
+      "Diamond",
+      "Rectangle"
+     ],
+     "answer": 0,
+     "explanation": "I/O symbol."
+    },
+    {
+     "q": "Processing in a flowchart is shown by:",
+     "options": [
+      "Circle",
+      "Diamond",
+      "Oval",
+      "Rectangle"
+     ],
+     "answer": 3,
+     "explanation": "Process symbol."
+    },
+    {
+     "q": "Decision in a flowchart is shown by:",
+     "options": [
+      "Diamond",
+      "Oval",
+      "Parallelogram",
+      "Rectangle"
+     ],
+     "answer": 0,
+     "explanation": "Yes/No branches."
+    },
+    {
+     "q": "A flowchart may have multiple ends because of:",
+     "options": [
+      "Input symbols",
+      "Process symbols",
+      "Decision points",
+      "Arrows"
+     ],
+     "answer": 2,
+     "explanation": "Different branches."
+    },
+    {
+     "q": "Printing grade according to marks uses which control structure?",
+     "options": [
+      "Selection",
+      "Repetition",
+      "Abstraction",
+      "Sequence"
+     ],
+     "answer": 0,
+     "explanation": "Checks ranges."
+    },
+    {
+     "q": "Which is a flowchart designing tool?",
+     "options": [
+      "MS Paint",
+      "Calculator",
+      "Microsoft Visio",
+      "Notepad"
+     ],
+     "answer": 2,
+     "explanation": "Also LARP."
+    },
+    {
+     "q": "LARP stands for:",
+     "options": [
+      "Logical Analysis of Real Problems",
+      "Linked Algorithm Result Program",
+      "Logics of Algorithms and Resolution of Problems",
+      "Language of Algorithm and Reading Programs"
+     ],
+     "answer": 2,
+     "explanation": "Prototype language."
+    },
+    {
+     "q": "LARP is easy for non-programmers because it uses:",
+     "options": [
+      "Binary code",
+      "Semi-natural syntax",
+      "Machine language",
+      "Assembly code"
+     ],
+     "answer": 1,
+     "explanation": "Close to natural language."
+    },
+    {
+     "q": "A graphical tool that represents concepts and relationships is a:",
+     "options": [
+      "IPO chart",
+      "Concept map",
+      "Algorithm",
+      "Flowchart"
+     ],
+     "answer": 1,
+     "explanation": "Boxes and labelled links."
+    },
+    {
+     "q": "Which is a concept mapping tool?",
+     "options": [
+      "MS Visio",
+      "CmapTools",
+      "Python",
+      "LARP"
+     ],
+     "answer": 1,
+     "explanation": "Also Mind Manager."
+    }
+   ]
+  },
+  {
+   "id": "q6",
+   "topic": "Exercise MCQs (Book)",
+   "slos": [],
+   "questions": [
+    {
+     "q": "For a problem we face in real world situations, in what sequence do we follow the steps? I. make some solution II. understand the real-world problem III. instruct the computer to behave accordingly",
+     "options": [
+      "I, II, III",
+      "I, III, II",
+      "II, I, III",
+      "II, III, I"
+     ],
+     "answer": 2,
+     "explanation": "Understand the problem, make a solution, then instruct the computer."
+    },
+    {
+     "q": "Following are types of computing problems: I. Counting II. Search III. Decision",
+     "options": [
+      "I and II",
+      "I and III",
+      "II and III",
+      "I and II and III"
+     ],
+     "answer": 3,
+     "explanation": "All three are computing problems."
+    },
+    {
+     "q": "Computational thinking is",
+     "options": [
+      "Programming",
+      "Thinking like a computer",
+      "Coding",
+      "Logically solving problems"
+     ],
+     "answer": 3,
+     "explanation": "A logical, systematic problem-solving method."
+    },
+    {
+     "q": "To solve Search problems, we need to",
+     "options": [
+      "Provide the moves.",
+      "Provide start state.",
+      "Provide the end state.",
+      "a, b and c"
+     ],
+     "answer": 3,
+     "explanation": "Initial state, operations and goal are all needed."
+    },
+    {
+     "q": "The eight queens puzzle is the problem of",
+     "options": [
+      "Sorting",
+      "Searching",
+      "Counting",
+      "Both a and b"
+     ],
+     "answer": 1,
+     "explanation": "Searching for a placement where no queen attacks another."
+    },
+    {
+     "q": "Finding the location of the element with a given value is",
+     "options": [
+      "Search",
+      "Traversal",
+      "Sort",
+      "None of above"
+     ],
+     "answer": 0,
+     "explanation": "Locating a value is searching."
+    },
+    {
+     "q": "In IPO Charts, we have",
+     "options": [
+      "Input, Plan, Output",
+      "Input, Program, Output",
+      "Input, Process, Output",
+      "Input, Proceed, Output"
+     ],
+     "answer": 2,
+     "explanation": "IPO = Input-Process-Output."
+    }
+   ]
+  }
+ ]
+}
