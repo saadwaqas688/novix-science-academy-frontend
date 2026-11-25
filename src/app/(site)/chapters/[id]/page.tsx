@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
-import { BookOpen, Check, GraduationCap, ChevronLeft, ChevronRight, Clock, Download, Eye, FileText, ListChecks, Play, Target, Video } from 'lucide-react';
+import { BookOpen, Check, GraduationCap, ChevronLeft, ChevronRight, Clock, Download, Eye, FileText, Highlighter, ListChecks, Play, Target, Video } from 'lucide-react';
 import { api } from '@/lib/api';
 import type { ChapterPage } from '@/lib/types';
 import { subjectCover } from '@/lib/subjects';
@@ -72,15 +72,15 @@ function Chapter() {
         </TabsList>
 
         <TabsContent value="notes">
-          {notesList.length ? <PdfList items={notesList} /> : <ComingSoon icon={FileText} text="Notes for this chapter are being prepared and will be uploaded soon." />}
+          {notesList.length ? <PdfList items={notesList} back={`/chapters/${chapter.id}`} /> : <ComingSoon icon={FileText} text="Notes for this chapter are being prepared and will be uploaded soon." />}
         </TabsContent>
 
         <TabsContent value="chapter-notes">
-          {chapterNotesList.length ? <PdfList items={chapterNotesList} /> : <ComingSoon icon={BookOpen} text="Topic-wise chapter notes (SLO and concept based) for this chapter will be uploaded soon." />}
+          {chapterNotesList.length ? <PdfList items={chapterNotesList} back={`/chapters/${chapter.id}`} /> : <ComingSoon icon={BookOpen} text="Topic-wise chapter notes (SLO and concept based) for this chapter will be uploaded soon." />}
         </TabsContent>
 
         <TabsContent value="student">
-          {studentNotesList.length ? <PdfList items={studentNotesList} /> : <ComingSoon icon={GraduationCap} text="Short student notes (version 2) for this chapter will be uploaded soon." />}
+          {studentNotesList.length ? <PdfList items={studentNotesList} back={`/chapters/${chapter.id}`} /> : <ComingSoon icon={GraduationCap} text="Short student notes (version 2) for this chapter will be uploaded soon." />}
         </TabsContent>
 
         <TabsContent value="videos">
@@ -136,7 +136,9 @@ function Chapter() {
   );
 }
 
-function PdfList({ items }: { items: StaticNote[] }) {
+function PdfList({ items, back }: { items: StaticNote[]; back: string }) {
+  const readerHref = (n: StaticNote) => `/read?f=${encodeURIComponent(n.fileUrl)}&t=${encodeURIComponent(n.title)}&back=${encodeURIComponent(back)}`;
+  const inApp = (n: StaticNote) => /^\/[\w\-./]+\.pdf$/i.test(n.fileUrl);
   return (
     <div className="space-y-3">
       {items.map((notes) => (
@@ -147,7 +149,9 @@ function PdfList({ items }: { items: StaticNote[] }) {
             <p className="truncate text-[13px] text-muted-foreground">{notes.fileName} · {fmtSize(notes.sizeBytes)}</p>
           </div>
           <div className="flex w-full gap-2 sm:w-auto">
-            <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} target="_blank" rel="noopener" onClick={(e) => openOutside(e, notes.fileUrl)}><Eye /> Read</a></Button>
+            {inApp(notes)
+              ? <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><Link href={readerHref(notes)}><Highlighter /> Read &amp; highlight</Link></Button>
+              : <Button asChild variant="secondary" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} target="_blank" rel="noopener" onClick={(e) => openOutside(e, notes.fileUrl)}><Eye /> Read</a></Button>}
             <Button asChild variant="outline" size="sm" className="flex-1 sm:flex-none"><a href={notes.fileUrl} download={notes.fileName} onClick={(e) => openOutside(e, notes.fileUrl)}><Download /> Download</a></Button>
           </div>
         </div>
